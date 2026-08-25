@@ -46,7 +46,7 @@ Pour obtenir la liste à jour des réglementations prises en charge, voir [_Pré
 * **[!UICONTROL Autorisations Privacy Service]** - `Privacy Read Permission` et `Privacy Write Permission`
 * **[!UICONTROL Gouvernance des données]** - `View Privacy Console`
 
-Voir [_Gestion des autorisations pour Privacy Service_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"} dans le guide de [!DNL Privacy Service] pour plus d’informations.
+Voir [_Gestion des autorisations pour Privacy Service_](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/permissions){target="_blank"} dans le guide de [!DNL Privacy Service] pour plus d’informations.
 
 >[!ENDSHADEBOX]
 

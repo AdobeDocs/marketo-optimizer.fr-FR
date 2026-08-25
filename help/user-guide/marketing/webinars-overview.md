@@ -31,7 +31,7 @@ Vous pouvez créer un webinaire de deux manières :
 
 ## Webinaire en tant que ressource
 
-Un webinaire est une ressource appartenant à un [programme](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), de la même manière qu’un e-mail ou une page de destination. L’ajout d’un webinaire à un programme l’y enregistre et rend ses jetons, attributs et activités disponibles pour chaque parcours et ressource de ce programme.
+Un webinaire est une ressource appartenant à un [programme](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), de la même manière qu’un e-mail ou une page de destination. L’ajout d’un webinaire à un programme l’y enregistre et rend ses jetons, attributs et activités disponibles pour chaque parcours et ressource de ce programme.
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ Pour toute personne qui est membre d&#39;un programme qui contient un webinaire,
 
 | État | Propriétaire | Valeurs |
 |---|---|---|
-| Statut de membre du programme | Programme | Configurable par [type de programme](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Statut de membre du programme | Programme | Configurable par [type de programme](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | État du webinaire | Ressource de webinaire | Invité, Inscrit, Participé, Pas d&#39;affichage, Sur demande |
 | état du parcours | Parcours | Nœud actuel, en pause, terminé et autres états d’exécution de parcours |
 

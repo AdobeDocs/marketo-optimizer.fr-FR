@@ -79,7 +79,7 @@ Chaque carte de destination prise en charge affiche **[!UICONTROL Configurer une
 
 1. Vérifiez les paramètres des actions marketing et de gouvernance des données, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-Pour connaître les étapes de configuration complètes, voir [Créer une connexion de destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} dans la documentation [!DNL Experience Platform].
+Pour connaître les étapes de configuration complètes, voir [Créer une connexion de destination](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} dans la documentation [!DNL Experience Platform].
 
 Une fois configurée, la destination peut être activée partout où vous pouvez sélectionner une destination dans [!DNL Marketo Optimizer].
 
