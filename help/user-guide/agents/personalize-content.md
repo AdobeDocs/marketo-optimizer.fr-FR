@@ -21,10 +21,10 @@ La compétence Personalization de contenu _transforme un e-mail en variantes bas
 
 | Terme | Définition |
 |---|---|
-| **cohorte Persona** | Groupe de personnes qui partagent un profil [ dérivé](../audiences/personas.md) tel que _PDG/PDV_ ou _contributeur individuel_. |
+| **cohorte Persona** | Groupe de personnes qui partagent un profil [&#x200B; dérivé](../audiences/personas.md) tel que _PDG/PDV_ ou _contributeur individuel_. |
 | **Segment** | Groupe de personnes défini selon n’importe quel critère, comme une personne, un secteur ou un niveau d’engagement. Une cohorte de personnages est un segment défini spécifiquement par des personnages dérivés partagés. |
 | **Groupe cible** | L’audience que vous décrivez en langage naturel. La compétence la résout en cohortes de personas correspondantes. |
-| **** | Une conclusion basée sur les données à propos du message, du positionnement ou du ton qui fonctionne le mieux pour une cohorte de personas, tirée de vos propres données. |
+| **&#x200B;**&#x200B;| Une conclusion basée sur les données à propos du message, du positionnement ou du ton qui fonctionne le mieux pour une cohorte de personas, tirée de vos propres données. |
 | **Variante** | Version personnalisée des sections d’e-mail que vous avez choisi de personnaliser, générée pour une cohorte de personas. |
 | **E-mail personnalisé IA** | L’e-mail unique enregistré qui regroupe chaque variante en tant que bloc [contenu conditionnel](../content/conditional-content.md). |
 | **Audit des emails** | Analyse d’un e-mail existant par rapport à chacun de vos segments de groupe cible, montrant ce qui résonne et ce qu’il faut améliorer pour chaque profil avant de le personnaliser. |
@@ -34,8 +34,8 @@ La compétence Personalization de contenu _transforme un e-mail en variantes bas
 * Accès à [!DNL Marketo Optimizer] avec Coworker activé.
 * [Rôles dérivés](../audiences/personas.md) résolus dans vos données. La compétence s’appuie sur ces classifications pour créer des cohortes de personas. La prise en charge des personas personnalisés est prévue pour une version ultérieure.
 * Suffisamment de données historiques pour obtenir des informations. Si les informations ne sont pas disponibles pour une cohorte de personas, la compétence vous indique que les données sont insuffisantes et se replie sur les bonnes pratiques générales pour cette personne.
-* Un [ modèle d’e-mail ](../content/templates.md) ou un e-mail existant référencé par un nœud d’action [_Envoyer un e-mail_](../marketing/action-nodes.md).
-* Un parcours de personne](../marketing/person-journeys.md) qui contient le nœud d’action _Envoyer un e-mail_ utilisé pour diffuser l’e-mail personnalisé.[
+* Un [&#x200B; modèle d’e-mail &#x200B;](../content/templates.md) ou un e-mail existant référencé par un nœud d’action [_Envoyer un e-mail_](../marketing/action-nodes.md).
+* Un parcours de personne[&#128279;](../marketing/person-journeys.md) qui contient le nœud d’action _Envoyer un e-mail_ utilisé pour diffuser l’e-mail personnalisé.
 
 ## Création et personnalisation d’un e-mail à partir d’un modèle {#create-personalize-from-template}
 

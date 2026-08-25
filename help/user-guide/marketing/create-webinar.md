@@ -60,8 +60,8 @@ Pour ouvrir la surface de conception [!DNL Adobe Connect], directement intégré
 
 1. Choisissez un **mode de diffusion** :
 
-   - **En direct** - Les présentateurs et présentatrices animent la session en temps réel.
-   - **Simulation en direct** - Le contenu préenregistré est lu à l’heure planifiée, avec le chat en direct, les sondages et les questions/réponses.
+   &#x200B;- **En direct** - Les présentateurs et présentatrices animent la session en temps réel.
+   &#x200B;- **Simulation en direct** - Le contenu préenregistré est lu à l’heure planifiée, avec le chat en direct, les sondages et les questions/réponses.
 
 1. Choisissez une **salle de webinaire**.
 
@@ -111,5 +111,5 @@ Avant de promouvoir le webinaire, exécutez une session de test pour confirmer q
 
 Vous pouvez modifier un webinaire une fois les enregistrements commencés, mais avec précaution :
 
-- La modification du planning peut déclencher des notifications de mise à jour pour les personnes déjà enregistrées. La possibilité de modifier les webinaires planifiés est configurable.
-- Les champs référencés par des jetons dans les e-mails en direct nécessitent une confirmation explicite pour la suppression, car cela interrompt le contenu déjà planifié pour l’envoi.
+&#x200B;- La modification du planning peut déclencher des notifications de mise à jour pour les personnes déjà enregistrées. La possibilité de modifier les webinaires planifiés est configurable.
+&#x200B;- Les champs référencés par des jetons dans les e-mails en direct nécessitent une confirmation explicite pour la suppression, car cela interrompt le contenu déjà planifié pour l’envoi.

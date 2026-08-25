@@ -23,7 +23,7 @@ Vous pouvez définir le temps d’attente de deux manières différentes :
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Attendre]**.
 
-   ![Cliquez sur Ajouter une icône sur le chemin du parcours ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Pour définir le temps d’attente avant que le parcours ne passe au nœud suivant dans le chemin d’accès, utilisez les propriétés du nœud sur la droite pour définir le **[!UICONTROL Type]**.
 

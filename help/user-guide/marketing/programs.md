@@ -42,7 +42,7 @@ Chaque programme réside dans la structure de dossiers _[!UICONTROL Marketing]_ 
 
 1. Saisissez un **[!UICONTROL Nom]** unique (obligatoire).
 
-   ![ Boîte de dialogue Créer un programme ](./assets/program-create-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un programme &#x200B;](./assets/program-create-dialog.png){width="400"}
 
 1. Choisissez **[!UICONTROL Type de programme]**, qui détermine les attributs du programme et les statuts des membres.
 
@@ -72,7 +72,7 @@ Dans le type de programme, les statuts sélectionnés _[!UICONTROL Marquer comme
 
 ### Modifier le statut du programme {#change-program-status}
 
-Pour ajouter une personne à un programme ou modifier son statut, elle doit passer par une **_[!UICONTROL Modifier le statut du programme]_** [action dans un parcours ](./action-nodes.md). Cela en fait un membre du programme et lui attribue un statut dans ce programme.
+Pour ajouter une personne à un programme ou modifier son statut, elle doit passer par une **_[!UICONTROL Modifier le statut du programme]_** [action dans un parcours &#x200B;](./action-nodes.md). Cela en fait un membre du programme et lui attribue un statut dans ce programme.
 
 ### Corriger le statut d’un programme {#correct-program-status}
 
@@ -96,7 +96,7 @@ _Vous êtes invité à participer à notre exposition le 2026-01-01._
 
 Mes jetons peuvent également être affectés au niveau du dossier. Les dossiers et les programmes héritent tous deux de tous mes jetons définis pour un parent dans l’arborescence. Un jeton hérité peut être remplacé si une autre valeur est pour le même jeton est définie à un niveau inférieur. Par exemple, vous pouvez définir un pied de page d’e-mail en haut de votre structure de dossiers, mais modifier la langue de copyright d’un événement de co-marketing avec un partenaire ou modifier l’URL d’une bannière promotionnelle pour un programme spécifique à un produit.
 
-Pour plus d’informations sur la définition et l’utilisation de mes jetons, voir [ Jetons personnalisés pour la personnalisation ](./personalization-my-tokens.md).
+Pour plus d’informations sur la définition et l’utilisation de mes jetons, voir [&#x200B; Jetons personnalisés pour la personnalisation &#x200B;](./personalization-my-tokens.md).
 
 ## Filtre Membre du programme {#member-of-program}
 

@@ -191,7 +191,7 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
 
 1. Modifiez la description, si nécessaire.
 
-   ![Détails du fragment avec le statut Brouillon ](assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![Détails du fragment avec le statut Brouillon &#x200B;](assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
 1. Pour apporter des modifications au contenu dans l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier]** en haut à droite.
 

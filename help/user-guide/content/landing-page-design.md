@@ -26,7 +26,7 @@ Avec au moins un composant de contenu dans la zone de travail, sélectionnez le 
 
 ![Accès aux styles de corps](assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
-Voir [ Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
+Voir [&#x200B; Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
 
 ### Ajout de ressources {#add-assets}
 
@@ -53,7 +53,7 @@ _Pour ajouter de la personnalisation :_
 1. Ajoutez une valeur de secours pour gérer les données manquantes, si nécessaire.
 1. Cliquez sur **[!UICONTROL Confirmer]** ou **[!UICONTROL Insérer]**. L’expression apparaît en ligne dans le champ.
 
-Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Éditeur ](./personalization-expressions.md).
+Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Éditeur &#x200B;](./personalization-expressions.md).
 
 ### Modifier le tracking des URL liées {#linked-url-tracking}
 

@@ -1,7 +1,8 @@
 ---
 title: Jetons personnalisés pour Personalization
 description: 'Créer et gérer des jetons My personnalisés pour la personnalisation dynamique de vos artefacts marketing : définissez des variables de texte et de nombre pour les programmes dans Marketo Optimizer.'
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 629

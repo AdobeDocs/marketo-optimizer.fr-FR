@@ -20,7 +20,7 @@ Les BDR peuvent utiliser les plug-ins de navigateur et d’e-mail pour accéder 
 
 Sales Qualifier est inclus dans [!DNL Marketo Optimizer], mais il s’agit d’une application distincte dans Adobe Experience Platform.
 
-![Écran d’accueil de ](assets/home-screen.png){width="800" zoomable="yes"}
+![Écran d’accueil de &#x200B;](assets/home-screen.png){width="800" zoomable="yes"}
 
 ### Agent Account Qualification {#account-qualification-agent}
 
@@ -549,7 +549,7 @@ L’**URL de l’instance** doit être l’URL de base de l’environnement util
 
 1. Pour Sales Qualifier, utilisez le formulaire canonique : `https://{{mydomain}}.my.salesforce.com` .
 
-   N’utilisez **** une URL `lightning.force.com` comme URL d’instance.
+   N’utilisez **&#x200B;**&#x200B;une URL `lightning.force.com` comme URL d’instance.
 
 **Microsoft Dynamics 365**
 
@@ -600,7 +600,7 @@ ORDER BY LastModifiedDate DESC
 
 Le _[!UICONTROL Centre de connaissances]_ donne à AQA accès aux documents des clients et aux connaissances connexes afin que Sales Qualifier puisse générer de meilleures informations sur la recherche et la qualification à l’aide de vos propres documents. Chargez le contenu et les ressources d’information que vous souhaitez utiliser pour générer des e-mails.
 
-![ Intégrations - Centre de connaissances ](assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
+![&#x200B; Intégrations - Centre de connaissances &#x200B;](assets/integrations-knowledge-center.png){width="700" zoomable="yes"}
 
 ## Paramètres de profil {#profile-settings}
 

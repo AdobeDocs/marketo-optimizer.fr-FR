@@ -21,7 +21,7 @@ Une fois la mise en service terminée et les sandbox liés, procédez comme suit
 
 ## Configuration du profil de produit {#config-profile}
 
-En tant qu’administrateur, vous pouvez effectuer ces tâches dans l’[!DNL Adobe Admin Console], qui constitue un emplacement central pour administrer et gérer vos licences de produit et utilisateurs Adobe. Dans Admin Console, vous pouvez créer et gérer des utilisateurs dans un emplacement unique, plutôt qu’au sein de vos différentes solutions. Pour en savoir plus sur ses fonctions et ses fonctionnalités, consultez la page de présentation d’Admin Console [](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+En tant qu’administrateur, vous pouvez effectuer ces tâches dans l’[!DNL Adobe Admin Console], qui constitue un emplacement central pour administrer et gérer vos licences de produit et utilisateurs Adobe. Dans Admin Console, vous pouvez créer et gérer des utilisateurs dans un emplacement unique, plutôt qu’au sein de vos différentes solutions. Pour en savoir plus sur ses fonctions et ses fonctionnalités, consultez la page de présentation d’Admin Console [&#128279;](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 
 ### Accès à Admin Console {#admin-console}
 

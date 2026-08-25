@@ -42,4 +42,4 @@ ht-degree: 2%
 
 1. Pour ajouter du contenu conditionnel et adapter le contenu aux profils ciblés en fonction de règles conditionnelles, sélectionnez un composant de contenu et cliquez sur l’icône **[!UICONTROL Activer le contenu conditionnel]** dans la barre d’outils du composant.
 
-   Pour plus d’informations, voir [ Contenu conditionnel ](../user-guide/content/conditional-content.md).
+   Pour plus d’informations, voir [&#x200B; Contenu conditionnel &#x200B;](../user-guide/content/conditional-content.md).

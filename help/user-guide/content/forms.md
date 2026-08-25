@@ -1,7 +1,9 @@
 ---
 title: Formulaires
 description: 'Créez et gérez des formulaires réutilisables pour la collecte de données métier : concevez des champs, définissez des pages de remerciement, publiez et suivez l’utilisation dans Marketo Optimizer.'
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
 workflow-type: tm+mt
 source-wordcount: 2434
@@ -45,7 +47,7 @@ Le statut du formulaire détermine sa disponibilité pour une utilisation dans u
 | Publié | Lorsque vous publiez un formulaire, il peut être utilisé dans une page de destination ou un modèle de page de destination. Le contenu du formulaire publié ne peut pas être modifié dans l’espace de conception visuelle. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou la page de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
 | Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un formulaire publié, la version publiée reste disponible pour être utilisée dans une page de destination ou un modèle. Le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les pages de destination ou les modèles de page de destination où il est utilisé. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou les pages de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
 
-![ Cycle de vie du statut du formulaire ](assets/status-lifecycle-diagram.png){zoomable="yes"}
+![&#x200B; Cycle de vie du statut du formulaire &#x200B;](assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### Filtrer la liste des formulaires {#filter-list}
 
@@ -104,7 +106,7 @@ Vous pouvez créer un formulaire dans [!DNL Marketo Optimizer] en cliquant sur *
    * Les caractères Alpha, numériques et spéciaux sont autorisés
    * Les caractères réservés ne sont **_pas autorisés_** : `\ / : * ? " < > |`
 
-   ![ Boîte de dialogue Créer un formulaire ](assets/forms-create-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un formulaire &#x200B;](assets/forms-create-dialog.png){width="400"}
 
 1. Pour **[!UICONTROL Paramètre prédéfini]**, cliquez sur l’icône _Sélectionner les données_ ( ![Icône Sélectionner les données](../assets/do-not-localize/icon-select-data.svg) ) pour lier un paramètre prédéfini de formulaire configuré au formulaire.
 
@@ -144,7 +146,7 @@ Dans le panneau _[!UICONTROL Résumé]_ à droite, faites défiler l’écran ju
 
 Lorsque vous êtes prêt à rendre le formulaire disponible pour une utilisation dans une page de destination ou un modèle de page de destination, cliquez sur **[!UICONTROL Publier]**.
 
-![ Boîte de dialogue Publier le formulaire ](assets/form-publish-dialog.png){width="400"}
+![&#x200B; Boîte de dialogue Publier le formulaire &#x200B;](assets/form-publish-dialog.png){width="400"}
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus de publication en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Publier]** pour confirmer.
 
@@ -185,7 +187,7 @@ Vous pouvez supprimer un formulaire à l’aide de l’une des méthodes suivant
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
-![ Boîte de dialogue Supprimer le formulaire ](assets/form-delete-dialog.png){width="400"}
+![&#x200B; Boîte de dialogue Supprimer le formulaire &#x200B;](assets/form-delete-dialog.png){width="400"}
 
 Si le formulaire est en cours d’utilisation, l’action ouvre une boîte de dialogue d’information qui vous avertit qu’il ne peut pas être supprimé. Cliquez sur **[!UICONTROL OK]** pour annuler la suppression.
 

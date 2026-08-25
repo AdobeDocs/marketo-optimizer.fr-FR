@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Parcours de promotion et de suivi de webinaires
 
-Après avoir ajouté un webinaire à un programme, créez un ou plusieurs [parcours ](./person-journeys.md) dans ce même programme pour inviter des personnes, leur rappeler, animer la session et assurer un suivi par la suite.
+Après avoir ajouté un webinaire à un programme, créez un ou plusieurs [parcours &#x200B;](./person-journeys.md) dans ce même programme pour inviter des personnes, leur rappeler, animer la session et assurer un suivi par la suite.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Un parcours de promotion type invite des personnes, suit leur inscription et leu
 
 1. [Créez le parcours de personne](./person-journeys.md#create-a-person-journey).
 
-1. [Sélectionnez une audience pour le parcours ](./person-audience-node.md).
+1. [Sélectionnez une audience pour le parcours &#x200B;](./person-audience-node.md).
 
 1. Ajoutez un nœud **[!UICONTROL Envoyer un e-mail]** avec un e-mail d’invitation.
 
@@ -63,7 +63,7 @@ Un parcours de promotion type invite des personnes, suit leur inscription et leu
 
 ## Personnaliser les e-mails
 
-Les jetons de webinaire s’affichent dans le contenu de l’e-mail : objet, corps, pré-titre et expéditeur. Consultez [ Jetons de webinaire ](webinars-overview.md#webinar-tokens) pour en savoir plus.
+Les jetons de webinaire s’affichent dans le contenu de l’e-mail : objet, corps, pré-titre et expéditeur. Consultez [&#x200B; Jetons de webinaire &#x200B;](webinars-overview.md#webinar-tokens) pour en savoir plus.
 
 >[!NOTE]
 >

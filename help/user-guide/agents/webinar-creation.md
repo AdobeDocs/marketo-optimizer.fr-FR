@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Créer et promouvoir des webinaires
 
-L’interface [chat](./chat-interface.md) permet de créer un webinaire en passant par la promotion, la diffusion, la culture post-webinaire et le compte rendu des performances, et ce entièrement via le volet de conversation. Tout ce que l’interface de chat crée utilise la même ressource, les mêmes parcours et les mêmes jetons de webinaire que ceux décrits dans la section [ Présentation des webinaires interactifs ](../marketing/webinars-overview.md), afin que vous puissiez passer du chat à la conception de l’interface à tout moment.
+L’interface [chat](./chat-interface.md) permet de créer un webinaire en passant par la promotion, la diffusion, la culture post-webinaire et le compte rendu des performances, et ce entièrement via le volet de conversation. Tout ce que l’interface de chat crée utilise la même ressource, les mêmes parcours et les mêmes jetons de webinaire que ceux décrits dans la section [&#x200B; Présentation des webinaires interactifs &#x200B;](../marketing/webinars-overview.md), afin que vous puissiez passer du chat à la conception de l’interface à tout moment.
 
 ## Points d’entrée
 

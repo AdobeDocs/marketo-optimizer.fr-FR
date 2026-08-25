@@ -18,7 +18,7 @@ Lorsque des données arrivent sur le point d’entrée de diffusion en continu, 
 
 ## Conditions préalables
 
-Pour utiliser les formulaires web, vous devez disposer d’une ou de plusieurs connexions en continu d’API _**HTTP**_ définies dans Adobe Experience Platform. Assurez-vous que chaque connexion que vous souhaitez utiliser répond aux exigences suivantes :
+Pour utiliser les formulaires web, vous devez disposer d’une ou de plusieurs connexions en continu d’API _&#x200B;**HTTP**&#x200B;_ définies dans Adobe Experience Platform. Assurez-vous que chaque connexion que vous souhaitez utiliser répond aux exigences suivantes :
 
 * Le type de données doit être défini sur XDM (et non sur Données brutes).
 * L&#39;authentification doit être désactivée (connexion non authentifiée)

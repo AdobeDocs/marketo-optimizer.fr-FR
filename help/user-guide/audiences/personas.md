@@ -75,7 +75,7 @@ Lors de la gestion des membres dans une [liste de personnes statique](./people-l
 
 ### Parcours de personne {#person-journeys}
 
-Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ ](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser un persona dérivé comme filtre de profil de personne pour contrôler quelles personnes entrent dans le chemin du parcours.
+Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ &#x200B;](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser un persona dérivé comme filtre de profil de personne pour contrôler quelles personnes entrent dans le chemin du parcours.
 
 ![Filtrage des personas dérivés pour une condition de chemin de partage](./assets/derived-persona-filter-split-path.png){width="750" zoomable="yes"}
 

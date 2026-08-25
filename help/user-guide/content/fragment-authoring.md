@@ -37,7 +37,7 @@ _Pour ajouter de la personnalisation :_
 1. Ajoutez une valeur de secours pour gérer les données manquantes, si nécessaire, par exemple, `{{profile.firstName | default: "there"}}`.
 1. Cliquez sur **[!UICONTROL Confirmer]** ou **[!UICONTROL Insérer]**. L’expression apparaît en ligne dans le champ.
 
-Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Éditeur ](./personalization-expressions.md).
+Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Éditeur &#x200B;](./personalization-expressions.md).
 
 ## Modifier le tracking des URL liées {#edit-linked-url-tracking}
 

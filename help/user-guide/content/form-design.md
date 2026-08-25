@@ -14,7 +14,7 @@ Après avoir [créé un formulaire](./forms.md#create-forms), l’espace de conc
 
 ![Espace de conception de formulaire](assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Le bouton _**Envoyer**_ (champ de pied de page) fait partie du formulaire par défaut et ne peut pas être supprimé. Vous pouvez sélectionner le composant de bouton/pied de page dans le formulaire pour [modifier le texte et le style du bouton](#submit-button).
+Le bouton _&#x200B;**Envoyer**&#x200B;_ (champ de pied de page) fait partie du formulaire par défaut et ne peut pas être supprimé. Vous pouvez sélectionner le composant de bouton/pied de page dans le formulaire pour [modifier le texte et le style du bouton](#submit-button).
 
 ## Champs {#fields}
 

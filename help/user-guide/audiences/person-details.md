@@ -72,7 +72,7 @@ Utilisez les commandes du panneau pour utiliser la chronologie :
 
 ## Onglet Attributs {#attributes-tab}
 
-![ Détails de la personne - Onglet Attributs ](./assets/people-list-person-details-attributes-tab.png){width="700" zoomable="yes"}
+![&#x200B; Détails de la personne - Onglet Attributs &#x200B;](./assets/people-list-person-details-attributes-tab.png){width="700" zoomable="yes"}
 
 L’onglet **[!UICONTROL Attributs]** affiche les champs de profil stockés de la personne sous la forme d’une liste de libellés/valeurs :
 

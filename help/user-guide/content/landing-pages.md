@@ -28,7 +28,7 @@ Pour diriger les membres d&#39;une audience de parcours vers une page web défin
 1. [Concevoir le contenu de la page de destination](./landing-page-design.md) - Créez le contenu de la page à l’aide des composants de conception visuelle par glisser-déposer.
 1. [Tester la page de destination](./landing-pages-create-publish.md#test-landing-page) - Prévisualisez la page et testez le comportement du formulaire.
 1. [Publier la page de destination](./landing-pages-create-publish.md#publish-landing-page) - Publier pour rendre la page active et disponible pour la liaison.
-1. [Lien vers la page à partir de votre parcours ](#link-to-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
+1. [Lien vers la page à partir de votre parcours &#x200B;](#link-to-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
 
 Par exemple, vous pouvez créer et concevoir des pages de destination pour diriger vos utilisateurs vers des informations en ligne. La page peut inclure un formulaire dans lequel ils peuvent s’inscrire ou refuser de recevoir vos communications. Il peut également s’agir d’une opportunité de s’abonner à une communication récurrente, telle qu’une newsletter.
 

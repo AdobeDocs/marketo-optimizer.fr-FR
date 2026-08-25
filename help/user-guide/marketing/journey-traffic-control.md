@@ -34,7 +34,7 @@ Le modèle évalue chaque combinaison de parcours de personne sur sept dimension
 | Ajustement micrographique | Attributs au niveau de l’entreprise (par exemple, secteur, taille et chiffre d’affaires). |
 | Correspondance démographique | Attributs démographiques au niveau de la personne. |
 | Alignement psychographique | Alignement basé sur les attitudes/préférences. |
-| Adaptation de l’engagement | Récence et profondeur de l’engagement ](../audiences/engagement-scores.md) de la personne.[ |
+| Adaptation de l’engagement | Récence et profondeur de l’engagement [&#128279;](../audiences/engagement-scores.md) de la personne. |
 
 Les dimensions pour lesquelles une personne ne dispose d’aucune donnée sont automatiquement ignorées, de sorte que la notation n’est jamais pénalisée en cas d’attributs manquants.
 
@@ -179,7 +179,7 @@ La vue _[!UICONTROL Par exécution]_ répertorie chaque exécution de contrôle 
 
 Utilisez la vue _Par parcours_ pour examiner la manière dont le contrôle du trafic a affecté un parcours donné. Le tableau indique, par parcours, le nombre de personnes évaluées, inscrites à ce parcours, déplacées vers d’autres parcours et déjà actives.
 
-![Contrôle du trafic par Parcours - Onglet Rapports - Par parcours ](./assets/journey-traffic-control-reporting-tab-by-journey.png){width="700" zoomable="yes"}
+![Contrôle du trafic par Parcours - Onglet Rapports - Par parcours &#x200B;](./assets/journey-traffic-control-reporting-tab-by-journey.png){width="700" zoomable="yes"}
 
 <!--
 Selecting a journey opens a detail panel:

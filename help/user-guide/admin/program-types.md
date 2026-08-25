@@ -48,7 +48,7 @@ _Pour définir un type de programme personnalisé :_
    * Choisissez le **[!UICONTROL nom de l’API]** et saisissez le **[!UICONTROL nom d’affichage]**.
    * Cliquez sur **[!UICONTROL Enregistrer]**
 
-   ![ Attributs de type de programme ](./assets/program-type-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; Attributs de type de programme &#x200B;](./assets/program-type-attributes.png){width="600" zoomable="yes"}
 
 1. Définissez les étapes pour les **[!UICONTROL statuts du programme]**.
 

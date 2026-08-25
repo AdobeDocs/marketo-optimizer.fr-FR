@@ -247,6 +247,6 @@ Pour une liste dynamique, une action en double est similaire à une fonction de 
 
    Par défaut, la boîte de dialogue utilise le nom de la liste d’origine suivie de `_copy`. Saisissez un nom unique différent pour la liste, le cas échéant.
 
-   ![ Boîte de dialogue Dupliquer la liste ](./assets/people-list-duplicate-dialog.png){width="375"}
+   ![&#x200B; Boîte de dialogue Dupliquer la liste &#x200B;](./assets/people-list-duplicate-dialog.png){width="375"}
 
 1. Cliquez sur **[!UICONTROL Dupliquer]**.

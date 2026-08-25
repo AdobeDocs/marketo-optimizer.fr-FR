@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Nœuds de parcours de la personne
 
-Après avoir créé un parcours de personne](./person-journeys.md), utilisez les outils de la zone de travail pour ajouter l’audience et créer le parcours à l’aide de nœuds. [La zone de travail de parcours fournit un espace de conception visuel, où vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes.
+Après avoir créé un parcours de personne[&#128279;](./person-journeys.md), utilisez les outils de la zone de travail pour ajouter l’audience et créer le parcours à l’aide de nœuds. La zone de travail de parcours fournit un espace de conception visuel, où vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes.
 
 Le nœud _[!UICONTROL Personne]_ est automatiquement le premier nœud du parcours. Une fois l’audience sélectionnée, créez votre parcours en combinant les différents nœuds d’action, d’événement et de prise de décision sous la forme d’un scénario cross-canal à plusieurs étapes. Chaque nœud d’un parcours représente une étape le long d’un chemin logique.
 
