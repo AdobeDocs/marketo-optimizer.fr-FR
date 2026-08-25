@@ -14,7 +14,7 @@ Sales Qualifier est une application pilotée par l’IA que vous pouvez utiliser
 
 Les BDR peuvent utiliser les plug-ins de navigateur et d’e-mail pour accéder à la Business Intelligence directement dans les CRM ou Outlook. La vidéo suivante présente brièvement Sales Qualifier et Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
 
 ## Page de départ Application {#application-home}
 
