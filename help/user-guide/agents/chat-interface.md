@@ -32,7 +32,7 @@ Au bas du panneau se trouve la boîte de message dans laquelle vous pouvez :
 
 [!DNL Adobe Sales Qualifier] est une application gérée par l’IA que vous pouvez utiliser avec [!DNL Marketo Optimizer]. Il met en œuvre Account Qualification Agent et est conçu pour rationaliser les workflows pour les représentants du développement commercial (BDR). [!DNL Sales Qualifier] automatise les workflows de qualification, de sensibilisation et d’engagement des acheteurs des prospects sur l’ensemble des canaux. Il réduit la charge manuelle de BDR et accélère la vitesse du pipeline pour les entreprises B2B.
 
-Pour plus d&#39;informations, consultez la documentation de [](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+Pour plus d&#39;informations, consultez la documentation de [&#128279;](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
