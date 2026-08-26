@@ -1,9 +1,9 @@
 ---
 title: Interface de conversation
 description: Utilisez le panneau de conversation Collègues dans Marketo Optimizer pour créer des programmes, des parcours et des listes à l’aide du langage naturel ou du menu barre oblique (/).
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+source-git-commit: 6264cadee61cb4a9366df655611803214110cccf
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,16 @@ Au bas du panneau se trouve la boîte de message dans laquelle vous pouvez :
 
 * Ajoutez un message et appuyez sur **Entrée** pour l’envoyer (**Maj+Entrée** insère une nouvelle ligne).
 * Joignez un fichier à l’aide de l’icône _Joindre_ (formats pris en charge : `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Utilisez les chargements de feuilles de calcul et de fichiers CSV pour démarrer une importation de prospect.
+
+>[!BEGINSHADEBOX]
+
+## Qualificateur de vente
+
+[!DNL Adobe Sales Qualifier] est une application gérée par l’IA que vous pouvez utiliser avec [!DNL Marketo Optimizer]. Il met en œuvre Account Qualification Agent et est conçu pour rationaliser les workflows pour les représentants du développement commercial (BDR). [!DNL Sales Qualifier] automatise les workflows de qualification, de sensibilisation et d’engagement des acheteurs des prospects sur l’ensemble des canaux. Il réduit la charge manuelle de BDR et accélère la vitesse du pipeline pour les entreprises B2B.
+
+Pour plus d&#39;informations, consultez la documentation de [](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
 
 ## Demander à un collègue
 
