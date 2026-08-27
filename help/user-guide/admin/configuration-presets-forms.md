@@ -23,7 +23,7 @@ Pour utiliser les formulaires web, vous devez disposer d’une ou de plusieurs c
 * Le type de données doit être défini sur XDM (et non sur Données brutes).
 * L&#39;authentification doit être désactivée (connexion non authentifiée)
 
-Pour plus d’informations sur la création de connexions source par flux, consultez la documentation d’[__](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
+Pour plus d’informations sur la création de connexions source par flux, consultez la documentation d’[__](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
 <!-- 
 permissions coming in GA
