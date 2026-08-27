@@ -15,7 +15,7 @@ ht-degree: 2%
 >title="Studio de notation"
 >abstract="Utilisez les compétences du Studio de notation pour créer, configurer et publier des modèles de notation de prospect personnalisés via l’interface de conversation des collègues."
 
-La compétence [_Studio de notation_ ](./skills.md#scoring-signals) de [!DNL Adobe Marketo Optimizer] fournit une solution de notation de prospect native à l’IA qui vous permet de créer, de configurer et de publier des modèles de notation de prospect. Studio associe un workflow piloté par un agent à une interface utilisateur visuelle. Vous pouvez créer des modèles de notation à l’aide d’invites en langage naturel dans l’interface de conversation [Coworker](./chat-interface.md) ou en interagissant directement avec les commandes de l’interface utilisateur.
+La compétence [_Studio de notation_ &#x200B;](./skills.md#scoring-signals) de [!DNL Adobe Marketo Optimizer] fournit une solution de notation de prospect native à l’IA qui vous permet de créer, de configurer et de publier des modèles de notation de prospect. Studio associe un workflow piloté par un agent à une interface utilisateur visuelle. Vous pouvez créer des modèles de notation à l’aide d’invites en langage naturel dans l’interface de conversation [Coworker](./chat-interface.md) ou en interagissant directement avec les commandes de l’interface utilisateur.
 
 * **Compétences** - `scoring-studio`
 * **Invocation** - Utilisez une barre oblique pour ouvrir Scoring Studio. Par exemple : _« open Scoring Studio.«_
