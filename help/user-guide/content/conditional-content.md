@@ -71,7 +71,7 @@ Lorsque vous créez un [fragment](./fragment-authoring.md) ou un [e-mail](./emai
 
    Saisissez un nom significatif pour la variante qui vous permet d’identifier la variante et son intention.
 
-   ![&#x200B; Renommer la variante &#x200B;](assets/conditions-variant-rename.png){width="600" zoomable="yes"}
+   ![ Renommer la variante ](assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. Avec la variante sélectionnée dans le volet de gauche, modifiez le composant pour modifier la manière dont il apparaît dans le message lorsque la condition est remplie.
 
@@ -136,7 +136,7 @@ Accédez au créateur de règles conditionnelles à partir de l’espace de conc
 
    * **[!UICONTROL Audiences]** - Répertorie toutes les audiences générées à partir des définitions de segment créées dans le service Adobe Experience Platform Segmentation.
 
-   ![&#x200B; Boîte de dialogue Créer une condition &#x200B;](./assets/conditions-rule-create.png){width="700" zoomable="yes"}
+   ![ Boîte de dialogue Créer une condition ](./assets/conditions-rule-create.png){width="700" zoomable="yes"}
 
 1. Créez la règle conditionnelle selon vos besoins.
 

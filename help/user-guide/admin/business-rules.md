@@ -105,7 +105,7 @@ Pour désactiver une règle, cliquez sur l’icône _Désactiver_ ( ![Icône Dé
 
 1. Sur la page de liste _[!UICONTROL Jeux de règles]_, cliquez sur **[!UICONTROL Créer un jeu de règles]** en haut à droite.
 
-   ![&#x200B; Boîte de dialogue Créer un jeu de règles &#x200B;](./assets/business-rules-create-rule-set-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un jeu de règles ](./assets/business-rules-create-rule-set-dialog.png){width="400"}
 
 1. Saisissez un **[!UICONTROL Nom]** unique (obligatoire) pour le jeu de règles et ajoutez un **[!UICONTROL Description]** (facultatif).
 
@@ -132,7 +132,7 @@ Après avoir créé l’ensemble de règles, ajoutez chaque règle à inclure.
 
    Les paramètres disponibles pour la règle dépendent du domaine du jeu de règles sélectionné à sa création.
 
-   ![Paramètres de règle définis pour une règle de limite d’entrée de parcours &#x200B;](./assets/business-rules-journey-entry-cap.png){width="700" zoomable="yes"}
+   ![Paramètres de règle définis pour une règle de limite d’entrée de parcours ](./assets/business-rules-journey-entry-cap.png){width="700" zoomable="yes"}
 
    Vous trouverez des informations détaillées sur la configuration du parcours et des règles de canal dans les sections suivantes :
 

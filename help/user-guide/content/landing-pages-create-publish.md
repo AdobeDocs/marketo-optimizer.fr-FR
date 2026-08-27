@@ -66,7 +66,7 @@ _Pour créer une landing page :_
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   La page principale et ses propriétés s’affichent. Découvrez comment [&#x200B; configurer les paramètres de la page principale &#x200B;](#configure-primary-page).
+   La page principale et ses propriétés s’affichent. Découvrez comment [ configurer les paramètres de la page principale ](#configure-primary-page).
 
    ![Nouvelle page de destination - Propriétés de la page principale](assets/landing-page-primary-new-properties.png){width="700" zoomable="yes"}
 
@@ -116,7 +116,7 @@ _Pour définir les paramètres de la page principale :_
 
    * **[!UICONTROL URL de redirection]** - Saisissez l’URL de la page à utiliser comme redirection.
 
-     ![&#x200B; Expiration de la page de destination - URL de redirection &#x200B;](assets/landing-page-expiry-redirect-url.png){width="400"}
+     ![ Expiration de la page de destination - URL de redirection ](assets/landing-page-expiry-redirect-url.png){width="400"}
 
    * **[!UICONTROL Erreur de navigateur]** - Saisissez le texte de l’erreur à afficher à la place de la page.
 

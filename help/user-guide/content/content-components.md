@@ -46,9 +46,9 @@ La section **[!UICONTROL Contenu]** de la bibliothèque de composants affiche le
 | ![Icône Bouton](../assets/do-not-localize/icon-content-component-button.svg) | [Bouton](#button) | Ajoutez ce composant à votre conception pour inclure un élément bouton cliquable. |
 | ![Icône Texte](../assets/do-not-localize/icon-content-component-text.svg) | [Texte](#text) | Ajoutez ce composant à votre conception pour inclure un corps de texte. |
 | ![Icône Diviseur](../assets/do-not-localize/icon-content-component-divider.svg) | [Diviseur](#divider) | Ajoutez ce composant à votre conception afin d’inclure une ligne horizontale pour séparer les zones de votre contenu. |
-| ![Icône &#x200B;](../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | Ajoutez ce composant à votre conception pour copier-coller les différentes parties de votre HTML existante. Utilisez ce composant pour créer un bloc HTML modulaire libre afin de réutiliser du contenu externe. |
-| ![&#x200B; Icône Image &#x200B;](../assets/do-not-localize/icon-content-component-image.svg) | [Image](#image) | Ajoutez ce composant à votre conception pour insérer un fichier image. |
-| ![&#x200B; Icône Social &#x200B;](../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Ajoutez ce composant à votre conception pour insérer des liens vers des pages de réseaux sociaux. |
+| ![Icône ](../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | Ajoutez ce composant à votre conception pour copier-coller les différentes parties de votre HTML existante. Utilisez ce composant pour créer un bloc HTML modulaire libre afin de réutiliser du contenu externe. |
+| ![ Icône Image ](../assets/do-not-localize/icon-content-component-image.svg) | [Image](#image) | Ajoutez ce composant à votre conception pour insérer un fichier image. |
+| ![ Icône Social ](../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Ajoutez ce composant à votre conception pour insérer des liens vers des pages de réseaux sociaux. |
 | ![Icône de formulaire](../assets/do-not-localize/icon-content-component-form.svg) | [Form](#form) (Formulaire) | **_Disponible uniquement pour les pages de destination._** Ajoutez ce composant à votre conception pour insérer un formulaire créé. |
 
 ## Barres d’outils des composants de contenu
@@ -280,7 +280,7 @@ Utilisez le composant [!UICONTROL Button] pour insérer un ou plusieurs boutons 
 
 #### Ajouter le texte du bouton
 
-Lorsque le composant Bouton s’affiche dans la zone de travail, la barre d’outils comprend des options de mise en forme de texte, ainsi que des options de personnalisation et des variantes conditionnelles. Pour plus d’informations sur les options de la barre d’outils de l’éditeur, voir [&#x200B; Barres d’outils des composants de contenu &#x200B;](#content-component-toolbars).
+Lorsque le composant Bouton s’affiche dans la zone de travail, la barre d’outils comprend des options de mise en forme de texte, ainsi que des options de personnalisation et des variantes conditionnelles. Pour plus d’informations sur les options de la barre d’outils de l’éditeur, voir [ Barres d’outils des composants de contenu ](#content-component-toolbars).
 
 Lorsque vous saisissez le texte du libellé du bouton et définissez la mise en forme, le bouton se redimensionne pour s’adapter au contenu.
 
@@ -494,7 +494,7 @@ Utilisez le composant HTML pour ajouter des parties de votre HTML existant. Ce c
 
 1. Collez l’HTML dans la zone de texte, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![&#x200B; Boîte de dialogue Modifier HTML &#x200B;](assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
+   ![ Boîte de dialogue Modifier HTML ](assets/content-components-html-edit-dialog.png){width="600" zoomable="yes"}
 
    Si l’HTML est valide, elle effectue le rendu de l’élément sur la zone de travail. S’il s’agit d’un élément qui correspond à l’un des autres composants de contenu, vous pouvez modifier les paramètres et les styles dans le panneau de droite en fonction du type de composant. Dans le cas contraire, il reste en tant que composant HTML.
 
@@ -667,7 +667,7 @@ Utilisez le composant _Social_ pour insérer des liens vers des pages de réseau
 Développez la carte pour chaque type de réseau social afin de définir les options :
 
 * **[!UICONTROL URL]** - Saisissez l’URL du réseau social que vous souhaitez lier au graphique ou à l’icône du réseau social.
-* **&#x200B;**&#x200B;- Si vous souhaitez utiliser votre propre image au lieu de la valeur par défaut, choisissez une ressource d’image. Vous pouvez sélectionner une image dans la bibliothèque Assets ou importer un fichier image à partir de votre système. Pour plus d’informations sur la sélection et l’importation de ressources d’image[&#128279;](#add-the-image-asset) consultez les informations sur les composants d’image .
+* **** - Si vous souhaitez utiliser votre propre image au lieu de la valeur par défaut, choisissez une ressource d’image. Vous pouvez sélectionner une image dans la bibliothèque Assets ou importer un fichier image à partir de votre système. Pour plus d’informations sur la sélection et l’importation de ressources d’image](#add-the-image-asset) consultez les informations sur les composants d’image [.
 * **[!UICONTROL Texte secondaire]** - Saisissez le texte secondaire de l’image affichée.
 
 ![Paramètres du type de réseau social développé](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -720,7 +720,7 @@ Vous pouvez définir les options de style suivantes pour le composant _Social_ :
 
 ### Formulaire (pages de destination uniquement) {#form}
 
-Utilisez le composant _Formulaire_ pour ajouter un formulaire publié à une page de destination ou à un modèle de page de destination. Pour plus d&#39;informations sur la création et la publication de formulaires, voir [&#128279;](./forms.md).
+Utilisez le composant _Formulaire_ pour ajouter un formulaire publié à une page de destination ou à un modèle de page de destination. Pour plus d&#39;informations sur la création et la publication de formulaires, voir [](./forms.md).
 
 1. Cliquez sur l’outil _Formulaire_ dans la barre d’outils du composant, ou utilisez les propriétés **[!UICONTROL Incorporer le formulaire]** à droite pour sélectionner le formulaire publié.
 
