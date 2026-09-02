@@ -1,16 +1,16 @@
 ---
 title: Compétences du collègue
-description: 'Examinez les compétences de vos collègues dans Marketo Optimizer : workflows empaquetés pour les programmes, les parcours, les audiences, la notation, le contenu et l’optimisation de l’heure d’envoi.'
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+description: 'Examinez les compétences du collaborateur d’entreprise CX dans Marketo Optimizer : workflows empaquetés pour les programmes, les parcours, les audiences, la notation, le contenu et l’optimisation de l’heure d’envoi.'
+source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '575'
 ht-degree: 7%
 
 ---
 
 # Compétences des collègues
 
-Une _compétence_ est un workflow empaqueté que l’agent sait exécuter, c’est-à-dire les éléments qui sous-tendent le menu `/` et les requêtes en langage naturel. Chaque compétence regroupe des instructions détaillées et les outils spécifiques nécessaires pour une tâche (par exemple, « publier un parcours », « comparer deux listes de personnes », « créer un modèle de notation »).
+Une _compétence_ est un workflow empaqueté que Coworker sait exécuter : les éléments de base à la fois du menu `/` et des requêtes en langage naturel. Chaque compétence regroupe des instructions détaillées et les outils spécifiques nécessaires pour une tâche (par exemple, « publier un parcours », « comparer deux listes de personnes », « créer un modèle de notation »).
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ Une _compétence_ est un workflow empaqueté que l’agent sait exécuter, c’e
 
 | Compétence | Ce qu&#39;il fait | Accès | Surface de produit | Impact / flux de données |
 |---|---|---|---|---|
-| `falco-program-creation` | Création de programmes [!DNL Marketo Optimizer] de bout en bout : programme, sous-dossiers, jetons, listes, parcours. | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer]. Voir _[Créer un programme à partir d’un brief](./program-from-brief.md)_. |
+| `falco-program-creation` | Création de programmes [!DNL Marketo Optimizer] de bout en bout : programme, sous-dossiers, jetons, listes, parcours. <p>Voir _[Créer un programme à partir d’un brief](./program-from-brief.md)_. | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer]. |
 | `adapt-program` | Générer des récits de migration à partir de programmes [!DNL Marketo Engage] pour l&#39;adaptation [!DNL Marketo Optimizer]. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Engage], écrit [!DNL Marketo Optimizer] |
 | `folder-creation` | Créez des dossiers d’organisation dans l’arborescence de ressources. | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
 | `program-creation` *(Créer des programmes)* | Créez des programmes Marketo à partir d’un résumé de campagne. | Écriture | [!DNL Marketo Engage] | Lit + écrit [!DNL Marketo Engage] |
@@ -43,7 +43,7 @@ Une _compétence_ est un workflow empaqueté que l’agent sait exécuter, c’e
 
 | Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
 |---|---|---|---|---|
-| `audience-creation` | Adapter une liste dynamique de [!DNL Marketo Engage], créer une liste de personnes ou ajouter/mettre à jour des règles. | Écriture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Engage] + lit/écrit [!DNL Marketo Optimizer].  Voir _[Création d’audiences pour les programmes](./audience-creation.md)_. |
+| `audience-creation` | Adapter une liste dynamique de [!DNL Marketo Engage], créer une liste de personnes ou ajouter/mettre à jour des règles. <p>Voir _[Création d’audiences pour les programmes](./audience-creation.md)_. | Écriture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Engage] + lit/écrit [!DNL Marketo Optimizer]. |
 | `people-list-comparison` | Comparer deux listes de personnes et afficher les membres qui se chevauchent | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] |
 | `import-leads` | Inspectez la qualité des données CSV et validez les importations dans [!DNL Marketo Engage]. | Lecture+Écriture | Les deux | Lit + écrit [!DNL Marketo Engage] |
 | `lead-investigation` *(Enquêter sur les leads)* | Examiner l’activité, la notation, la qualification et le cycle de vie d’un prospect. | Lecture | [!DNL Marketo Engage] | Lit [!DNL Marketo Engage] |
@@ -60,7 +60,7 @@ Une _compétence_ est un workflow empaqueté que l’agent sait exécuter, c’e
 
 | Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
 |---|---|---|---|---|
-| `scoring-studio` | Répertorier/obtenir des modèles de notation et les créer/publier. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit des [!DNL Marketo Optimizer] (service de notation) ; lit [!DNL Marketo Engage] champs de prospect/types d’activité. Voir _[Création de modèles de notation personnalisés](./lead-scoring-model.md)_. |
+| `scoring-studio` | Répertorier/obtenir des modèles de notation et les créer/publier. <p>Voir _[Création de modèles de notation personnalisés](./lead-scoring-model.md)_. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit des [!DNL Marketo Optimizer] (service de notation) ; lit [!DNL Marketo Engage] champs de prospect/types d’activité. |
 | `engagementconfiguration` | Afficher la configuration de l&#39;engagement et modifier/mettre à jour les poids. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
 | `intentconfiguration` | Afficher la configuration d&#39;intention et définir/mettre à jour les poids. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
 | `intent-query` | Interroger et expliquer les scores d’intention par personne/segment/liste. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] |
@@ -88,4 +88,3 @@ Ces compétences s’étendent sur plusieurs serveurs principaux :
 - **`scoring-studio`** : lit [!DNL Marketo Engage] champs de prospect/types d&#39;activité ainsi que [!DNL Marketo Optimizer] service de notation.
 
 Tous les outils `falco-mcp_*` et parcours/jeton/notation/STO/FCS accèdent aux services [!DNL Marketo Optimizer] ; les outils CSV/programme/prospect [!DNL Marketo Engage].
-

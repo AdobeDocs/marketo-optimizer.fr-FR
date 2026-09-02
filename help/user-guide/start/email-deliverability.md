@@ -1,7 +1,7 @@
 ---
 title: Configuration de la délivrabilité des e-mails
 description: Configurez la délégation de sous-domaines, DMARC, SPF, DKIM et les pools d'adresses IP pour Marketo Optimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: 81d9880cb37bb60301252b48bd89637b6656a993
 workflow-type: tm+mt
 source-wordcount: '2502'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Il utilise les blocs de création suivants, configurés par un administrateur, g
 1. [Confirmez le groupe d’adresses IP](#ip-pools) utilisé pour envoyer un e-mail pour votre sous-domaine.
 1. [Créez une ou plusieurs configurations de canal e-mail](../admin/email-channel-configuration.md#create-email-channel-configuration) qui lient un sous-domaine, un groupe d’adresses IP et une identité d’expéditeur.
 
-![Configuration de la délivrabilité des emails pour Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
+![Configuration de la délivrabilité des emails pour Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
