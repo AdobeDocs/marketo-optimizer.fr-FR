@@ -3,10 +3,10 @@ user-guide-title: Documentation Marketo Optimizer
 user-guide-description: Découvrez Adobe Marketo Optimizer et comment l’utiliser pour exécuter un engagement marketing et commercial coordonné avec du contenu personnalisé optimisé par l’IA pour les prospects et les comptes B2B.
 hide: true
 nudge: red
-source-git-commit: 6264cadee61cb4a9366df655611803214110cccf
+source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 45%
+source-wordcount: '224'
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 45%
 
 + [Documentation Adobe Marketo Optimizer](guide-overview.md)
 + [Architecture des données](data-architecture.md)
-+ Prise en main {#start}
++ Commencer {#start}
   + [Liste de contrôle d&#39;installation](./start/setup-check-list.md)
   + [Gestion des utilisateurs et utilisatrices](./start/user-management.md)
   + [Délivrabilité des e-mails](./start/email-deliverability.md)
@@ -28,6 +28,7 @@ ht-degree: 45%
   + [Personnaliser le contenu des e-mails par persona](./agents/personalize-content.md)
   + [Créer des modèles de notation personnalisés](./agents/lead-scoring-model.md)
   + [Créer et promouvoir des webinaires](./agents/webinar-creation.md)
+  + [Surveillance et débogage de la progression du parcours](./agents/journey-observability.md)
 + Prise de décision par l’IA {#ai-decisioning}
   + [Vue d’ensemble](./agents/ai-decisioning.md)
   + [Santé de la prise de décision par l’IA](./agents/ai-decisioning-health.md)

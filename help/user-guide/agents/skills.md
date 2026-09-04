@@ -1,9 +1,9 @@
 ---
 title: Compétences du collègue
 description: 'Examinez les compétences du collaborateur d’entreprise CX dans Marketo Optimizer : workflows empaquetés pour les programmes, les parcours, les audiences, la notation, le contenu et l’optimisation de l’heure d’envoi.'
-source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
+source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 7%
 
 ---
@@ -37,7 +37,7 @@ Une _compétence_ est un workflow empaqueté que Coworker sait exécuter : les �
 | `journey-stop` | Interrompre, fermer, arrêter, arrêter ou tuer des parcours. | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
 | `journey-reentry` | Configurer la rentrée : autoriser/interdire, réinitialiser, max. les entrées. | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
 | `journey-trafficcontrol` | Exécutez une simulation du contrôle du trafic montrant le routage des profils. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] (simulation) |
-| `journey-observability` | Déboguer/surveiller la progression : chemins, synchronisation, divisions, décrochages, séjour. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (vérification de la liste statique). |
+| `journey-observability` | Déboguer/surveiller la progression : chemins, synchronisation, divisions, décrochages, séjour. <p>Voir _[Déboguer et surveiller la progression du parcours](./journey-observability.md)_. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (vérification de la liste statique). |
 
 ## Audiences et personnes {#audiences-people}
 
