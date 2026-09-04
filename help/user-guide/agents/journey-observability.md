@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Surveillance et débogage de la progression du parcours
 
-La compétence [_Observabilité_ Parcours ](./skills.md#journeys) de [!DNL Adobe Marketo Optimizer] répond aux questions en langage naturel sur la manière dont les personnes et les prospects se déplacent dans les parcours. Utilisez-le dans l’[interface de conversation de vos collègues](./chat-interface.md) pour suivre la progression, comprendre les décisions de chemin partagé, analyser les personnes au sein des nœuds de parcours et vérifier les mesures de minutage. Vous pouvez également interroger les utilisateurs sur les modèles de comportement dans les parcours.
+La compétence [_Observabilité_ Parcours &#x200B;](./skills.md#journeys) de [!DNL Adobe Marketo Optimizer] répond aux questions en langage naturel sur la manière dont les personnes et les prospects se déplacent dans les parcours. Utilisez-le dans l’[interface de conversation de vos collègues](./chat-interface.md) pour suivre la progression, comprendre les décisions de chemin partagé, analyser les personnes au sein des nœuds de parcours et vérifier les mesures de minutage. Vous pouvez également interroger les utilisateurs sur les modèles de comportement dans les parcours.
 
 * **Compétences** - `journey-observability`
 * **Appel** - Posez une question en langage naturel ou utilisez une commande de barre oblique pour exécuter la compétence Observabilité du Parcours. Par exemple : _« Comment demo_ lead_24@company.com a-t-il parcouru le parcours LeadNurture ?« _
@@ -68,7 +68,7 @@ Renseignez-vous sur les temps d’accès, les durées d’attente, la latence de
 | Limite | Détail |
 |---|---|
 | Modifier les attributs d’une personne ou d’un prospect | Non pris en charge. Mettez à jour les enregistrements de personne et de lead directement dans [!DNL Marketo Engage] ou [!DNL Marketo Optimizer]. |
-| Création, modification, suspension ou reprise de parcours | Non pris en charge. Utilisez plutôt la zone de travail de parcours [](../marketing/person-journeys.md) ou une compétence de modification de parcours dans [Compétences du collègue](./skills.md#journeys). |
-| Modification de la logique de division ou de la configuration du parcours | Non pris en charge. Modifiez les chemins de partage directement dans la zone de travail de parcours [](../marketing/split-merge-paths-nodes.md). |
+| Création, modification, suspension ou reprise de parcours | Non pris en charge. Utilisez plutôt la zone de travail de parcours [&#128279;](../marketing/person-journeys.md) ou une compétence de modification de parcours dans [Compétences du collègue](./skills.md#journeys). |
+| Modification de la logique de division ou de la configuration du parcours | Non pris en charge. Modifiez les chemins de partage directement dans la zone de travail de parcours [&#128279;](../marketing/split-merge-paths-nodes.md). |
 | Composition des groupes d&#39;achat ou cumuls au niveau du compte | Hors de portée. Parcours des rapports d’observabilité au niveau de la personne et du prospect uniquement. |
 | Modification des horaires ou de la durée des parcours | Non pris en charge. |
