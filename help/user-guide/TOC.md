@@ -3,10 +3,10 @@ user-guide-title: Documentation Marketo Optimizer
 user-guide-description: Découvrez Adobe Marketo Optimizer et comment l’utiliser pour exécuter un engagement marketing et commercial coordonné avec du contenu personnalisé optimisé par l’IA pour les prospects et les comptes B2B.
 hide: true
 nudge: red
-source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
+source-git-commit: 8b3ea5f52fc50ea6c995ace44dece90247deff8b
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 44%
+source-wordcount: '231'
+ht-degree: 43%
 
 ---
 
@@ -29,11 +29,12 @@ ht-degree: 44%
   + [Créer des modèles de notation personnalisés](./agents/lead-scoring-model.md)
   + [Créer et promouvoir des webinaires](./agents/webinar-creation.md)
   + [Surveillance et débogage de la progression du parcours](./agents/journey-observability.md)
+  + [Configurer et analyser l’intention](./agents/intent.md)
 + Prise de décision par l’IA {#ai-decisioning}
-  + [Vue d’ensemble](./agents/ai-decisioning.md)
+  + [Présentation](./agents/ai-decisioning.md)
   + [Santé de la prise de décision par l’IA](./agents/ai-decisioning-health.md)
 + Gestion marketing {#marketing-management}
-  + [Vue d’ensemble](./marketing/marketing-management.md)
+  + [Présentation](./marketing/marketing-management.md)
   + Programmes {#programs}
     + [Vue d’ensemble](./marketing/programs.md)
     + [Jetons personnalisés pour la personnalisation](./marketing/personalization-my-tokens.md)
@@ -47,7 +48,7 @@ ht-degree: 44%
     + [Fractionner et fusionner les chemins](./marketing/split-merge-paths-nodes.md)
     + [Deuxième meilleur chemin](./marketing/next-best-path.md)
   + Canal e-mail {#email-channel}
-    + [Vue d’ensemble](./marketing/email-channel.md)
+    + [Présentation](./marketing/email-channel.md)
     + [Optimisation de l’heure d’envoi des e-mails](./marketing/email-send-time-optimization.md)
     + [Création de contenu](./content/email-authoring.md)
     + [Conception du mode sombre](./content/email-dark-mode.md)
@@ -62,6 +63,7 @@ ht-degree: 44%
   + [Détails de la personne](./audiences/person-details.md)
   + [Audiences basées sur un événement](./audiences/event-based-audiences.md)
   + [Scores d’engagement des personnes](./audiences/engagement-scores.md)
+  + [Configuration du modèle d’intention](./audiences/intent-configuration.md)
   + [Personnages dérivés](./audiences/personas.md)
   + [Destinations](./audiences/destinations.md)
 + Contenu {#content}
@@ -69,7 +71,7 @@ ht-degree: 44%
     + [Vue d’ensemble](./content/digital-asset-management.md)
     + [Métadonnées C2PA](./content/c2pa-metadata.md)
   + Modèles {#templates}
-    + [Vue d’ensemble](./content/templates.md)
+    + [Présentation](./content/templates.md)
     + [Création de modèles](./content/templates-create.md)
     + [Gouvernance du contenu](./content/template-content-governance.md)
   + Fragments {#visual-fragments}
