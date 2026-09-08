@@ -48,7 +48,7 @@ La vue détaillée répertorie les activités liées à l’intention de l’ach
 
 Un champ de recherche filtre les lignes d’activité par nom. Le tableau lui-même :
 
-| [!UICONTROL Activité d’intention] | [!UICONTROL AI Suggéré ] | [!UICONTROL Pondération] | [!UICONTROL Réinitialiser] |
+| [!UICONTROL Activité d’intention] | [!UICONTROL AI Suggéré &#x200B;] | [!UICONTROL Pondération] | [!UICONTROL Réinitialiser] |
 | --- | --- | --- | --- |
 | Par exemple, Ajouter à l’opportunité, Remplir un formulaire, Cliquer sur l’e-mail, Cliquer sur le lien, Ouvrir l’e-mail, Se désabonner de l’e-mail, Visiter la page web, Poser des questions dans le webinaire, Téléchargements de ressources dans le webinaire, Moment intéressant, A répondu au sondage dans le webinaire, Mettre à jour l’opportunité | Lecture seule | Liste déroulante, modifiable sur les modèles Brouillons | Icône ↺**: réinitialise cette ligne sur la valeur Suggérée par l’IA** |
 
