@@ -2,9 +2,15 @@
 title: Configuration du canal WhatsApp
 description: Connectez votre compte professionnel WhatsApp via l'API Meta Cloud pour activer la messagerie WhatsApp dans les parcours de personne de Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/y7rOywtyZ-OlupwLS-Fsjx72EVlaT7Vy-O1NEMwMO5E'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1469
@@ -70,10 +76,10 @@ Effectuez les tâches suivantes :
 1. Configurez vos informations d’identification dʼAPI comme indiqué ci-dessous :
 
    * **[!UICONTROL Nom]** - Saisissez un nom unique pour les informations d’identification
-   * **[!UICONTROL Jeton API]** - Saisissez votre jeton API. Pour plus d&#39;informations, consultez la documentation de Meta [](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
-   * **[!UICONTROL Identifiant de compte professionnel]** - Saisissez le numéro unique associé à votre portefeuille professionnel. Pour plus d&#39;informations, consultez la documentation de Meta [](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * **[!UICONTROL Jeton API]** - Saisissez votre jeton API. Pour plus d&#39;informations, consultez la documentation de Meta [&#128279;](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
+   * **[!UICONTROL Identifiant de compte professionnel]** - Saisissez le numéro unique associé à votre portefeuille professionnel. Pour plus d&#39;informations, consultez la documentation de Meta [&#128279;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Paramètres WhatsApp - Informations d’identification de l’API ](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Paramètres WhatsApp - Informations d’identification de l’API &#x200B;](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
@@ -109,7 +115,7 @@ Si vous rencontrez une erreur HTTP 500 lors de la configuration des informations
 1. Validez les champs du compte professionnel - Vérifiez que tous les champs obligatoires sont corrects :
 
    * Jeton API : doit être un jeton d’accès [Meta valide avec les autorisations appropriées](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
-   * Identifiant du compte professionnel - Doit correspondre exactement à votre [identifiant du compte professionnel ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * Identifiant du compte professionnel - Doit correspondre exactement à votre [identifiant du compte professionnel &#x200B;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
 1. Tester les informations d’identification en externe - Vérifiez vos informations d’identification directement avec l’API Meta pour confirmer que le problème est lié aux informations d’identification ou à la gestion des informations d’identification de Marketo Optimizer.
 

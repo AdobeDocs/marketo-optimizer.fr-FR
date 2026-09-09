@@ -2,9 +2,12 @@
 title: Configuration de l’intention
 description: Découvrez comment configurer les poids d’activité qui pilotent le modèle de score d’intention de la personne, des valeurs par défaut suggérées par l’IA à l’activation d’un modèle de pondération personnalisé.
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1322
@@ -52,7 +55,7 @@ La vue détaillée répertorie les activités liées à l’intention de l’ach
 
 Un champ de recherche filtre les lignes d’activité par nom. Le tableau lui-même :
 
-| [!UICONTROL Activité d’intention] | [!UICONTROL AI Suggéré ] | [!UICONTROL Pondération] | [!UICONTROL Réinitialiser] |
+| [!UICONTROL Activité d’intention] | [!UICONTROL AI Suggéré &#x200B;] | [!UICONTROL Pondération] | [!UICONTROL Réinitialiser] |
 | --- | --- | --- | --- |
 | Par exemple, Ajouter à l’opportunité, Remplir un formulaire, Cliquer sur l’e-mail, Cliquer sur le lien, Ouvrir l’e-mail, Se désabonner de l’e-mail, Visiter la page web, Poser des questions dans le webinaire, Téléchargements de ressources dans le webinaire, Moment intéressant, A répondu au sondage dans le webinaire, Mettre à jour l’opportunité | Lecture seule | Liste déroulante, modifiable sur les modèles Brouillons | Icône ↺**: réinitialise cette ligne sur la valeur Suggérée par l’IA** |
 

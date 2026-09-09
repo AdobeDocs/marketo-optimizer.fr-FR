@@ -2,9 +2,14 @@
 title: Personnages dérivés
 description: Utilisez les personnes dérivées dans Marketo Optimizer pour cibler les listes de personnes et les chemins de parcours. Découvrez les mappages de persona par défaut et le filtre de persona dérivé.
 TQID: 'https://experienceleague.adobe.com/5HAnnC6dbU-sE9dzBWs479z1H4LlNSkhhoNSrQxSfqI'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 625
@@ -79,7 +84,7 @@ Lors de la gestion des membres dans une [liste de personnes statique](./people-l
 
 ### Parcours de personne {#person-journeys}
 
-Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ ](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser un persona dérivé comme filtre de profil de personne pour contrôler quelles personnes entrent dans le chemin du parcours.
+Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ &#x200B;](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser un persona dérivé comme filtre de profil de personne pour contrôler quelles personnes entrent dans le chemin du parcours.
 
 ![Filtrage des personas dérivés pour une condition de chemin de partage](./assets/derived-persona-filter-split-path.png){width="750" zoomable="yes"}
 

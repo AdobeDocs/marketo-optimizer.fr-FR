@@ -2,8 +2,10 @@
 title: Informations de l’individu
 description: Affichez le profil, l’engagement et le résumé de l’intention générés par l’IA d’une personne, l’historique des activités, les attributs de profil et les détails de l’entreprise, et posez des questions à vos collaborateurs sur l’enregistrement dans Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/uEaZcSheX-jfY-IFnVknekph3A-Iya1aEQqygLlxD5s'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 690
@@ -75,7 +77,7 @@ Utilisez les commandes du panneau pour utiliser la chronologie :
 
 ## Onglet Attributs {#attributes-tab}
 
-![ Détails de la personne - Onglet Attributs ](./assets/people-list-person-details-attributes-tab.png){width="700" zoomable="yes"}
+![&#x200B; Détails de la personne - Onglet Attributs &#x200B;](./assets/people-list-person-details-attributes-tab.png){width="700" zoomable="yes"}
 
 L’onglet **[!UICONTROL Attributs]** affiche les champs de profil stockés de la personne sous la forme d’une liste de libellés/valeurs :
 

@@ -5,8 +5,11 @@ keywords:
 role: User
 feature: Channels
 TQID: 'https://experienceleague.adobe.com/fFvlOnp8hDF1RNOyohPWkc1whSG3T3deNrJ3RnEDzlo'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+  - id: d4203578-d294-5145-b397-f26f4488a904
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 680
@@ -63,8 +66,8 @@ Pour ouvrir la surface de conception [!DNL Adobe Connect], directement intégré
 
 1. Choisissez un **mode de diffusion** :
 
-   - **En direct** - Les présentateurs et présentatrices animent la session en temps réel.
-   - **Simulation en direct** - Le contenu préenregistré est lu à l’heure planifiée, avec le chat en direct, les sondages et les questions/réponses.
+   &#x200B;- **En direct** - Les présentateurs et présentatrices animent la session en temps réel.
+   &#x200B;- **Simulation en direct** - Le contenu préenregistré est lu à l’heure planifiée, avec le chat en direct, les sondages et les questions/réponses.
 
 1. Choisissez une **salle de webinaire**.
 
@@ -114,5 +117,5 @@ Avant de promouvoir le webinaire, exécutez une session de test pour confirmer q
 
 Vous pouvez modifier un webinaire une fois les enregistrements commencés, mais avec précaution :
 
-- La modification du planning peut déclencher des notifications de mise à jour pour les personnes déjà enregistrées. La possibilité de modifier les webinaires planifiés est configurable.
-- Les champs référencés par des jetons dans les e-mails en direct nécessitent une confirmation explicite pour la suppression, car cela interrompt le contenu déjà planifié pour l’envoi.
+&#x200B;- La modification du planning peut déclencher des notifications de mise à jour pour les personnes déjà enregistrées. La possibilité de modifier les webinaires planifiés est configurable.
+&#x200B;- Les champs référencés par des jetons dans les e-mails en direct nécessitent une confirmation explicite pour la suppression, car cela interrompt le contenu déjà planifié pour l’envoi.

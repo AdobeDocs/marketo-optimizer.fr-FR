@@ -4,9 +4,13 @@ description: Découvrez comment Adobe Marketo Optimizer applique automatiquement
 feature: Assets, Content
 role: User
 TQID: 'https://experienceleague.adobe.com/DI9vJhE4EsGI4g4X5wz5-kqTjHOZqs6cvqo6Fke-4HU'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: d4203578-d294-5145-b397-f26f4488a904
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 586
@@ -16,7 +20,7 @@ ht-degree: 0%
 
 # Métadonnées C2PA
 
-Les organisations marketing sont plus que jamais préoccupées par la transparence du contenu, la divulgation de l’IA et la prévention de l’altération des ressources. Le Content Authenticity Initiative (CAI) d’Adobe crée des outils conformes à la norme technique C2PA ([ Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model). Les _métadonnées C2PA_ sont des informations chiffrées et infalsifiables qui peuvent aider les utilisateurs à comprendre la traçabilité du contenu et à garantir l’intégrité des ressources de la marque. Ces informations incluent :
+Les organisations marketing sont plus que jamais préoccupées par la transparence du contenu, la divulgation de l’IA et la prévention de l’altération des ressources. Le Content Authenticity Initiative (CAI) d’Adobe crée des outils conformes à la norme technique C2PA ([&#x200B; Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model). Les _métadonnées C2PA_ sont des informations chiffrées et infalsifiables qui peuvent aider les utilisateurs à comprendre la traçabilité du contenu et à garantir l’intégrité des ressources de la marque. Ces informations incluent :
 
 * Émetteur ou signataire : informations sur l’entité ou la société qui a émis la signature numérique pour certifier ou signer la ressource.
 * Date d&#39;émission — Date à laquelle les métadonnées C2PA ont été appliquées à la ressource.

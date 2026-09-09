@@ -2,8 +2,10 @@
 title: Créer des modèles de notation personnalisés
 description: Créez, prévisualisez et publiez des modèles de notation de prospect personnalisés dans Marketo Optimizer à l’aide des compétences Scoring Studio dans l’interface de conversation des collaborateurs.
 TQID: 'https://experienceleague.adobe.com/OAY0CzFPTyUi7NCPbRnxGkG6nnndPygbwGlbv9u2oeA'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 468
@@ -18,7 +20,7 @@ ht-degree: 2%
 >title="Studio de notation"
 >abstract="Utilisez les compétences du Studio de notation pour créer, configurer et publier des modèles de notation de prospect personnalisés via l’interface de conversation des collègues."
 
-La compétence [_Studio de notation_ ](./skills.md#scoring-signals) de [!DNL Adobe Marketo Optimizer] fournit une solution de notation de prospect native à l’IA qui vous permet de créer, de configurer et de publier des modèles de notation de prospect. Studio associe un workflow piloté par un agent à une interface utilisateur visuelle. Vous pouvez créer des modèles de notation à l’aide d’invites en langage naturel dans l’interface de conversation [Coworker](./chat-interface.md) ou en interagissant directement avec les commandes de l’interface utilisateur.
+La compétence [_Studio de notation_ &#x200B;](./skills.md#scoring-signals) de [!DNL Adobe Marketo Optimizer] fournit une solution de notation de prospect native à l’IA qui vous permet de créer, de configurer et de publier des modèles de notation de prospect. Studio associe un workflow piloté par un agent à une interface utilisateur visuelle. Vous pouvez créer des modèles de notation à l’aide d’invites en langage naturel dans l’interface de conversation [Coworker](./chat-interface.md) ou en interagissant directement avec les commandes de l’interface utilisateur.
 
 * **Compétences** - `scoring-studio`
 * **Invocation** - Utilisez une barre oblique pour ouvrir Scoring Studio. Par exemple : _« open Scoring Studio.«_

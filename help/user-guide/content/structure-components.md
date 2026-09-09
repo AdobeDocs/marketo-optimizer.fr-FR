@@ -4,7 +4,8 @@ description: Utilisez les composants de structure pour la mise en page des e-mai
 feature: Content Design Tools
 role: User
 TQID: 'https://experienceleague.adobe.com/eOGHy4YuwsQwVGCTF18v-os4TZAJhdAvoWoGBA7t3v4'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1645
@@ -108,7 +109,7 @@ Après avoir ajouté un composant, il est sélectionné dans l’espace de conce
 
 Lorsque l’onglet _[!UICONTROL Styles]_ est sélectionné dans le panneau de droite, utilisez la section **[!UICONTROL Arrière-plan]** pour définir la couleur et l’image facultative à utiliser comme arrière-plan pour le composant de structure.
 
-#### [!UICONTROL  Couleur d’arrière-plan ]
+#### [!UICONTROL &#x200B; Couleur d’arrière-plan &#x200B;]
 
 Cochez la case et cliquez sur le carré de couleur pour choisir une couleur dans le sélecteur. Vous pouvez choisir une couleur en entrant une valeur RGB, HSL, HSB ou hexadécimale connue. Vous pouvez également utiliser le curseur de couleur et le champ de couleur pour sélectionner la couleur.
 
@@ -122,13 +123,13 @@ Déplacez le sélecteur pour activer les paramètres de l’image d’arrière-p
 
 Cliquez sur **[!UICONTROL Sélectionner une ressource]** pour ouvrir le sélecteur de ressources, où vous pouvez choisir une image dans la [bibliothèque Assets](./digital-asset-management.md#assets-authoring).
 
-Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
+Utilisez l’option **[!UICONTROL Emplacement de l’image]** pour choisir le remplissage du composant de structure par l’image. Les paramètres d’emplacement suivent les attributs standard de remplissage et d’alignement des images d’arrière-plan [&#128279;](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}.
 
 ![Aperçu du positionnement de l’image d’arrière-plan sur un composant de structure](assets/structure-component-styles-background-image.png){width="250"}
 
 ### Autres styles {#other-styles}
 
-Vous pouvez appliquer d’autres styles de composant de structure pour ajuster son affichage dans l’e-mail ou la page de destination. Pour définir un style qui va au-delà de ces options intégrées, consultez la section [ Ajouter un CSS personnalisé pour votre contenu ](./design-custom-css.md).
+Vous pouvez appliquer d’autres styles de composant de structure pour ajuster son affichage dans l’e-mail ou la page de destination. Pour définir un style qui va au-delà de ces options intégrées, consultez la section [&#x200B; Ajouter un CSS personnalisé pour votre contenu &#x200B;](./design-custom-css.md).
 
 +++Bord
 

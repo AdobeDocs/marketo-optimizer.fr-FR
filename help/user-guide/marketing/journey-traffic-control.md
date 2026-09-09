@@ -2,9 +2,15 @@
 title: Contrôle du trafic parcours
 description: Découvrez comment le contrôle du trafic de Parcours dans Marketo Optimizer utilise la notation par l’IA sur sept dimensions pondérées pour inscrire chaque personne dans son seul parcours le mieux adapté lorsque les audiences se chevauchent.
 TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1543
@@ -38,7 +44,7 @@ Le modèle évalue chaque combinaison de parcours de personne sur sept dimension
 | Ajustement micrographique | Attributs au niveau de l’entreprise (par exemple, secteur, taille et chiffre d’affaires). |
 | Correspondance démographique | Attributs démographiques au niveau de la personne. |
 | Alignement psychographique | Alignement basé sur les attitudes/préférences. |
-| Adaptation de l’engagement | Récence et profondeur de l’engagement ](../audiences/engagement-scores.md) de la personne.[ |
+| Adaptation de l’engagement | Récence et profondeur de l’engagement [&#128279;](../audiences/engagement-scores.md) de la personne. |
 
 Les dimensions pour lesquelles une personne ne dispose d’aucune donnée sont automatiquement ignorées, de sorte que la notation n’est jamais pénalisée en cas d’attributs manquants.
 
@@ -183,7 +189,7 @@ La vue _[!UICONTROL Par exécution]_ répertorie chaque exécution de contrôle 
 
 Utilisez la vue _Par parcours_ pour examiner la manière dont le contrôle du trafic a affecté un parcours donné. Le tableau indique, par parcours, le nombre de personnes évaluées, inscrites à ce parcours, déplacées vers d’autres parcours et déjà actives.
 
-![Contrôle du trafic par Parcours - Onglet Rapports - Par parcours ](./assets/journey-traffic-control-reporting-tab-by-journey.png){width="700" zoomable="yes"}
+![Contrôle du trafic par Parcours - Onglet Rapports - Par parcours &#x200B;](./assets/journey-traffic-control-reporting-tab-by-journey.png){width="700" zoomable="yes"}
 
 <!--
 Selecting a journey opens a detail panel:

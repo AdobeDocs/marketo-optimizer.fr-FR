@@ -2,9 +2,13 @@
 title: Types de programmes
 description: Créez et gérez des types de programmes qui définissent les attributs et les flux de statut des membres pour les programmes dans Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/Eepcnc51p-P-yoyylXBr47SF0xR-3pvZab2aHf9jdew'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: a659ad61-de21-559d-a901-02e2fb329ff5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 389
@@ -52,7 +56,7 @@ _Pour définir un type de programme personnalisé :_
    * Choisissez le **[!UICONTROL nom de l’API]** et saisissez le **[!UICONTROL nom d’affichage]**.
    * Cliquez sur **[!UICONTROL Enregistrer]**
 
-   ![ Attributs de type de programme ](./assets/program-type-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; Attributs de type de programme &#x200B;](./assets/program-type-attributes.png){width="600" zoomable="yes"}
 
 1. Définissez les étapes pour les **[!UICONTROL statuts du programme]**.
 

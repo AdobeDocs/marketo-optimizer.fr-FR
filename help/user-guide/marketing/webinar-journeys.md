@@ -5,9 +5,12 @@ keywords:
 role: User
 feature: Person Journeys
 TQID: 'https://experienceleague.adobe.com/9NJrT-Y66XXF1-mWDO80WpymCB6ujrkjkR87MhKuiB8'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 823
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 # Parcours de promotion et de suivi de webinaires
 
-Après avoir ajouté un webinaire à un programme, créez un ou plusieurs [parcours ](./person-journeys.md) dans ce même programme pour inviter des personnes, leur rappeler, animer la session et assurer un suivi par la suite.
+Après avoir ajouté un webinaire à un programme, créez un ou plusieurs [parcours &#x200B;](./person-journeys.md) dans ce même programme pour inviter des personnes, leur rappeler, animer la session et assurer un suivi par la suite.
 
 >[!NOTE]
 >
@@ -30,7 +33,7 @@ Un parcours de promotion type invite des personnes, suit leur inscription et leu
 
 1. [Créez le parcours de personne](./person-journeys.md#create-a-person-journey).
 
-1. [Sélectionnez une audience pour le parcours ](./person-audience-node.md).
+1. [Sélectionnez une audience pour le parcours &#x200B;](./person-audience-node.md).
 
 1. Ajoutez un nœud **[!UICONTROL Envoyer un e-mail]** avec un e-mail d’invitation.
 
@@ -67,7 +70,7 @@ Un parcours de promotion type invite des personnes, suit leur inscription et leu
 
 ## Personnaliser les e-mails
 
-Les jetons de webinaire s’affichent dans le contenu de l’e-mail : objet, corps, pré-titre et expéditeur. Consultez [ Jetons de webinaire ](webinars-overview.md#webinar-tokens) pour en savoir plus.
+Les jetons de webinaire s’affichent dans le contenu de l’e-mail : objet, corps, pré-titre et expéditeur. Consultez [&#x200B; Jetons de webinaire &#x200B;](webinars-overview.md#webinar-tokens) pour en savoir plus.
 
 >[!NOTE]
 >
