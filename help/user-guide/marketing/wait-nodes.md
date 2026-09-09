@@ -1,9 +1,12 @@
 ---
 title: Nœud d’attente
 description: 'Configurez les nœuds d’attente dans Marketo Optimizer : mettez en pause la progression du parcours par durée, date ou planification avancée des jours et des heures.'
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/W9j3kslXSLhHBPKfCPfI5ur90TKVIdx-sVJvoaquL3A'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66b
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: 706
 ht-degree: 0%
 
 ---
@@ -23,7 +26,7 @@ Vous pouvez définir le temps d’attente de deux manières différentes :
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Attendre]**.
 
-   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours ](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Pour définir le temps d’attente avant que le parcours ne passe au nœud suivant dans le chemin d’accès, utilisez les propriétés du nœud sur la droite pour définir le **[!UICONTROL Type]**.
 

@@ -4,10 +4,11 @@ description: Découvrez les concepts sous-jacents aux webinaires interactifs dan
 keywords: 
 role: User
 feature: Channels
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/rcaoljHUnCghXxc-W0LY5DYM-46-9jc5mz39208eMxE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 2%
@@ -31,7 +32,7 @@ Vous pouvez créer un webinaire de deux manières :
 
 ## Webinaire en tant que ressource
 
-Un webinaire est une ressource appartenant à un [programme](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), de la même manière qu’un e-mail ou une page de destination. L’ajout d’un webinaire à un programme l’y enregistre et rend ses jetons, attributs et activités disponibles pour chaque parcours et ressource de ce programme.
+Un webinaire est une ressource appartenant à un [programme](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), de la même manière qu’un e-mail ou une page de destination. L’ajout d’un webinaire à un programme l’y enregistre et rend ses jetons, attributs et activités disponibles pour chaque parcours et ressource de ce programme.
 
 >[!IMPORTANT]
 >
@@ -43,7 +44,7 @@ Pour toute personne qui est membre d&#39;un programme qui contient un webinaire,
 
 | État | Propriétaire | Valeurs |
 |---|---|---|
-| Statut de membre du programme | Programme | Configurable par [type de programme](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Statut de membre du programme | Programme | Configurable par [type de programme](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | État du webinaire | Ressource de webinaire | Invité, Inscrit, Participé, Pas d&#39;affichage, Sur demande |
 | état du parcours | Parcours | Nœud actuel, en pause, terminé et autres états d’exécution de parcours |
 
@@ -63,7 +64,7 @@ Le statut du webinaire comporte cinq valeurs. [!DNL Adobe Connect] définit norm
 >
 >Qu’il soit défini automatiquement ou à partir d’un parcours, le statut du webinaire ne bouge que dans une seule direction, de la même manière que le [statut du programme](./programs.md#statuses). Une personne peut passer à un état ultérieur (par exemple, _Enregistré_ à _Terminé_), mais pas revenir à un état antérieur. Planifiez le remplacement de l’auteur en gardant à l’esprit cette progression linéaire.
 
-Pour déplacer une personne entre les états d’un parcours, utilisez l’action **[!UICONTROL Modifier le statut du membre du webinaire]**. Voir parcours de promotion et de suivi de webinaires[&#128279;](webinar-journeys.md).
+Pour déplacer une personne entre les états d’un parcours, utilisez l’action **[!UICONTROL Modifier le statut du membre du webinaire]**. Voir parcours de promotion et de suivi de webinaires](webinar-journeys.md).[
 
 ## Jetons de webinaire
 
@@ -71,13 +72,13 @@ Les jetons de webinaire sont disponibles partout où vous personnalisez le conte
 
 Les jetons au niveau de la ressource se trouvent directement dans le dossier du webinaire :
 
-&#x200B;- Titre
-&#x200B;- Description
-&#x200B;- Start datetime, end datetime
-&#x200B;- Durée
-&#x200B;- Fuseau horaire
-&#x200B;- Présentateurs et présentatrices
-&#x200B;- URL d’enregistrement
+- Titre
+- Description
+- Start datetime, end datetime
+- Durée
+- Fuseau horaire
+- Présentateurs et présentatrices
+- URL d’enregistrement
 
 >[!NOTE]
 >
@@ -85,9 +86,9 @@ Les jetons au niveau de la ressource se trouvent directement dans le dossier du 
 
 Les jetons par destinataire résident dans un sous-dossier **Membre** :
 
-&#x200B;- **Statut** - Statut actuel du webinaire du destinataire (Invité, Enregistré, Avec participation, Sans affichage ou Avec participation à la demande). Voir [&#x200B; Statut du webinaire &#x200B;](#webinar-status).
-&#x200B;- **URL d’inscription** - Lien [!DNL Adobe Connect] personnel du destinataire. Ce problème est résolu uniquement après l’enregistrement de l’état du webinaire du destinataire, ou à une date ultérieure. Il se résout comme vide pour quiconque à un stade antérieur.
-&#x200B;- **URL d’enregistrement** - Se résout après la publication de l’enregistrement après la session active et reste vide jusqu’à ce moment-là. Utilisez-le de manière conditionnelle dans les e-mails postérieurs au webinaire afin qu’un lien n’apparaisse pas avant qu’un enregistrement ne soit à afficher.
+- **Statut** - Statut actuel du webinaire du destinataire (Invité, Enregistré, Avec participation, Sans affichage ou Avec participation à la demande). Voir [ Statut du webinaire ](#webinar-status).
+- **URL d’inscription** - Lien [!DNL Adobe Connect] personnel du destinataire. Ce problème est résolu uniquement après l’enregistrement de l’état du webinaire du destinataire, ou à une date ultérieure. Il se résout comme vide pour quiconque à un stade antérieur.
+- **URL d’enregistrement** - Se résout après la publication de l’enregistrement après la session active et reste vide jusqu’à ce moment-là. Utilisez-le de manière conditionnelle dans les e-mails postérieurs au webinaire afin qu’un lien n’apparaisse pas avant qu’un enregistrement ne soit à afficher.
 
 >[!NOTE]
 >

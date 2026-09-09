@@ -1,9 +1,11 @@
 ---
 title: Création de contenu - Composants (Prime)
 description: Section réutilisée à propos de l’utilisation de composants et d’éléments de contenu pour la création de contenu dans Marketo Optimizer
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/7EU78PMciq8nvrkohzXERfWQMCqpHDse7gfaM-A8U0w'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: 245
 ht-degree: 2%
 
 ---
@@ -42,4 +44,4 @@ ht-degree: 2%
 
 1. Pour ajouter du contenu conditionnel et adapter le contenu aux profils ciblés en fonction de règles conditionnelles, sélectionnez un composant de contenu et cliquez sur l’icône **[!UICONTROL Activer le contenu conditionnel]** dans la barre d’outils du composant.
 
-   Pour plus d’informations, voir [&#x200B; Contenu conditionnel &#x200B;](../user-guide/content/conditional-content.md).
+   Pour plus d’informations, voir [ Contenu conditionnel ](../user-guide/content/conditional-content.md).

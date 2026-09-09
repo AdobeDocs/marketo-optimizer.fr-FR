@@ -3,9 +3,13 @@ title: Conception de la page de destination
 description: 'Concevoir des pages de destination avec des outils visuels : ajoutez des composants de contenu, des formulaires, du code CSS personnalisé, de la personnalisation et un aperçu d’appareil pour les parcours de personne dans Marketo Optimizer.'
 feature: Landing Pages, Content Design Tools
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/zb7rXCj7iWnk8Src1sWLZaYgRa35GjqGxXXu0pTJ-ds'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: 556
 ht-degree: 2%
 
 ---
@@ -26,7 +30,7 @@ Avec au moins un composant de contenu dans la zone de travail, sélectionnez le 
 
 ![Accès aux styles de corps](assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
-Voir [&#x200B; Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
+Voir [ Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
 
 ### Ajout de ressources {#add-assets}
 
@@ -53,7 +57,7 @@ _Pour ajouter de la personnalisation :_
 1. Ajoutez une valeur de secours pour gérer les données manquantes, si nécessaire.
 1. Cliquez sur **[!UICONTROL Confirmer]** ou **[!UICONTROL Insérer]**. L’expression apparaît en ligne dans le champ.
 
-Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Éditeur &#x200B;](./personalization-expressions.md).
+Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Éditeur ](./personalization-expressions.md).
 
 ### Modifier le tracking des URL liées {#linked-url-tracking}
 

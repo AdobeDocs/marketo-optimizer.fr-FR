@@ -1,10 +1,14 @@
 ---
 title: Règles métier
 description: Créez et gérez des ensembles de règles pour appliquer le capping de la fréquence et des règles d’heures creuses qui contrôlent la fréquence et le moment où les clients reçoivent les messages marketing.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/uLuI4cGbmaY4O0AEtf5tCT-czPl0AsY-44t2lU2xbrQ'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2965'
-ht-degree: 35%
+source-wordcount: 2965
+ht-degree: 37%
 
 ---
 
@@ -65,7 +69,7 @@ Pour désactiver une règle, cliquez sur l’icône _Désactiver_ ( ![Icône Dé
 >
 >La désactivation d’une règle ou d’un jeu de règles n’affecte ou ne réinitialise aucun comptage sur les profils individuels.
 
-## Création et activation d’ensembles de règles personnalisés {#create}
+## Créer et activer des ensembles de règles personnalisées {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_domain"
@@ -80,12 +84,12 @@ Pour désactiver une règle, cliquez sur l’icône _Désactiver_ ( ![Icône Dé
 >[!CONTEXTUALHELP]
 >id="ajob2b-prime_rule_type"
 >title="Type de règle"
->abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’une communication par e-mail ou SMS par jour. Sélectionnez **Heures creuses** pour définir des exclusions basées sur l’heure afin de vous assurer qu’aucun message n’est envoyé pendant certaines périodes."
+>abstract="Sélectionnez le type de règle souhaité pour votre jeu de règles de canal : utilisez le type **Capping de la fréquence** pour appliquer des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’un e-mail ou d’un SMS par jour. Sélectionnez **Heures creuses** pour définir des exclusions basées sur l’heure afin de vous assurer qu’aucun message n’est envoyé pendant certaines périodes."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_duration"
->title="Réinitialiser la fréquence de limitation"
->abstract="Sélectionnez la période de calendrier utilisée pour réinitialiser le compteur de limitation : horaire, quotidien, hebdomadaire ou mensuel. Le compteur se réinitialise automatiquement à 0 au début de chaque nouvelle période."
+>title="Réinitialiser le capping de la fréquence"
+>abstract="Sélectionnez la période de calendrier utilisée pour réinitialiser le compteur de capping de la fréquence : horaire, quotidien, hebdomadaire ou mensuel. Le compteur se réinitialise automatiquement à 0 au début de chaque nouvelle période."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_rule_capping"
@@ -105,7 +109,7 @@ Pour désactiver une règle, cliquez sur l’icône _Désactiver_ ( ![Icône Dé
 
 1. Sur la page de liste _[!UICONTROL Jeux de règles]_, cliquez sur **[!UICONTROL Créer un jeu de règles]** en haut à droite.
 
-   ![&#x200B; Boîte de dialogue Créer un jeu de règles &#x200B;](./assets/business-rules-create-rule-set-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un jeu de règles ](./assets/business-rules-create-rule-set-dialog.png){width="400"}
 
 1. Saisissez un **[!UICONTROL Nom]** unique (obligatoire) pour le jeu de règles et ajoutez un **[!UICONTROL Description]** (facultatif).
 
@@ -132,7 +136,7 @@ Après avoir créé l’ensemble de règles, ajoutez chaque règle à inclure.
 
    Les paramètres disponibles pour la règle dépendent du domaine du jeu de règles sélectionné à sa création.
 
-   ![Paramètres de règle définis pour une règle de limite d’entrée de parcours &#x200B;](./assets/business-rules-journey-entry-cap.png){width="700" zoomable="yes"}
+   ![Paramètres de règle définis pour une règle de limite d’entrée de parcours ](./assets/business-rules-journey-entry-cap.png){width="700" zoomable="yes"}
 
    Vous trouverez des informations détaillées sur la configuration du parcours et des règles de canal dans les sections suivantes :
 
@@ -174,7 +178,7 @@ Vous pouvez appliquer l’ensemble de règles actif à un message ou à un parco
 
 ## Capping de la fréquence par canal {#frequency-capping}
 
-Définissez des limites de fréquence par canal et type de communication pour limiter le nombre de messages reçus par un profil et éviter de surcharger les clients avec des communications similaires. Les ensembles de règles de canal appliquent des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’une communication par e-mail ou SMS par jour.
+Définissez des limites de fréquence par canal et type de communication pour limiter le nombre de messages reçus par un profil et éviter de surcharger les clients avec des communications similaires. Les ensembles de règles de canal appliquent des règles de limitation aux canaux de communication. Par exemple, n’envoyez pas plus d’un e-mail ou d’un SMS par jour.
 
 L’utilisation des jeux de règles de canal vous permet de définir un capping de fréquence par type de communication afin d’éviter d’envoyer trop de messages similaires aux clientes et aux clients. Vous pouvez par exemple créer un jeu de règles pour limiter le nombre de _communications promotionnelles_ envoyées à votre clientèle et créer un autre jeu de règles pour limiter le nombre de _newsletters_ qu’elle reçoit. Vous pouvez ensuite choisir d’appliquer l’ensemble de règles de communication promotionnelle ou de newsletters.
 
@@ -182,11 +186,11 @@ L’utilisation des jeux de règles de canal vous permet de définir un capping 
 >
 >Pour garantir le bon fonctionnement de la limitation au niveau des canaux, veillez à choisir l’espace de noms avec la priorité la plus élevée lors de la création d’un parcours. Pour en savoir plus sur la priorité des espaces de noms, consultez le [guide sur le service d’identités Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}.
 
-### Créer une règle de limitation de canal {#create-capping-rule}
+### Créer une règle de capping de la fréquence de canal {#create-capping-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
->title="Définir les canaux auxquels la règle s’applique"
+>title="Définissez les canaux auxquels la règle s’applique."
 >abstract="Sélectionnez au moins un canal. La limitation est calculée sur l’ensemble des canaux."
 
 1. Sélectionnez l’ensemble de règles de canal auquel vous souhaitez ajouter la règle de limitation ou créez un ensemble de règles de canal.

@@ -1,9 +1,12 @@
 ---
 title: Contenu conditionnel
 description: Créez des variantes de contenu dynamiques avec des règles conditionnelles basées sur des attributs et des événements de profil pour les e-mails et fragments personnalisés dans Marketo Optimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/-zyX02yagsaPV4Oc-1JQWUzSUZWDLiyIiQCyyy0EDiE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: 1081
 ht-degree: 8%
 
 ---
@@ -71,7 +74,7 @@ Lorsque vous créez un [fragment](./fragment-authoring.md) ou un [e-mail](./emai
 
    Saisissez un nom significatif pour la variante qui vous permet d’identifier la variante et son intention.
 
-   ![&#x200B; Renommer la variante &#x200B;](assets/conditions-variant-rename.png){width="600" zoomable="yes"}
+   ![ Renommer la variante ](assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. Avec la variante sélectionnée dans le volet de gauche, modifiez le composant pour modifier la manière dont il apparaît dans le message lorsque la condition est remplie.
 
@@ -136,7 +139,7 @@ Accédez au créateur de règles conditionnelles à partir de l’espace de conc
 
    * **[!UICONTROL Audiences]** - Répertorie toutes les audiences générées à partir des définitions de segment créées dans le service Adobe Experience Platform Segmentation.
 
-   ![&#x200B; Boîte de dialogue Créer une condition &#x200B;](./assets/conditions-rule-create.png){width="700" zoomable="yes"}
+   ![ Boîte de dialogue Créer une condition ](./assets/conditions-rule-create.png){width="700" zoomable="yes"}
 
 1. Créez la règle conditionnelle selon vos besoins.
 

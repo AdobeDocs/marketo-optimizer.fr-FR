@@ -1,23 +1,26 @@
 ---
 title: Nœuds de Parcours de la personne
 description: 'Découvrez les nœuds de parcours de personne dans Marketo Optimizer : audience, actions, événements, attentes, divisions de chemin et routage du prochain meilleur chemin piloté par l’IA.'
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/DXva-JytBjj7MHwYeeYfsR2GYomHdj5NZWZk0kgdv1M'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
 
 # Nœuds de parcours de la personne
 
-Après avoir créé un parcours de personne[&#128279;](./person-journeys.md), utilisez les outils de la zone de travail pour ajouter l’audience et créer le parcours à l’aide de nœuds. La zone de travail de parcours fournit un espace de conception visuel, où vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes.
+Après avoir créé un parcours de personne](./person-journeys.md), utilisez les outils de la zone de travail pour ajouter l’audience et créer le parcours à l’aide de nœuds. [La zone de travail de parcours fournit un espace de conception visuel, où vous pouvez créer vos cas d’utilisation marketing B2B à plusieurs étapes.
 
 Le nœud _[!UICONTROL Personne]_ est automatiquement le premier nœud du parcours. Une fois l’audience sélectionnée, créez votre parcours en combinant les différents nœuds d’action, d’événement et de prise de décision sous la forme d’un scénario cross-canal à plusieurs étapes. Chaque nœud d’un parcours représente une étape le long d’un chemin logique.
 
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=fr) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 Nœud d’audience de personne
 
@@ -27,7 +30,7 @@ Le parcours commence toujours par un nœud d’audience de personne. Définissez
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 Nœuds d’action
 
@@ -37,7 +40,7 @@ Appliquez les modifications à chaque personne sur un chemin, comme l’envoi d�
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 Nœuds d’événement
 
@@ -47,7 +50,7 @@ Faites passer l’utilisateur à l’étape de parcours suivante lorsqu’une ac
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 Nœuds d’attente
 
@@ -57,7 +60,7 @@ Mettre en pause la progression du parcours pendant une durée définie ou jusqu�
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 Nœuds de chemins de division et de fusion
 
@@ -67,7 +70,7 @@ Segmentez les personnes dans des chemins distincts en fonction de conditions, ap
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=fr) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 Nœud du meilleur chemin suivant
 

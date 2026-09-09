@@ -1,9 +1,13 @@
 ---
 title: Scores d’engagement des personnes
 description: Calculez les scores d’engagement des personnes pour les prospects à l’aide des activités pondérées et d’une fenêtre de notation de 30 jours dans Marketo Optimizer.
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/I3yy5e-o3lFJh8gHjJ7ZOGakEbD12RhAYenGzR2qZd0'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: 1515
 ht-degree: 8%
 
 ---
@@ -118,7 +122,7 @@ Lors de la gestion des membres dans une [liste de personnes statique](./people-l
 
 ### Parcours de personne {#person-journeys}
 
-Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ &#x200B;](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser le score d’engagement de la personne comme filtre de profil de personne pour contrôler quelles personnes rejoignent le chemin du parcours.
+Lorsque vous configurez la segmentation d’un parcours de personne dans un nœud [_Partage de chemins_ ](../marketing/split-merge-paths-nodes.md), vous pouvez utiliser le score d’engagement de la personne comme filtre de profil de personne pour contrôler quelles personnes rejoignent le chemin du parcours.
 
 ![Filtrage de l’engagement des personnes pour une condition de chemin de partage](./assets/engagement-score-filter-split-path.png){width="700" zoomable="yes"}
 
@@ -136,7 +140,7 @@ Lorsque vous configurez la segmentation d’un parcours de personne dans un nœu
 
 Dans [!DNL Marketo Optimizer], vous pouvez configurer la pondération du score d’engagement directement à partir de l’interface de conversation [Coworker](../agents/chat-interface.md).
 
-Pour obtenir des informations sur les modèles de score d’engagement, les bandes de pondération et les poids d’activité, voir [Configurer la pondération de score d’engagement personnalisé](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
+Pour obtenir des informations sur les modèles de score d’engagement, les bandes de pondération et les poids d’activité, voir [Configurer la pondération de score d’engagement personnalisé](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting).
 
 1. Ouvrez le panneau de conversation **[!UICONTROL Coworker]** dans la partie gauche de l’écran (icône de conversation).
 
