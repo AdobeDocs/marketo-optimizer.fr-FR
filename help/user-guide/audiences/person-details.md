@@ -1,9 +1,14 @@
 ---
 title: Informations de l’individu
 description: Affichez le profil, l’engagement et le résumé de l’intention générés par l’IA d’une personne, l’historique des activités, les attributs de profil et les détails de l’entreprise, et posez des questions à vos collaborateurs sur l’enregistrement dans Marketo Optimizer.
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/uEaZcSheX-jfY-IFnVknekph3A-Iya1aEQqygLlxD5s'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: 690
 ht-degree: 8%
 
 ---
@@ -97,7 +102,7 @@ L’onglet **[!UICONTROL Attributs]** affiche les champs de profil stockés de l
 L’onglet **[!UICONTROL Société]** affiche des données firmographiques associées à la société de la personne :
 
 * Société
-* Secteur
+* Secteur industriel
 * Revenus annuels
 * Rue de facturation
 * Ville de facturation

@@ -1,9 +1,14 @@
 ---
 title: Conception de formulaire
 description: Concevez des formulaires avec des types de champs, une validation, un style et des attributs de schéma XDM pour la collecte de données métier dans Marketo Optimizer.
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/NyFwttqh2J9hkgS4tE9B-R2GCsZnsJXwoIX27yV-epA'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: 2177
 ht-degree: 2%
 
 ---
