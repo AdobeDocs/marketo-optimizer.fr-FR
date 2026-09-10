@@ -1,8 +1,10 @@
 ---
 title: Studio de notation
 description: Découvrez Scoring Studio dans Adobe Marketo Optimizer, notamment la liste des modèles, la zone de travail, les colonnes de dimension, les cartes de signal, les segments de piste et la publication.
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
 source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
 source-wordcount: 897
