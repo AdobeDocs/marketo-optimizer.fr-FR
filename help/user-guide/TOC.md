@@ -3,9 +3,9 @@ user-guide-title: Documentation Marketo Optimizer
 user-guide-description: Découvrez Adobe Marketo Optimizer et comment l’utiliser pour exécuter un engagement marketing et commercial coordonné avec du contenu personnalisé optimisé par l’IA pour les prospects et les comptes B2B.
 hide: true
 nudge: red
-source-git-commit: 8b3ea5f52fc50ea6c995ace44dece90247deff8b
+source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 43%
 
 ---
@@ -31,12 +31,12 @@ ht-degree: 43%
   + [Surveillance et débogage de la progression du parcours](./agents/journey-observability.md)
   + [Configurer et analyser l’intention](./agents/intent.md)
 + Prise de décision par l’IA {#ai-decisioning}
-  + [Présentation](./agents/ai-decisioning.md)
+  + [Vue d’ensemble](./agents/ai-decisioning.md)
   + [Santé de la prise de décision par l’IA](./agents/ai-decisioning-health.md)
 + Gestion marketing {#marketing-management}
   + [Présentation](./marketing/marketing-management.md)
   + Programmes {#programs}
-    + [Vue d’ensemble](./marketing/programs.md)
+    + [Présentation](./marketing/programs.md)
     + [Jetons personnalisés pour la personnalisation](./marketing/personalization-my-tokens.md)
   + [Parcours de personne](./marketing/person-journeys.md)
   + Zone de travail et nœuds de parcours {#journey-nodes}
@@ -48,7 +48,7 @@ ht-degree: 43%
     + [Fractionner et fusionner les chemins](./marketing/split-merge-paths-nodes.md)
     + [Deuxième meilleur chemin](./marketing/next-best-path.md)
   + Canal e-mail {#email-channel}
-    + [Présentation](./marketing/email-channel.md)
+    + [Vue d’ensemble](./marketing/email-channel.md)
     + [Optimisation de l’heure d’envoi des e-mails](./marketing/email-send-time-optimization.md)
     + [Création de contenu](./content/email-authoring.md)
     + [Conception du mode sombre](./content/email-dark-mode.md)
@@ -68,17 +68,17 @@ ht-degree: 43%
   + [Destinations](./audiences/destinations.md)
 + Contenu {#content}
   + Ressources {#assets}
-    + [Vue d’ensemble](./content/digital-asset-management.md)
+    + [Présentation](./content/digital-asset-management.md)
     + [Métadonnées C2PA](./content/c2pa-metadata.md)
   + Modèles {#templates}
-    + [Présentation](./content/templates.md)
+    + [Vue d’ensemble](./content/templates.md)
     + [Création de modèles](./content/templates-create.md)
     + [Gouvernance du contenu](./content/template-content-governance.md)
   + Fragments {#visual-fragments}
     + [Vue d’ensemble](./content/fragments.md)
     + [Création de fragments](./content/fragment-authoring.md)
   + Pages de destination {#landing-pages}
-    + [Vue d’ensemble](./content/landing-pages.md)
+    + [Présentation](./content/landing-pages.md)
     + [Créer et publier des pages de destination](./content/landing-pages-create-publish.md)
     + [Création de la page de destination](./content/landing-page-design.md)
   + Formulaires {#forms}
@@ -90,6 +90,7 @@ ht-degree: 43%
     + [Composants de structure](./content/structure-components.md)
     + [Composants de contenu](./content/content-components.md)
     + [CSS personnalisé](./content/design-custom-css.md)
++ [Studio de notation](./labs/scoring-studio.md)
 + [Gestion de la confidentialité](./admin/privacy-management.md)
 + Administration {#admin}
   + Canaux {#channels}

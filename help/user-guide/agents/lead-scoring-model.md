@@ -6,7 +6,7 @@ product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
 source-wordcount: 468
 ht-degree: 2%
@@ -60,7 +60,7 @@ Vous pouvez créer et configurer des modèles entièrement via Coworker à l’a
 Lorsque votre modèle est finalisé, demandez à votre collègue de le publier. Le processus de publication gère automatiquement les éléments suivants :
 
 | Étape | Ce qui se passe |
-|---|---|
+| --- | --- |
 | **Compilation des règles** | Toutes les règles de notation sont compilées et validées |
 | **Création de la tâche de score** | Une tâche de score planifiée est créée et configurée pour s’exécuter quotidiennement |
 
