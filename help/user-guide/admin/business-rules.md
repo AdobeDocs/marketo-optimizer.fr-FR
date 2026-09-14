@@ -4,21 +4,26 @@ description: Créez et gérez des ensembles de règles pour appliquer le capping
 TQID: 'https://experienceleague.adobe.com/uLuI4cGbmaY4O0AEtf5tCT-czPl0AsY-44t2lU2xbrQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: 2965
+source-wordcount: '2965'
 ht-degree: 37%
-
 ---
-
 # Règles métier {#business-rules}
 
 >[!CONTEXTUALHELP]
@@ -116,7 +121,7 @@ Pour désactiver une règle, cliquez sur l’icône _Désactiver_ ( ![Icône Dé
 
 1. Sur la page de liste _[!UICONTROL Jeux de règles]_, cliquez sur **[!UICONTROL Créer un jeu de règles]** en haut à droite.
 
-   ![&#x200B; Boîte de dialogue Créer un jeu de règles &#x200B;](./assets/business-rules-create-rule-set-dialog.png){width="400"}
+   ![ Boîte de dialogue Créer un jeu de règles ](./assets/business-rules-create-rule-set-dialog.png){width="400"}
 
 1. Saisissez un **[!UICONTROL Nom]** unique (obligatoire) pour le jeu de règles et ajoutez un **[!UICONTROL Description]** (facultatif).
 
@@ -143,7 +148,7 @@ Après avoir créé l’ensemble de règles, ajoutez chaque règle à inclure.
 
    Les paramètres disponibles pour la règle dépendent du domaine du jeu de règles sélectionné à sa création.
 
-   ![Paramètres de règle définis pour une règle de limite d’entrée de parcours &#x200B;](./assets/business-rules-journey-entry-cap.png){width="700" zoomable="yes"}
+   ![Paramètres de règle définis pour une règle de limite d’entrée de parcours ](./assets/business-rules-journey-entry-cap.png){width="700" zoomable="yes"}
 
    Vous trouverez des informations détaillées sur la configuration du parcours et des règles de canal dans les sections suivantes :
 
