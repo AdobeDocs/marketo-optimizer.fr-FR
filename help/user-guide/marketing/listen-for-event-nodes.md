@@ -42,9 +42,9 @@ Vous pouvez créer des déclencheurs d’événement autour des activités [!DNL
 * [!UICONTROL Remplit un formulaire Marketo Engage] - Se déclenche lorsqu’un prospect envoie un formulaire [!DNL Marketo Engage] spécifié.
 * [!UICONTROL Page web Marketo Engage des visites] - Se déclenche lorsqu’un prospect avec un cookie de suivi Munchkin visite une page web spécifiée.
 * [!UICONTROL Lien des clics sur la page web Marketo Engage] - Se déclenche lorsqu’un prospect clique sur un lien hypertexte suivi sur une page web sur laquelle est installé le code de suivi Munchkin [!DNL Marketo Engage].
-* [!UICONTROL L’e-mail Marketo Engage est diffusé ] - Se déclenche lorsque le serveur de messagerie (MX) d’un prospect renvoie une réponse de succès (un message 250 OK) au serveur d’envoi [!DNL Marketo Engage].
-* [!UICONTROL Bounces d&#39;e-mails Marketo Engage ] - Se déclenche lorsqu&#39;un serveur de messagerie cible rejette un e-mail [!DNL Marketo Engage] envoyé en tant qu&#39;erreur permanente, comme un utilisateur non valide ou un domaine inconnu.
-* [!UICONTROL Rebonds d&#39;email Marketo Engage soft ] - Se déclenche lorsqu&#39;un serveur de messagerie cible rejette un email [!DNL Marketo Engage] envoyé comme problème temporaire (par exemple serveur occupé ou boîte pleine). [!DNL Marketo Engage] tente automatiquement de relancer les soft bounces jusqu’à trois fois via les serveurs MX avant de signaler les problèmes.
+* [!UICONTROL L’e-mail Marketo Engage est diffusé &#x200B;] - Se déclenche lorsque le serveur de messagerie (MX) d’un prospect renvoie une réponse de succès (un message 250 OK) au serveur d’envoi [!DNL Marketo Engage].
+* [!UICONTROL Bounces d&#39;e-mails Marketo Engage &#x200B;] - Se déclenche lorsqu&#39;un serveur de messagerie cible rejette un e-mail [!DNL Marketo Engage] envoyé en tant qu&#39;erreur permanente, comme un utilisateur non valide ou un domaine inconnu.
+* [!UICONTROL Rebonds d&#39;email Marketo Engage soft &#x200B;] - Se déclenche lorsqu&#39;un serveur de messagerie cible rejette un email [!DNL Marketo Engage] envoyé comme problème temporaire (par exemple serveur occupé ou boîte pleine). [!DNL Marketo Engage] tente automatiquement de relancer les soft bounces jusqu’à trois fois via les serveurs MX avant de signaler les problèmes.
 * [!UICONTROL Désabonnements des e-mails Marketo Engage] - Se déclenche lorsqu’un prospect se désinscrit des e-mails marketing non opérationnels. Lorsqu’il est déclenché, [!DNL Marketo Engage] met automatiquement à jour la valeur du champ de `Unsubscribed` du prospect vers `true`, en les supprimant des futurs envois d’e-mail standard.
 * [!UICONTROL Ouvre l’e-mail Marketo Engage] - Se déclenche lorsqu’un prospect ouvre un e-mail [!DNL Marketo Engage] suivi.
 * [!UICONTROL Clics sur le lien dans l’e-mail Marketo Engage] - Se déclenche lorsqu’un prospect clique sur un lien (ou un lien limité spécifique) contenu dans un e-mail [!DNL Marketo Engage].
@@ -84,7 +84,7 @@ Vous pouvez créer des filtres d’événement autour des activités [!DNL Marke
 * [!UICONTROL E-mail Marketo Engage envoyé] - Correspond aux prospects auxquels [!DNL Marketo Engage] avez tenté d’envoyer un e-mail spécifique, en tenant compte des actions de déploiement avant les hard bounces ou les acceptations de serveur.
 * [!UICONTROL E-mail Marketo Engage diffusé] - Correspond aux prospects dont le serveur de messagerie (MX) a renvoyé une réponse de succès (message 250 OK) au serveur d’envoi [!DNL Marketo Engage].
 * [!UICONTROL E-mail Marketo Engage non envoyé] - Correspond aux leads qui ont subi un hard bounce (échec de diffusion permanent) lors d’un envoi d’e-mail spécifique ou au cours d’une période donnée.
-* [!UICONTROL Marketo Engage email bounce soft ] - Correspond aux leads dont les e-mails ont subi un échec de diffusion temporaire (comme une boîte de réception pleine ou un serveur hors ligne) plutôt qu&#39;un hard bounce permanent.
+* [!UICONTROL Marketo Engage email bounce soft &#x200B;] - Correspond aux leads dont les e-mails ont subi un échec de diffusion temporaire (comme une boîte de réception pleine ou un serveur hors ligne) plutôt qu&#39;un hard bounce permanent.
 * [!UICONTROL Désabonnement des e-mails Marketo Engage] - Correspond aux prospects qui se sont désabonnés des e-mails marketing non opérationnels. Dans ce cas, [!DNL Marketo Engage] met automatiquement à jour la valeur du champ `Unsubscribed` du prospect sur `true`, en les supprimant des futurs envois d’e-mail standard.
 * [!UICONTROL E-mail Marketo Engage ouvert] - Correspond aux prospects qui ont ouvert un e-mail [!DNL Marketo Engage] suivi.
 * [!UICONTROL Lien cliqué dans l’e-mail Marketo Engage] - Correspond aux prospects qui ont cliqué sur un lien (ou un lien spécifique) dans un e-mail [!DNL Marketo Engage].
@@ -97,7 +97,7 @@ Vous pouvez créer des filtres d’événement autour des activités [!DNL Marke
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin et choisissez **[!UICONTROL Écouter un événement]**.
 
-   ![Cliquez sur Ajouter une icône sur le chemin du parcours ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Dans les propriétés de nœud sur la droite, cliquez sur **[!UICONTROL Ajouter des critères d’événement]**.
 
@@ -127,6 +127,6 @@ Vous pouvez créer des filtres d’événement autour des activités [!DNL Marke
 
    Activez l’option **[!UICONTROL Temporisation]** et sélectionnez la durée pendant laquelle le parcours attend qu’un événement se produise avant d’expirer.
 
-   ![Options de délai d’expiration activées pour le nœud Écouter le parcours d’événement ](./assets/person-journey-event-node-timeout.png){width="550" zoomable="yes"}
+   ![Options de délai d’expiration activées pour le nœud Écouter le parcours d’événement &#x200B;](./assets/person-journey-event-node-timeout.png){width="550" zoomable="yes"}
 
    Vous pouvez choisir de terminer le chemin ici ou d’effectuer une autre action en définissant un autre chemin. Pour créer un nouveau chemin dans le parcours où vous pouvez ajouter des actions et des événements applicables aux profils lorsque l’événement ne se produit pas, cochez la case **[!UICONTROL Définir le chemin de temporisation]**.

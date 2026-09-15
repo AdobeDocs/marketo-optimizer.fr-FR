@@ -25,7 +25,7 @@ Un nœud Chemins partagés définit un ou plusieurs chemins segmentés en foncti
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**Fonctionnement d’un nœud de chemin de division**_
+_&#x200B;**Fonctionnement d’un nœud de chemin de division**&#x200B;_
 
 * L’évaluation de chaque chemin s’effectue de haut en bas. Si une personne correspond au premier et au second chemin, elle continue uniquement le long du premier chemin.
 * Le nœud prend en charge la définition d’un chemin _Autres personnes_, où vous pouvez ajouter des actions ou des événements pour les personnes qui ne correspondent pas à l’un des segments/chemins définis.
@@ -63,7 +63,7 @@ Vous pouvez créer des conditions autour des activités [!DNL Marketo Engage] su
 * [!UICONTROL E-mail Marketo Engage envoyé] - Correspond aux prospects auxquels [!DNL Marketo Engage] avez tenté d’envoyer un e-mail spécifique, en tenant compte des actions de déploiement avant les hard bounces ou les acceptations de serveur.
 * [!UICONTROL E-mail Marketo Engage diffusé] - Correspond à un prospect dont le serveur de messagerie (MX) a renvoyé une réponse de succès (message 250 OK) au serveur d’envoi [!DNL Marketo Engage].
 * [!UICONTROL E-mail Marketo Engage retourné] - Correspond aux leads qui ont subi un hard bounce (échec de diffusion permanent) lors d’un envoi d’e-mail spécifique ou au cours d’une période donnée.
-* [!UICONTROL Marketo Engage email bounce soft ] - Correspond aux leads dont les e-mails ont subi un échec de diffusion temporaire (comme une boîte de réception pleine ou un serveur hors ligne) plutôt qu&#39;un hard bounce permanent.
+* [!UICONTROL Marketo Engage email bounce soft &#x200B;] - Correspond aux leads dont les e-mails ont subi un échec de diffusion temporaire (comme une boîte de réception pleine ou un serveur hors ligne) plutôt qu&#39;un hard bounce permanent.
 * [!UICONTROL Désabonnement des e-mails Marketo Engage] - Correspond aux prospects qui se sont désabonnés des e-mails marketing non opérationnels. Dans ce cas, [!DNL Marketo Engage] met automatiquement à jour la valeur du champ `Unsubscribed` du prospect sur `true`, en les supprimant des futurs envois d’e-mail standard.
 * [!UICONTROL E-mail Marketo Engage ouvert] - Correspond aux prospects qui ont ouvert un e-mail [!DNL Marketo Engage] suivi.
 * [!UICONTROL Lien cliqué dans l’e-mail Marketo Engage] - Correspond aux prospects qui ont cliqué sur un lien (ou un lien spécifique) dans un e-mail [!DNL Marketo Engage].
@@ -76,7 +76,7 @@ Vous pouvez créer des conditions autour des activités [!DNL Marketo Engage] su
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Fractionner les chemins]**.
 
-   ![Cliquez sur Ajouter une icône sur le chemin du parcours ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Pour définir une condition applicable à _[!UICONTROL Chemin 1]_, cliquez sur **[!UICONTROL Appliquer la condition]**.
 
