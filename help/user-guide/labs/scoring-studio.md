@@ -3,15 +3,15 @@ title: Studio de notation
 description: Découvrez Scoring Studio dans Adobe Marketo Optimizer, notamment la liste des modèles, la zone de travail, les colonnes de dimension, les cartes de signal, les segments de piste et la publication.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
+    internal-label: Chat Interface
+source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
 workflow-type: tm+mt
-source-wordcount: 897
+source-wordcount: '897'
 ht-degree: 2%
-
 ---
-
 
 # Studio de notation
 
@@ -20,6 +20,8 @@ Scoring Studio comprend une liste de modèles, une zone de travail modifiable po
 ## Liste de modèles {#model-list}
 
 La liste des modèles est la vue de destination de Scoring Studio. Il affiche chaque modèle de score de votre instance de [!DNL Marketo Optimizer] sous forme de lignes dans un tableau ou de cartes si vous passez en vue grille.
+
+![La liste des modèles de Scoring Studio affiche les modèles de notation actifs avec leurs dimensions, leurs signaux et les détails de leur dernière modification.](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 | Colonne | Description |
 | --- | --- |
@@ -31,8 +33,6 @@ La liste des modèles est la vue de destination de Scoring Studio. Il affiche ch
 | Dernière modification par | Personne qui a modifié le modèle pour la dernière fois. |
 | Date de création | Date de création du modèle. |
 | Création par | Personne qui a créé le modèle. |
-
-![La liste des modèles de Scoring Studio affiche les modèles de notation actifs avec leurs dimensions, leurs signaux et les détails de leur dernière modification.](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 Utilisez le champ de recherche pour rechercher un modèle par nom ou filtrer la liste par statut. Sélectionnez le menu **[!UICONTROL Plus]** d’une ligne pour **[!UICONTROL Modifier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Archiver]** ou **[!UICONTROL Supprimer]** un modèle.
 
