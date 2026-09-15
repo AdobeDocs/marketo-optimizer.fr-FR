@@ -3,13 +3,11 @@ user-guide-title: Documentation Marketo Optimizer
 user-guide-description: Découvrez Adobe Marketo Optimizer et comment l’utiliser pour exécuter un engagement marketing et commercial coordonné avec du contenu personnalisé optimisé par l’IA pour les prospects et les comptes B2B.
 hide: true
 nudge: red
-source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
+source-git-commit: b25a376b80aa6ee821f372398b77e5b6dd542e3c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 43%
-
+source-wordcount: '243'
+ht-degree: 44%
 ---
-
 
 # Guide de l’utilisateur de Marketo Optimizer {#user}
 
@@ -31,7 +29,7 @@ ht-degree: 43%
   + [Surveillance et débogage de la progression du parcours](./agents/journey-observability.md)
   + [Configurer et analyser l’intention](./agents/intent.md)
 + Prise de décision par l’IA {#ai-decisioning}
-  + [Vue d’ensemble](./agents/ai-decisioning.md)
+  + [Présentation](./agents/ai-decisioning.md)
   + [Santé de la prise de décision par l’IA](./agents/ai-decisioning-health.md)
 + Gestion marketing {#marketing-management}
   + [Présentation](./marketing/marketing-management.md)
@@ -48,16 +46,22 @@ ht-degree: 43%
     + [Fractionner et fusionner les chemins](./marketing/split-merge-paths-nodes.md)
     + [Deuxième meilleur chemin](./marketing/next-best-path.md)
   + Canal e-mail {#email-channel}
-    + [Vue d’ensemble](./marketing/email-channel.md)
+    + [Présentation](./marketing/email-channel.md)
     + [Optimisation de l’heure d’envoi des e-mails](./marketing/email-send-time-optimization.md)
     + [Création de contenu](./content/email-authoring.md)
     + [Conception du mode sombre](./content/email-dark-mode.md)
   + [Canal WhatsApp](./content/whatsapp-authoring.md)
   + Canal de webinaire {#webinar-channel}
-    + [Vue d’ensemble](./marketing/webinars-overview.md)
+    + [Présentation](./marketing/webinars-overview.md)
     + [Créer un webinaire](./marketing/create-webinar.md)
     + [Parcours de webinaire](./marketing/webinar-journeys.md)
 + [contrôle de la circulation des parcours](./marketing/journey-traffic-control.md)
++ Rapports {#reports}
+  + [Présentation](./reports/reports-overview.md)
+  + [Vue d’ensemble du parcours de la personne](./reports/person-journey-overview-report.md)
+  + [Engagement](./reports/engagement-report.md)
+  + {hide-from-toc}[Engagement des e-mails](./reports/email-engagement-report.md)
+  + [Engagement web](./reports/web-engagement-report.md)
 + Audiences {#audiences}
   + [Listes de personnes](./audiences/people-lists.md)
   + [Détails de la personne](./audiences/person-details.md)
@@ -71,7 +75,7 @@ ht-degree: 43%
     + [Présentation](./content/digital-asset-management.md)
     + [Métadonnées C2PA](./content/c2pa-metadata.md)
   + Modèles {#templates}
-    + [Vue d’ensemble](./content/templates.md)
+    + [Présentation](./content/templates.md)
     + [Création de modèles](./content/templates-create.md)
     + [Gouvernance du contenu](./content/template-content-governance.md)
   + Fragments {#visual-fragments}
@@ -82,7 +86,7 @@ ht-degree: 43%
     + [Créer et publier des pages de destination](./content/landing-pages-create-publish.md)
     + [Création de la page de destination](./content/landing-page-design.md)
   + Formulaires {#forms}
-    + [Vue d’ensemble](./content/forms.md)
+    + [Présentation](./content/forms.md)
     + [Conception de formulaire](./content/form-design.md)
   + [Personnalisation](./content/personalization-expressions.md)
   + [Contenu conditionnel](./content/conditional-content.md)
