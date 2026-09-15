@@ -39,8 +39,8 @@ Le rapport [!UICONTROL Engagement web] affiche les 10 pages les plus consultées
 | Colonne | Description |
 | --- | --- |
 | [!UICONTROL Nombre total de pages vues] | Nombre total de vues de la page. |
-| [!UICONTROL  Pourcentage de visiteurs connus ] | Pourcentage de vues de visiteurs connus. |
-| [!UICONTROL  Pourcentage de visiteurs inconnus ] | Pourcentage de vues de visiteurs inconnus. |
+| [!UICONTROL &#x200B; Pourcentage de visiteurs connus &#x200B;] | Pourcentage de vues de visiteurs connus. |
+| [!UICONTROL &#x200B; Pourcentage de visiteurs inconnus &#x200B;] | Pourcentage de vues de visiteurs inconnus. |
 
 ## Filtres {#filters}
 

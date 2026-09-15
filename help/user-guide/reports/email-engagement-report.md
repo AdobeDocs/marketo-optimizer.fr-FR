@@ -43,16 +43,16 @@ Les colonnes Mesures sont regroupées sous **[!UICONTROL Activités de messageri
 | --- | --- |
 | [!UICONTROL Envoyé] | Nombre d&#39;emails envoyés. |
 | [!UICONTROL Délivrés] | Nombre d’e-mails diffusés. |
-| [!UICONTROL  % diffusés] | Pourcentage d’e-mails envoyés ayant été diffusés. |
+| [!UICONTROL &#x200B; % diffusés] | Pourcentage d’e-mails envoyés ayant été diffusés. |
 | [!UICONTROL Hard bounce] | Nombre d’e-mails dont la diffusion a définitivement échoué. |
 | [!UICONTROL Soft Bounce] | Nombre d’e-mails dont la diffusion a temporairement échoué. |
 | [!UICONTROL Ouvert] | Nombre de fois où les destinataires ont ouvert l’e-mail. |
-| [!UICONTROL  % ouvert] | Pourcentage d’e-mails diffusés ouverts. |
+| [!UICONTROL &#x200B; % ouvert] | Pourcentage d’e-mails diffusés ouverts. |
 | [!UICONTROL sur lequel l’utilisateur a cliqué] | Nombre de fois où les destinataires ont cliqué sur un lien dans l’e-mail. |
-| [!UICONTROL  % ont cliqué] | Pourcentage d’e-mails diffusés ayant reçu un clic. |
+| [!UICONTROL &#x200B; % ont cliqué] | Pourcentage d’e-mails diffusés ayant reçu un clic. |
 | [!UICONTROL Cliquer pour ouvrir le rapport] | Pourcentage d’e-mails ouverts ayant reçu un clic. |
 | [!UICONTROL Désabonné] | Nombre de destinataires qui se sont désabonnés de l’e-mail. |
-| [!UICONTROL  % de désabonnements] | Pourcentage d’e-mails diffusés ayant entraîné un désabonnement. |
+| [!UICONTROL &#x200B; % de désabonnements] | Pourcentage d’e-mails diffusés ayant entraîné un désabonnement. |
 
 <!--
 
