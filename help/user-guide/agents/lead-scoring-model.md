@@ -4,21 +4,21 @@ description: Créez, prévisualisez et publiez des modèles de notation de prosp
 TQID: 'https://experienceleague.adobe.com/OAY0CzFPTyUi7NCPbRnxGkG6nnndPygbwGlbv9u2oeA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
-source-wordcount: 468
-ht-degree: 2%
-
+source-wordcount: '468'
+ht-degree: 6%
 ---
-
 # Créer des modèles de notation personnalisés
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
 >title="Studio de notation"
->abstract="Utilisez les compétences du Studio de notation pour créer, configurer et publier des modèles de notation de prospect personnalisés via l’interface de conversation des collègues."
+>abstract="Utilisez les compétences du studio de notation pour créer, configurer et publier des modèles de notation de lead personnalisés via l’interface de chat de Coworker."
 
 La compétence [_Studio de notation_ &#x200B;](./skills.md#scoring-signals) de [!DNL Adobe Marketo Optimizer] fournit une solution de notation de prospect native à l’IA qui vous permet de créer, de configurer et de publier des modèles de notation de prospect. Studio associe un workflow piloté par un agent à une interface utilisateur visuelle. Vous pouvez créer des modèles de notation à l’aide d’invites en langage naturel dans l’interface de conversation [Coworker](./chat-interface.md) ou en interagissant directement avec les commandes de l’interface utilisateur.
 
