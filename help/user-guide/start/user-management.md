@@ -35,7 +35,7 @@ Une fois la mise en service terminée et les sandbox liés, procédez comme suit
 
 ## Configuration du profil de produit {#config-profile}
 
-En tant qu’administrateur, vous pouvez effectuer ces tâches dans l’[!DNL Adobe Admin Console], qui constitue un emplacement central pour administrer et gérer vos licences de produit et utilisateurs Adobe. Dans Admin Console, vous pouvez créer et gérer des utilisateurs dans un emplacement unique, plutôt qu’au sein de vos différentes solutions. Pour en savoir plus sur ses fonctions et ses fonctionnalités, consultez la page de présentation d’Admin Console [](https://helpx.adobe.com/business/enterprise/deploy-apps-updates.html).
+En tant qu’administrateur, vous pouvez effectuer ces tâches dans l’[!DNL Adobe Admin Console], qui constitue un emplacement central pour administrer et gérer vos licences de produit et utilisateurs Adobe. Dans Admin Console, vous pouvez créer et gérer des utilisateurs dans un emplacement unique, plutôt qu’au sein de vos différentes solutions. Pour en savoir plus sur ses fonctions et ses fonctionnalités, consultez la page de présentation d’Admin Console [&#128279;](https://helpx.adobe.com/business/enterprise/deploy-apps-updates.html).
 
 ### Accès à Admin Console {#admin-console}
 
@@ -89,7 +89,7 @@ Un groupe d’utilisateurs est un ensemble d’utilisateurs auxquels est accord�
 
 Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour gérer les autorisations, voir [Gérer les groupes d’utilisateurs](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"} dans la documentation d’Admin Console.
 
-![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système peut effectuer les étapes suivantes à partir de [](https://adminconsole.adobe.com).
+![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système peut effectuer les étapes suivantes à partir de [&#128279;](https://adminconsole.adobe.com).
 
 1. Sélectionnez l’onglet **[!UICONTROL Utilisateurs]**.
 
@@ -103,7 +103,7 @@ Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour
 
 ### Attribuer le profil de produit {#assign-profile}
 
-![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur de produit peut effectuer les étapes suivantes à partir de [](https://adminconsole.adobe.com).
+![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur de produit peut effectuer les étapes suivantes à partir de [&#128279;](https://adminconsole.adobe.com).
 
 1. Cliquez sur le groupe d’utilisateurs que vous avez créé.
 
@@ -124,7 +124,7 @@ Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour
 
 Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs de_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} dans la documentation d’Admin Console.
 
-![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système ou un administrateur de produit peut effectuer les étapes suivantes à partir de [](https://adminconsole.adobe.com). Un administrateur ou une administratrice de produit ne peut ajouter que des utilisateurs et utilisatrices qui existent déjà dans son organisation.
+![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système ou un administrateur de produit peut effectuer les étapes suivantes à partir de [&#128279;](https://adminconsole.adobe.com). Un administrateur ou une administratrice de produit ne peut ajouter que des utilisateurs et utilisatrices qui existent déjà dans son organisation.
 
 1. Si les utilisateurs ne sont pas déjà membres de votre organisation, ajoutez chaque utilisateur :
 
