@@ -4,24 +4,32 @@ description: Configurez la délégation de sous-domaines, DMARC, SPF, DKIM et le
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 2502
+source-wordcount: '2590'
 ht-degree: 1%
-
 ---
-
 # Délivrabilité des e-mails
 
 Les informations suivantes sont destinées aux administrateurs qui configurent l’infrastructure d’envoi pour prendre en charge les spécialistes marketing et les créateurs de contenu d’e-mail. Il décrit les fonctionnalités de délivrabilité et comment configurer des sous-domaines, l’authentification et les pools d’adresses IP.
@@ -34,6 +42,7 @@ Il utilise les blocs de création suivants, configurés par un administrateur, g
 1. [Configurez les enregistrements DMARC, SPF et DKIM](#dmarc-spf-dkim) sur chaque sous-domaine.
 1. [Confirmez le groupe d’adresses IP](#ip-pools) utilisé pour envoyer un e-mail pour votre sous-domaine.
 1. [Créez une ou plusieurs configurations de canal e-mail](../admin/email-channel-configuration.md#create-email-channel-configuration) qui lient un sous-domaine, un groupe d’adresses IP et une identité d’expéditeur.
+1. [les adresses IP d’envoi](#allowlist-ip-addresses) avec votre service informatique pour que les e-mails de test atteignent votre boîte de réception.
 
 ![Configuration de la délivrabilité des emails pour Marketo Optimizer](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -361,6 +370,20 @@ Dans cette version, les groupes d’adresses IP sont préconfigurés pour votre 
 >[!IMPORTANT]
 >
 >Ne mélangez pas le trafic marketing et transactionnel sur le même groupe d’adresses IP, même si le groupe partagé est disponible. Le paramètre Type d’e-mail sur la configuration du canal (Marketing ou Transactionnel) régit le comportement de suppression, mais vos configurations de canal doivent toujours utiliser des pools distincts dans la mesure du possible.
+
+## des adresses IP {#allowlist-ip-addresses}
+
+Les systèmes anti-spam d&#39;entreprise bloquent parfois les e-mails de test que vous envoyez depuis [!DNL Marketo Optimizer]. Ces systèmes reposent sur les adresses IP de l’expéditeur pour vérifier la validité de l’e-mail. Pour vous assurer que vos e-mails de test arrivent, ajoutez des [!DNL Marketo Optimizer] à votre liste autorisée d’entreprise.
+
+Demandez à votre service informatique d&#39;ajouter ces adresses IP à votre liste autorisée d&#39;entreprise :
+
+* 54.212.167.17
+* 35.165.244.220
+* 44.235.171.179
+
+>[!TIP]
+>
+>Votre service informatique gère généralement la place sur la liste autorisée e-mail d’entreprise. Partagez cette liste d’adresses IP avec eux lors de la configuration initiale.
 
 <!--
 

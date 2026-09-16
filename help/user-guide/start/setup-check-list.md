@@ -4,16 +4,17 @@ description: Effectuez les tâches de configuration initiales pour votre instanc
 TQID: 'https://experienceleague.adobe.com/XEPKIa88-L7mdPz1opKegY1pdEF4Qyls0nLVJBQSaJk'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Journeys
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '265'
 ht-degree: 10%
-
 ---
-
 # Liste de contrôle de configuration
 
 Effectuez ces tâches pour activer la fonctionnalité dans votre instance [!DNL Marketo Optimizer] configurée.
@@ -102,5 +103,10 @@ Avant que les professionnels du marketing puissent envoyer des e-mails à partir
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher de la tâche"/></td>
 <td>Créer une configuration de canal e-mail</td>
 <td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">Configurer le canal e-mail</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Case à cocher de la tâche"/></td>
+<td>Demandez à votre service informatique d’effectuer une des adresses IP d’envoi</td>
+<td><a href="./email-deliverability.md#allowlist-ip-addresses">des adresses IP</a></td>
 </tr>
 </tbody>

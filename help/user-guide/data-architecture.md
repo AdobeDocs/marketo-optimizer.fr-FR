@@ -5,26 +5,32 @@ role: User, Admin
 TQID: 'https://experienceleague.adobe.com/oelEtys81g6TzM8bi-qy1nuWw6scOBry7tbZkMkZ6u0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: 1524f9f9e63044a11cd54d3299fa4d1e49172cb1
 workflow-type: tm+mt
-source-wordcount: 451
+source-wordcount: '506'
 ht-degree: 1%
-
 ---
-
 
 # Architecture détaillée
 
-[!DNL Adobe Marketo Optimizer] s’intègre à [!DNL Adobe Marketo Engage] pour offrir une vue à 360 degrés des prospects B2B. Une synchronisation bidirectionnelle fiable conserve la [!DNL Marketo Engage] et la [!DNL Marketo Optimizer], offrant aux deux plateformes une vue unique et partagée des personnes, des entreprises, des objets personnalisés et des activités. Le flux de données hautes performances en temps quasi réel garantit que les enregistrements restent à jour et exploitables, de sorte que les campagnes et les parcours puissent répondre aux prospects dès leur engagement.
+[!DNL Adobe Marketo Optimizer] s’intègre à [!DNL Adobe Marketo Engage] pour offrir une vue complète des prospects B2B. Une synchronisation bidirectionnelle fiable conserve la [!DNL Marketo Engage] et la [!DNL Marketo Optimizer], offrant aux deux plateformes une vue unique et partagée des personnes, des entreprises, des objets personnalisés et des activités. Le flux de données hautes performances en temps quasi réel garantit que les enregistrements restent à jour et exploitables, de sorte que les campagnes et les parcours puissent répondre aux prospects dès leur engagement.
 
 ## Base des données
 
@@ -52,9 +58,17 @@ Les leads et les sociétés se mettent à jour instantanément dans les deux dir
 
 Cette conception de latence quasi nulle signifie que les tableaux de bord d’analyse et les systèmes en aval sont alimentés en temps quasi réel, ce qui permet d’optimiser les campagnes en direct et d’effectuer un suivi rapide des prospects hautement prioritaires.
 
+### Prise en charge des données d’activité [!DNL Marketo Engage] dans parcours
+
+Les données d’activité [!DNL Marketo Engage] synchronisées alimentent la création de parcours basée sur des événements dans [!DNL Marketo Optimizer]. Utilisez des activités telles que les remplissages de formulaires, les visites web et l’engagement par e-mail pour déclencher, filtrer et créer des branches dans les parcours de personne.
+
+* [Déclencheurs d’événement pour le nœud Écouter pour un événement](./marketing/listen-for-event-nodes.md#event-triggers)
+* [Filtres d’événement pour le nœud Écouter un événement](./marketing/listen-for-event-nodes.md#event-filters)
+* [Filtres de personnes correspondant pour les nœuds de chemins de division](./marketing/split-merge-paths-nodes.md#matched-person-filters)
+
 ### Isolation et connexion des données
 
 * Les données clients sont partagées entre [!DNL Marketo Engage], [!DNL Marketo Optimizer] et [!DNL Experience Platform] dans le cadre de la synchronisation des données de produit et de l’architecture d’analyse.
 * Les données sont logiquement isolées par client et protégées par les contrôles de sécurité d’Adobe.
-* Les données sont transférées sur des canaux sécurisés et chiffrés, puis stockées dans les services gérés par Adobe à l’aide du chiffrement standard et des contrôles d’accès.
+* Les données sont transférées sur des canaux sécurisés et chiffrés, puis stockées dans Adobe-Managed Services à l’aide du chiffrement standard et des contrôles d’accès.
 * Selon le type de données, les informations peuvent être synchronisées entre [!DNL Marketo Engage] et [!DNL Marketo Optimizer] ou répliquées vers [!DNL Experience Platform] pour prendre en charge les fonctionnalités de reporting et d’analyse, tout en préservant la sécurité et l’isolement des clients.
