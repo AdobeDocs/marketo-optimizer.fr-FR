@@ -17,7 +17,7 @@ ht-degree: 4%
 
 [!DNL Adobe Marketo Optimizer] réplique les données de prospect, de parcours et d’activité dans des jeux de données [!DNL Adobe Experience Platform]. Ces jeux de données alimentent la page [!UICONTROL Rapports] et l’expérience de rapport [!DNL Adobe Customer Journey Analytics] incorporée. Vous pouvez également les interroger directement avec [!DNL Query Service] pour une analyse ad hoc.
 
-Les jeux de données sont gérés par le système. Une connexion dans [!DNL Customer Journey Analytics] les relie à la vue de données utilisée par [!DNL Marketo Optimizer] rapports. Vous n’avez donc pas besoin de créer cette connexion vous-même. Il s’agit de la même connexion que celle obtenue lorsque vous sélectionnez **[!UICONTROL Analyser dans CJA]** dans une section de rapport. Voir [ Analyser un rapport dans Customer Journey Analytics](./reports-overview.md#analyze-a-report-in-cja).
+Les jeux de données sont gérés par le système. Une connexion dans [!DNL Customer Journey Analytics] les relie à la vue de données utilisée par [!DNL Marketo Optimizer] rapports. Vous n’avez donc pas besoin de créer cette connexion vous-même. Il s’agit de la même connexion que celle obtenue lorsque vous sélectionnez **[!UICONTROL Analyser dans CJA]** dans une section de rapport. Voir [&#x200B; Analyser un rapport dans Customer Journey Analytics](./reports-overview.md#analyze-a-report-in-cja).
 
 ## Jeux de données disponibles {#available-datasets}
 
