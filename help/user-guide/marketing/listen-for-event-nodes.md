@@ -62,7 +62,7 @@ Vous pouvez inclure un filtrage pour limiter les déclencheurs d’événement c
 | Attributs de la société | Attributs du profil de la société/du compte, notamment : <li>[!UICONTROL Chiffre d’affaires annuel] <li>[!UICONTROL Nom de la société] <li>[!UICONTROL Pays de facturation] <li>[!UICONTROL Industrie] <li>[!UICONTROL Nombre d’employés] <li>[!UICONTROL Code SIC] <li>[!UICONTROL État] |
 | Données d’intention | Attributs basés sur les données d’intention associées au profil de personne. |
 | Opportunités | Statut et attributs basés sur les opportunités associées au profil de personne, notamment : <li>[!UICONTROL A une opportunité] <li>[!UICONTROL Nombre d’opportunités] <li>[!UICONTROL Montant total de l’opportunité] <li>[!UICONTROL A été ajouté à l’opportunité] <li>[!UICONTROL A été supprimé de l’opportunité] |
-| Attributs de la personne | Attributs du profil de personne B2B, notamment : <li>[!UICONTROL Ville] <li>[!UICONTROL Pays] <li>[!UICONTROL Date de naissance] <li>[!UICONTROL Adresse électronique] <li>[!UICONTROL E-mail non valide] <li>[!UICONTROL Email suspendu] <li>[!UICONTROL Prénom ] <li>[!UICONTROL Région d’État déduite] <li>[!UICONTROL Fonction] <li>[!UICONTROL Nom] <li>[!UICONTROL Numéro de téléphone mobile] <li>[!UICONTROL Score d’engagement de personne] <li>[!UICONTROL Numéro de téléphone] <li>[!UICONTROL Code postal ] <li>[!UICONTROL État] <li>[!UICONTROL Désabonné] <li>[!UICONTROL Motif de désabonnement] |
+| Attributs de la personne | Attributs du profil de personne B2B, notamment : <li>[!UICONTROL Ville] <li>[!UICONTROL Pays] <li>[!UICONTROL Date de naissance] <li>[!UICONTROL Adresse électronique] <li>[!UICONTROL E-mail non valide] <li>[!UICONTROL Email suspendu] <li>[!UICONTROL Prénom &#x200B;] <li>[!UICONTROL Région d’État déduite] <li>[!UICONTROL Fonction] <li>[!UICONTROL Nom] <li>[!UICONTROL Numéro de téléphone mobile] <li>[!UICONTROL Score d’engagement de personne] <li>[!UICONTROL Numéro de téléphone] <li>[!UICONTROL Code postal &#x200B;] <li>[!UICONTROL État] <li>[!UICONTROL Désabonné] <li>[!UICONTROL Motif de désabonnement] |
 | Applications de vente | Activités de lead liées aux [!DNL Sales Qualifier] ou aux [!DNL Marketo Sales Insights]. |
 | Filtres spéciaux | Attributs de filtrage qui ne relèvent pas des catégories prédéfinies, offrant ainsi une flexibilité pour les critères de filtre personnalisés ou divers. |
 
@@ -97,7 +97,7 @@ Vous pouvez créer des filtres d’événement autour des activités [!DNL Marke
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin et choisissez **[!UICONTROL Écouter un événement]**.
 
-   ![Cliquez sur Ajouter une icône sur le chemin du parcours ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Dans les propriétés de nœud sur la droite, cliquez sur **[!UICONTROL Ajouter des critères d’événement]**.
 
@@ -127,6 +127,6 @@ Vous pouvez créer des filtres d’événement autour des activités [!DNL Marke
 
    Activez l’option **[!UICONTROL Temporisation]** et sélectionnez la durée pendant laquelle le parcours attend qu’un événement se produise avant d’expirer.
 
-   ![Options de délai d’expiration activées pour le nœud Écouter le parcours d’événement ](./assets/person-journey-event-node-timeout.png){width="550" zoomable="yes"}
+   ![Options de délai d’expiration activées pour le nœud Écouter le parcours d’événement &#x200B;](./assets/person-journey-event-node-timeout.png){width="550" zoomable="yes"}
 
    Vous pouvez choisir de terminer le chemin ici ou d’effectuer une autre action en définissant un autre chemin. Pour créer un nouveau chemin dans le parcours où vous pouvez ajouter des actions et des événements applicables aux profils lorsque l’événement ne se produit pas, cochez la case **[!UICONTROL Définir le chemin de temporisation]**.

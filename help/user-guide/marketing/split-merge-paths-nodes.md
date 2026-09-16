@@ -25,7 +25,7 @@ Un nœud Chemins partagés définit un ou plusieurs chemins segmentés en foncti
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**Fonctionnement d’un nœud de chemin de division**_
+_&#x200B;**Fonctionnement d’un nœud de chemin de division**&#x200B;_
 
 * L’évaluation de chaque chemin s’effectue de haut en bas. Si une personne correspond au premier et au second chemin, elle continue uniquement le long du premier chemin.
 * Le nœud prend en charge la définition d’un chemin _Autres personnes_, où vous pouvez ajouter des actions ou des événements pour les personnes qui ne correspondent pas à l’un des segments/chemins définis.
@@ -41,7 +41,7 @@ Pour chaque chemin d’accès que vous définissez pour le nœud, utilisez les t
 | Attributs de la société | Attributs du profil de la société/du compte, notamment : <li>[!UICONTROL Chiffre d’affaires annuel] <li>[!UICONTROL Nom de la société] <li>[!UICONTROL Pays de facturation] <li>[!UICONTROL Industrie] <li>[!UICONTROL Nombre d’employés] <li>[!UICONTROL Code SIC] <li>[!UICONTROL État] |
 | Données d’intention | Attributs basés sur les données d’intention associées au profil de personne. |
 | Opportunités | Statut et attributs basés sur les opportunités associées au profil de personne, notamment : <li>[!UICONTROL A une opportunité] <li>[!UICONTROL Nombre d’opportunités] <li>[!UICONTROL Montant total de l’opportunité] <li>[!UICONTROL A été ajouté à l’opportunité] <li>[!UICONTROL A été supprimé de l’opportunité] |
-| Attributs de la personne | Attributs du profil de personne B2B, notamment : <li>[!UICONTROL Ville] <li>[!UICONTROL Pays] <li>[!UICONTROL Date de naissance] <li>[!UICONTROL Adresse électronique] <li>[!UICONTROL E-mail non valide] <li>[!UICONTROL Email suspendu] <li>[!UICONTROL Prénom ] <li>[!UICONTROL Région d’État déduite] <li>[!UICONTROL Fonction] <li>[!UICONTROL Nom] <li>[!UICONTROL Numéro de téléphone mobile] <li>[!UICONTROL Score d’engagement de personne] <li>[!UICONTROL Numéro de téléphone] <li>[!UICONTROL Code postal ] <li>[!UICONTROL État] <li>[!UICONTROL Désabonné] <li>[!UICONTROL Motif de désabonnement] |
+| Attributs de la personne | Attributs du profil de personne B2B, notamment : <li>[!UICONTROL Ville] <li>[!UICONTROL Pays] <li>[!UICONTROL Date de naissance] <li>[!UICONTROL Adresse électronique] <li>[!UICONTROL E-mail non valide] <li>[!UICONTROL Email suspendu] <li>[!UICONTROL Prénom &#x200B;] <li>[!UICONTROL Région d’État déduite] <li>[!UICONTROL Fonction] <li>[!UICONTROL Nom] <li>[!UICONTROL Numéro de téléphone mobile] <li>[!UICONTROL Score d’engagement de personne] <li>[!UICONTROL Numéro de téléphone] <li>[!UICONTROL Code postal &#x200B;] <li>[!UICONTROL État] <li>[!UICONTROL Désabonné] <li>[!UICONTROL Motif de désabonnement] |
 | Applications de vente | Activités de lead liées aux [!DNL Sales Qualifier] ou aux [!DNL Marketo Sales Insights]. |
 | Filtres spéciaux | Attributs de filtrage qui ne relèvent pas des catégories prédéfinies, offrant ainsi une flexibilité pour les critères de filtre personnalisés ou divers. |
 
@@ -76,7 +76,7 @@ Vous pouvez créer des conditions autour des activités [!DNL Marketo Engage] su
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Fractionner les chemins]**.
 
-   ![Cliquez sur Ajouter une icône sur le chemin du parcours ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Pour définir une condition applicable à _[!UICONTROL Chemin 1]_, cliquez sur **[!UICONTROL Appliquer la condition]**.
 
