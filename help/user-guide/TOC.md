@@ -3,10 +3,10 @@ user-guide-title: Documentation Marketo Optimizer
 user-guide-description: Découvrez Adobe Marketo Optimizer et comment l’utiliser pour exécuter un engagement marketing et commercial coordonné avec du contenu personnalisé optimisé par l’IA pour les prospects et les comptes B2B.
 hide: true
 nudge: red
-source-git-commit: b25a376b80aa6ee821f372398b77e5b6dd542e3c
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 44%
+source-wordcount: '246'
+ht-degree: 43%
 ---
 
 # Guide de l’utilisateur de Marketo Optimizer {#user}
@@ -60,8 +60,9 @@ ht-degree: 44%
   + [Présentation](./reports/reports-overview.md)
   + [Vue d’ensemble du parcours de la personne](./reports/person-journey-overview-report.md)
   + [Engagement](./reports/engagement-report.md)
-  + {hide-from-toc}[Engagement des e-mails](./reports/email-engagement-report.md)
+  + [Engagement des e-mails](./reports/email-engagement-report.md)
   + [Engagement web](./reports/web-engagement-report.md)
+  + [Jeux de données Experience Platform](./reports/aep-datasets.md)
 + Audiences {#audiences}
   + [Listes de personnes](./audiences/people-lists.md)
   + [Détails de la personne](./audiences/person-details.md)

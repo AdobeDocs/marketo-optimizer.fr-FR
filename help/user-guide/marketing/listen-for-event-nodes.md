@@ -5,10 +5,10 @@ TQID: 'https://experienceleague.adobe.com/6v3i6M-Hhr2RAWrS68WaEVb8VJEzJZbD7vXOJO
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
-source-git-commit: cc98b02f4273c5df2e27b52acd1239f0f0bf8aa0
+source-git-commit: bc370a501d3f8ff80ad846576b62504aca77f530
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 6%
+source-wordcount: '1158'
+ht-degree: 2%
 ---
 # Écoute d’un nœud d’événement
 
@@ -39,15 +39,15 @@ Lors du déclenchement d’événements, [!DNL Marketo Optimizer] prend en charg
 
 Vous pouvez créer des déclencheurs d’événement autour des activités [!DNL Marketo Engage] suivantes :
 
-* [!UICONTROL Remplit un formulaire Marketo Engage] - Se déclenche lorsqu’un prospect envoie un formulaire [!DNL Marketo Engage] spécifié.
-* [!UICONTROL Page web Marketo Engage des visites] - Se déclenche lorsqu’un prospect avec un cookie de suivi Munchkin visite une page web spécifiée.
-* [!UICONTROL Lien des clics sur la page web Marketo Engage] - Se déclenche lorsqu’un prospect clique sur un lien hypertexte suivi sur une page web sur laquelle est installé le code de suivi Munchkin [!DNL Marketo Engage].
-* [!UICONTROL L’e-mail Marketo Engage est diffusé &#x200B;] - Se déclenche lorsque le serveur de messagerie (MX) d’un prospect renvoie une réponse de succès (un message 250 OK) au serveur d’envoi [!DNL Marketo Engage].
-* [!UICONTROL Bounces d&#39;e-mails Marketo Engage &#x200B;] - Se déclenche lorsqu&#39;un serveur de messagerie cible rejette un e-mail [!DNL Marketo Engage] envoyé en tant qu&#39;erreur permanente, comme un utilisateur non valide ou un domaine inconnu.
-* [!UICONTROL Rebonds d&#39;email Marketo Engage soft &#x200B;] - Se déclenche lorsqu&#39;un serveur de messagerie cible rejette un email [!DNL Marketo Engage] envoyé comme problème temporaire (par exemple serveur occupé ou boîte pleine). [!DNL Marketo Engage] tente automatiquement de relancer les soft bounces jusqu’à trois fois via les serveurs MX avant de signaler les problèmes.
-* [!UICONTROL Désabonnements des e-mails Marketo Engage] - Se déclenche lorsqu’un prospect se désinscrit des e-mails marketing non opérationnels. Lorsqu’il est déclenché, [!DNL Marketo Engage] met automatiquement à jour la valeur du champ de `Unsubscribed` du prospect vers `true`, en les supprimant des futurs envois d’e-mail standard.
-* [!UICONTROL Ouvre l’e-mail Marketo Engage] - Se déclenche lorsqu’un prospect ouvre un e-mail [!DNL Marketo Engage] suivi.
-* [!UICONTROL Clics sur le lien dans l’e-mail Marketo Engage] - Se déclenche lorsqu’un prospect clique sur un lien (ou un lien limité spécifique) contenu dans un e-mail [!DNL Marketo Engage].
+* **[!UICONTROL Remplit un formulaire Marketo Engage]** - Se déclenche lorsqu’un prospect envoie un formulaire [!DNL Marketo Engage] spécifié.
+* **[!UICONTROL Page web Marketo Engage des visites]** - Se déclenche lorsqu’un prospect avec un cookie de suivi Munchkin visite une page web spécifiée.
+* **[!UICONTROL Lien des clics sur la page web Marketo Engage]** - Se déclenche lorsqu’un prospect clique sur un lien hypertexte suivi sur une page web sur laquelle est installé le code de suivi Munchkin [!DNL Marketo Engage].
+* **[!UICONTROL L’e-mail Marketo Engage est diffusé]** - Se déclenche lorsque le serveur de messagerie (MX) d’un prospect renvoie une réponse de succès (un message 250 OK) au serveur d’envoi [!DNL Marketo Engage].
+* **[!UICONTROL Bounces d&#39;e-mails Marketo Engage]** - Se déclenche lorsqu&#39;un serveur de messagerie cible rejette un e-mail [!DNL Marketo Engage] envoyé en tant qu&#39;erreur permanente, comme un utilisateur non valide ou un domaine inconnu.
+* **[!UICONTROL Rebonds d&#39;email Marketo Engage soft]** - Se déclenche lorsqu&#39;un serveur de messagerie cible rejette un email [!DNL Marketo Engage] envoyé comme problème temporaire (par exemple serveur occupé ou boîte pleine). [!DNL Marketo Engage] tente automatiquement de relancer les soft bounces jusqu’à trois fois via les serveurs MX avant de signaler les problèmes.
+* **[!UICONTROL Désabonnements des e-mails Marketo Engage]** - Se déclenche lorsqu’un prospect se désinscrit des e-mails marketing non opérationnels. Lorsqu’il est déclenché, [!DNL Marketo Engage] met automatiquement à jour la valeur du champ de `Unsubscribed` du prospect vers `true`, en les supprimant des futurs envois d’e-mail standard.
+* **[!UICONTROL Ouvre l’e-mail Marketo Engage]** - Se déclenche lorsqu’un prospect ouvre un e-mail [!DNL Marketo Engage] suivi.
+* **[!UICONTROL Clics sur le lien dans l’e-mail Marketo Engage]** - Se déclenche lorsqu’un prospect clique sur un lien (ou un lien limité spécifique) contenu dans un e-mail [!DNL Marketo Engage].
 
 >[!ENDSHADEBOX]
 
@@ -59,10 +59,10 @@ Vous pouvez inclure un filtrage pour limiter les déclencheurs d’événement c
 | ------- | ----------- |
 | Historique des activités | Activités basées sur des conditions évaluées à l’aide d’un ou de plusieurs éléments sélectionnés |
 | Brand Concierge | Activités pour les prospects qui interagissent avec [!DNL Brand Concierge]. |
-| Attributs de la société | Attributs du profil de la société/du compte, notamment : <li>Revenus annuels <li>Nom de la société <li>Pays de facturation <li>Secteur industriel <li>Nombre de personnesemployées <li>Code SIC <li>État |
+| Attributs de la société | Attributs du profil de la société/du compte, notamment : <li>[!UICONTROL Chiffre d’affaires annuel] <li>[!UICONTROL Nom de la société] <li>[!UICONTROL Pays de facturation] <li>[!UICONTROL Industrie] <li>[!UICONTROL Nombre d’employés] <li>[!UICONTROL Code SIC] <li>[!UICONTROL État] |
 | Données d’intention | Attributs basés sur les données d’intention associées au profil de personne. |
-| Opportunités | Attributs basés sur les opportunités associées au profil de personne. |
-| Attributs de la personne | Attributs du profil de personne B2B, notamment : <li>Ville <li>Pays <li>Date de naissance <li>Adresse e-mail <li>E-mail non valide <li>E-mail interrompu <li>Prénom <li>Région déduite<li>Titre du traitement <li>Nom <li>Numéro téléphone mobile <li>Score d’engagement des personnes <li>Numéro de téléphone <li>Code postal <li>État <li>Désabonné ou désabonnée <li>Raison désabonnement |
+| Opportunités | Statut et attributs basés sur les opportunités associées au profil de personne, notamment : <li>[!UICONTROL A une opportunité] <li>[!UICONTROL Nombre d’opportunités] <li>[!UICONTROL Montant total de l’opportunité] <li>[!UICONTROL A été ajouté à l’opportunité] <li>[!UICONTROL A été supprimé de l’opportunité] |
+| Attributs de la personne | Attributs du profil de personne B2B, notamment : <li>[!UICONTROL Ville] <li>[!UICONTROL Pays] <li>[!UICONTROL Date de naissance] <li>[!UICONTROL Adresse électronique] <li>[!UICONTROL E-mail non valide] <li>[!UICONTROL Email suspendu] <li>[!UICONTROL Prénom &#x200B;] <li>[!UICONTROL Région d’État déduite] <li>[!UICONTROL Fonction] <li>[!UICONTROL Nom] <li>[!UICONTROL Numéro de téléphone mobile] <li>[!UICONTROL Score d’engagement de personne] <li>[!UICONTROL Numéro de téléphone] <li>[!UICONTROL Code postal &#x200B;] <li>[!UICONTROL État] <li>[!UICONTROL Désabonné] <li>[!UICONTROL Motif de désabonnement] |
 | Applications de vente | Activités de lead liées aux [!DNL Sales Qualifier] ou aux [!DNL Marketo Sales Insights]. |
 | Filtres spéciaux | Attributs de filtrage qui ne relèvent pas des catégories prédéfinies, offrant ainsi une flexibilité pour les critères de filtre personnalisés ou divers. |
 
@@ -78,16 +78,16 @@ Lors du filtrage des événements déclenchés, [!DNL Marketo Optimizer] prend e
 
 Vous pouvez créer des filtres d’événement autour des activités [!DNL Marketo Engage] suivantes :
 
-* [!UICONTROL Formulaire Marketo Engage rempli] - Correspond aux prospects qui ont rempli un formulaire [!DNL Marketo Engage] spécifique à tout moment dans leur journal d’activité non obsolète.
-* [!UICONTROL Page web Marketo Engage visitée] - Correspond aux prospects qui ont consulté une URL spécifique sur votre site web ou [!DNL Marketo Engage] pages de destination. Il repose directement sur le code de suivi Munchkin installé sur votre site.
-* [!UICONTROL Lien ayant cliqué sur une page web Marketo Engage] - Correspond aux prospects qui ont cliqué sur un lien ou une ressource spécifique sur une page suivie.
-* [!UICONTROL E-mail Marketo Engage envoyé] - Correspond aux prospects auxquels [!DNL Marketo Engage] avez tenté d’envoyer un e-mail spécifique, en tenant compte des actions de déploiement avant les hard bounces ou les acceptations de serveur.
-* [!UICONTROL E-mail Marketo Engage diffusé] - Correspond aux prospects dont le serveur de messagerie (MX) a renvoyé une réponse de succès (message 250 OK) au serveur d’envoi [!DNL Marketo Engage].
-* [!UICONTROL E-mail Marketo Engage non envoyé] - Correspond aux leads qui ont subi un hard bounce (échec de diffusion permanent) lors d’un envoi d’e-mail spécifique ou au cours d’une période donnée.
-* [!UICONTROL Marketo Engage email bounce soft &#x200B;] - Correspond aux leads dont les e-mails ont subi un échec de diffusion temporaire (comme une boîte de réception pleine ou un serveur hors ligne) plutôt qu&#39;un hard bounce permanent.
-* [!UICONTROL Désabonnement des e-mails Marketo Engage] - Correspond aux prospects qui se sont désabonnés des e-mails marketing non opérationnels. Dans ce cas, [!DNL Marketo Engage] met automatiquement à jour la valeur du champ `Unsubscribed` du prospect sur `true`, en les supprimant des futurs envois d’e-mail standard.
-* [!UICONTROL E-mail Marketo Engage ouvert] - Correspond aux prospects qui ont ouvert un e-mail [!DNL Marketo Engage] suivi.
-* [!UICONTROL Lien cliqué dans l’e-mail Marketo Engage] - Correspond aux prospects qui ont cliqué sur un lien (ou un lien spécifique) dans un e-mail [!DNL Marketo Engage].
+* **[!UICONTROL Formulaire Marketo Engage rempli]** - Correspond aux prospects qui ont rempli un formulaire [!DNL Marketo Engage] spécifique à tout moment dans leur journal d’activité non obsolète.
+* **[!UICONTROL Page web Marketo Engage visitée]** - Correspond aux prospects qui ont consulté une URL spécifique sur votre site web ou [!DNL Marketo Engage] pages de destination. Il repose directement sur le code de suivi Munchkin installé sur votre site.
+* **[!UICONTROL Lien ayant cliqué sur une page web Marketo Engage]** - Correspond aux prospects qui ont cliqué sur un lien ou une ressource spécifique sur une page suivie.
+* **[!UICONTROL E-mail Marketo Engage envoyé]** - Correspond aux prospects auxquels [!DNL Marketo Engage] avez tenté d’envoyer un e-mail spécifique, en tenant compte des actions de déploiement avant les hard bounces ou les acceptations de serveur.
+* **[!UICONTROL E-mail Marketo Engage diffusé]** - Correspond aux prospects dont le serveur de messagerie (MX) a renvoyé une réponse de succès (message 250 OK) au serveur d’envoi [!DNL Marketo Engage].
+* **[!UICONTROL E-mail Marketo Engage non envoyé]** - Correspond aux leads qui ont subi un hard bounce (échec de diffusion permanent) lors d’un envoi d’e-mail spécifique ou au cours d’une période donnée.
+* **[!UICONTROL Marketo Engage email bounce soft]** - Correspond aux leads dont les e-mails ont subi un échec de diffusion temporaire (comme une boîte de réception pleine ou un serveur hors ligne) plutôt qu&#39;un hard bounce permanent.
+* **[!UICONTROL Désabonnement des e-mails Marketo Engage]** - Correspond aux prospects qui se sont désabonnés des e-mails marketing non opérationnels. Dans ce cas, [!DNL Marketo Engage] met automatiquement à jour la valeur du champ `Unsubscribed` du prospect sur `true`, en les supprimant des futurs envois d’e-mail standard.
+* **[!UICONTROL E-mail Marketo Engage ouvert]** - Correspond aux prospects qui ont ouvert un e-mail [!DNL Marketo Engage] suivi.
+* **[!UICONTROL Lien cliqué dans l’e-mail Marketo Engage]** - Correspond aux prospects qui ont cliqué sur un lien (ou un lien spécifique) dans un e-mail [!DNL Marketo Engage].
 
 >[!ENDSHADEBOX]
 
