@@ -24,7 +24,7 @@ ht-degree: 0%
 ---
 # Génération de rapports d’analyse
 
-La compétence [_Surface Analytics_ ](./skills.md#analytics-reporting) de [!DNL Adobe Marketo Optimizer] répond aux questions en langage naturel sur vos données. Utilisez-le dans l’[interface de conversation des collègues](./chat-interface.md) pour explorer les tendances des activités, les performances des e-mails, les données de prospect et de compte, l’appartenance à un segment et à une liste, ainsi que les mesures de parcours. Les résultats sont renvoyés sous forme de graphiques et de tableaux de bord, de sorte que vous n’avez pas besoin de créer manuellement une requête ou un tableau de bord.
+La compétence [_Surface Analytics_ &#x200B;](./skills.md#analytics-reporting) de [!DNL Adobe Marketo Optimizer] répond aux questions en langage naturel sur vos données. Utilisez-le dans l’[interface de conversation des collègues](./chat-interface.md) pour explorer les tendances des activités, les performances des e-mails, les données de prospect et de compte, l’appartenance à un segment et à une liste, ainsi que les mesures de parcours. Les résultats sont renvoyés sous forme de graphiques et de tableaux de bord, de sorte que vous n’avez pas besoin de créer manuellement une requête ou un tableau de bord.
 
 * **Compétences** - `surface-analytics`
 * **Appel** - Posez une question en langage naturel ou utilisez une commande de barre oblique pour exécuter la compétence Surface Analytics. Par exemple : _« Afficher le nombre d’activités quotidiennes pour les 30 derniers jours.«_
