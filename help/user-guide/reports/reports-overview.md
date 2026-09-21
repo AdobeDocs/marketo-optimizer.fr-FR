@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '491'
 ht-degree: 2%
 ---
 
@@ -37,7 +37,7 @@ L’onglet [!UICONTROL Rapports] organise les rapports préconfigurés en quatre
 Certains rapports se concentrent sur un seul enregistrement au lieu d’une vue à l’échelle de la section. Ils sont accessibles à partir d’une autre zone de l’application.
 
 * Pour obtenir des performances d’optimisation de l’heure d’envoi des e-mails, ouvrez le rapport depuis l’interface de chat [!UICONTROL Coworker]. Pour connaître les étapes, voir [Optimisation de l’heure d’envoi des e-mails](../marketing/email-send-time-optimization.md#reporting).
-* Pour la progression d’une personne dans un parcours unique, ouvrez le rapport depuis ce parcours.
+* Pour suivre la progression d’une personne dans un parcours unique, ouvrez le rapport [Parcours de personne/individu](./person-journey-individual-report.md) depuis ce parcours.
 
 ## Exportation d’un rapport {#export-a-report}
 
