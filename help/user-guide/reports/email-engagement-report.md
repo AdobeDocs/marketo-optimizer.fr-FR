@@ -43,20 +43,20 @@ Les colonnes Mesures sont regroupées sous **[!UICONTROL Activités de messageri
 | --- | --- |
 | [!UICONTROL Envoyé] | Nombre d&#39;emails envoyés. |
 | [!UICONTROL Délivrés] | Nombre d’e-mails diffusés. |
-| [!UICONTROL  % diffusés] | Pourcentage d’e-mails envoyés ayant été diffusés. |
+| [!UICONTROL &#x200B; % diffusés] | Pourcentage d’e-mails envoyés ayant été diffusés. |
 | [!UICONTROL Hard bounce] | Nombre d’e-mails dont la diffusion a définitivement échoué. |
 | [!UICONTROL Soft Bounce] | Nombre d’e-mails dont la diffusion a temporairement échoué. |
 | [!UICONTROL Ouvert] | Nombre de fois où les destinataires ont ouvert l’e-mail. |
-| [!UICONTROL  % ouvert] | Pourcentage d’e-mails diffusés ouverts. |
+| [!UICONTROL &#x200B; % ouvert] | Pourcentage d’e-mails diffusés ouverts. |
 | [!UICONTROL sur lequel l’utilisateur a cliqué] | Nombre de fois où les destinataires ont cliqué sur un lien dans l’e-mail. |
-| [!UICONTROL  % ont cliqué] | Pourcentage d’e-mails diffusés ayant reçu un clic. |
+| [!UICONTROL &#x200B; % ont cliqué] | Pourcentage d’e-mails diffusés ayant reçu un clic. |
 | [!UICONTROL Cliquer pour ouvrir le rapport] | Pourcentage d’e-mails ouverts ayant reçu un clic. |
 | [!UICONTROL Désabonné] | Nombre de destinataires qui se sont désabonnés de l’e-mail. |
-| [!UICONTROL  % de désabonnements] | Pourcentage d’e-mails diffusés ayant entraîné un désabonnement. |
+| [!UICONTROL &#x200B; % de désabonnements] | Pourcentage d’e-mails diffusés ayant entraîné un désabonnement. |
 
 ## Filtres {#filters}
 
 Utilisez des filtres pour limiter le rapport à un parcours ou à une personne spécifique. Sélectionnez **[!UICONTROL Réinitialiser tout]** pour effacer chaque filtre et revenir à la vue par défaut.
 
-* **[!UICONTROL Nom du Parcours (Événement)]** - Filtrez par le parcours qui a envoyé l’e-mail. La valeur par défaut est [!UICONTROL  Aucun filtre ].
-* **[!UICONTROL Persona (événement)]** - Filtrez par le persona associé à l’e-mail. La valeur par défaut est [!UICONTROL  Aucun filtre ].
+* **[!UICONTROL Nom du Parcours (Événement)]** - Filtrez par le parcours qui a envoyé l’e-mail. La valeur par défaut est [!UICONTROL &#x200B; Aucun filtre &#x200B;].
+* **[!UICONTROL Persona (événement)]** - Filtrez par le persona associé à l’e-mail. La valeur par défaut est [!UICONTROL &#x200B; Aucun filtre &#x200B;].

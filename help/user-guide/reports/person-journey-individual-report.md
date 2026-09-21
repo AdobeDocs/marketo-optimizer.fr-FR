@@ -30,14 +30,14 @@ Vous pouvez [modifier la période](./reports-overview.md#change-the-date-range) 
 
 Sélectionnez **[!UICONTROL Partager]** en haut du rapport pour télécharger ou planifier une exportation des données. Voir [_Exporter un rapport_](./reports-overview.md#export-a-report) dans la présentation des rapports.
 
-Parcours de personne Rapport individuel présentant le statut du parcours, la tendance d’achèvement et les mosaïques d’engagement.](./assets/reports-individual-journey.png){width="700" zoomable="yes"}![
+Parcours de personne Rapport individuel présentant le statut du parcours, la tendance d’achèvement et les mosaïques d’engagement.![&#128279;](./assets/reports-individual-journey.png){width="700" zoomable="yes"}
 
 ## Filtres {#filters}
 
 Les filtres de rapport sont définis sur le parcours actif.
 
 * **[!UICONTROL Nom du Parcours (événement)]** - Prédéfini sur le parcours à partir duquel vous avez ouvert le rapport.
-* **[!UICONTROL Persona (événement)]** - (_pas encore pris en charge_) Filtrez le rapport pour les personnes qui correspondent à un [persona dérivé](../audiences/personas.md#filter-by-derived-persona) spécifique. La valeur par défaut est [!UICONTROL  Aucun filtre ].
+* **[!UICONTROL Persona (événement)]** - (_pas encore pris en charge_) Filtrez le rapport pour les personnes qui correspondent à un [persona dérivé](../audiences/personas.md#filter-by-derived-persona) spécifique. La valeur par défaut est [!UICONTROL &#x200B; Aucun filtre &#x200B;].
 
 Sélectionnez **[!UICONTROL Réinitialiser tout]** pour effacer le filtre _[!UICONTROL Persona (Événement)]_ et revenir à la vue par défaut.
 
@@ -52,7 +52,7 @@ Cette section présente quatre mosaïques :
 
 ## Performances des e-mails {#email-performance}
 
-Le tableau [!UICONTROL  Performances des e-mails ] affiche les mesures de diffusion et d’engagement pour chaque e-mail envoyé dans le parcours. Pour obtenir les mêmes mesures d’e-mail sur tous les parcours, consultez le [rapport sur l’engagement des e-mails](./email-engagement-report.md).
+Le tableau [!UICONTROL &#x200B; Performances des e-mails &#x200B;] affiche les mesures de diffusion et d’engagement pour chaque e-mail envoyé dans le parcours. Pour obtenir les mêmes mesures d’e-mail sur tous les parcours, consultez le [rapport sur l’engagement des e-mails](./email-engagement-report.md).
 
 ![Tableau des performances des e-mails affichant les mesures envoyées, diffusées, ouvertes et ayant fait l’objet d’un clic pour un e-mail.](./assets/reports-individual-journey-email-performance.png){width="700" zoomable="yes"}
 
@@ -61,11 +61,11 @@ Le tableau [!UICONTROL  Performances des e-mails ] affiche les mesures de diffus
 * [!UICONTROL Nom de l’adresse électronique] - Nom de l’adresse électronique.
 * [!UICONTROL Envoyés] - Nombre d’e-mails envoyés.
 * [!UICONTROL Diffusés] - Nombre d&#39;e-mails diffusés.
-* [!UICONTROL  % diffusés ] - Nombre d’e-mails diffusés divisé par le nombre envoyé.
+* [!UICONTROL &#x200B; % diffusés &#x200B;] - Nombre d’e-mails diffusés divisé par le nombre envoyé.
 * [!UICONTROL Ouverts] - Nombre de fois où les destinataires ont ouvert l’e-mail.
-* [!UICONTROL  % d’ouvertures ] - Nombre de messages ouverts divisé par le nombre de messages diffusés.
+* [!UICONTROL &#x200B; % d’ouvertures &#x200B;] - Nombre de messages ouverts divisé par le nombre de messages diffusés.
 * [!UICONTROL Clics] - Nombre de fois où les destinataires ont cliqué sur un lien dans l’e-mail.
-* [!UICONTROL  % d’e-mails cliqués ] - Nombre d’e-mails cliqués divisé par le nombre diffusé.
+* [!UICONTROL &#x200B; % d’e-mails cliqués &#x200B;] - Nombre d’e-mails cliqués divisé par le nombre diffusé.
 
 ## Flux d’activité de parcours {#journey-activity-flow}
 
