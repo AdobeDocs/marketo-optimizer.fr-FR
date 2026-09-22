@@ -1,6 +1,6 @@
 ---
 title: Compétences du collègue
-description: 'Examinez les compétences du collaborateur d’entreprise CX dans Marketo Optimizer : workflows empaquetés pour les programmes, les parcours, les audiences, la notation, le contenu et l’optimisation de l’heure d’envoi.'
+description: 'Examinez les compétences CX Enterprise Coworker dans Marketo Optimizer : workflows empaquetés pour les programmes, les parcours, les audiences, la notation, le contenu et l’optimisation de l’heure d’envoi.'
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6e03e2dc6abb00d288f5684e9ea9b6489c6517e4
+source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '633'
 ht-degree: 7%
 ---
 # Compétences des collègues
@@ -95,11 +95,17 @@ Une _compétence_ est un workflow empaqueté que Coworker sait exécuter : les �
 | `send-time-optimization` | Vérifiez le statut STO et activez/désactivez-le sur un nœud d’e-mail. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
 | `send-time-report` | Récupérez/affichez le rapport des performances de la STO. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] |
 
+## Analyses et rapports {#analytics-reporting}
+
+| Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
+|---|---|---|---|---|
+| `surface-analytics` | Générer des rapports d’analyse en langage naturel sur les tendances d’activité, les performances des e-mails, les données de prospect et de compte, l’appartenance à des segments et à des listes, ainsi que les mesures de parcours, renvoyés sous forme de graphiques et de tableaux. Les données du rapport sont actualisées toutes les deux heures. <p>Voir _[Générer des rapports d’analyse](./surface-analytics.md)_.</p> | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] + [!DNL Marketo Engage] |
+
 ## Connaissances {#knowledge}
 
 | Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
 |---|---|---|---|---|
-| `product-knowledge` | Répondez aux questions pratiques/conceptuelles de la documentation [!DNL Marketo Optimizer] sur Experience League. | Lecture | Les deux | Lit les documents externes — aucune donnée de produit |
+| `product-knowledge` | Répondez aux questions pratiques/conceptuelles de [!DNL Marketo Optimizer] documentation publiée sur Experience League. | Lecture | Les deux | Lit les documents externes — aucune donnée de produit |
 
 ## Cross-back-end {#cross-backend}
 
@@ -109,5 +115,6 @@ Ces compétences s’étendent sur plusieurs serveurs principaux :
 - **`audience-creation`** — lit [!DNL Marketo Engage] listes dynamiques (`get_smart_list` / `get_smart_campaign`), puis écrit [!DNL Marketo Optimizer] listes de personnes.
 - **`journey-observability`** — [!DNL Marketo Optimizer] lit plus un `check_lead_in_marketo_static_list` [!DNL Marketo Engage] lire.
 - **`scoring-studio`** : lit [!DNL Marketo Engage] champs de prospect/types d&#39;activité ainsi que [!DNL Marketo Optimizer] service de notation.
+- **`surface-analytics`** — peut répondre à des questions de reporting qui couvrent à la fois les données [!DNL Marketo Engage] et [!DNL Marketo Optimizer] dans une seule requête.
 
 Tous les outils `falco-mcp_*` et parcours/jeton/notation/STO/FCS accèdent aux services [!DNL Marketo Optimizer] ; les outils CSV/programme/prospect [!DNL Marketo Engage].

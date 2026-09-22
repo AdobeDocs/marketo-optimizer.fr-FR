@@ -7,15 +7,15 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 8c47a9c69c32ba0a37ba2efadb6ad4c1b796c21d
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '343'
 ht-degree: 1%
 ---
 
 # Rapport Engagement des e-mails
 
-<!-- SPHR-39569: content drafted, but hide: true and hide-from-toc stay until eng confirms this shipped to production. Filter by Program, Filter by Audience, and the program data point from SPHR-32511 are not documented here pending delivery-state confirmation. -->
+<!-- SPHR-32511: Filter by Program, Filter by Audience, and the program data point for the email performance table are not documented here pending delivery. -->
 
 Utilisez le rapport [!UICONTROL Engagement des e-mails] pour examiner la délivrabilité des e-mails et les performances de l’engagement sur l’ensemble de votre instance, ventilées par e-mail et par parcours.
 
@@ -54,13 +54,9 @@ Les colonnes Mesures sont regroupées sous **[!UICONTROL Activités de messageri
 | [!UICONTROL Désabonné] | Nombre de destinataires qui se sont désabonnés de l’e-mail. |
 | [!UICONTROL &#x200B; % de désabonnements] | Pourcentage d’e-mails diffusés ayant entraîné un désabonnement. |
 
-<!--
+## Filtres {#filters}
 
-## Filters {#filters}
+Utilisez des filtres pour limiter le rapport à un parcours ou à une personne spécifique. Sélectionnez **[!UICONTROL Réinitialiser tout]** pour effacer chaque filtre et revenir à la vue par défaut.
 
-Use filters to narrow the report to a specific journey, persona, or date range. Select **[!UICONTROL Reset all]** to clear every filter and return to the default view.
-
-* **[!UICONTROL Journey Name (Event)]** - Filter by the journey that sent the email. Default is [!UICONTROL No filter].
-* **[!UICONTROL Persona (Event)]** - Filter by the persona associated with the email. Default is [!UICONTROL No filter].
-* **[!UICONTROL Date range]** - Filter by a specific date span, shown as explicit start and end dates. Default is [!UICONTROL Last 30 days].
--->
+* **[!UICONTROL Nom du Parcours (Événement)]** - Filtrez par le parcours qui a envoyé l’e-mail. La valeur par défaut est [!UICONTROL &#x200B; Aucun filtre &#x200B;].
+* **[!UICONTROL Persona (événement)]** - Filtrez par le persona associé à l’e-mail. La valeur par défaut est [!UICONTROL &#x200B; Aucun filtre &#x200B;].
