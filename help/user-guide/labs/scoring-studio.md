@@ -127,7 +127,7 @@ La note apparaît dans le panneau de filtrage sous la catégorie **[!UICONTROL A
 
 ### Audiences et nœuds basés sur un événement {#scoring-model-event-audience}
 
-Pour utiliser un résultat de modèle de notation afin de le filtrer pour un nœud [audience basée sur un événement](../audiences/event-based-audiences.md) ou [_Écouter pour un événement_ ](../marketing/listen-for-event-nodes.md) :
+Pour utiliser un résultat de modèle de notation afin de le filtrer pour un nœud [audience basée sur un événement](../audiences/event-based-audiences.md) ou [_Écouter pour un événement_ &#x200B;](../marketing/listen-for-event-nodes.md) :
 
 1. Cliquez sur **[!UICONTROL Ajouter des critères d’événement]**.
 
@@ -143,7 +143,7 @@ Pour utiliser un résultat de modèle de notation afin de le filtrer pour un nœ
 
 ### Conditions du chemin de partage {#split-path-conditions}
 
-Pour utiliser un résultat de modèle de notation afin de définir les conditions de chemin d’accès d’un nœud [_Chemins partagés_ ](../marketing/split-merge-paths-nodes.md) :
+Pour utiliser un résultat de modèle de notation afin de définir les conditions de chemin d’accès d’un nœud [_Chemins partagés_ &#x200B;](../marketing/split-merge-paths-nodes.md) :
 
 1. Cliquez sur **[!UICONTROL Modifier la condition]** pour le chemin du nœud.
 
