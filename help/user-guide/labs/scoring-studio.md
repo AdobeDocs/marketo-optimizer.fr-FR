@@ -1,16 +1,16 @@
 ---
 title: Studio de notation
-description: Découvrez Scoring Studio dans Adobe Marketo Optimizer, notamment la liste des modèles, la zone de travail, les colonnes de dimension, les cartes de signal, les segments de piste et la publication.
+description: Découvrez Scoring Studio dans Adobe Marketo Optimizer, notamment la liste des modèles, la zone de travail, les colonnes de dimension, les cartes de signal, les segments de prospect et la publication.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
+source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 2%
+source-wordcount: '1410'
+ht-degree: 1%
 ---
 
 # Studio de notation
@@ -105,6 +105,84 @@ Sous le segment de prospect, la carte **[!UICONTROL Nom du champ de score]** aff
 
 ## Publier et planifier {#publish-schedule}
 
-Lorsque votre modèle est prêt, sélectionnez **[!UICONTROL Publier]**. Choisissez la fréquence à laquelle le modèle évalue votre audience : quotidienne, hebdomadaire ou mensuelle.
+Lorsque votre modèle est prêt, cliquez sur **[!UICONTROL Publier]**.
 
-Pour le processus de publication complet, y compris la manière dont [!DNL Marketo Optimizer] met en service automatiquement un champ de notation, consultez [_Publication d’un modèle de notation_](../agents/lead-scoring-model.md#publish-model).
+![Le bouton Publier s’affiche pour un modèle de score de brouillon.](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
+
+Choisissez la fréquence à laquelle le modèle évalue votre audience : quotidienne, hebdomadaire ou mensuelle. Vous pouvez également choisir une option manuelle pour exécuter le modèle.
+
+![Les options de planification affichent des choix de périodicité quotidiens, hebdomadaires, mensuels et manuels pour l’exécution du modèle de notation.](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
+
+Pour le processus de publication complet à l’aide de l’interface de conversation des collègues [Coworker](../agents/chat-interface.md), y compris la manière dont [!DNL Marketo Optimizer] met en service automatiquement un champ de notation, consultez [_Publication d’un modèle de notation_](../agents/lead-scoring-model.md#publish-model).
+
+Les derniers scores sont stockés dans un champ configuré qui est synchronisé avec votre instance [!DNL Marketo Engage].
+
+![Champ de score configuré affiché dans la gestion des champs Marketo Engage](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
+
+## Utiliser des scores dans les filtres {#filter-score}
+
+Après avoir [publié un modèle](#publish-schedule), vous pouvez utiliser le score obtenu comme filtre lors de la création d’audiences basées sur un événement et _Écouter un événement_ les nœuds , comme condition de chemin de partage ou pour l’appartenance à une liste de personnes.
+
+La note apparaît dans le panneau de filtrage sous la catégorie **[!UICONTROL Attributs de personne]**, étiquetée avec le nom du modèle ou le [_nom du champ de note_](#lead-segment) personnalisé que vous lui avez affecté. Saisissez ce nom dans le champ de recherche du panneau de filtrage pour localiser la note, puis faites-la glisser sur la zone de travail et définissez vos critères.
+
+### Audiences et nœuds basés sur un événement {#scoring-model-event-audience}
+
+Pour utiliser un résultat de modèle de notation afin de le filtrer pour un nœud [audience basée sur un événement](../audiences/event-based-audiences.md) ou [_Écouter pour un événement_ &#x200B;](../marketing/listen-for-event-nodes.md) :
+
+1. Cliquez sur **[!UICONTROL Ajouter des critères d’événement]**.
+
+1. Dans la boîte de dialogue _[!UICONTROL Modifier les critères d’événement]_, sélectionnez l’onglet **[!UICONTROL Filtres]**.
+
+1. Saisissez le nom du modèle dans le champ de recherche, puis faites glisser le score sur la zone de travail.
+
+   ![L’onglet Filtres affiche un nom de modèle saisi dans le champ de recherche et le score correspondant glissé sur la zone de travail.](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
+
+1. Définissez l’opérateur et la valeur pour qu’ils correspondent aux scores que vous souhaitez cibler.
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**
+
+### Conditions du chemin de partage {#split-path-conditions}
+
+Pour utiliser un résultat de modèle de notation afin de définir les conditions de chemin d’accès d’un nœud [_Chemins partagés_ &#x200B;](../marketing/split-merge-paths-nodes.md) :
+
+1. Cliquez sur **[!UICONTROL Modifier la condition]** pour le chemin du nœud.
+
+1. Dans la boîte de dialogue _[!UICONTROL Conditions]_, saisissez le nom du modèle dans le champ de recherche, puis faites glisser le score correspondant sur la zone de travail.
+
+   ![La boîte de dialogue Conditions affiche un nom de modèle saisi dans le champ de recherche et le score correspondant glissé sur la zone de travail.](./assets/scoring-model-split-path-condition.png){width="700" zoomable="yes"}
+
+1. Définissez l’opérateur et la valeur pour qu’ils correspondent aux scores que vous souhaitez cibler.
+
+1. Cliquez sur **[!UICONTROL Terminé]** pour enregistrer la condition pour le chemin d’accès.
+
+### Appartenance à la liste des personnes {#scoring-model-people-lists}
+
+Pour gérer l’appartenance [liste des personnes](../audiences/people-lists.md) à l’aide d’un résultat de modèle de notation :
+
+**Liste statique — Ajouter des membres**
+
+1. Ouvrez la liste statique et cliquez sur **[!UICONTROL Ajouter des personnes]**.
+
+1. Dans la boîte de dialogue _[!UICONTROL Ajouter des personnes]_, saisissez le nom du modèle dans le champ de recherche, puis faites glisser le score correspondant sur la zone de travail.
+
+   ![La boîte de dialogue Ajouter des personnes affiche un nom de modèle saisi dans le champ de recherche et le score correspondant glissé sur la zone de travail.](./assets/scoring-model-static-list-add-people.png){width="700" zoomable="yes"}
+
+1. Définissez l’opérateur et la valeur pour qu’ils correspondent aux scores que vous souhaitez cibler.
+
+1. Cliquez sur **[!UICONTROL Terminé]** pour appliquer le filtre et qualifier les personnes correspondantes dans la liste.
+
+**Liste dynamique — Définit les règles d&#39;appartenance**
+
+1. Ouvrez la liste dynamique et sélectionnez l’onglet **[!UICONTROL Règles]**.
+
+1. Cliquez sur **[!UICONTROL Modifier les règles]**.
+
+1. Dans la boîte de dialogue _[!UICONTROL Modifier les règles]_, saisissez le nom du modèle dans le champ de recherche, puis faites glisser l’élément de score sur la zone de travail.
+
+   ![La boîte de dialogue Modifier les règles affiche un nom de modèle saisi dans le champ de recherche et le score correspondant glissé sur la zone de travail.](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
+
+1. Définissez l’opérateur et la valeur pour qu’ils correspondent aux scores que vous souhaitez cibler.
+
+1. Cliquez sur **[!UICONTROL Terminé]** pour enregistrer la règle.
+
+   L’appartenance est automatiquement mise à jour lorsque les enregistrements de la personne sont évalués par rapport à la règle.
