@@ -1,34 +1,38 @@
 ---
 title: Jetons personnalisés pour Personalization
-description: 'Créer et gérer des jetons My personnalisés pour la personnalisation dynamique de vos artefacts marketing : définissez des variables de texte et de nombre pour les programmes dans Marketo Optimizer.'
+description: Créez et gérez des jetons My personnalisés pour la personnalisation dynamique de vos artefacts marketing. Définissez des variables de texte et de nombre pour les programmes dans Marketo Optimizer.
 TQID: 'https://experienceleague.adobe.com/utVM69g7aQSuF-V3XQIdVBqvBXyiDz1ZWr0WtE67UCg'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: 177e7c3d0806febd730104b19787ba3cbea2914a
 workflow-type: tm+mt
-source-wordcount: 629
+source-wordcount: '704'
 ht-degree: 3%
-
 ---
-
 # Jetons personnalisés pour la personnalisation
 
-La personnalisation du contenu utilise des jetons comme espaces réservés ou variables qui sont renseignés lorsque l’artefact de contenu est généré. Des jetons de personnalisation standard sont disponibles pour les e-mails, les pages de destination, les fragments et les modèles. Vous pouvez également définir un ensemble de jetons personnalisés avec des valeurs spécifiques au programme ou au dossier. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés est destiné à la personnalisation.
+La personnalisation du contenu utilise des jetons comme espaces réservés ou variables qui sont renseignés lorsque l’artefact de contenu est généré. Des jetons de personnalisation standard sont disponibles pour les e-mails, les pages de destination, les fragments et les modèles. Vous pouvez également définir un ensemble de jetons personnalisés avec des valeurs spécifiques au programme ou au dossier. Cet ensemble de jetons personnalisés est appelé _Mes jetons_ et l’un de ces jetons personnalisés peut être personnalisé.
 
-Lorsque vous ajoutez un jeton personnalisé à un e-mail, il s’affiche sous la forme `{{my.TokenName}}`. Par exemple, vous pouvez avoir créé des jetons `{{my.EventDate}}` ou `{{my.WebinarSpeaker}}` pour gérer le contenu des e-mails liés aux webinaires à venir.
+<!-- 
+When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. For example, you might have `{{my.EventDate}}` or `{{my.WebinarSpeaker}}` tokens created to manage email content related to upcoming webinars in your program.
+-->
 
 Outre les jetons _Mes jetons_, qui sont spécifiques au programme ou au dossier, vous pouvez utiliser l’un des jetons standard (intégrés) pour la personnalisation.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->_Mes jetons_ ne sont actuellement pas activés dans l’éditeur Personalization pour cette version de Beta.
+>Pour la version initiale de Marketo Optimizer, les _Mes jetons_ sont pris en charge pour les nœuds d’action de parcours Modifier la valeur des données et sont limités à une utilisation dans les attributs de chaîne et de texte. _Mes jetons_ ne sont **pas** actuellement activés dans l’éditeur de Personalization.
 
-## Jetons d’accès
+## Jetons d’accès {#access-tokens}
 
 1. Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion marketing]**.
 
@@ -57,17 +61,17 @@ Les _Mes jetons_ sont des variables personnalisées que vous créez ou modifiez 
 | Booléen | Ce type contient une valeur booléenne standard, true ou false. |
 | Texte complet | Ce type contient du texte formaté. |
 
-### Imbrication de jetons
+### Imbrication de jetons {#nesting}
 
-Lorsque vous créez un jeton dans un programme ou un dossier, il est disponible pour référence par d’autres objets enfants.
+Lorsque vous créez un jeton dans un programme ou un dossier, il est disponible pour référence par les objets de la hiérarchie.
 
-* Jeton local : le jeton est défini dans le même programme ou dossier.
-* Jeton hérité - Le jeton est défini dans un programme ou dossier parent, un ou plusieurs niveaux au-dessus du programme ou dossier actuel.
-* Jeton remplacé - Le jeton est défini dans un programme ou dossier parent, mais une valeur différente est définie dans le programme ou dossier actuel. Le statut du jeton passe à _Remplacé_ et tous les dossiers enfants, programmes et artefacts marketing héritent de la nouvelle valeur.
+* **Jeton local** - Le jeton est défini dans le même programme ou dossier.
+* **Jeton hérité** - Le jeton est défini dans un programme ou dossier parent, un ou plusieurs niveaux au-dessus du programme ou dossier actuel.
+* **Jeton remplacé** - Le jeton est défini dans un programme ou dossier parent, mais une valeur différente est définie dans le programme ou dossier actuel. Le statut du jeton passe à _Remplacé_ et tous les dossiers enfants, programmes et artefacts marketing héritent de la nouvelle valeur.
 
 ![Types de jeton et héritage](./assets/program-tokens-inherited-overridden.png){width="600" zoomable="yes"}
 
-### Créer un jeton
+### Créer un jeton {#create}
 
 1. Dans l’onglet _[!UICONTROL Jetons]_, cliquez sur **[!UICONTROL Créer]**.
 
@@ -83,9 +87,9 @@ Lorsque vous créez un jeton dans un programme ou un dossier, il est disponible 
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-### Modification d’un jeton
+### Modification d’un jeton {#edit}
 
-Vous pouvez modifier la valeur de l’un des jetons My Tokens définis. Procédez de la sorte pour remplacer la valeur d’un jeton hérité.
+Vous pouvez modifier la valeur de l’un des jetons My Tokens définis, ce qui remplace la valeur d’un jeton hérité.
 
 <!-- (How does this affect live person journeys? ) -->
 
@@ -97,13 +101,21 @@ Vous pouvez modifier la valeur de l’un des jetons My Tokens définis. Procéde
 
 1. Cliquez sur l’icône _Enregistrer_.
 
-### Supprimer un jeton
+### Supprimer un jeton {#delete}
 
 Vous pouvez supprimer un jeton personnalisé de la liste s’il n’est pas actuellement utilisé dans le contenu d’e-mail en parcours.
 
 1. Sur le _[!UICONTROL Jetons]_ , cliquez sur l’icône _Supprimer_ en regard du nom du jeton.
 
 1. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
+
+## Suggestion automatique et prévisualisation {#autosuggest}
+
+Lorsque vous incluez un _Modifier la valeur des données_ [nœud d’action](./action-nodes.md) dans votre parcours, vous pouvez saisir des `{{` dans le champ **[!UICONTROL Nouvelle valeur]** pour afficher le menu Jetons _Suggestion automatique_. La liste affichée affiche les espaces de noms pris en charge et les jetons individuels. Seuls les jetons d’un type de données compatible sont répertoriés.
+
+Pour _Mes jetons_, un aperçu de la valeur du jeton s’affiche avec le nom du jeton pour faciliter la sélection de la bonne valeur.
+
+![Syntaxe dans le champ Nouvelle valeur pour afficher le menu d’auto-suggestion pour les jetons](./assets/program-tokens-change-data-value-autosuggest.png){width="500" zoomable="yes"}
 
 <!--
 
