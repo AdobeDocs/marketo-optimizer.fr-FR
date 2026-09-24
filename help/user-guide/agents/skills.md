@@ -94,7 +94,7 @@ Cette compétence parcourt les modèles et personnalise le contenu des e-mails p
 
 | Compétence | Ce qu&#39;il fait | Type |
 | --- | --- | --- |
-| Personalization de contenu **** | Parcourez et prévisualisez des modèles, puis modifiez le contenu ou générez des variantes. Voir _[Personnaliser le contenu d’un e-mail par persona](./personalize-content.md)_. | Créer |
+| Personalization de contenu **&#x200B;**&#x200B;| Parcourez et prévisualisez des modèles, puis modifiez le contenu ou générez des variantes. Voir _[Personnaliser le contenu d’un e-mail par persona](./personalize-content.md)_. | Créer |
 
 ## Analyses et optimisation {#analytics-optimization}
 
