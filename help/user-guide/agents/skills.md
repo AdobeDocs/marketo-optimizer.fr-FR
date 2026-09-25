@@ -1,120 +1,129 @@
 ---
 title: Compétences du collègue
-description: 'Examinez les compétences CX Enterprise Coworker dans Marketo Optimizer : workflows empaquetés pour les programmes, les parcours, les audiences, la notation, le contenu et l’optimisation de l’heure d’envoi.'
+description: Examinez les compétences de vos collègues dans Marketo Optimizer pour les parcours, les audiences, les programmes, le contenu, les analyses et la prise de décision par l’IA. Découvrez ce que chaque compétence peut vous apporter.
+autotag-review: '2026-09-22T14:02:17.516Z'
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
-  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
-    internal-label: Setup
-  - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Audiences
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-    internal-label: Journeys
-  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-    internal-label: Programs
-  - id: d4203578-d294-5145-b397-f26f4488a904
-    internal-label: Channels
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+subfeature_v2:
+  - id: b9e5c7f3-be30-563c-9e41-cc8ea76e2fee
+    internal-label: Skills
 topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-    internal-label: Data quality
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+source-git-commit: 5334f0f5d9d958ea47b055b067a7308950352e9c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 7%
+source-wordcount: '988'
+ht-degree: 4%
 ---
+
 # Compétences des collègues
 
-Une _compétence_ est un workflow empaqueté que Coworker sait exécuter : les éléments de base à la fois du menu `/` et des requêtes en langage naturel. Chaque compétence regroupe des instructions détaillées et les outils spécifiques nécessaires pour une tâche (par exemple, « publier un parcours », « comparer deux listes de personnes », « créer un modèle de notation »).
+Une _compétence_ est un workflow empaqueté que Coworker peut exécuter. Les compétences sont les composants qui sous-tendent le menu `/` et les requêtes en langage naturel. Chaque compétence regroupe des instructions détaillées et les outils spécifiques nécessaires à une tâche, comme la publication d’un parcours, la comparaison de deux listes de personnes ou la création d’un modèle de notation.
 
->[!NOTE]
->
->Chaque compétence est classée en fonction du fait qu’elle mute l’état [!DNL Marketo Optimizer] ou [!DNL Marketo Engage] (**Écriture**), qu’elle ne génère/analyse que (**Lecture**) ou qu’elle possède des fonctions de requête et de mutation égales (**Lecture+Écriture**).
+La classification de chaque compétence reflète le type d’action qu’elle effectue :
 
-## Programmes et planification {#programs-planning}
-
-| Compétence | Ce qu&#39;il fait | Accès | Surface de produit | Impact / flux de données |
-|---|---|---|---|---|
-| `adapt-program` | Générer des récits de migration à partir de programmes [!DNL Marketo Engage] pour l&#39;adaptation [!DNL Marketo Optimizer]. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Engage], écrit [!DNL Marketo Optimizer] |
-| `folder-creation` | Créez des dossiers d’organisation dans l’arborescence de ressources. | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
-| `program-creation` *(Créer des programmes)* | Créez des programmes Marketo à partir d’un résumé de campagne.  <p>Voir _[Créer un programme à partir d’un brief](./program-from-brief.md)_. | Écriture | [!DNL Marketo Engage] | Lit + écrit [!DNL Marketo Engage] |
-| `program-planning` *(Planifier Des Campagnes)* | Transformer des résumés en documents de configuration/d’implémentation. | Lecture | [!DNL Marketo Engage] | Lit [!DNL Marketo Engage] |
-| `program-qa` *(Valider les programmes)* | Valider/auditer les programmes (règles uniquement, plan de test ou résumé). | Lecture | [!DNL Marketo Engage] | Lit [!DNL Marketo Engage] |
+* _Rechercher_ les compétences recherchent ou répertorient les enregistrements existants.
+* _Analyser_ examiner les compétences, comparer ou générer des rapports sur les données sans les modifier.
+* Les compétences _Affichage_ affichent un rapport ou une mesure en lecture seule.
+* Les compétences _Modifier_ modifient les paramètres ou le contenu d’un objet existant.
+* _Créer_ les compétences permettent de créer un objet.
 
 ## Parcours {#journeys}
 
-| Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
-|---|---|---|---|---|
-| `journey-creation` | Créez et modifiez des parcours de personne en langage naturel. | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
-| `journey-edit-dates` | Modifier la date de début/fin d’un parcours sans le publier | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
-| `journey-publish` | Publier/lancer/planifier des parcours de personnes. | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
-| `journey-stop` | Interrompre, fermer, arrêter, arrêter ou tuer des parcours. | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
-| `journey-reentry` | Configurer la rentrée : autoriser/interdire, réinitialiser, max. les entrées. | Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
-| `journey-trafficcontrol` | Exécutez une simulation du contrôle du trafic montrant le routage des profils. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] (simulation) |
-| `journey-observability` | Déboguer/surveiller la progression : chemins, synchronisation, divisions, décrochages, séjour. <p>Voir _[Déboguer et surveiller la progression du parcours](./journey-observability.md)_. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] + [!DNL Marketo Engage] (vérification de la liste statique). |
+Ces compétences permettent de créer, publier, déboguer et gérer des parcours de personne.
 
-## Audiences et personnes {#audiences-people}
+| Compétence | Ce qu&#39;il fait | Type |
+| --- | --- | --- |
+| **Observabilité du Parcours** | Déboguer et surveiller les mouvements des personnes dans un parcours, y compris les chemins, le timing, les divisions, les décrochages et le temps d’arrêt. Voir _[Déboguer et surveiller la progression du parcours](./journey-observability.md)_. | Analyser |
+| **Contrôle de trafic de Parcours** | Simuler la manière dont les profils se répartissent sur tous les parcours actifs. | Analyser |
+| **Publication Parcours** | Publiez, lancez ou planifiez un parcours, y compris le mode de démarrage, les dates et la confirmation. | Modifier |
+| **Arrêt du Parcours** | Abandonnez un parcours en cours d’exécution pour l’arrêter immédiatement ou fermez-le pour le réduire de manière élégante. | Modifier |
+| **Parcours Modifier les dates** | Modifiez la date de début ou de fin sur un brouillon, un parcours planifié ou un Live Copy sans le republier. | Modifier |
+| **Parcours de rentrée** | Configurez les paramètres de rentrée d’un parcours, notamment si la rentrée est autorisée, le délai de refroidissement et le nombre maximal d’entrées. | Modifier |
+| **Création de Parcours** | Créez et modifiez des parcours de personne à l’aide de requêtes en langage naturel. | Créer |
+| **Webinaire en Parcours** | Configurez un parcours promotionnel avant un webinaire et un parcours de suivi après. | Créer |
 
-| Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
-|---|---|---|---|---|
-| `audience-creation` | Adapter une liste dynamique de [!DNL Marketo Engage], créer une liste de personnes ou ajouter/mettre à jour des règles. <p>Voir _[Création d’audiences pour les programmes](./audience-creation.md)_. | Écriture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Engage] + lit/écrit [!DNL Marketo Optimizer]. |
-| `people-list-comparison` | Comparer deux listes de personnes et afficher les membres qui se chevauchent | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] |
-| `import-leads` | Inspectez la qualité des données CSV et validez les importations dans [!DNL Marketo Engage]. | Lecture+Écriture | Les deux | Lit + écrit [!DNL Marketo Engage] |
-| `lead-investigation` *(Enquêter sur les leads)* | Examiner l’activité, la notation, la qualification et le cycle de vie d’un prospect. | Lecture | [!DNL Marketo Engage] | Lit [!DNL Marketo Engage] |
+## Listes d’audiences et de personnes {#audience-people-lists}
 
-## Contenu et canaux {#content-channels}
+Ces compétences permettent de créer et de gérer des listes de personnes et des définitions d’audience.
 
-| Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
-|---|---|---|---|---|
-| `content-personalization` | Parcourir/prévisualiser des modèles et modifier du contenu/générer des variantes. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer]. Voir _[Personnaliser le contenu d’un e-mail par persona](./personalize-content.md)_. |
-| `asset-tokens` | CRUD de jeton complet sur les programmes/dossiers/parcours. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
-| `fcs-channels` | Recherches de canal et CRUD + publication/arrêt/suppression. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
+| Compétence | Ce qu&#39;il fait | Type |
+| --- | --- | --- |
+| **Parcourir les membres de la liste dynamique** | Parcourez et filtrez les membres d’une liste de personnes dynamique ou statique. | Rechercher |
+| **Comparaison de listes de personnes** | Comparer deux listes de personnes et afficher les membres qui se chevauchent | Analyser |
+| **Supprimer de la liste statique** | Supprimez les membres qui correspondent aux critères de langage naturel d’une liste statique. | Modifier |
+| **Création d’une audience** | Adapter une liste dynamique [!DNL Marketo Engage], créer une liste de personnes ou ajouter ou mettre à jour ses règles. Voir _[Création d’audiences pour les programmes](./audience-creation.md)_. | Créer |
 
-## Notation et signaux {#scoring-signals}
+## Programmes, dossiers et canaux {#programs-folders-channels}
 
-| Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
-|---|---|---|---|---|
-| `scoring-studio` | Répertorier/obtenir des modèles de notation et les créer/publier. <p>Voir _[Création de modèles de notation personnalisés](./lead-scoring-model.md)_. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit des [!DNL Marketo Optimizer] (service de notation) ; lit [!DNL Marketo Engage] champs de prospect/types d’activité. |
-| `engagementconfiguration` | Afficher la configuration de l&#39;engagement et modifier/mettre à jour les poids. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
-| `intentconfiguration` | Afficher la configuration d&#39;intention et définir/mettre à jour les poids. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
-| `intent-query` | Interroger et expliquer les scores d’intention par personne/segment/liste. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] |
+Ces compétences gèrent la structure du programme, les jetons et la configuration des canaux.
 
-## Optimisation de l’heure d’envoi {#sto}
+| Compétence | Ce qu&#39;il fait | Type |
+| --- | --- | --- |
+| **Créer un programme** | Créez des programmes à partir d’un résumé de campagne. Voir _[Créer un programme à partir d’un brief](./program-from-brief.md)_. | Analyser |
+| **Adapter le programme** | Générer des récits de migration à partir de programmes [!DNL Marketo Engage] pour l&#39;adaptation [!DNL Marketo Optimizer]. | Analyser |
+| **Jetons de ressources** | Créez et gérez des valeurs `{{my.token}}` dans des programmes, des dossiers et des parcours. | Modifier |
+| **Canaux FCS** | Créer, publier, arrêter et cloner des canaux dans le service Canaux , y compris les schémas XDM et la configuration. | Modifier |
+| **Création de dossier** | Créez des dossiers d’organisation dans l’arborescence de ressources. | Créer |
+| **Campagne intégrée WhatsApp** | Créez et publiez une campagne intégrée [!DNL WhatsApp] sur un nœud de parcours. | Créer |
+| **Création de programme marketing** | Créez un programme complet, comprenant des sous-dossiers, des jetons, des listes de personnes et des parcours. | Créer |
+| **Création de programmes et de lots de Parcours** | Créez plusieurs paires de programmes et de parcours dans une seule demande par lots. | Créer |
 
-| Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
-|---|---|---|---|---|
-| `send-time-optimization` | Vérifiez le statut STO et activez/désactivez-le sur un nœud d’e-mail. | Lecture+Écriture | [!DNL Marketo Optimizer] | Lit + écrit [!DNL Marketo Optimizer] |
-| `send-time-report` | Récupérez/affichez le rapport des performances de la STO. | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] |
+## E-mail et pages de destination {#email-landing-pages}
 
-## Analyses et rapports {#analytics-reporting}
+Ces compétences permettent de créer et de gérer des e-mails, des formulaires et des pages de destination.
 
-| Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
-|---|---|---|---|---|
-| `surface-analytics` | Générer des rapports d’analyse en langage naturel sur les tendances d’activité, les performances des e-mails, les données de prospect et de compte, l’appartenance à des segments et à des listes, ainsi que les mesures de parcours, renvoyés sous forme de graphiques et de tableaux. Les données du rapport sont actualisées toutes les deux heures. <p>Voir _[Générer des rapports d’analyse](./surface-analytics.md)_.</p> | Lecture | [!DNL Marketo Optimizer] | Lit [!DNL Marketo Optimizer] + [!DNL Marketo Engage] |
+| Compétence | Ce qu&#39;il fait | Type |
+| --- | --- | --- |
+| **Liste des Forms** | Répertoriez les formulaires et affichez leurs détails et champs. | Rechercher |
+| **Liste des pages de destination** | Répertorier les pages de destination, afficher leurs détails et gérer leur statut de brouillon ou publié. | Rechercher |
+| **Audit des e-mails** | Effectuez l’audit d’un e-mail par rapport à son groupe cible, y compris l’inférence personnelle et un bref examen section par section. | Analyser |
+| **Création d’e-mails** | Créez ou mettez à jour un nœud d’e-mail de parcours, y compris en effectuant la composition à partir d’un brief ou d’un PDF, en le liant à un nœud et en écrivant du contenu. | Modifier |
+| **Création de formulaires** | Créez ou mettez à jour un formulaire de capture de prospect autonome, publiez-le et éventuellement incorporez-le dans une page de destination. | Créer |
+| **Création de pages de destination** | Créez ou mettez à jour une page de destination à partir d’un brief, y compris la planification du contenu, la sélection des modèles, le remplissage des emplacements et l’ajout d’un formulaire, puis publiez-la. Joignez également une page de destination publiée en tant que lien call-to-action sur un e-mail. | Créer |
+| **Vérification du rendu des emails** | Rechercher les problèmes de rendu de [!DNL Microsoft Outlook] dans un email et y remédier automatiquement. | Modifier |
 
-## Connaissances {#knowledge}
+## Personnalisation du contenu {#content-personalization}
 
-| Compétence | Ce qu&#39;il fait | Accès | Produit | Serveur principal (flux de données) |
-|---|---|---|---|---|
-| `product-knowledge` | Répondez aux questions pratiques/conceptuelles de [!DNL Marketo Optimizer] documentation publiée sur Experience League. | Lecture | Les deux | Lit les documents externes — aucune donnée de produit |
+Cette compétence parcourt les modèles et personnalise le contenu des e-mails pour différents profils.
 
-## Cross-back-end {#cross-backend}
+| Compétence | Ce qu&#39;il fait | Type |
+| --- | --- | --- |
+| Personalization de contenu **&#x200B;**&#x200B;| Parcourez et prévisualisez des modèles, puis modifiez le contenu ou générez des variantes. Voir _[Personnaliser le contenu d’un e-mail par persona](./personalize-content.md)_. | Créer |
 
-Ces compétences s’étendent sur plusieurs serveurs principaux :
+## Analyses et optimisation {#analytics-optimization}
 
-- **`adapt-program`** — `gather_program_assets` lit [!DNL Marketo Engage] (`get_program`, `get_smart_campaign`, `list_emails`), puis écrit via `falcomcp_create_journey` — serveur principal classique.
-- **`audience-creation`** — lit [!DNL Marketo Engage] listes dynamiques (`get_smart_list` / `get_smart_campaign`), puis écrit [!DNL Marketo Optimizer] listes de personnes.
-- **`journey-observability`** — [!DNL Marketo Optimizer] lit plus un `check_lead_in_marketo_static_list` [!DNL Marketo Engage] lire.
-- **`scoring-studio`** : lit [!DNL Marketo Engage] champs de prospect/types d&#39;activité ainsi que [!DNL Marketo Optimizer] service de notation.
-- **`surface-analytics`** — peut répondre à des questions de reporting qui couvrent à la fois les données [!DNL Marketo Engage] et [!DNL Marketo Optimizer] dans une seule requête.
+Ces compétences génèrent des rapports sur les performances et configurent l’optimisation de l’heure d’envoi et les modèles de notation.
 
-Tous les outils `falco-mcp_*` et parcours/jeton/notation/STO/FCS accèdent aux services [!DNL Marketo Optimizer] ; les outils CSV/programme/prospect [!DNL Marketo Engage].
+| Compétence | Ce qu&#39;il fait | Type |
+| --- | --- | --- |
+| **Surface Analytics** | Générez des rapports d’analyse à partir de requêtes en langage naturel, couvrant les tendances d’activité, les performances des e-mails, les données de prospect et de compte, l’appartenance à des segments et à des listes, ainsi que les mesures de parcours. Les données du rapport sont actualisées toutes les deux heures. Voir _[Générer des rapports d’analyse](./surface-analytics.md)_. | Analyser |
+| **Envoyer le rapport d’heure** | Affichez le rapport de performances de l’optimisation de l’heure d’envoi (STO) au niveau du parcours ou pour un nœud d’e-mail individuel. | Analyser |
+| **Simulation STO d’e-mail** | Prévisualisez l’heure d’envoi prévue, la qualité de l’audience et la carte thermique d’engagement pour un nœud d’e-mail avant d’activer STO. | Analyser |
+| **Optimisation de l’heure d’envoi** | Activer ou désactiver STO sur un nœud d’e-mail de parcours. | Modifier |
+| **Configuration de l’engagement** | Affichez et modifiez les poids d’activité pour le modèle de score d’engagement de la personne. | Modifier |
+| **Scoring Studio** | Répertorier et afficher les modèles de notation, puis en créer et en publier de nouveaux. Voir _[Création de modèles de notation personnalisés](./lead-scoring-model.md)_. | Créer |
+
+## Prise de décision et intention de l’IA {#ai-decisioning-intent}
+
+Ces compétences évaluent le niveau de préparation des données pour la prise de décision par l’IA et configurent le score d’intention.
+
+| Compétence | Ce qu&#39;il fait | Type |
+| --- | --- | --- |
+| **AI Decisioning Health** | Indiquez si les données d’une organisation sont prêtes pour la prise de décision par l’IA, y compris la disponibilité des prospects, la distribution des rôles, la richesse des histoires et l’intention. | Analyser |
+| **Intention d’analyse** | Interroger et valider le classement des intentions au niveau du prospect, les tendances, ainsi que la taxonomie des produits et des mots-clés. | Analyser |
+| **Configuration de l’intention** | Affichez et modifiez les poids d’activité pour le modèle de score d’intention de la personne. | Modifier |
+
+## Gestion des connaissances et des compétences {#knowledge-skill-management}
+
+Ces compétences répondent aux questions des produits et vous permettent d’acquérir de nouvelles compétences personnalisées.
+
+| Compétence | Ce qu&#39;il fait | Type |
+| --- | --- | --- |
+| **Connaissance du produit** | Répondez aux questions pratiques et conceptuelles à l’aide de [!DNL Marketo Optimizer] documentation publiée sur Experience League. | Rechercher |
+| **Création de compétences** | Créer, tester et affiner de nouvelles compétences personnalisées. | Créer |
