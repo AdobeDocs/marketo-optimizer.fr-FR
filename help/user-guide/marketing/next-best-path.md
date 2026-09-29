@@ -13,7 +13,7 @@ feature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 055fd02e1007ba6d06e563dc931adffe6145bed6
+source-git-commit: c733fd2c334324d8666bac908e55a0780ede557e
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -133,20 +133,22 @@ Utilisez la simulation pour tester la manière dont l’IA évalue vos invites p
 
 1. Dans la boîte de dialogue, choisissez une liste dynamique à utiliser pour l’audience de simulation.
 
-<!-- 
-   * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
-   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
-   * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
--->
+   ![Boîte de dialogue Simuler des chemins avec une liste dynamique sélectionnée et les boutons Annuler et Simuler](./assets/next-best-path-simulate-paths.png){width="250"}.
 
-![Boîte de dialogue Simuler des chemins avec une liste dynamique sélectionnée et les boutons Annuler et Simuler](./assets/next-best-path-simulate-paths.png){width="250"}.
-
->[!NOTE]
->
->* Si l’audience sélectionnée dépasse le seuil de simulation, le système exécute la simulation sur un échantillon de 100 profils. Un indicateur dans l’interface utilisateur indique que les résultats sont basés sur des échantillons.
->* Si l&#39;audience sélectionnée n&#39;est pas encore matérialisée, la simulation est bloquée. Un avertissement intégré vous demande de matérialiser d’abord l’audience.
+   >[!NOTE]
+   >
+   >* Si l’audience sélectionnée dépasse le seuil de simulation, le système exécute la simulation sur un échantillon de 100 profils. Un indicateur dans l’interface utilisateur indique que les résultats sont basés sur des échantillons.
+   >* Si l&#39;audience sélectionnée n&#39;est pas encore matérialisée, la simulation est bloquée. Un avertissement intégré vous demande de matérialiser d’abord l’audience.
 
 1. Cliquez sur **[!UICONTROL Simuler]**.
+
+
+<!--
+after second step above...
+* **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
+* **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
+* **[!UICONTROL Test records]** – Use AI-suggested test profiles.
+-->
 
 ### Consulter les résultats de la simulation {#review-results}
 
