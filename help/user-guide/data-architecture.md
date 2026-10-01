@@ -83,7 +83,7 @@ Les activités suivent un chemin distinct des autres entités. Chaque activité 
 1. **Prise de conscience de l’ensemble des produits :** [!DNL Marketo Engage] publie l’activité dans le pipeline d’activité, donc [!DNL Marketo Optimizer] la reçoit immédiatement.
 1. **Transformation analytique :** l’exécution du parcours traite l’activité et l’écrit dans Snowflake, qui transforme les données opérationnelles en données prêtes pour l’analyse. Toutes les étapes s’exécutent jusqu’à présent dans Amazon Web Services (AWS).
 1. **Destination en aval :** [!DNL Marketo Optimizer] réplique l’activité dans des jeux de données [!DNL Adobe Experience Platform].
-1. **Rapports :** les jeux de données alimentent les rapports [!DNL Adobe Customer Journey Analytics] incorporés. [!DNL Customer Journey Analytics] peut être hébergé sur Microsoft Azure ou AWS. Vous pouvez également interroger les jeux de données avec [!DNL Query Service]. Voir [Jeux de données ](./reports/aep-datasets.md).
+1. **Rapports :** les jeux de données alimentent les rapports [!DNL Adobe Customer Journey Analytics] incorporés. [!DNL Customer Journey Analytics] peut être hébergé sur Microsoft Azure ou AWS. Vous pouvez également interroger les jeux de données avec [!DNL Query Service]. Voir [Jeux de données &#x200B;](./reports/aep-datasets.md).
 
 Les parcours et les audiences d’événement peuvent utiliser à la fois des activités [!DNL Marketo Optimizer] et un sous-ensemble d’activités [!DNL Marketo Engage]. Vous utilisez les deux visionneuses de la même manière. [!DNL Marketo Optimizer] activités ne sont pas renvoyées à [!DNL Marketo Engage].
 
