@@ -15,9 +15,9 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 5334f0f5d9d958ea47b055b067a7308950352e9c
+source-git-commit: abbd342b8191ddebd7e155ad2c5944e4695a05b3
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '967'
 ht-degree: 4%
 ---
 
@@ -82,7 +82,6 @@ Ces compétences permettent de créer et de gérer des e-mails, des formulaires 
 | --- | --- | --- |
 | **Liste des Forms** | Répertoriez les formulaires et affichez leurs détails et champs. | Rechercher |
 | **Liste des pages de destination** | Répertorier les pages de destination, afficher leurs détails et gérer leur statut de brouillon ou publié. | Rechercher |
-| **Audit des e-mails** | Effectuez l’audit d’un e-mail par rapport à son groupe cible, y compris l’inférence personnelle et un bref examen section par section. | Analyser |
 | **Création d’e-mails** | Créez ou mettez à jour un nœud d’e-mail de parcours, y compris en effectuant la composition à partir d’un brief ou d’un PDF, en le liant à un nœud et en écrivant du contenu. | Modifier |
 | **Création de formulaires** | Créez ou mettez à jour un formulaire de capture de prospect autonome, publiez-le et éventuellement incorporez-le dans une page de destination. | Créer |
 | **Création de pages de destination** | Créez ou mettez à jour une page de destination à partir d’un brief, y compris la planification du contenu, la sélection des modèles, le remplissage des emplacements et l’ajout d’un formulaire, puis publiez-la. Joignez également une page de destination publiée en tant que lien call-to-action sur un e-mail. | Créer |
@@ -94,7 +93,7 @@ Cette compétence parcourt les modèles et personnalise le contenu des e-mails p
 
 | Compétence | Ce qu&#39;il fait | Type |
 | --- | --- | --- |
-| Personalization de contenu **&#x200B;**&#x200B;| Parcourez et prévisualisez des modèles, puis modifiez le contenu ou générez des variantes. Voir _[Personnaliser le contenu d’un e-mail par persona](./personalize-content.md)_. | Créer |
+| Personalization de contenu **** | Parcourez et prévisualisez des modèles, puis modifiez le contenu ou générez des variantes. Voir _[Personnaliser le contenu d’un e-mail par persona](./personalize-content.md)_. | Créer |
 
 ## Analyses et optimisation {#analytics-optimization}
 
