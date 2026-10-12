@@ -6,20 +6,27 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/VDqL3u2vPJ8YGJgZCx5lE0Xt1-WvAEBBwFiMZGj7w90'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # Configuration du canal e-mail
 
 Une configuration de canal est l’objet central qui lie votre identité d’expéditeur, votre sous-domaine, votre groupe d’adresses IP et vos paramètres de suivi. Les actions d’e-mail dans les parcours font référence à une configuration de canal pour savoir comment envoyer le message. Avant de créer une configuration, effectuez la [délégation de sous-domaine et configuration du groupe d’adresses IP](../start/email-deliverability.md).
@@ -82,7 +89,7 @@ Lorsque vous modifiez une configuration en cours d’utilisation :
 >
 >La suppression d’une configuration de canal est permanente. Vous ne pouvez pas supprimer une configuration référencée par un parcours actif. Supprimez ou réaffectez d’abord toutes les actions e-mail.
 
-Pour supprimer une configuration, supprimez ou mettez à jour chaque action d’e-mail qui y fait référence dans [Ajouter des e-mails aux parcours &#x200B;](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] ne supprime pas une configuration actuellement utilisée par un parcours actif.
+Pour supprimer une configuration, supprimez ou mettez à jour chaque action d’e-mail qui y fait référence dans [Ajouter des e-mails aux parcours ](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] ne supprime pas une configuration actuellement utilisée par un parcours actif.
 
 ## Configurations de plusieurs canaux {#multiple-channel-configurations}
 

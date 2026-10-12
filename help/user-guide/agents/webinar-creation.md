@@ -1,31 +1,40 @@
 ---
 title: Créer et promouvoir des webinaires
-description: Utilisez l’interface de chat de Marketo Optimizer pour planifier un webinaire, ajouter des co-hôtes et des présentateurs, créer des parcours de promotion et de soutien, et vérifier les rapports, le tout en langage naturel.
-keywords: 
+description: Utilisez l’interface de chat de Marketo Optimizer pour planifier un webinaire, ajouter des co-animateurs et des présentateurs, créer des parcours de promotion et de soutien, et vérifier les rapports, le tout en langage naturel.
+keywords:
 role: User
 TQID: 'https://experienceleague.adobe.com/OKsYvVIcNN-GEMiMPW2mWomstM2MabYcK0jTColgxIQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 0%
-
 ---
-
 
 # Créer et promouvoir des webinaires
 
-L’interface [chat](./chat-interface.md) permet de créer un webinaire en passant par la promotion, la diffusion, la culture post-webinaire et le compte rendu des performances, et ce entièrement via le volet de conversation. Tout ce que l’interface de chat crée utilise la même ressource, les mêmes parcours et les mêmes jetons de webinaire que ceux décrits dans la section [&#x200B; Présentation des webinaires interactifs &#x200B;](../marketing/webinars-overview.md), afin que vous puissiez passer du chat à la conception de l’interface à tout moment.
+L’interface [chat](./chat-interface.md) permet de créer un webinaire en passant par la promotion, la diffusion, la culture post-webinaire et le compte rendu des performances, et ce entièrement via le volet de conversation. Tout ce que l’interface de chat crée utilise la même ressource, les mêmes parcours et les mêmes jetons de webinaire que ceux décrits dans la section [ Présentation des webinaires interactifs ](../marketing/webinars-overview.md), afin que vous puissiez passer du chat à la conception de l’interface à tout moment.
 
 ## Points d’entrée
 

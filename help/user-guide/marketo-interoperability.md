@@ -18,6 +18,11 @@ feature_v2:
     internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
     internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -27,7 +32,7 @@ topic_v2:
     internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 518a807aeed2471772b4f0a4d6d8d525cd3e22fd
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -81,7 +86,7 @@ Utilisez cette approche pour créer le parcours et envoyer un e-mail entièremen
 1. Définissez les limites de communication dans [!DNL Marketo Optimizer]. Les limites de communication partagées ne sont pas disponibles.
 1. Créez le parcours avec les audiences, la prise de décision par l’IA et le meilleur chemin.
 1. Envoyez un e-mail à partir de [!DNL Marketo Optimizer]. [!DNL Marketo Optimizer] enregistre les activités.
-1. Notez les personnes dans [!UICONTROL Scoring Studio] pour créer un modèle dans l’activité [!DNL Marketo Engage] et [!DNL Marketo Optimizer]. Voir [&#x200B; Scoring Studio &#x200B;](./labs/scoring-studio.md).
+1. Notez les personnes dans [!UICONTROL Scoring Studio] pour créer un modèle dans l’activité [!DNL Marketo Engage] et [!DNL Marketo Optimizer]. Voir [ Scoring Studio ](./labs/scoring-studio.md).
 
 Les désabonnements se synchronisent automatiquement avec les [!DNL Marketo Engage] partagés. [!DNL Marketo Optimizer] activité e-mail n’est pas renvoyée à [!DNL Marketo Engage], mais [!UICONTROL Scoring Studio] l’utilise toujours.
 

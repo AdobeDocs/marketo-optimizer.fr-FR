@@ -1,26 +1,31 @@
 ---
 title: Métadonnées C2PA
-description: Découvrez comment Adobe Marketo Optimizer applique automatiquement les métadonnées C2PA aux images générées avec l’IA générative, et ce que cela signifie pour votre contenu.
+description: Découvrez comment Adobe Marketo Optimizer applique automatiquement les métadonnées C2PA aux images générées avec l’IA générative et ce que cela signifie pour votre contenu.
 feature: Assets, Content
 role: User
 TQID: 'https://experienceleague.adobe.com/DI9vJhE4EsGI4g4X5wz5-kqTjHOZqs6cvqo6Fke-4HU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Customer experience
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 586
-ht-degree: 0%
-
+source-wordcount: '586'
+ht-degree: 6%
 ---
-
 # Métadonnées C2PA
 
-Les organisations marketing sont plus que jamais préoccupées par la transparence du contenu, la divulgation de l’IA et la prévention de l’altération des ressources. Le Content Authenticity Initiative (CAI) d’Adobe crée des outils conformes à la norme technique C2PA ([&#x200B; Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model). Les _métadonnées C2PA_ sont des informations chiffrées et infalsifiables qui peuvent aider les utilisateurs à comprendre la traçabilité du contenu et à garantir l’intégrité des ressources de la marque. Ces informations incluent :
+Les organisations marketing sont plus que jamais préoccupées par la transparence du contenu, la divulgation de l’IA et la prévention de l’altération des ressources. Le Content Authenticity Initiative (CAI) d’Adobe crée des outils conformes à la norme technique C2PA ([ Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model). Les _métadonnées C2PA_ sont des informations chiffrées et infalsifiables qui peuvent aider les utilisateurs à comprendre la traçabilité du contenu et à garantir l’intégrité des ressources de la marque. Ces informations incluent :
 
 * Émetteur ou signataire : informations sur l’entité ou la société qui a émis la signature numérique pour certifier ou signer la ressource.
 * Date d&#39;émission — Date à laquelle les métadonnées C2PA ont été appliquées à la ressource.
@@ -34,7 +39,7 @@ Pour obtenir des informations complètes sur l’historique des ressources, vous
 
 Les métadonnées C2PA sont conservées avec le fichier image. Lorsqu’une image qui a été générée ou modifiée avec l’IA générative est chargée vers ou exportée à partir de [!DNL Adobe Marketo Optimizer], ses métadonnées C2PA sont conservées.
 
-Pour plus d’informations sur la pièce jointe automatique des métadonnées C2PA dans les applications Adobe CX Enterprise, consultez [_Transparence de contenu Generative AI_](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} dans le guide AI in CX Enterprise .
+Pour plus d’informations sur la pièce jointe automatique des métadonnées C2PA dans les applications Adobe CX Enterprise, consultez la section [_Transparence de contenu Generative AI_](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} dans le guide AI in CX Enterprise .
 
 >[!NOTE]
 >
@@ -55,7 +60,7 @@ Lorsque vous incluez des images dans vos e-mails ou messages WhatsApp, les méta
 
 >[!INFO]
 >
->De nouvelles lois émergent autour de la transparence générative de l’IA, et Adobe s’efforce de répondre aux exigences applicables dans toutes les juridictions. Les métadonnées C2PA sont l’outil de provenance utilisé par Adobe pour répondre aux exigences de ces lois.
+>De nouvelles lois sur la transparence de l’IA générative voient le jour, et Adobe s’efforce de respecter les exigences applicables dans les différentes juridictions. Les métadonnées C2PA sont l’outil de provenance utilisé par Adobe pour répondre aux exigences de ces lois.
 
 Lorsque vous utilisez l’IA générative pour créer une image pour le contenu de votre e-mail dans [!DNL Marketo Optimizer], les métadonnées C2PA sont automatiquement jointes à l’image générée et aucune action n’est requise de votre part. Les outils d’IA générative produisent un élément de métadonnées C2PA combiné pour les variantes d’images avec des métadonnées existantes, y compris la source d’origine.
 

@@ -18,6 +18,11 @@ feature_v2:
     internal-label: Journeys
   - id: d4203578-d294-5145-b397-f26f4488a904
     internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -27,7 +32,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 518a807aeed2471772b4f0a4d6d8d525cd3e22fd
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 1%
@@ -83,7 +88,7 @@ Les activités suivent un chemin distinct des autres entités. Chaque activité 
 1. **Prise de conscience de l’ensemble des produits :** [!DNL Marketo Engage] publie l’activité dans le pipeline d’activité, donc [!DNL Marketo Optimizer] la reçoit immédiatement.
 1. **Transformation analytique :** l’exécution du parcours traite l’activité et l’écrit dans Snowflake, qui transforme les données opérationnelles en données prêtes pour l’analyse. Toutes les étapes s’exécutent jusqu’à présent dans Amazon Web Services (AWS).
 1. **Destination en aval :** [!DNL Marketo Optimizer] réplique l’activité dans des jeux de données [!DNL Adobe Experience Platform].
-1. **Rapports :** les jeux de données alimentent les rapports [!DNL Adobe Customer Journey Analytics] incorporés. [!DNL Customer Journey Analytics] peut être hébergé sur Microsoft Azure ou AWS. Vous pouvez également interroger les jeux de données avec [!DNL Query Service]. Voir [Jeux de données &#x200B;](./reports/aep-datasets.md).
+1. **Rapports :** les jeux de données alimentent les rapports [!DNL Adobe Customer Journey Analytics] incorporés. [!DNL Customer Journey Analytics] peut être hébergé sur Microsoft Azure ou AWS. Vous pouvez également interroger les jeux de données avec [!DNL Query Service]. Voir [Jeux de données ](./reports/aep-datasets.md).
 
 Les parcours et les audiences d’événement peuvent utiliser à la fois des activités [!DNL Marketo Optimizer] et un sous-ensemble d’activités [!DNL Marketo Engage]. Vous utilisez les deux visionneuses de la même manière. [!DNL Marketo Optimizer] activités ne sont pas renvoyées à [!DNL Marketo Engage].
 

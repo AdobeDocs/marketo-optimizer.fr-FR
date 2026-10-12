@@ -9,7 +9,7 @@ feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Administration
+    internal-label: Audiences
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98214f502bba0efea89c7f36ac46e634e65cd0c9
+source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 38%
@@ -35,7 +35,7 @@ Une fois la mise en service terminée et les sandbox liés, procédez comme suit
 
 ## Configuration du profil de produit {#config-profile}
 
-En tant qu’administrateur, vous pouvez effectuer ces tâches dans l’[!DNL Adobe Admin Console], qui constitue un emplacement central pour administrer et gérer vos licences de produit et utilisateurs Adobe. Dans Admin Console, vous pouvez créer et gérer des utilisateurs dans un emplacement unique, plutôt qu’au sein de vos différentes solutions. Pour en savoir plus sur ses fonctions et ses fonctionnalités, consultez la page de présentation d’Admin Console [&#128279;](https://helpx.adobe.com/fr/business/enterprise/deploy-apps-updates.html).
+En tant qu’administrateur, vous pouvez effectuer ces tâches dans l’[!DNL Adobe Admin Console], qui constitue un emplacement central pour administrer et gérer vos licences de produit et utilisateurs Adobe. Dans Admin Console, vous pouvez créer et gérer des utilisateurs dans un emplacement unique, plutôt qu’au sein de vos différentes solutions. Pour en savoir plus sur ses fonctions et ses fonctionnalités, consultez la page de présentation d’Admin Console [](https://helpx.adobe.com/business/enterprise/deploy-apps-updates.html).
 
 ### Accès à Admin Console {#admin-console}
 
@@ -71,7 +71,7 @@ Avant de pouvoir utiliser Admin Console pour administrer les utilisateurs au sei
 
 Lorsque vous accordez aux utilisateurs l’accès à une solution Adobe, vous ne souhaitez pas nécessairement leur accorder un accès complet. Les profils de produit permettent à chaque solution d’avoir son propre jeu d’autorisations utilisateur. Utilisez Admin Console pour attribuer des profils de produit.
 
-Pour plus d’informations sur l’utilisation des profils de produit pour les droits des utilisateurs, voir [_Gérer les profils de produit pour les utilisateurs d’entreprise_](https://helpx.adobe.com/fr/business/enterprise/products-entitlements/manage-product-profiles/product-profiles.html){target="_blank"} dans la documentation d’Admin Console.
+Pour plus d’informations sur l’utilisation des profils de produit pour les droits des utilisateurs, voir [_Gérer les profils de produit pour les utilisateurs d’entreprise_](https://helpx.adobe.com/business/enterprise/products-entitlements/manage-product-profiles/product-profiles.html){target="_blank"} dans la documentation d’Admin Console.
 
 ![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système ou [!DNL Experience Platform] administrateur de produit peut effectuer les étapes suivantes à partir de [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -87,9 +87,9 @@ Pour plus d’informations sur l’utilisation des profils de produit pour les d
 
 Un groupe d’utilisateurs est un ensemble d’utilisateurs auxquels est accordé un ensemble partagé d’autorisations. Vous pouvez ajouter ou supprimer des utilisateurs dans votre groupe d’utilisateurs. Les autorisations de groupe restent les mêmes tandis que les utilisateurs du groupe changent.
 
-Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour gérer les autorisations, voir [Gérer les groupes d’utilisateurs](https://helpx.adobe.com/fr/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"} dans la documentation d’Admin Console.
+Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour gérer les autorisations, voir [Gérer les groupes d’utilisateurs](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"} dans la documentation d’Admin Console.
 
-![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système peut effectuer les étapes suivantes à partir de [&#128279;](https://adminconsole.adobe.com).
+![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système peut effectuer les étapes suivantes à partir de [](https://adminconsole.adobe.com).
 
 1. Sélectionnez l’onglet **[!UICONTROL Utilisateurs]**.
 
@@ -103,7 +103,7 @@ Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour
 
 ### Attribuer le profil de produit {#assign-profile}
 
-![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur de produit peut effectuer les étapes suivantes à partir de [&#128279;](https://adminconsole.adobe.com).
+![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur de produit peut effectuer les étapes suivantes à partir de [](https://adminconsole.adobe.com).
 
 1. Cliquez sur le groupe d’utilisateurs que vous avez créé.
 
@@ -122,9 +122,9 @@ Pour plus d’informations sur l’utilisation des groupes d’utilisateurs pour
 
 ### Ajouter des utilisateurs au nouveau groupe {#add-users}
 
-Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs de_](https://helpx.adobe.com/fr/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} dans la documentation d’Admin Console.
+Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs de_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} dans la documentation d’Admin Console.
 
-![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système ou un administrateur de produit peut effectuer les étapes suivantes à partir de [&#128279;](https://adminconsole.adobe.com). Un administrateur ou une administratrice de produit ne peut ajouter que des utilisateurs et utilisatrices qui existent déjà dans son organisation.
+![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système ou un administrateur de produit peut effectuer les étapes suivantes à partir de [](https://adminconsole.adobe.com). Un administrateur ou une administratrice de produit ne peut ajouter que des utilisateurs et utilisatrices qui existent déjà dans son organisation.
 
 1. Si les utilisateurs ne sont pas déjà membres de votre organisation, ajoutez chaque utilisateur :
 
@@ -158,7 +158,7 @@ Les autorisations sont des droits unitaires qui vous permettent de définir les 
 
 La zone _Autorisations_ de Adobe Experience Platform permet aux administrateurs de définir des rôles d’utilisateur et des politiques d’accès afin de gérer les autorisations d’accès aux fonctionnalités et objets d’une application de produit. Dans cette application, vous pouvez créer et gérer des rôles, ainsi qu’attribuer les autorisations de ressources souhaitées pour ces rôles. Les autorisations vous permettent également de gérer les sandbox et les utilisateurs associés à un rôle spécifique.
 
-Pour plus d’informations sur les autorisations des rôles dans Experience Platform, voir [Gérer les autorisations pour un rôle](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} dans la documentation d’Experience Platform.
+Pour plus d’informations sur les autorisations des rôles dans Experience Platform, voir [Gérer les autorisations pour un rôle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} dans la documentation d’Experience Platform.
 
 1. Accédez à [experience.adobe.com](https://experience.adobe.com/).
 
@@ -258,7 +258,7 @@ _Pour modifier les autorisations d&#39;un rôle :_
 
 1. Sélectionnez le sandbox configuré pour l’accès [!DNL Marketo Optimizer] (`Mktoaep<Marketo subscription prefix>`).
 
-   ![Liste de sélection des sandbox dans l’éditeur de rôles affichant le sandbox de Marketo Optimizer disponible à l’ajout.](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
+   ![Liste de sélection des sandbox dans l’éditeur de rôles affichant le sandbox Marketo Optimizer disponible à l’ajout.](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
 
 1. Cliquez sur l’icône _Ajouter_ (**+**) pour chacune des ressources fonctionnelles.
 
@@ -296,7 +296,7 @@ _Pour modifier les autorisations d&#39;un rôle :_
 
 ### Ajouter des groupes d’utilisateurs à un rôle {#add-user-groups-to-a-role}
 
-Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs de_](https://helpx.adobe.com/fr/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} dans la documentation d’Admin Console.
+Pour plus d’informations sur la gestion des utilisateurs, voir [_Utilisateurs de_](https://helpx.adobe.com/business/enterprise/users/understand-user-management/user-management-overview.html){target="_blank"} dans la documentation d’Admin Console.
 
 ![Icône indiquant qu’un accès administrateur est requis pour effectuer cette procédure.](../assets/do-not-localize/icon-admin-user.svg){width="30"} Un administrateur système ou un administrateur Experience Platform peut effectuer les étapes suivantes.
 

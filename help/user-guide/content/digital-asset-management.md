@@ -6,18 +6,23 @@ role: User
 TQID: 'https://experienceleague.adobe.com/4Nggkg68RA3TQTYwhOG-2dOvmyXVvBqunBGC3fWRV-k'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Metadata
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 19%
-
 ---
-
 # Ressources
 
 Dans [!DNL Adobe Marketo Optimizer], les ressources sont généralement les images utilisées lors de la conception de contenu pour prendre en charge les parcours. Vous pouvez utiliser ces images dans vos [e-mails](email-authoring.md), [modèles d’e-mail](templates.md) et [fragments visuels](email-authoring.md#visual-fragments) à partir du sélecteur de ressources ou une simple interface glisser-déposer dans l’espace de conception visuelle.
@@ -38,7 +43,7 @@ Formats de fichiers pris en charge : JPG, JPEG, GIF, PNG, EPS, SVG et RGB
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
-La bibliothèque **&#x200B;**&#x200B;permet d’accéder au référentiel centralisé pour stocker et gérer les images et d’autres ressources de création. Il comprend des fonctionnalités optimisées par l’IA qui génèrent automatiquement des métadonnées et permettent la recherche en langage naturel.
+La bibliothèque **** permet d’accéder au référentiel centralisé pour stocker et gérer les images et d’autres ressources de création. Il comprend des fonctionnalités optimisées par l’IA qui génèrent automatiquement des métadonnées et permettent la recherche en langage naturel.
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de contenu]** et sélectionnez **[!UICONTROL Assets]**.
 
@@ -46,7 +51,7 @@ Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de cont
 
 >[!BEGINSHADEBOX]
 
-La première fois que vous accédez à la bibliothèque __, consultez les [_[!UICONTROL conditions d’utilisation de Generative AI &#x200B;]_](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) et confirmez votre accord.
+La première fois que vous accédez à la bibliothèque __, consultez les [_[!UICONTROL conditions d’utilisation de Generative AI ]_](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) et confirmez votre accord.
 
 ![Boîte de dialogue des conditions d’utilisation de Generative AI dans la bibliothèque Assets](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
