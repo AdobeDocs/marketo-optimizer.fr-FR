@@ -83,7 +83,7 @@ Le statut du webinaire comporte cinq valeurs. [!DNL Adobe Connect] définit norm
 >
 >Qu’il soit défini automatiquement ou à partir d’un parcours, le statut du webinaire ne bouge que dans une seule direction, de la même manière que le [statut du programme](./programs.md#statuses). Une personne peut passer à un état ultérieur (par exemple, _Enregistré_ à _Terminé_), mais pas revenir à un état antérieur. Planifiez le remplacement de l’auteur en gardant à l’esprit cette progression linéaire.
 
-Pour déplacer une personne entre les états d’un parcours, utilisez l’action **[!UICONTROL Modifier le statut du membre du webinaire]**. Voir parcours de promotion et de suivi de webinaires](webinar-journeys.md).[
+Pour déplacer une personne entre les états d’un parcours, utilisez l’action **[!UICONTROL Modifier le statut du membre du webinaire]**. Voir parcours de promotion et de suivi de webinaires[&#128279;](webinar-journeys.md).
 
 ## Jetons de webinaire
 
@@ -105,7 +105,7 @@ Les jetons au niveau de la ressource se trouvent directement dans le dossier du 
 
 Les jetons par destinataire résident dans un sous-dossier **Membre** :
 
-- **Statut** - Statut actuel du webinaire du destinataire (Invité, Enregistré, Avec participation, Sans affichage ou Avec participation à la demande). Voir [ Statut du webinaire ](#webinar-status).
+- **Statut** - Statut actuel du webinaire du destinataire (Invité, Enregistré, Avec participation, Sans affichage ou Avec participation à la demande). Voir [&#x200B; Statut du webinaire &#x200B;](#webinar-status).
 - **URL d’inscription** - Lien [!DNL Adobe Connect] personnel du destinataire. Ce problème est résolu uniquement après l’enregistrement de l’état du webinaire du destinataire, ou à une date ultérieure. Il se résout comme vide pour quiconque à un stade antérieur.
 - **URL d’enregistrement** - Se résout après la publication de l’enregistrement après la session active et reste vide jusqu’à ce moment-là. Utilisez-le de manière conditionnelle dans les e-mails postérieurs au webinaire afin qu’un lien n’apparaisse pas avant qu’un enregistrement ne soit à afficher.
 

@@ -86,7 +86,7 @@ Utilisez cette approche pour créer le parcours et envoyer un e-mail entièremen
 1. Définissez les limites de communication dans [!DNL Marketo Optimizer]. Les limites de communication partagées ne sont pas disponibles.
 1. Créez le parcours avec les audiences, la prise de décision par l’IA et le meilleur chemin.
 1. Envoyez un e-mail à partir de [!DNL Marketo Optimizer]. [!DNL Marketo Optimizer] enregistre les activités.
-1. Notez les personnes dans [!UICONTROL Scoring Studio] pour créer un modèle dans l’activité [!DNL Marketo Engage] et [!DNL Marketo Optimizer]. Voir [ Scoring Studio ](./labs/scoring-studio.md).
+1. Notez les personnes dans [!UICONTROL Scoring Studio] pour créer un modèle dans l’activité [!DNL Marketo Engage] et [!DNL Marketo Optimizer]. Voir [&#x200B; Scoring Studio &#x200B;](./labs/scoring-studio.md).
 
 Les désabonnements se synchronisent automatiquement avec les [!DNL Marketo Engage] partagés. [!DNL Marketo Optimizer] activité e-mail n’est pas renvoyée à [!DNL Marketo Engage], mais [!UICONTROL Scoring Studio] l’utilise toujours.
 
