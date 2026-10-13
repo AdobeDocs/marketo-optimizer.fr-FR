@@ -9,7 +9,7 @@ feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Administration
+    internal-label: Audiences
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98214f502bba0efea89c7f36ac46e634e65cd0c9
+source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 38%
@@ -258,7 +258,7 @@ _Pour modifier les autorisations d&#39;un rôle :_
 
 1. Sélectionnez le sandbox configuré pour l’accès [!DNL Marketo Optimizer] (`Mktoaep<Marketo subscription prefix>`).
 
-   ![Liste de sélection des sandbox dans l’éditeur de rôles affichant le sandbox de Marketo Optimizer disponible à l’ajout.](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
+   ![Liste de sélection des sandbox dans l’éditeur de rôles affichant le sandbox Marketo Optimizer disponible à l’ajout.](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
 
 1. Cliquez sur l’icône _Ajouter_ (**+**) pour chacune des ressources fonctionnelles.
 
