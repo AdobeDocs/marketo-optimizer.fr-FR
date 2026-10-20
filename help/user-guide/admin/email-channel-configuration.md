@@ -45,7 +45,7 @@ Une configuration de canal est l’objet central qui lie votre identité d’exp
 >
 >* Au moins un [sous-domaine](../start/email-deliverability.md#subdomain-delegation) doit être délégué et actif.
 >* Au moins un [pool d’adresses IP](../start/email-deliverability.md#ip-pools) doit être affecté à votre organisation.
->* Vous avez besoin des autorisations **[!UICONTROL Gérer les configurations des canaux B2B]** et **[!UICONTROL Afficher les paramètres d’e-mail B2B]**. Pour plus d’informations, voir [ Autorisations requises ](../start/email-deliverability.md#required-permissions).
+>* Vous avez besoin des autorisations **[!UICONTROL Gérer les configurations des canaux B2B]** et **[!UICONTROL Afficher les paramètres d’e-mail B2B]**. Pour plus d’informations, voir [&#x200B; Autorisations requises &#x200B;](../start/email-deliverability.md#required-permissions).
 >* Examinez [limitations actuelles](../start/email-deliverability.md#limitations) — les groupes d’adresses IP dédiés ne sont pas disponibles dans Beta.
 
 1. Dans le volet de navigation de gauche [!DNL Adobe Marketo Optimizer], développez **[!UICONTROL Administration]** et sélectionnez **[!UICONTROL Canaux]**.
@@ -89,7 +89,7 @@ Lorsque vous modifiez une configuration en cours d’utilisation :
 >
 >La suppression d’une configuration de canal est permanente. Vous ne pouvez pas supprimer une configuration référencée par un parcours actif. Supprimez ou réaffectez d’abord toutes les actions e-mail.
 
-Pour supprimer une configuration, supprimez ou mettez à jour chaque action d’e-mail qui y fait référence dans [Ajouter des e-mails aux parcours ](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] ne supprime pas une configuration actuellement utilisée par un parcours actif.
+Pour supprimer une configuration, supprimez ou mettez à jour chaque action d’e-mail qui y fait référence dans [Ajouter des e-mails aux parcours &#x200B;](../marketing/email-channel.md#define-email-properties). [!DNL Marketo Optimizer] ne supprime pas une configuration actuellement utilisée par un parcours actif.
 
 ## Configurations de plusieurs canaux {#multiple-channel-configurations}
 

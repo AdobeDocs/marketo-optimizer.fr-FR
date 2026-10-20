@@ -34,9 +34,9 @@ La quantité d’informations que le formulaire doit capturer dépend de la vale
 >
 >La création d’un formulaire dans [!DNL Marketo Optimizer] nécessite les [autorisations](../start/permissions-reference.md) suivantes :
 >
->* Assets B2B ]_>_[!UICONTROL  Afficher le Forms B2B ]_- Obligatoire pour accéder aux formulaires et les afficher._[!UICONTROL 
->* Assets B2B ]_>_[!UICONTROL  Gérer le Forms B2B ]_- Requis pour créer, modifier et supprimer des formulaires._[!UICONTROL 
->* Assets B2B ]_>_[!UICONTROL  Publier le Forms B2B ]_- Obligatoire pour publier des formulaires._[!UICONTROL 
+>* Assets B2B _>_[!UICONTROL &#x200B; Afficher le Forms B2B &#x200B;]_- Obligatoire pour accéder aux formulaires et les afficher._
+>* Assets B2B _>_[!UICONTROL &#x200B; Gérer le Forms B2B &#x200B;]_- Requis pour créer, modifier et supprimer des formulaires._
+>* Assets B2B _>_[!UICONTROL &#x200B; Publier le Forms B2B &#x200B;]_- Obligatoire pour publier des formulaires._
 
 ## Accéder aux formulaires et les gérer {#view-forms}
 
@@ -56,7 +56,7 @@ Le statut du formulaire détermine sa disponibilité pour une utilisation dans u
 | Publié | Lorsque vous publiez un formulaire, il peut être utilisé dans une page de destination ou un modèle de page de destination. Le contenu du formulaire publié ne peut pas être modifié dans l’espace de conception visuelle. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou la page de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
 | Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un formulaire publié, la version publiée reste disponible pour être utilisée dans une page de destination ou un modèle. Le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les pages de destination ou les modèles de page de destination où il est utilisé. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou les pages de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
 
-![ Cycle de vie du statut du formulaire ](assets/status-lifecycle-diagram.png){zoomable="yes"}
+![&#x200B; Cycle de vie du statut du formulaire &#x200B;](assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### Filtrer la liste des formulaires {#filter-list}
 
@@ -115,7 +115,7 @@ Vous pouvez créer un formulaire dans [!DNL Marketo Optimizer] en cliquant sur *
    * Les caractères Alpha, numériques et spéciaux sont autorisés
    * Les caractères réservés ne sont **_pas autorisés_** : `\ / : * ? " < > |`
 
-   ![ Boîte de dialogue Créer un formulaire ](assets/forms-create-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un formulaire &#x200B;](assets/forms-create-dialog.png){width="400"}
 
 1. Pour **[!UICONTROL Paramètre prédéfini]**, cliquez sur l’icône _Sélectionner les données_ ( ![Icône Sélectionner les données](../assets/do-not-localize/icon-select-data.svg) ) pour lier un paramètre prédéfini de formulaire configuré au formulaire.
 
@@ -155,7 +155,7 @@ Dans le panneau _[!UICONTROL Résumé]_ à droite, faites défiler l’écran ju
 
 Lorsque vous êtes prêt à rendre le formulaire disponible pour une utilisation dans une page de destination ou un modèle de page de destination, cliquez sur **[!UICONTROL Publier]**.
 
-![ Boîte de dialogue Publier le formulaire ](assets/form-publish-dialog.png){width="400"}
+![&#x200B; Boîte de dialogue Publier le formulaire &#x200B;](assets/form-publish-dialog.png){width="400"}
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus de publication en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Publier]** pour confirmer.
 
@@ -196,7 +196,7 @@ Vous pouvez supprimer un formulaire à l’aide de l’une des méthodes suivant
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
-![ Boîte de dialogue Supprimer le formulaire ](assets/form-delete-dialog.png){width="400"}
+![&#x200B; Boîte de dialogue Supprimer le formulaire &#x200B;](assets/form-delete-dialog.png){width="400"}
 
 Si le formulaire est en cours d’utilisation, l’action ouvre une boîte de dialogue d’information qui vous avertit qu’il ne peut pas être supprimé. Cliquez sur **[!UICONTROL OK]** pour annuler la suppression.
 

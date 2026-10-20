@@ -23,7 +23,7 @@ Chaque rapport est construit sur des [!DNL Adobe Customer Journey Analytics] et 
 
 >[!PREREQUISITES]
 >
->Pour afficher les rapports dans l’onglet _[!UICONTROL Rapports]_, vous devez disposer de l’autorisation **[!UICONTROL Afficher les rapports incorporés B2B]** [](../start/permissions-reference.md).
+>Pour afficher les rapports dans l’onglet _[!UICONTROL Rapports]_, vous devez disposer de l’autorisation **[!UICONTROL Afficher les rapports incorporés B2B]** [&#128279;](../start/permissions-reference.md).
 
 ## Sections du rapport {#report-sections}
 

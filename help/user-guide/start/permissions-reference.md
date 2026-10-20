@@ -56,7 +56,7 @@ Utilisez les recommandations d’autorisations dans les tableaux de cette page c
 | **Groupe d’utilisateurs suggéré** | Groupe d’administrateurs Marketo Optimizer | Groupe d’utilisateurs Marketo Optimizer | Groupe d’utilisateurs en lecture seule Marketo Optimizer |
 | **Rôle suggéré** | Administrateur Marketo Optimizer | Utilisateur Marketo Optimizer All Access | Utilisateur d’accès en lecture seule Marketo Optimizer |
 
-Pour connaître la procédure de création de ces groupes et rôles, voir [ Création de groupes d’utilisateurs et de rôles pour les types d’utilisateurs suggérés ](./user-management.md#create-suggested-roles).
+Pour connaître la procédure de création de ces groupes et rôles, voir [&#x200B; Création de groupes d’utilisateurs et de rôles pour les types d’utilisateurs suggérés &#x200B;](./user-management.md#create-suggested-roles).
 
 ## Contenu et ressources {#content-assets}
 
