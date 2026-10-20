@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 19%
+source-wordcount: '765'
+ht-degree: 18%
 ---
 # Ressources
 
@@ -43,7 +43,7 @@ Formats de fichiers pris en charge : JPG, JPEG, GIF, PNG, EPS, SVG et RGB
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
-La bibliothèque **&#x200B;**&#x200B;permet d’accéder au référentiel centralisé pour stocker et gérer les images et d’autres ressources de création. Il comprend des fonctionnalités optimisées par l’IA qui génèrent automatiquement des métadonnées et permettent la recherche en langage naturel.
+La bibliothèque **** permet d’accéder au référentiel centralisé pour stocker et gérer les images et d’autres ressources de création. Il comprend des fonctionnalités optimisées par l’IA qui génèrent automatiquement des métadonnées et permettent la recherche en langage naturel.
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de contenu]** et sélectionnez **[!UICONTROL Assets]**.
 
@@ -51,7 +51,7 @@ Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de cont
 
 >[!BEGINSHADEBOX]
 
-La première fois que vous accédez à la bibliothèque __, consultez les [_[!UICONTROL conditions d’utilisation de Generative AI &#x200B;]_](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) et confirmez votre accord.
+La première fois que vous accédez à la bibliothèque __, consultez les [_[!UICONTROL conditions d’utilisation de Generative AI ]_](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) et confirmez votre accord.
 
 ![Boîte de dialogue des conditions d’utilisation de Generative AI dans la bibliothèque Assets](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
@@ -61,6 +61,13 @@ La bibliothèque prend en charge deux options de disposition :
 
 * **[!UICONTROL Liste]** — Cliquez sur l’icône _Vue Liste_ ( ![Icône de vue Liste](../assets/do-not-localize/icon-falco-list-view.svg) ) pour afficher les ressources dans un tableau triable avec des colonnes de métadonnées.
 * **[!UICONTROL Galerie]** — Cliquez sur l’icône _Galerie_ ( ![icône de la vue Galerie](../assets/do-not-localize/icon-falco-gallery-view.svg) ) pour afficher les ressources sous forme de grille miniature visuelle.
+
+>[!PREREQUISITES]
+>
+>L’utilisation des ressources nécessite les [autorisations](../start/permissions-reference.md) suivantes :
+>
+>* **[!UICONTROL Afficher Assets B2B]** - Obligatoire pour afficher les détails de la bibliothèque et du fichier de ressource _[!UICONTROL Assets]_.
+>* **[!UICONTROL Gérer B2B Assets]** - Obligatoire pour créer, modifier et supprimer des fichiers de ressources.
 
 ## Recherche de ressources {#find-assets}
 

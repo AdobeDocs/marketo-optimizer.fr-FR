@@ -4,15 +4,15 @@ description: Utilisez les paramètres de gouvernance dans Marketo Optimizer pour
 TQID: 'https://experienceleague.adobe.com/0QZuUrqbF97W7c9yZzBYY39EC7DmbadKxXOJxjxDDy8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: '608'
 ht-degree: 0%
-
 ---
-
 
 # Gouvernance du contenu pour les modèles
 
@@ -22,7 +22,7 @@ Le verrouillage de contenu permet aux auteurs de modèles de définir des règle
 >
 >Le verrouillage de contenu est une fonctionnalité de gouvernance au niveau de l’éditeur. Il contrôle ce que les auteurs et autrices peuvent modifier dans l’espace de conception d’e-mail, mais n’empêche pas les modifications apportées par l’API.
 
-Seuls les utilisateurs disposant de l’autorisation **[!UICONTROL Gérer les modèles de contenu]** peuvent configurer les paramètres de gouvernance.
+Seuls les utilisateurs disposant de l’autorisation **[!UICONTROL Gérer les modèles B2B]** peuvent configurer les paramètres de gouvernance.
 
 ## Activer la gouvernance {#enable}
 

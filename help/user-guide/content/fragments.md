@@ -4,15 +4,15 @@ description: 'Créez, gérez et réutilisez des fragments de contenu visuel pour
 TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2634
+source-wordcount: '2677'
 ht-degree: 5%
-
 ---
-
 # Fragments
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails et modèles d’e-mail dans [!DNL Marketo Optimizer]. Il s’agit généralement d’un bloc de contenu (texte, image ou les deux) qui peut être précréé et rapidement inséré dans un e-mail ou un modèle d’e-mail. Grâce à cette fonctionnalité, vous pouvez précréer plusieurs blocs de contenu personnalisés à utiliser par les membres de votre équipe marketing pour assembler le contenu des e-mails afin d’améliorer le processus de conception. Les cas d’utilisation courants incluent les blocs de contenu d’en-tête/de pied de page pour les e-mails, les bannières d’invitation et les salutations saisonnières.
@@ -33,6 +33,14 @@ Pour tirer le meilleur parti des fragments dans vos workflows :
 
 * _Créer vos propres fragments_ - Créez des fragments visuels, soit en partant de zéro, soit en enregistrant le contenu en tant que fragment depuis l’espace de conception de contenu visuel.
 * _Réutiliser les fragments_ - Utilisez-les autant de fois que nécessaire dans votre contenu d’e-mail ou de modèle d’e-mail.
+
+>[!PREREQUISITES]
+>
+>L’utilisation de fragments nécessite les [autorisations](../start/permissions-reference.md) suivantes :
+>
+>* **[!UICONTROL Afficher les fragments B2B]** - Obligatoire pour afficher la liste des fragments et les détails.
+>* **[!UICONTROL Gérer les fragments B2B]** - Obligatoire pour créer, modifier et supprimer des fragments.
+>* **[!UICONTROL Publier des fragments B2B]** - Requis pour publier des fragments à utiliser dans des modèles, des e-mails et des pages de destination.
 
 ## Accéder aux fragments et les gérer {#access-manage-fragments}
 
@@ -196,7 +204,7 @@ Les modifications apportées à un fragment dépendent de son statut actuel :
 
 1. Modifiez la description, si nécessaire.
 
-   ![Détails du fragment avec le statut Brouillon &#x200B;](assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![Détails du fragment avec le statut Brouillon ](assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
 1. Pour apporter des modifications au contenu dans l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier]** en haut à droite.
 

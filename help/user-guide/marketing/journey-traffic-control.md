@@ -1,23 +1,27 @@
 ---
 title: Contrôle du trafic parcours
-description: Découvrez comment le contrôle du trafic de Parcours dans Marketo Optimizer utilise la notation par l’IA sur sept dimensions pondérées pour inscrire chaque personne dans son seul parcours le mieux adapté lorsque les audiences se chevauchent.
+description: Découvrez comment le contrôle du trafic de Parcours dans Marketo Optimizer utilise le score de l’IA sur sept dimensions pondérées pour inscrire chaque personne dans uniquement son parcours le mieux adapté lorsque les audiences se chevauchent.
 TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Reporting
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1543
+source-wordcount: '1582'
 ht-degree: 0%
-
 ---
-
 # contrôle de la circulation des parcours
 
 Le contrôle du trafic de parcours (JTC) donne la priorité au meilleur parcours pour une personne lorsque les audiences se chevauchent. Lorsqu’une personne se qualifie pour plusieurs parcours compatibles avec JTC, un modèle d’IA les évalue par rapport à chaque candidat et les ajoute au parcours le mieux adapté, en les tenant à l’écart des autres.
@@ -44,7 +48,7 @@ Le modèle évalue chaque combinaison de parcours de personne sur sept dimension
 | Ajustement micrographique | Attributs au niveau de l’entreprise (par exemple, secteur, taille et chiffre d’affaires). |
 | Correspondance démographique | Attributs démographiques au niveau de la personne. |
 | Alignement psychographique | Alignement basé sur les attitudes/préférences. |
-| Adaptation de l’engagement | Récence et profondeur de l’engagement [&#128279;](../audiences/engagement-scores.md) de la personne. |
+| Adaptation de l’engagement | Récence et profondeur de l’engagement ](../audiences/engagement-scores.md) de la personne.[ |
 
 Les dimensions pour lesquelles une personne ne dispose d’aucune donnée sont automatiquement ignorées, de sorte que la notation n’est jamais pénalisée en cas d’attributs manquants.
 
@@ -56,6 +60,7 @@ Les dimensions pour lesquelles une personne ne dispose d’aucune donnée sont a
 
 Avant que le contrôle du trafic du parcours ne produise des résultats, tenez compte des points suivants :
 
+* **Autorisations.** Vous avez besoin de l’autorisation **[!UICONTROL Afficher le contrôle du trafic de Parcours B2B]** pour afficher les paramètres de contrôle du trafic de parcours et de l’autorisation **[!UICONTROL Gérer le contrôle du trafic de Parcours B2B]** pour configurer le contrôle du trafic de parcours, y compris pour simuler son effet. Pour plus d’informations, voir [Ressources d’autorisation](../start/permissions-reference.md).
 * **La création de rapports nécessite un parcours publié et compatible JTC.** L’onglet _[!UICONTROL Rapports]_ n’affiche aucune donnée tant qu’au moins un parcours n’a pas été publié avec le contrôle de trafic de parcours activé.
 * **La simulation nécessite au moins un parcours publié dans l’instance.** La simulation évalue les [profils](../audiences/people-lists.md) qui se trouvent déjà dans des parcours en direct. Il faut donc au moins un parcours publié dans l’instance à partir duquel dessiner des profils. La simulation elle-même ne nécessite pas l’activation de JTC (voir [_Simuler la notation_](#simulate-scoring)).
 
@@ -189,7 +194,7 @@ La vue _[!UICONTROL Par exécution]_ répertorie chaque exécution de contrôle 
 
 Utilisez la vue _Par parcours_ pour examiner la manière dont le contrôle du trafic a affecté un parcours donné. Le tableau indique, par parcours, le nombre de personnes évaluées, inscrites à ce parcours, déplacées vers d’autres parcours et déjà actives.
 
-![Contrôle du trafic par Parcours - Onglet Rapports - Par parcours &#x200B;](./assets/journey-traffic-control-reporting-tab-by-journey.png){width="700" zoomable="yes"}
+![Contrôle du trafic par Parcours - Onglet Rapports - Par parcours ](./assets/journey-traffic-control-reporting-tab-by-journey.png){width="700" zoomable="yes"}
 
 <!--
 Selecting a journey opens a detail panel:

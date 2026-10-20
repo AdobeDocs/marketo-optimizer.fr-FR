@@ -1,29 +1,43 @@
 ---
 title: Listes de personnes
-description: Créez et gérez des listes de personnes dans Marketo Optimizer pour le ciblage de parcours, l’appartenance dynamique basée sur des règles et l’activation de destinations de liste statique.
+description: Créez et gérez des listes de personnes dans Marketo Optimizer pour le ciblage de parcours, l’appartenance dynamique basée sur des règles et l’activation de destinations de listes statiques.
 TQID: 'https://experienceleague.adobe.com/wxkyF1364PPDTHuEzXoshtCbVse-Fc-XdQvrEwPHJZc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Insights
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1181'
 ht-degree: 2%
-
 ---
-
 # Listes de personnes
 
 Dans [!DNL Adobe Marketo Optimizer], les listes de personnes sont les conteneurs d’audience au niveau de la personne pour le ciblage et l’entrée de parcours de personnes, avec des listes dynamiques pour la qualification en direct basée sur des règles et des listes statiques pour l’appartenance fixe ou gérée par parcours.
+
+>[!PREREQUISITES]
+>
+>L&#39;utilisation des listes de personnes nécessite les [autorisations](../start/permissions-reference.md) suivantes :
+>
+>* **[!UICONTROL Afficher les listes de personnes B2B]** - Obligatoire pour afficher les listes de personnes statiques et dynamiques.
+>* **[!UICONTROL Gérer les listes de personnes B2B]** - Obligatoire pour créer, modifier et supprimer des listes de personnes et gérer l’appartenance à une liste.
 
 ## Accès et navigation dans les listes de personnes {#access-browse}
 
@@ -260,6 +274,6 @@ Pour une liste dynamique, une action en double est similaire à une fonction de 
 
    Par défaut, la boîte de dialogue utilise le nom de la liste d’origine suivie de `_copy`. Saisissez un nom unique différent pour la liste, le cas échéant.
 
-   ![&#x200B; Boîte de dialogue Dupliquer la liste &#x200B;](./assets/people-list-duplicate-dialog.png){width="375"}
+   ![ Boîte de dialogue Dupliquer la liste ](./assets/people-list-duplicate-dialog.png){width="375"}
 
 1. Cliquez sur **[!UICONTROL Dupliquer]**.

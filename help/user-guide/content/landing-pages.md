@@ -1,19 +1,20 @@
 ---
 title: Pages de destination
-description: 'Créez, concevez et publiez des pages de destination pour les parcours de personne : créez entièrement, importez des HTML, ajoutez des formulaires, personnalisez du contenu et des liens à partir d’e-mails dans Marketo Optimizer.'
+description: 'Créez, concevez et publiez des pages de destination pour les parcours de personnes : créez entièrement, importez des HTML, ajoutez des formulaires, personnalisez du contenu et des liens à partir d’e-mails dans Marketo Optimizer.'
 TQID: 'https://experienceleague.adobe.com/2eRB0eqgUbOrzaRTnWWy--Fjb4e5-qopiOMZWmr-sa4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: '1627'
 ht-degree: 2%
-
 ---
-
 # Pages de destination
 
 Une page de destination est une page web autonome où vous pouvez diriger les contacts et les clients après qu&#39;ils ont cliqué sur un élément lié dans un e-mail, un SMS ou tout emplacement numérique. Vous pouvez incorporer ces pages dans vos parcours pour que vos prospects et vos clients voient vos messages sur le web et progressent dans vos parcours.
@@ -26,6 +27,14 @@ Cas d’utilisation courants des pages de destination :
 * Dirigez les personnes vers des informations spécifiques à une campagne conçues pour votre orchestration de parcours.
 * Rediriger les personnes vers un formulaire web dédié sans créer de page externe en dehors de [!DNL Marketo Optimizer].
 
+>[!PREREQUISITES]
+>
+>L’utilisation des pages de destination nécessite les [autorisations](../start/permissions-reference.md) suivantes :
+>
+>* **[!UICONTROL Afficher la page de destination B2B]** - Obligatoire pour afficher les pages de destination.
+>* **[!UICONTROL Gérer la page de destination B2B]** - Obligatoire pour créer, modifier et supprimer des pages de destination.
+>* **[!UICONTROL Publier une page de destination B2B]** - Obligatoire pour publier des pages de destination.
+
 ## Workflow de la page de destination {#workflow}
 
 Pour diriger les membres d&#39;une audience de parcours vers une page web définie lorsqu&#39;ils cliquent sur un lien spécifique, créez une landing page dans [!DNL Marketo Optimizer] :
@@ -34,7 +43,7 @@ Pour diriger les membres d&#39;une audience de parcours vers une page web défin
 1. [Concevoir le contenu de la page de destination](./landing-page-design.md) - Créez le contenu de la page à l’aide des composants de conception visuelle par glisser-déposer.
 1. [Tester la page de destination](./landing-pages-create-publish.md#test-landing-page) - Prévisualisez la page et testez le comportement du formulaire.
 1. [Publier la page de destination](./landing-pages-create-publish.md#publish-landing-page) - Publier pour rendre la page active et disponible pour la liaison.
-1. [Lien vers la page à partir de votre parcours &#x200B;](#link-to-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
+1. [Lien vers la page à partir de votre parcours ](#link-to-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
 
 Par exemple, vous pouvez créer et concevoir des pages de destination pour diriger vos utilisateurs vers des informations en ligne. La page peut inclure un formulaire dans lequel ils peuvent s’inscrire ou refuser de recevoir vos communications. Il peut également s’agir d’une opportunité de s’abonner à une communication récurrente, telle qu’une newsletter.
 
@@ -200,7 +209,7 @@ En tant que spécialiste marketing ou créatif qui produit du contenu d’e-mail
 
 1. Pour l&#39;option **[!UICONTROL Landing page]**, cliquez sur l&#39;icône _Sélectionner une page_ ( ![Icône Afficher les liens](../assets/do-not-localize/icon-landing-page-select.svg) ).
 
-1. Dans la boîte de dialogue Sélectionner une page de destination , définissez la **[!UICONTROL Source de la page de destination]** en tant que **[!UICONTROL B2B edition Journey Optimizer]**, cochez la case de la page de destination dans la liste des pages publiées, puis cliquez sur **[!UICONTROL Sélectionner]**.
+1. Dans la boîte de dialogue Sélectionner une page de destination , définissez la **[!UICONTROL Source de la page de destination]** en tant que **[!UICONTROL Journey Optimizer B2B Edition]**, cochez la case de la page de destination dans la liste des pages publiées, puis cliquez sur **[!UICONTROL Sélectionner]**.
 
    ![Options de lien pour une landing page](assets/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 

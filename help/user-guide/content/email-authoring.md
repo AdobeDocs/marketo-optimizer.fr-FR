@@ -4,21 +4,26 @@ description: Découvrez comment composer et concevoir du contenu d’e-mail dans
 TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: '2325'
 ht-degree: 5%
-
 ---
-
 # Création de contenu d’e-mail
 
 En [!DNL Adobe Marketo Optimizer], l’espace de conception d’e-mail fournit une zone de travail visuelle dans laquelle les spécialistes marketing créent des e-mails. Les outils de conception d’e-mail des panneaux de gauche et supérieur (structures, composants de contenu, modèles, fragments, etc.) prennent en charge la création à partir de zéro par glisser-déposer. Vous pouvez également choisir de commencer à partir d’un modèle, de coller des HTML brutes ou d’assembler des messages à partir de fragments visuels réutilisables.
@@ -27,7 +32,15 @@ En [!DNL Adobe Marketo Optimizer], l’espace de conception d’e-mail fournit u
 >
 >Pour la configuration par l’administrateur des sous-domaines, de l’authentification, des groupes d’adresses IP et des canaux e-mail, consultez [Délivrabilité des e-mails](../start/email-deliverability.md) et [Configuration du canal e-mail](../admin/email-channel-configuration.md).
 
-En [!DNL Marketo Optimizer], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours de personne. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_ &#x200B;](../marketing/action-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus. Vous commencez par définir les actions et les paramètres de contenu de l’e-mail. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’espace de conception du contenu de l’e-mail, où vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
+>[!PREREQUISITES]
+>
+>La création d’e-mails nécessite les [autorisations](../start/permissions-reference.md) suivantes :
+>
+>* **[!UICONTROL Afficher les e-mails B2B]** - Obligatoire pour afficher les e-mails.
+>* **[!UICONTROL Gérer les e-mails B2B]** - Obligatoire pour créer, modifier et supprimer des e-mails.
+>* **[!UICONTROL Gérer les Parcours de personne B2B]** - Obligatoire pour ajouter l’e-mail à un parcours de personne.
+
+En [!DNL Marketo Optimizer], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours de personne. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_ ](../marketing/action-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus. Vous commencez par définir les actions et les paramètres de contenu de l’e-mail. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’espace de conception du contenu de l’e-mail, où vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
 * [Concevez entièrement votre e-mail](#design-from-scratch) à l’aide de l’interface de conception visuelle. Créez le composant Disposition d’e-mail par composant en effectuant un glisser-déposer sur une zone de travail vierge. Cette méthode est recommandée pour créer de nouveaux modèles ou des e-mails ponctuels.
 
@@ -155,7 +168,7 @@ Faites glisser des éléments des sections **[!UICONTROL Structures]** et **[!UI
 
 Vous pouvez ajouter une page CSS personnalisée directement dans l’espace de conception d’e-mail pour un style avancé au-delà des paramètres standard des composants. Il est recommandé d’ajouter ce style de plus haut niveau avant d’inclure des composants de contenu, tels que des images, des boutons et du texte.
 
-Voir [&#x200B; Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
+Voir [ Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
 
 >[!NOTE]
 >
@@ -210,7 +223,7 @@ Lorsque [!DNL Marketo Optimizer] est configuré, les ressources Marketo Design S
 
 >[!IMPORTANT]
 >
->La disponibilité des ressources dans [!DNL Marketo Optimizer] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Marketo Optimizer]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [&#128279;](./digital-asset-management.md).
+>La disponibilité des ressources dans [!DNL Marketo Optimizer] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Marketo Optimizer]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [](./digital-asset-management.md).
 
 Types de fichiers image pris en charge :
 
@@ -232,7 +245,7 @@ Pour plus d’informations sur l’utilisation des ressources, voir [_Utilisatio
 
 ### Parcourir les calques, paramètres et styles {#navigation-layers}
 
-Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [&#x200B; Arborescence de navigation &#x200B;](./structure-components.md#navigation-tree).
+Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [ Arborescence de navigation ](./structure-components.md#navigation-tree).
 
 ### Personnaliser le contenu {#personalize-content}
 
@@ -284,7 +297,7 @@ Dans l’éditeur de personnalisation, le collègue peut générer des expressio
 
 +++
 
-Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions &#x200B;](./personalization-expressions.md).
+Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions ](./personalization-expressions.md).
 
 ### Modifier le tracking des URL liées {#preview-and-edit-linked-urls}
 

@@ -4,19 +4,22 @@ description: Espace réservé
 TQID: 'https://experienceleague.adobe.com/wowFSf32UsmDemN6Iy5-IgGOPmuocHHLRb4vvTUDt0U'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 42%
-
+source-wordcount: '996'
+ht-degree: 39%
 ---
-
 
 # Configuration des pages de destination
 
@@ -59,7 +62,7 @@ La colonne **Statut** fournit des informations sur le processus de création et 
 
 Une configuration de sous-domaine de page de destination est **commune à tous les environnements**. Par conséquent :
 
-* Pour accéder aux sous-domaines de la page de destination et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gérer les sous-domaines de la page de destination]** dans le sandbox de production.
+* Pour accéder aux sous-domaines de la page de destination et les modifier, vous devez disposer de l’autorisation **[!UICONTROL Gérer les paramètres de la page de destination B2B]** dans le sandbox de production. Pour accéder au _[!UICONTROL Canaux]_ dans le volet de navigation de gauche, vous devez également disposer de l’autorisation **[!UICONTROL Gérer les configurations des canaux B2B]**. Pour plus d’informations, voir [Ressources d’autorisation](../start/permissions-reference.md).
 
 * Toute modification apportée à un sous-domaine de page de destination aura également un impact sur les sandbox de production.
 

@@ -19,14 +19,20 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '955'
 ht-degree: 0%
 ---
 # Interface de conversation
 
 Le panneau de conversation est intégré à tout le [!DNL Adobe Marketo Optimizer]. C’est là que vous interagissez avec les agents d’IA en utilisant un langage simple pour créer des programmes et des parcours, créer et comparer des listes de personnes, enquêter sur les prospects, configurer la notation, etc.
+
+>[!PREREQUISITES]
+>
+>Pour utiliser le panneau de conversation des collègues dans [!DNL Marketo Optimizer], vous devez disposer de l’autorisation **[!UICONTROL Gérer l’expérience de conversation B2B]** [](../start/permissions-reference.md).
+>
+>Cette autorisation donne accès au panneau de conversation, mais n’accorde l’accès à aucune fonctionnalité. Le système vérifie chaque compétence ou action dans le chat par rapport à la même autorisation dont la fonctionnalité a besoin en dehors du chat : autorisations _Gérer_ pour créer, modifier ou publier, et autorisations _Afficher_ pour les compétences en lecture seule. Si vous ne disposez pas de l’autorisation de fonction, l’assistant ne peut pas effectuer cette action pour vous. Par exemple, la création d’un parcours nécessite **[!UICONTROL Gérer les Parcours de personne B2B]** et la liste des formulaires nécessite **[!UICONTROL Afficher le Forms B2B]**.
 
 Sélectionnez l’icône _Collègue_ dans le volet de navigation de gauche pour ouvrir le panneau. L’en-tête du panneau comporte quatre commandes :
 

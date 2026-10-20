@@ -4,17 +4,18 @@ description: Découvrez comment configurer les poids d’activité qui pilotent 
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1322
+source-wordcount: '1365'
 ht-degree: 2%
-
 ---
-
 
 # Configuration de l’intention
 
@@ -28,6 +29,14 @@ Ouvrez le panneau à l’aide de l’une des deux méthodes suivantes à partir 
 * Cliquez sur **[!UICONTROL +]**, sélectionnez **[!UICONTROL Utiliser une compétence d’agent]**, sélectionnez l’onglet **[!UICONTROL Intention]**, puis cliquez sur **[!UICONTROL Configuration de l’intention]**.
 
 ![Le panneau de configuration d’intention s’est ouvert dans l’interface de conversation](./assets/intent-configuration-panel.png){width="700" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>La configuration d’intention nécessite les [autorisations](../start/permissions-reference.md) suivantes :
+>
+>* **[!UICONTROL Afficher la configuration d’intention B2B]** - Obligatoire pour afficher les configurations d’intention (modèles de pondération d’intention).
+>* **[!UICONTROL Gérer la configuration d’intention B2B]** - Obligatoire pour créer, modifier et supprimer des configurations d’intention.
+>* **[!UICONTROL Gérer l’expérience de conversation B2B]** - Obligatoire pour ouvrir le panneau à partir de l’interface de conversation.
 
 ## Vue Liste des modèles
 
@@ -55,7 +64,7 @@ La vue détaillée répertorie les activités liées à l’intention de l’ach
 
 Un champ de recherche filtre les lignes d’activité par nom. Le tableau lui-même :
 
-| [!UICONTROL Activité d’intention] | [!UICONTROL AI Suggéré &#x200B;] | [!UICONTROL Pondération] | [!UICONTROL Réinitialiser] |
+| [!UICONTROL Activité d’intention] | [!UICONTROL AI Suggéré ] | [!UICONTROL Pondération] | [!UICONTROL Réinitialiser] |
 | --- | --- | --- | --- |
 | Par exemple, Ajouter à l’opportunité, Remplir un formulaire, Cliquer sur l’e-mail, Cliquer sur le lien, Ouvrir l’e-mail, Se désabonner de l’e-mail, Visiter la page web, Poser des questions dans le webinaire, Téléchargements de ressources dans le webinaire, Moment intéressant, A répondu au sondage dans le webinaire, Mettre à jour l’opportunité | Lecture seule | Liste déroulante, modifiable sur les modèles Brouillons | Icône ↺**: réinitialise cette ligne sur la valeur Suggérée par l’IA** |
 

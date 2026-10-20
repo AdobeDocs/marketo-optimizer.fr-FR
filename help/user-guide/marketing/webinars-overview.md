@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1131'
 ht-degree: 2%
 ---
 
@@ -51,7 +51,7 @@ Vous pouvez créer un webinaire de deux manières :
 
 ## Webinaire en tant que ressource
 
-Un webinaire est une ressource appartenant à un [programme](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), de la même manière qu’un e-mail ou une page de destination. L’ajout d’un webinaire à un programme l’y enregistre et rend ses jetons, attributs et activités disponibles pour chaque parcours et ressource de ce programme.
+Un webinaire est une ressource appartenant à un [programme](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs), de la même manière qu’un e-mail ou une page de destination. L’ajout d’un webinaire à un programme l’y enregistre et rend ses jetons, attributs et activités disponibles pour chaque parcours et ressource de ce programme.
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ Pour toute personne qui est membre d&#39;un programme qui contient un webinaire,
 
 | État | Propriétaire | Valeurs |
 |---|---|---|
-| Statut de membre du programme | Programme | Configurable par [type de programme](https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/prime/admin/program-types) |
+| Statut de membre du programme | Programme | Configurable par [type de programme](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types) |
 | État du webinaire | Ressource de webinaire | Invité, Inscrit, Participé, Pas d&#39;affichage, Sur demande |
 | état du parcours | Parcours | Nœud actuel, en pause, terminé et autres états d’exécution de parcours |
 
@@ -83,7 +83,7 @@ Le statut du webinaire comporte cinq valeurs. [!DNL Adobe Connect] définit norm
 >
 >Qu’il soit défini automatiquement ou à partir d’un parcours, le statut du webinaire ne bouge que dans une seule direction, de la même manière que le [statut du programme](./programs.md#statuses). Une personne peut passer à un état ultérieur (par exemple, _Enregistré_ à _Terminé_), mais pas revenir à un état antérieur. Planifiez le remplacement de l’auteur en gardant à l’esprit cette progression linéaire.
 
-Pour déplacer une personne entre les états d’un parcours, utilisez l’action **[!UICONTROL Modifier le statut du membre du webinaire]**. Voir parcours de promotion et de suivi de webinaires[&#128279;](webinar-journeys.md).
+Pour déplacer une personne entre les états d’un parcours, utilisez l’action **[!UICONTROL Modifier le statut du membre du webinaire]**. Voir parcours de promotion et de suivi de webinaires](webinar-journeys.md).[
 
 ## Jetons de webinaire
 
@@ -105,7 +105,7 @@ Les jetons au niveau de la ressource se trouvent directement dans le dossier du 
 
 Les jetons par destinataire résident dans un sous-dossier **Membre** :
 
-- **Statut** - Statut actuel du webinaire du destinataire (Invité, Enregistré, Avec participation, Sans affichage ou Avec participation à la demande). Voir [&#x200B; Statut du webinaire &#x200B;](#webinar-status).
+- **Statut** - Statut actuel du webinaire du destinataire (Invité, Enregistré, Avec participation, Sans affichage ou Avec participation à la demande). Voir [ Statut du webinaire ](#webinar-status).
 - **URL d’inscription** - Lien [!DNL Adobe Connect] personnel du destinataire. Ce problème est résolu uniquement après l’enregistrement de l’état du webinaire du destinataire, ou à une date ultérieure. Il se résout comme vide pour quiconque à un stade antérieur.
 - **URL d’enregistrement** - Se résout après la publication de l’enregistrement après la session active et reste vide jusqu’à ce moment-là. Utilisez-le de manière conditionnelle dans les e-mails postérieurs au webinaire afin qu’un lien n’apparaisse pas avant qu’un enregistrement ne soit à afficher.
 
@@ -143,14 +143,15 @@ Avant de commencer à créer un webinaire, assurez-vous que les éléments suiva
 
 ### Autorisations
 
-L’accès aux fonctionnalités des webinaires dépend des autorisations que vous avez attribuées pour les webinaires.
+L’accès aux fonctionnalités des webinaires dépend des autorisations que vous avez attribuées pour les webinaires. Pour obtenir la liste complète des autorisations et des rôles recommandés, voir [Accès et autorisations des utilisateurs](../start/permissions-reference.md).
 
-| Rôle | Ce qu&#39;il accorde |
+| Autorisation | Ce qu&#39;il accorde |
 |---|---|
 | Afficher les webinaires B2B | Consultez la liste des webinaires, ainsi qu’une configuration, des détails et des rapports de webinaire. Les contrôles de création, de conception, de modification et de saisie ne sont pas disponibles via cette autorisation, et vous ne pouvez pas être affecté à un webinaire en tant que co-hôte ou présentateur. |
+| Gérer Les Webinaires B2B | Accès complet au cycle de vie : création, conception, configuration, planification, modification, diffusion, hébergement et suppression d’un webinaire. Les commandes Créer, Concevoir, Modifier et Gérer sont disponibles uniquement pour les utilisateurs disposant de cette autorisation. |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

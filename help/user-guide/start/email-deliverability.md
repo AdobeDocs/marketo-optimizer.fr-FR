@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2694'
 ht-degree: 1%
 ---
 # Délivrabilité des e-mails
@@ -38,7 +38,7 @@ Dans [!DNL Adobe Marketo Optimizer], la délivrabilité des emails désigne l’
 
 Il utilise les blocs de création suivants, configurés par un administrateur, généralement dans l’ordre suivant :
 
-1. [&#x200B; Déléguer un ou plusieurs sous-domaines &#x200B;](#subdomain-delegation) à Adobe.
+1. [ Déléguer un ou plusieurs sous-domaines ](#subdomain-delegation) à Adobe.
 1. [Configurez les enregistrements DMARC, SPF et DKIM](#dmarc-spf-dkim) sur chaque sous-domaine.
 1. [Confirmez le groupe d’adresses IP](#ip-pools) utilisé pour envoyer un e-mail pour votre sous-domaine.
 1. [Créez une ou plusieurs configurations de canal e-mail](../admin/email-channel-configuration.md#create-email-channel-configuration) qui lient un sous-domaine, un groupe d’adresses IP et une identité d’expéditeur.
@@ -53,7 +53,7 @@ Il utilise les blocs de création suivants, configurés par un administrateur, g
 > Consultez les rubriques suivantes pour plus d’informations sur les canaux e-mail :
 >
 >* Configuration des canaux e-mail - [Configuration du canal e-mail](../admin/email-channel-configuration.md)
->* Création d&#39;emails - [Ajouter des emails aux parcours &#x200B;](../marketing/email-channel.md)
+>* Création d&#39;emails - [Ajouter des emails aux parcours ](../marketing/email-channel.md)
 >* Conception de contenu d&#39;e-mail - [Création de contenu d&#39;e-mail](../content/email-authoring.md)
 
 ## Limites actuelles {#limitations}
@@ -70,6 +70,18 @@ Avant de configurer les e-mails, passez en revue les concepts qui s’appliquent
 | **_Sous-domaine_** | Partie déléguée de votre domaine d&#39;envoi (par exemple, `mail.contoso.com`) utilisée pour envoyer des e-mails par [!DNL Marketo Optimizer]. Les sous-domaines isolent votre réputation marketing B2B des e-mails d’entreprise ou transactionnels. |
 | **_Groupe d’adresses IP_** | Groupe d’adresses IP associées à un ou plusieurs sous-domaines. [!DNL Marketo Optimizer] prend en charge un groupe d’adresses IP partagé géré par Adobe dans cette version. Les groupes d’adresses IP dédiés figurent sur la feuille de route de la disponibilité générale. |
 | **_Configuration des canaux_** | Ensemble réutilisable de paramètres d’envoi d’e-mail (identité de l’expéditeur, adresse de réponse, sous-domaine, groupe d’adresses IP, type d’e-mail et suivi) que vous joignez aux actions d’e-mail dans parcours. Vous pouvez avoir plusieurs configurations de canal nommé pour différentes marques, unités opérationnelles ou types d’envoi. |
+
+## Autorisations nécessaires {#required-permissions}
+
+La délivrabilité et la configuration des canaux sont des tâches de niveau administrateur. Les autorisations suivantes de la catégorie _Configurations de canal B2B_ contrôlent l’accès :
+
+| Autorisation | Ce que cela permet |
+| ---------- | -------------- |
+| Afficher les paramètres d’e-mail B2B | Affichez les paramètres d’e-mail (sous-domaines, enregistrements PTR, groupes d’adresses IP, listes de suppression, listes de contrôle, plans de préchauffage d’adresses IP). |
+| Gérer les paramètres d’e-mail B2B | Configurez les paramètres d’e-mail. Ces paramètres sont requis avant que les utilisateurs puissent envoyer des e-mails. |
+| Gérer les configurations des canaux B2B | Accès à l’élément de menu _Canaux_ dans le volet de navigation de gauche et à toutes les opérations de configuration des canaux. |
+
+Pour obtenir une description de toutes les autorisations et des autorisations recommandées pour chaque type d’utilisateur, voir [Autorisations de produit](./permissions-reference.md).
 
 <!--
 
@@ -155,7 +167,7 @@ La délégation de sous-domaine indique à Internet qu’Adobe est autorisé à 
 >* Choisissez une convention de nommage des sous-domaines (par exemple, `mail.contoso.com` pour le marketing, `alerts.contoso.com` pour le transactionnel).
 >* Vérifiez auprès de votre équipe informatique/DNS qu’elle peut déléguer le sous-domaine (enregistrements DNS) à Adobe.
 >* Créez le nouveau sous-domaine dans votre fournisseur DNS, puis attendez 24 à 48 heures pour la propagation DNS avant de déléguer à Adobe.
->* Vérifiez que vous disposez du rôle Administrateur dans [!DNL Marketo Optimizer].
+>* Vérifiez que vous disposez de l’autorisation **[!UICONTROL Gérer les paramètres d’e-mail B2B]**. Pour plus d’informations, voir [ Autorisations requises ](#required-permissions).
 
 1. Dans le volet de navigation de gauche [!DNL Marketo Optimizer], développez **[!UICONTROL Administration]** et sélectionnez **[!UICONTROL Canaux]**.
 1. Dans le panneau, développez **[!UICONTROL Paramètres d’e-mail]** et sélectionnez **[!UICONTROL Sous-domaines]**.
@@ -304,8 +316,8 @@ DMARC, SPF et DKIM sont des normes d’authentification de messagerie. Ensemble,
 | Enregistrement | Signifie | But |
 | ------ | ---------- | ------- |
 | **SPF** | Cadre de la politique de l&#39;expéditeur | Répertorie les adresses IP de serveur de messagerie autorisées à envoyer des e-mails à partir de votre domaine. Les serveurs de réception rejettent les e-mails provenant d’adresses IP qui ne figurent pas sur cette liste. Adobe crée et conserve automatiquement l’enregistrement SPF lorsque vous déléguez un sous-domaine (Délégation complète). |
-| **&#x200B;**&#x200B;| Message identifié DomainKeys | Une signature cryptographique ajoutée à chaque e-mail sortant. Le serveur de réception vérifie la signature par rapport à une clé publique publiée dans le DNS. Adobe génère automatiquement des clés DKIM et des enregistrements DNS lors de la délégation de sous-domaine. |
-| **&#x200B;**&#x200B;| Authentification, reporting et conformité des messages basés sur des domaines | Indique aux serveurs de réception ce qu’ils doivent faire en cas d’échec de SPF ou de DKIM et fournit des rapports sur les résultats de l’authentification. DMARC comporte trois modes de stratégie : aucun, mise en quarantaine et rejet. |
+| **** | Message identifié DomainKeys | Une signature cryptographique ajoutée à chaque e-mail sortant. Le serveur de réception vérifie la signature par rapport à une clé publique publiée dans le DNS. Adobe génère automatiquement des clés DKIM et des enregistrements DNS lors de la délégation de sous-domaine. |
+| **** | Authentification, reporting et conformité des messages basés sur des domaines | Indique aux serveurs de réception ce qu’ils doivent faire en cas d’échec de SPF ou de DKIM et fournit des rapports sur les résultats de l’authentification. DMARC comporte trois modes de stratégie : aucun, mise en quarantaine et rejet. |
 
 ### Modes de stratégie DMARC {#dmarc-policy-modes}
 
