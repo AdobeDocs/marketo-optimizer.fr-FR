@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 19%
+source-wordcount: '1554'
+ht-degree: 18%
 ---
 # Créer et publier des pages de destination
 
@@ -219,7 +219,7 @@ Lorsque les paramètres et le contenu de la page de destination sont définis, v
 
 >[!PREREQUISITES]
 >
->Pour prévisualiser et tester des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier des messages]** et d’un jeu de données défini contenant des profils de test.
+>Pour prévisualiser et tester des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier une page de destination B2B]** et d’un jeu de données défini contenant des profils de test.
 
 1. Cliquez sur **[!UICONTROL Aperçu et test]** pour ouvrir la sélection du profil de test.
 
@@ -259,7 +259,7 @@ Lorsque les paramètres et le contenu de la page de destination sont définis, v
 
 >[!PREREQUISITES]
 >
->Pour publier des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier des messages]**. Avant de publier, [vérifiez et résolvez toutes les alertes](#check-alerts).
+>Pour publier des pages de destination, vous devez disposer de l’autorisation **[!UICONTROL Publier une page de destination B2B]**. Avant de publier, [vérifiez et résolvez toutes les alertes](#check-alerts).
 
 Lorsque le brouillon de page répond à vos critères et que vous souhaitez le rendre disponible pour qu’il soit lié dans vos messages de parcours, cliquez sur **[!UICONTROL Publier]** en haut à droite. Dans la boîte de dialogue de confirmation, cliquez de nouveau sur **[!UICONTROL Publier]** pour confirmer.
 

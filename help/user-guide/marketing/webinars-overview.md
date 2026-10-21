@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1131'
 ht-degree: 2%
 ---
 
@@ -143,14 +143,15 @@ Avant de commencer à créer un webinaire, assurez-vous que les éléments suiva
 
 ### Autorisations
 
-L’accès aux fonctionnalités des webinaires dépend des autorisations que vous avez attribuées pour les webinaires.
+L’accès aux fonctionnalités des webinaires dépend des autorisations que vous avez attribuées pour les webinaires. Pour obtenir la liste complète des autorisations et des rôles recommandés, voir [Accès et autorisations des utilisateurs](../start/permissions-reference.md).
 
-| Rôle | Ce qu&#39;il accorde |
+| Autorisation | Ce qu&#39;il accorde |
 |---|---|
 | Afficher les webinaires B2B | Consultez la liste des webinaires, ainsi qu’une configuration, des détails et des rapports de webinaire. Les contrôles de création, de conception, de modification et de saisie ne sont pas disponibles via cette autorisation, et vous ne pouvez pas être affecté à un webinaire en tant que co-hôte ou présentateur. |
+| Gérer Les Webinaires B2B | Accès complet au cycle de vie : création, conception, configuration, planification, modification, diffusion, hébergement et suppression d’un webinaire. Les commandes Créer, Concevoir, Modifier et Gérer sont disponibles uniquement pour les utilisateurs disposant de cette autorisation. |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

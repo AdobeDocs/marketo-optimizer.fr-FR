@@ -4,16 +4,17 @@ description: Découvrez comment accéder aux modèles d’e-mail et les gérer d
 TQID: 'https://experienceleague.adobe.com/PS1sj99Udmajg2M4JadFQCGYF7DL9JkkdU9-7FG-OzY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '511'
 ht-degree: 1%
-
 ---
-
 
 # Modèles d’e-mail
 
@@ -24,6 +25,13 @@ Les modèles d’e-mail dans [!DNL Adobe Marketo Optimizer] permettent aux spéc
 >Dans cette version de Beta, seuls les modèles d’e-mail sont pris en charge.
 
 Lorsqu’un modèle est appliqué à un nouvel e-mail, le contenu est copié à ce stade. Les modifications apportées au modèle n’affectent pas les e-mails créés précédemment à partir de celui-ci.
+
+>[!PREREQUISITES]
+>
+>L’utilisation de modèles nécessite les [autorisations](../start/permissions-reference.md) suivantes :
+>
+>* **[!UICONTROL Afficher les modèles B2B]** - Obligatoire pour afficher la liste et les détails des modèles.
+>* **[!UICONTROL Gérer les modèles B2B]** - Obligatoire pour créer, modifier et supprimer des modèles.
 
 ## Accès aux modèles d’e-mail {#access}
 

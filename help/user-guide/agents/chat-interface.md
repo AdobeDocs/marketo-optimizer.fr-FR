@@ -4,24 +4,35 @@ description: Utilisez le panneau de conversation Collègues dans Marketo Optimiz
 TQID: 'https://experienceleague.adobe.com/5oj0glKEbJuzQFem-jxL4qjnzxVG4tlOaiHKM5SuiWQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '955'
 ht-degree: 0%
-
 ---
-
 # Interface de conversation
 
 Le panneau de conversation est intégré à tout le [!DNL Adobe Marketo Optimizer]. C’est là que vous interagissez avec les agents d’IA en utilisant un langage simple pour créer des programmes et des parcours, créer et comparer des listes de personnes, enquêter sur les prospects, configurer la notation, etc.
+
+>[!PREREQUISITES]
+>
+>Pour utiliser le panneau de conversation des collègues dans [!DNL Marketo Optimizer], vous devez disposer de l’autorisation **[!UICONTROL Gérer l’expérience de conversation B2B]** [&#128279;](../start/permissions-reference.md).
+>
+>Cette autorisation donne accès au panneau de conversation, mais n’accorde l’accès à aucune fonctionnalité. Le système vérifie chaque compétence ou action dans le chat par rapport à la même autorisation dont la fonctionnalité a besoin en dehors du chat : autorisations _Gérer_ pour créer, modifier ou publier, et autorisations _Afficher_ pour les compétences en lecture seule. Si vous ne disposez pas de l’autorisation de fonction, l’assistant ne peut pas effectuer cette action pour vous. Par exemple, la création d’un parcours nécessite **[!UICONTROL Gérer les Parcours de personne B2B]** et la liste des formulaires nécessite **[!UICONTROL Afficher le Forms B2B]**.
 
 Sélectionnez l’icône _Collègue_ dans le volet de navigation de gauche pour ouvrir le panneau. L’en-tête du panneau comporte quatre commandes :
 
@@ -36,16 +47,6 @@ Au bas du panneau se trouve la boîte de message dans laquelle vous pouvez :
 
 * Ajoutez un message et appuyez sur **Entrée** pour l’envoyer (**Maj+Entrée** insère une nouvelle ligne).
 * Joignez un fichier à l’aide de l’icône _Joindre_ (formats pris en charge : `.txt`, `.md`, `.csv`, `.json`, `.xlsx`, `.docx`, `.pdf`). Utilisez les chargements de feuilles de calcul et de fichiers CSV pour démarrer une importation de prospect.
-
->[!BEGINSHADEBOX]
-
-## Qualificateur de vente
-
-[!DNL Adobe Sales Qualifier] est une application gérée par l’IA que vous pouvez utiliser avec [!DNL Marketo Optimizer]. Il met en œuvre Account Qualification Agent et est conçu pour rationaliser les workflows pour les représentants du développement commercial (BDR). [!DNL Sales Qualifier] automatise les workflows de qualification, de sensibilisation et d’engagement des acheteurs des prospects sur l’ensemble des canaux. Il réduit la charge manuelle de BDR et accélère la vitesse du pipeline pour les entreprises B2B.
-
-Pour plus d&#39;informations, consultez la documentation de [&#128279;](https://experienceleague.adobe.com/fr/docs/sales-qualifier/using/home){target="_blank"}.
-
->[!ENDSHADEBOX]
 
 ## Demander à un collègue
 

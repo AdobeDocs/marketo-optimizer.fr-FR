@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2473'
 ht-degree: 2%
 ---
 # Formulaires
@@ -31,14 +31,12 @@ La quantité d’informations que le formulaire doit capturer dépend de la vale
 >[!PREREQUISITES]
 >
 >Avant que les équipes marketing puissent créer et utiliser des formulaires pour capturer des informations, un administrateur doit définir un ou plusieurs paramètres prédéfinis de formulaire. Pour plus d’informations, voir [_Configurations_](../admin/configuration-presets-forms.md).
-
-<!-- 
->Form creation in [!DNL Marketo Optimizer] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Publish B2C Forms]_ - Required to publish forms.
--->
+>La création d’un formulaire dans [!DNL Marketo Optimizer] nécessite les [autorisations](../start/permissions-reference.md) suivantes :
+>
+>* Assets B2B _>_[!UICONTROL &#x200B; Afficher le Forms B2B &#x200B;]_- Obligatoire pour accéder aux formulaires et les afficher._
+>* Assets B2B _>_[!UICONTROL &#x200B; Gérer le Forms B2B &#x200B;]_- Requis pour créer, modifier et supprimer des formulaires._
+>* Assets B2B _>_[!UICONTROL &#x200B; Publier le Forms B2B &#x200B;]_- Obligatoire pour publier des formulaires._
 
 ## Accéder aux formulaires et les gérer {#view-forms}
 

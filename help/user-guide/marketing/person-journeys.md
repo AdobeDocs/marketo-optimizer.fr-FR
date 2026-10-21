@@ -4,17 +4,19 @@ description: 'Créer, publier et gérer des parcours de personne dans Marketo Op
 TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Channels
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1418
-ht-degree: 19%
-
+source-wordcount: '1480'
+ht-degree: 18%
 ---
-
 # Parcours de la personne
 
 Dans [!DNL Adobe Marketo Optimizer], les parcours de personne sont des plans marketing automatisés, basés sur des prospects et à plusieurs étapes, qui orchestrent des expériences personnalisées sur plusieurs canaux. Ces parcours utilisent les données Marketo Engage pour exécuter ces plans marketing en réponse à l’engagement, aux événements métier ou aux campagnes planifiées.
@@ -22,6 +24,15 @@ Dans [!DNL Adobe Marketo Optimizer], les parcours de personne sont des plans mar
 >[!NOTE]
 >
 >Chaque parcours réside dans un [programme](./programs.md) défini. Vous devez avoir au moins un programme à utiliser comme parent avant de créer un parcours.
+
+>[!PREREQUISITES]
+>
+>L’utilisation des parcours de personne nécessite les [autorisations](../start/permissions-reference.md) suivantes :
+>
+>* **[!UICONTROL Afficher les Parcours de personne B2B]** - Obligatoire pour un accès en lecture seule à la liste _[!UICONTROL Parcours de personne]_ et aux détails du parcours.
+>* **[!UICONTROL Gérer les Parcours de personne B2B]** - Obligatoire pour accéder à la liste _[!UICONTROL Parcours de personne]_ et effectuer toutes les opérations de parcours de personne.
+>* **[!UICONTROL Publier des Parcours de personne B2B]** - Obligatoire pour publier des parcours de personne.
+>* **[!UICONTROL Afficher les rapports de Parcours de personne B2B]** - Obligatoire pour afficher les rapports de parcours de personne.
 
 _Pour créer un nouveau parcours de personne :_
 

@@ -4,21 +4,26 @@ description: Découvrez comment composer et concevoir du contenu d’e-mail dans
 TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: '2325'
 ht-degree: 5%
-
 ---
-
 # Création de contenu d’e-mail
 
 En [!DNL Adobe Marketo Optimizer], l’espace de conception d’e-mail fournit une zone de travail visuelle dans laquelle les spécialistes marketing créent des e-mails. Les outils de conception d’e-mail des panneaux de gauche et supérieur (structures, composants de contenu, modèles, fragments, etc.) prennent en charge la création à partir de zéro par glisser-déposer. Vous pouvez également choisir de commencer à partir d’un modèle, de coller des HTML brutes ou d’assembler des messages à partir de fragments visuels réutilisables.
@@ -26,6 +31,14 @@ En [!DNL Adobe Marketo Optimizer], l’espace de conception d’e-mail fournit u
 >[!IMPORTANT]
 >
 >Pour la configuration par l’administrateur des sous-domaines, de l’authentification, des groupes d’adresses IP et des canaux e-mail, consultez [Délivrabilité des e-mails](../start/email-deliverability.md) et [Configuration du canal e-mail](../admin/email-channel-configuration.md).
+
+>[!PREREQUISITES]
+>
+>La création d’e-mails nécessite les [autorisations](../start/permissions-reference.md) suivantes :
+>
+>* **[!UICONTROL Afficher les e-mails B2B]** - Obligatoire pour afficher les e-mails.
+>* **[!UICONTROL Gérer les e-mails B2B]** - Obligatoire pour créer, modifier et supprimer des e-mails.
+>* **[!UICONTROL Gérer les Parcours de personne B2B]** - Obligatoire pour ajouter l’e-mail à un parcours de personne.
 
 En [!DNL Marketo Optimizer], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours de personne. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_ &#x200B;](../marketing/action-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus. Vous commencez par définir les actions et les paramètres de contenu de l’e-mail. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’espace de conception du contenu de l’e-mail, où vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 

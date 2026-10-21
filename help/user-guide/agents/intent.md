@@ -4,24 +4,26 @@ description: Découvrez comment configurer les poids d’activité pour le modè
 TQID: 'https://experienceleague.adobe.com/BNzbM6v6ADSKyPR6jQMj1QdWMnLQQX-j3PNk8gF6PxY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 
 # Configurer et analyser l’intention
 
 En [!DNL Adobe Marketo Optimizer], Coworker fournit deux compétences dans la catégorie _Intention_. Chaque client pèse les activités marketing différemment. Ces compétences vous permettent donc de configurer ce qui importe à votre entreprise. Vous pouvez ensuite valider ce que le pipeline d’intention a produit.
 
-| Compétence | Commande | Ce qu&#39;il fait |
+| Compétence | Commande | Fonction |
 | --- | --- | --- |
 | **Configuration de l’intention** | `/intent-configuration` (alias `/intent-config`) | Configurer les poids d’activité pour le modèle de score d’intention de la personne |
 | **Intention d’analyse** | `/analyze-intent` | Interroger et valider le classement des intentions au niveau du prospect, la tendance, la taxonomie des produits et des mots-clés, ainsi que les rapports de comparaison |
@@ -57,6 +59,10 @@ Le score d’intention d’un prospect tient compte de trois éléments :
 Pour plus d’informations sur ces mesures, notamment le poids suggéré par l’IA, la pertinence du contenu et les limites, consultez [Configuration de l’intention](../audiences/intent-configuration.md).
 
 ## Rapports d’intention
+
+>[!PREREQUISITES]
+>
+>Les rapports d’intention nécessitent l’autorisation **[!UICONTROL Afficher les rapports d’intention B2B]** [autorisation](../start/permissions-reference.md).
 
 Pour présenter les quatre types de rapports qu’il peut générer, appelez `/analyze-intent` pour inviter un collègue. Un collègue attend ensuite une demande de suivi nommant un prospect, un produit ou une comparaison. Chaque rapport s’ouvre sous son propre onglet dans le panneau de l’espace de travail et Coworker ajoute également une carte de résumé dans la conversation avec un bouton _[!UICONTROL Ouvrir le rapport]_.
 

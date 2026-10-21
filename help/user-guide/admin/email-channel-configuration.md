@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '638'
 ht-degree: 0%
 ---
 # Configuration du canal e-mail
@@ -45,7 +45,7 @@ Une configuration de canal est l’objet central qui lie votre identité d’exp
 >
 >* Au moins un [sous-domaine](../start/email-deliverability.md#subdomain-delegation) doit être délégué et actif.
 >* Au moins un [pool d’adresses IP](../start/email-deliverability.md#ip-pools) doit être affecté à votre organisation.
->* Vous avez besoin du rôle Administrateur.
+>* Vous avez besoin des autorisations **[!UICONTROL Gérer les configurations des canaux B2B]** et **[!UICONTROL Afficher les paramètres d’e-mail B2B]**. Pour plus d’informations, voir [&#x200B; Autorisations requises &#x200B;](../start/email-deliverability.md#required-permissions).
 >* Examinez [limitations actuelles](../start/email-deliverability.md#limitations) — les groupes d’adresses IP dédiés ne sont pas disponibles dans Beta.
 
 1. Dans le volet de navigation de gauche [!DNL Adobe Marketo Optimizer], développez **[!UICONTROL Administration]** et sélectionnez **[!UICONTROL Canaux]**.

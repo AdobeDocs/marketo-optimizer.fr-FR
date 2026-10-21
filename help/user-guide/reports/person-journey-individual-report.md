@@ -1,15 +1,15 @@
 ---
 title: Parcours de personne - Rapport individuel
-description: Découvrez le rapport Parcours de personne individuel dans Adobe Marketo Optimizer, qui affiche les mesures d’achèvement, d’engagement et d’e-mail pour un parcours.
+description: Découvrez le Rapport individuel du Parcours de personne dans Adobe Marketo Optimizer, qui affiche les mesures d’achèvement, d’engagement et d’e-mail pour un parcours.
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 531dce4ffe6000efa0296f0e2393423f54124ea7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 0%
 <!-- SPHR-39120: UX plans to move the Journey activity flow tile to the top of the report. Update the tile order in this page when that ships. -->
 
 Cliquez sur **[!UICONTROL Afficher le rapport]** pour un parcours de personne actif ou terminé afin d’afficher ses performances, y compris le statut, l’engagement, les mesures d’e-mail et le flux d’activité.
+
+>[!PREREQUISITES]
+>
+>Pour afficher ce rapport, vous devez disposer de l’autorisation **[!UICONTROL Afficher les rapports de Parcours de personne B2B]** [autorisation](../start/permissions-reference.md).
 
 _Pour afficher le rapport :_
 

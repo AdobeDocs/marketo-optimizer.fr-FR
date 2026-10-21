@@ -4,18 +4,20 @@ description: Espace réservé
 TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 541
-ht-degree: 30%
-
+source-wordcount: '591'
+ht-degree: 27%
 ---
-
 # Configurations de Forms
 
 Avant que les marketeurs puissent créer et publier des formulaires à utiliser dans leurs pages de destination, un administrateur de produit doit créer un ou plusieurs paramètres prédéfinis dédiés. Chaque paramètre prédéfini définit le point d’entrée de connexion utilisé pour envoyer les données d’envoi du formulaire et le jeu de données utilisé pour stocker les données capturées.
@@ -33,15 +35,11 @@ Pour utiliser les formulaires web, vous devez disposer d’une ou de plusieurs c
 
 Pour plus d’informations sur la création de connexions source par flux, consultez la documentation d’[__](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
-<!-- 
-permissions coming in GA
+La configuration du canal Forms dans [!DNL Marketo Optimizer] nécessite les [autorisations](../start/permissions-reference.md) suivantes :
 
-Forms channel configuration in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
-
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL View Forms Presets]_ - Required to view forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Manage Forms Presets]_ - Required to create, update, and delete forms preset configurations.
-* _[!UICONTROL B2B Channel Configurations]_ > _[!UICONTROL Publish Forms Presets]_ - Required to publish forms preset configurations.
--->
+* _[!UICONTROL Configurations de canal B2B]_ > _[!UICONTROL Afficher le paramètre prédéfini Forms B2B]_ - Obligatoire pour afficher les configurations de paramètre prédéfini de formulaire.
+* _[!UICONTROL Configurations de canal B2B]_ > _[!UICONTROL Gérer les paramètres prédéfinis de Forms B2B]_ - Requis pour créer, modifier et supprimer des configurations de paramètres prédéfinis de formulaire.
+* _[!UICONTROL Configurations de canal B2B]_ > _[!UICONTROL Publication d’un paramètre prédéfini Forms B2B]_ - Obligatoire pour publier les configurations de paramètre prédéfini de formulaire.
 
 >[!ENDSHADEBOX]
 

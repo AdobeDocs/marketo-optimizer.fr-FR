@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '508'
 ht-degree: 2%
 ---
 
@@ -20,6 +20,10 @@ L’onglet [!UICONTROL Rapports] vous donne des informations sur les performance
 Chaque rapport est construit sur des [!DNL Adobe Customer Journey Analytics] et incorporé directement dans des [!DNL Marketo Optimizer]. Cliquez sur l’icône _Liste_ ( ![Icône Liste](../assets/do-not-localize/icon-table-of-contents.svg) ) pour utiliser le panneau **[!UICONTROL Table des matières]** situé à gauche afin de passer d’une section à l’autre.
 
 ![page Rapports répertoriant les sections Présentation du Parcours Personne, Engagement, Engagement des e-mails et Engagement web](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>Pour afficher les rapports dans l’onglet _[!UICONTROL Rapports]_, vous devez disposer de l’autorisation **[!UICONTROL Afficher les rapports incorporés B2B]** [&#128279;](../start/permissions-reference.md).
 
 ## Sections du rapport {#report-sections}
 
