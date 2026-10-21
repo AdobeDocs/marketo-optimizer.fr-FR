@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
+source-git-commit: 52295deb478e2f7160a39fc1e554074aefe277ba
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '921'
 ht-degree: 0%
 ---
 # Interface de conversation
@@ -30,11 +30,9 @@ Le panneau de conversation est intégré à tout le [!DNL Adobe Marketo Optimize
 
 >[!PREREQUISITES]
 >
->Pour utiliser le panneau de conversation des collègues dans [!DNL Marketo Optimizer], vous devez disposer de l’autorisation **[!UICONTROL Gérer l’expérience de conversation B2B]** [&#128279;](../start/permissions-reference.md).
->
->Cette autorisation donne accès au panneau de conversation, mais n’accorde l’accès à aucune fonctionnalité. Le système vérifie chaque compétence ou action dans le chat par rapport à la même autorisation dont la fonctionnalité a besoin en dehors du chat : autorisations _Gérer_ pour créer, modifier ou publier, et autorisations _Afficher_ pour les compétences en lecture seule. Si vous ne disposez pas de l’autorisation de fonction, l’assistant ne peut pas effectuer cette action pour vous. Par exemple, la création d’un parcours nécessite **[!UICONTROL Gérer les Parcours de personne B2B]** et la liste des formulaires nécessite **[!UICONTROL Afficher le Forms B2B]**.
+>Le système vérifie chaque compétence ou action dans le chat par rapport aux mêmes [autorisations](../start/permissions-reference.md) dont la fonctionnalité a besoin en dehors du chat : _Gérer_ autorisations de création, de modification ou de publication, et _Afficher_ autorisations pour les compétences en lecture seule. Si vous ne disposez pas de l’autorisation de fonction, [!DNL Coworker] ne pouvez pas effectuer cette action pour vous. Par exemple, la création d’un parcours nécessite **[!UICONTROL Gérer les Parcours de personne B2B]** et la liste des formulaires nécessite **[!UICONTROL Afficher le Forms B2B]**.
 
-Sélectionnez l’icône _Collègue_ dans le volet de navigation de gauche pour ouvrir le panneau. L’en-tête du panneau comporte quatre commandes :
+Sélectionnez l’icône _Conversation_ dans le volet de navigation de gauche pour ouvrir le panneau. L’en-tête du panneau comporte quatre commandes :
 
 | Commande | Description |
 |---------|-------------|
