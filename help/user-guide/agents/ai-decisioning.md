@@ -4,25 +4,32 @@ description: Découvrez la prise de décision par l’IA dans Marketo Optimizer,
 TQID: 'https://experienceleague.adobe.com/biPd2Zv3z75i7imGqRNuKXvgoD0sIcwrFrjWmSO7FpU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: '829'
 ht-degree: 2%
-
 ---
-
 
 # Prise de décision par l’IA
 
 La prise de décision par l’IA est la couche d’intelligence artificielle derrière Adobe Marketo Optimizer. Au lieu de précréer chaque branche sous la forme d’une règle statique, la prise de décision par l’IA évalue en permanence le contexte d’un profil, y compris l’appartenance au parcours, l’historique de l’engagement, les scores d’intention et le comportement en temps réel, afin de déterminer la meilleure action ou le meilleur parcours pour cette personne.
 
 Cette évaluation continue déplace l’orchestration des règles statiques vers une automatisation axée sur les résultats : plutôt que de définir chaque condition à l’avance, vous décrivez le résultat que vous souhaitez et le système détermine comment y parvenir pour chaque personne.
+
+Regardez cette courte présentation pour découvrir comment le raisonnement de l’IA dans [!DNL Adobe Marketo Optimizer] utilise les données de Marketo Engage pour optimiser vos workflows et vos résultats.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
 
 ## Fonctionnalités {#capabilities}
 
@@ -83,7 +90,7 @@ La plupart des configurations matures fonctionnent ensemble : les règles serven
 
 **Portée future : contexte de compte et de groupe d&#39;achat**
 
-Actuellement indisponible dans Marketo Optimizer. La prise de décision par l’IA est prévue pour s’étendre au-delà du profil individuel aux éléments suivants :
+Non disponible aujourd’hui dans Marketo Optimizer. La prise de décision par l’IA est prévue pour s’étendre au-delà du profil individuel aux éléments suivants :
 
 * Contexte du compte — Signaux au niveau de la société et du compte comme entrée de prise de décision.
 * Signaux de groupe d&#39;achat : rôle dans l&#39;accord, statut du décideur ou du praticien, et engagement global de toutes les personnes impliquées dans une décision d&#39;achat.

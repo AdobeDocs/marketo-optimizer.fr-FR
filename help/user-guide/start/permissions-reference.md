@@ -22,9 +22,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 autotag-review: '2026-10-20T17:03:48.312Z'
-source-git-commit: e80513284d179a9b27d0505463d07d5e15facabb
+source-git-commit: a33f749c32631dcd77ecf2892bdc3b1a5e06cd66
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1556'
 ht-degree: 6%
 ---
 # Autorisations de produit
@@ -143,7 +143,14 @@ Pour connaître la procédure de création de ces groupes et rôles, voir [&#x20
 
 ## Autorisations de conversation {#chat-permissions}
 
-Les autorisations de conversation suivent les autorisations au niveau des fonctionnalités. _Gérer l’expérience de conversation B2B_ donne accès au panneau de conversation [!DNL CX Coworker], mais il n’accorde pas l’accès aux fonctions de fonctionnalité. Coworker vérifie chaque compétence ou action dans le chat par rapport à la même autorisation dont la fonctionnalité a besoin en dehors du chat : _Gérer_ autorisations de création, de modification ou de publication, et _Afficher_ autorisations pour les compétences en lecture seule. Si un utilisateur ne dispose pas de l’autorisation de fonctionnalité, [!DNL Coworker] ne pouvez pas effectuer cette action pour lui. Par exemple, la création d’un parcours nécessite _Gérer les Parcours de personne B2B_ et la liste des formulaires nécessite _Afficher le Forms B2B_.
+Les autorisations de conversation suivent les autorisations au niveau des fonctionnalités. [!DNL Coworker for Marketo Optimizer] vérifie chaque compétence ou action dans la conversation par rapport à la même autorisation dont la fonctionnalité a besoin en dehors de la conversation : _Gérer_ autorisations de création, de modification ou de publication, et _Afficher_ autorisations pour les compétences en lecture seule. Si un utilisateur ne dispose pas de l’autorisation de fonctionnalité, [!DNL Coworker] ne pouvez pas effectuer cette action pour lui. Par exemple, la création d’un parcours nécessite _Gérer les Parcours de personne B2B_ et la liste des formulaires nécessite _Afficher le Forms B2B_.
+
+<!--
+_Manage B2B Conversational Experience_ gives access to the [!DNL CX Coworker] chat panel, but it does not grant access to any feature functions.
+
+Per wiki: 
+Update 10/02: We are no longer mapping b2b-conversational-experience read or write to any tools. It was decided that chat will be available for all users without permissions, but what they can do within the chat (i.e. tools they can use) will be defined by other permissions.
+-->
 
 ## Autorisations des destinations externes {#external-destinations-permissions}
 
