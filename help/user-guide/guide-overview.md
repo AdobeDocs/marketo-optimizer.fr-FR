@@ -42,7 +42,7 @@ ht-degree: 2%
 
 Regardez ce court aperçu pour découvrir comment [!DNL Adobe Marketo Optimizer] utilise le raisonnement de l’IA pour impliquer chaque prospect dans la meilleure action à venir.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504791?captions=fre_fr&quality=12)
 
 ## Commencer avec les principes de base {#basics}
 
