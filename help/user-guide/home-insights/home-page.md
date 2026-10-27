@@ -35,7 +35,7 @@ Regardez la vidéo pour découvrir la page d’accueil et l’espace de travail 
 
 ## Démarrer une conversation d’IA
 
-Utilisez l’entrée [!UICONTROL  Poser une question ou démarrer une tâche ] pour commencer à travailler avec [!UICONTROL Collègue]. Saisissez les `/` pour parcourir les compétences et les commandes.
+Utilisez l’entrée [!UICONTROL &#x200B; Poser une question ou démarrer une tâche &#x200B;] pour commencer à travailler avec [!UICONTROL Collègue]. Saisissez les `/` pour parcourir les compétences et les commandes.
 
 1. Saisissez une question ou décrivez la tâche que vous souhaitez effectuer.
 1. Pour fournir des pièces justificatives, sélectionnez **[!UICONTROL Joindre]** dans l’entrée et joignez un fichier.
@@ -59,9 +59,9 @@ Sélectionnez une carte [!UICONTROL Accès rapide] pour ouvrir un espace de trav
 | Carte | Éléments auxquels vous pouvez accéder |
 | ------ | --------------------- |
 | [Santé de la prise de décision par l’IA](/help/user-guide/agents/ai-decisioning-health.md) | Volume des histoires et pourcentage de personnes classées par persona. |
-| [Marketing ](/help/user-guide/marketing/marketing-management.md) | Programmes, parcours de personnes et listes de personnes dans l’espace de travail marketing. |
+| [Marketing &#x200B;](/help/user-guide/marketing/marketing-management.md) | Programmes, parcours de personnes et listes de personnes dans l’espace de travail marketing. |
 | [!UICONTROL Assets] | Ressources de contenu pour les e-mails et les pages |
-| [!UICONTROL Rapports ] | Rapports de performance et d’engagement. |
+| [!UICONTROL Rapports &#x200B;] | Rapports de performance et d’engagement. |
 
 ## Compétences
 
@@ -83,10 +83,10 @@ Utilisez la navigation de l’application pour ouvrir les zones de travail suiva
 | Espace de travail | Éléments auxquels vous pouvez accéder |
 | ----------- | --------------------- |
 | [!UICONTROL Gestion marketing] | Programmes, parcours de personnes et listes de personnes. |
-| [!UICONTROL Contrôle de trafic de Parcours ] | [Contrôle du trafic Parcours ](/help/user-guide/marketing/journey-traffic-control.md). |
-| [!UICONTROL Rapports ] | Rapports de performance marketing. |
+| [!UICONTROL Contrôle de trafic de Parcours &#x200B;] | [Contrôle du trafic Parcours &#x200B;](/help/user-guide/marketing/journey-traffic-control.md). |
+| [!UICONTROL Rapports &#x200B;] | Rapports de performance marketing. |
 | [!UICONTROL Gestion de contenu] | [!UICONTROL Modèles], [!UICONTROL Assets], [!UICONTROL Fragments], [!UICONTROL Forms], [!UICONTROL Pages de destination] et [!UICONTROL Webinaire]. |
-| [!UICONTROL Connexions] | [ Destinations ](/help/user-guide/audiences/destinations.md). |
+| [!UICONTROL Connexions] | [&#x200B; Destinations &#x200B;](/help/user-guide/audiences/destinations.md). |
 | [!UICONTROL Labs] | [Scoring Studio](/help/user-guide/labs/scoring-studio.md). |
 | [!UICONTROL Administration] | [!UICONTROL Canaux] et [!UICONTROL Types de programmes]. |
 
