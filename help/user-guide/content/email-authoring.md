@@ -35,7 +35,7 @@ En [!DNL Adobe Marketo Optimizer], l’espace de conception d’e-mail fournit u
 >* **[!UICONTROL Afficher les e-mails B2B]** - Obligatoire pour afficher les e-mails.
 >* **[!UICONTROL Gérer les e-mails B2B]** - Obligatoire pour créer, modifier et supprimer des e-mails.
 
-Dans [!DNL Marketo Optimizer], un e-mail est une ressource indépendante que vous [créez dans un programme ou un dossier](../marketing/email-channel.md#create-email-from-programs), puis que vous [publiez et sélectionnez dans un parcours ](../marketing/email-channel.md#lifecycle). Définissez d’abord les _Propriétés_ et _Actions_. Définissez ensuite le contenu.
+Dans [!DNL Marketo Optimizer], un e-mail est une ressource indépendante que vous [créez dans un programme ou un dossier](../marketing/email-channel.md#create-email-from-programs), puis que vous [publiez et sélectionnez dans un parcours &#x200B;](../marketing/email-channel.md#lifecycle). Définissez d’abord les _Propriétés_ et _Actions_. Définissez ensuite le contenu.
 
 Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’espace de conception du corps de l’e-mail, où vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
@@ -174,7 +174,7 @@ Faites glisser des éléments des sections **[!UICONTROL Structures]** et **[!UI
 
 Vous pouvez ajouter une page CSS personnalisée directement dans l’espace de conception d’e-mail pour un style avancé au-delà des paramètres standard des composants. Il est recommandé d’ajouter ce style de plus haut niveau avant d’inclure des composants de contenu, tels que des images, des boutons et du texte.
 
-Voir [ Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
+Voir [&#x200B; Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
 
 >[!NOTE]
 >
@@ -229,7 +229,7 @@ Lorsque [!DNL Marketo Optimizer] est configuré, les ressources Marketo Design S
 
 >[!IMPORTANT]
 >
->La disponibilité des ressources dans [!DNL Marketo Optimizer] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Marketo Optimizer]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [](./digital-asset-management.md).
+>La disponibilité des ressources dans [!DNL Marketo Optimizer] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Marketo Optimizer]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [&#128279;](./digital-asset-management.md).
 
 Types de fichiers image pris en charge :
 
@@ -251,7 +251,7 @@ Pour plus d’informations sur l’utilisation des ressources, voir [_Utilisatio
 
 ### Parcourir les calques, paramètres et styles {#navigation-layers}
 
-Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [ Arborescence de navigation ](./structure-components.md#navigation-tree).
+Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [&#x200B; Arborescence de navigation &#x200B;](./structure-components.md#navigation-tree).
 
 ### Personnaliser le contenu {#personalize-content}
 
@@ -303,7 +303,7 @@ Les [!DNL Coworker] de l’éditeur de personnalisation peuvent générer des ex
 
 +++
 
-Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions ](./personalization-expressions.md).
+Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions &#x200B;](./personalization-expressions.md).
 
 ### Modifier le tracking des URL liées {#preview-and-edit-linked-urls}
 
