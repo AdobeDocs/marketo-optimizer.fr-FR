@@ -19,18 +19,14 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2402'
 ht-degree: 5%
 ---
 # Création de contenu d’e-mail
 
 En [!DNL Adobe Marketo Optimizer], l’espace de conception d’e-mail fournit une zone de travail visuelle dans laquelle les spécialistes marketing créent des e-mails. Les outils de conception d’e-mail des panneaux de gauche et supérieur (structures, composants de contenu, modèles, fragments, etc.) prennent en charge la création à partir de zéro par glisser-déposer. Vous pouvez également choisir de commencer à partir d’un modèle, de coller des HTML brutes ou d’assembler des messages à partir de fragments visuels réutilisables.
-
->[!IMPORTANT]
->
->Pour la configuration par l’administrateur des sous-domaines, de l’authentification, des groupes d’adresses IP et des canaux e-mail, consultez [Délivrabilité des e-mails](../start/email-deliverability.md) et [Configuration du canal e-mail](../admin/email-channel-configuration.md).
 
 >[!PREREQUISITES]
 >
@@ -38,9 +34,10 @@ En [!DNL Adobe Marketo Optimizer], l’espace de conception d’e-mail fournit u
 >
 >* **[!UICONTROL Afficher les e-mails B2B]** - Obligatoire pour afficher les e-mails.
 >* **[!UICONTROL Gérer les e-mails B2B]** - Obligatoire pour créer, modifier et supprimer des e-mails.
->* **[!UICONTROL Gérer les Parcours de personne B2B]** - Obligatoire pour ajouter l’e-mail à un parcours de personne.
 
-En [!DNL Marketo Optimizer], chaque e-mail est associé à une action _[!UICONTROL Envoyer un e-mail]_ dans un parcours de personne. Le workflow complet, de la conception du parcours à la définition de l’e-mail, se produit dans une expérience continue. Lorsque vous [ajoutez un nœud _Envoyer un e-mail_ &#x200B;](../marketing/action-nodes.md#add-an-action-node) à un parcours de personne, cliquez sur **[!UICONTROL Créer un e-mail]** pour lancer le processus. Vous commencez par définir les actions et les paramètres de contenu de l’e-mail. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’espace de conception du contenu de l’e-mail, où vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
+Dans [!DNL Marketo Optimizer], un e-mail est une ressource indépendante que vous [créez dans un programme ou un dossier](../marketing/email-channel.md#create-email-from-programs), puis que vous [publiez et sélectionnez dans un parcours ](../marketing/email-channel.md#lifecycle). Définissez d’abord les _Propriétés_ et _Actions_. Définissez ensuite le contenu.
+
+Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’espace de conception du corps de l’e-mail, où vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
 * [Concevez entièrement votre e-mail](#design-from-scratch) à l’aide de l’interface de conception visuelle. Créez le composant Disposition d’e-mail par composant en effectuant un glisser-déposer sur une zone de travail vierge. Cette méthode est recommandée pour créer de nouveaux modèles ou des e-mails ponctuels.
 
@@ -83,15 +80,14 @@ Utilisez l’espace de conception visuelle du contenu pour définir la structure
 
 1. Sur la page _[!UICONTROL Concevoir votre e-mail]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
 
-<!-- 
 
-1. In the _[!UICONTROL Create email]_ dialog, choose the type of email content that you want to author.
+1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, choisissez le type de contenu d’e-mail que vous souhaitez créer.
 
-   * **[!UICONTROL Use Themes]** - Choose this option to create the email in _Theme mode_. In this mode, you can use a defined brand theme to streamline the content authoring process and make sure that the design aligns with defined standards.
+   * **[!UICONTROL Utiliser les thèmes]** - Sélectionnez cette option pour créer l’e-mail en _mode thème_. Dans ce mode, vous pouvez utiliser un thème de marque défini pour rationaliser le processus de création de contenu et vous assurer que la conception s’aligne sur les normes définies.
 
-   * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
+   * **[!UICONTROL Style manuel]** - Sélectionnez cette option pour créer l’e-mail en _mode manuel_. Dans ce mode, vous définissez manuellement la mise en forme de tous les composants de structure et de contenu que vous ajoutez à la zone de travail vierge.
 
--->
+   ![Créer une boîte de dialogue d’e-mail](./assets/email-design-create-your-email-dialog.png){width="450"}
 
 1. [Ajoutez des composants de structure et de contenu](#structure-content) dans la zone de travail.
 
@@ -102,8 +98,6 @@ Utilisez l’espace de conception visuelle du contenu pour définir la structure
 Lorsque le contenu vous convient, cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Importer du contenu HTML existant {#import-html-content}
-
-<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
 
 Le contenu importé peut être :
 
@@ -140,17 +134,27 @@ Lorsque vous ouvrez l’espace de conception d’e-mail, utilisez la section **[
 
 Utilisez l’éditeur visuel d’e-mail pour créer votre e-mail. Ajoutez un pré-titre, structurez la disposition avec des colonnes et des séparateurs, puis remplissez ces structures avec des composants de contenu tels que des images, des boutons et du texte. Vous pouvez également appliquer un CSS personnalisé pour le style avancé et prévisualiser le rendu de la conception en mode sombre.
 
-### Définir le pré-titre {#preheader}
+### Définition des paramètres du corps {#body-settings}
 
-Le pré-titre est l’extrait de texte affiché après la ligne d’objet dans les aperçus de boîte de réception. En [!DNL Marketo Optimizer], le pré-titre est configuré sur la zone de travail visuelle dans l’espace de conception de l’e-mail, et non sur l’écran des propriétés de l’e-mail à côté de l’objet.
+Les paramètres du corps définissent le pré-titre, le titre du document et la langue du document de l’e-mail. Configurez ces métadonnées dans l’espace de conception des e-mails, séparément de l’objet de l’e-mail.
 
-Une fois le **[!UICONTROL Corps]** sélectionné dans l’arborescence de navigation de gauche, ouvrez le panneau **[!UICONTROL Paramètres]** à droite.
+1. Sélectionnez **[!UICONTROL Corps]** dans l’arborescence de navigation de gauche, puis sélectionnez l’onglet **[!UICONTROL Paramètres]** dans le panneau de droite.
 
-Cliquez dans la région de texte **[!UICONTROL Pré-titre]** et saisissez la copie de pré-titre. Cliquez sur l’icône _Ajouter une personnalisation_ ( ![Ajouter une icône de personnalisation](../assets/do-not-localize/icon-personalization-field.svg) ) pour appliquer une mise en forme et des [jetons de personnalisation](#personalize-content) selon les besoins à l’aide des contrôles de texte enrichi.
+   ![Paramètres du corps dans le panneau de droite](./assets/email-body-settings.png){width="800" zoomable="yes"}
 
->[!TIP]
->
->Conservez votre pré-titre entre 40 et 100 caractères. Elle doit compléter l’objet (et non le répéter) et donner au destinataire une raison supplémentaire d’ouvrir l’e-mail.
+1. Renseignez les champs suivants :
+
+   * **[!UICONTROL Pré-titre]** - Saisissez le fragment de texte qui s’affiche après la ligne d’objet dans les aperçus de boîte de réception.
+
+     >[!TIP]
+     >
+     >Conservez votre pré-titre entre 40 et 100 caractères. Elle doit compléter l’objet (et non le répéter) et donner au destinataire une raison supplémentaire d’ouvrir l’e-mail.
+
+   * **[!UICONTROL Titre du document]** - Saisissez un titre pour le document HTML d’e-mail. Ceci est distinct de l’objet de l’e-mail.
+
+   * **[!UICONTROL Langue du document]** - Spécifiez la langue du document d’e-mail.
+
+   Vous pouvez cliquer sur l’icône _Ajouter une personnalisation_ ( ![Ajouter une icône de personnalisation](../assets/do-not-localize/icon-personalization-field.svg) ) à côté d’un champ pour insérer des [jetons de personnalisation](#personalize-content).
 
 ### Mode sombre {#dark-mode}
 
@@ -164,11 +168,13 @@ Créez votre disposition d’e-mail en ajoutant [composants de structure](./stru
 
 Faites glisser des éléments des sections **[!UICONTROL Structures]** et **[!UICONTROL Contenu]** dans le panneau de gauche, puis configurez chaque composant dans les onglets _[!UICONTROL Paramètres]_ et _[!UICONTROL Styles]_ sur la droite.
 
+![Glissez-déposez les composants structurels et les éléments de contenu dans la page](./assets/content-components-add.png){width="700" zoomable="yes"}
+
 ### Ajouter un CSS personnalisé {#custom-css}
 
 Vous pouvez ajouter une page CSS personnalisée directement dans l’espace de conception d’e-mail pour un style avancé au-delà des paramètres standard des composants. Il est recommandé d’ajouter ce style de plus haut niveau avant d’inclure des composants de contenu, tels que des images, des boutons et du texte.
 
-Voir [&#x200B; Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
+Voir [ Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
 
 >[!NOTE]
 >
@@ -223,7 +229,7 @@ Lorsque [!DNL Marketo Optimizer] est configuré, les ressources Marketo Design S
 
 >[!IMPORTANT]
 >
->La disponibilité des ressources dans [!DNL Marketo Optimizer] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Marketo Optimizer]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [&#128279;](./digital-asset-management.md).
+>La disponibilité des ressources dans [!DNL Marketo Optimizer] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Marketo Optimizer]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [](./digital-asset-management.md).
 
 Types de fichiers image pris en charge :
 
@@ -245,14 +251,14 @@ Pour plus d’informations sur l’utilisation des ressources, voir [_Utilisatio
 
 ### Parcourir les calques, paramètres et styles {#navigation-layers}
 
-Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [&#x200B; Arborescence de navigation &#x200B;](./structure-components.md#navigation-tree).
+Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [ Arborescence de navigation ](./structure-components.md#navigation-tree).
 
 ### Personnaliser le contenu {#personalize-content}
 
 [!DNL Marketo Optimizer] utilise la syntaxe Handlebars pour la personnalisation. Les jetons sont remplacés au moment de l’envoi par des valeurs provenant des données de profil de chaque destinataire. Il existe plusieurs endroits où vous pouvez utiliser la personnalisation dans un e-mail :
 
 * **Objet** — Point de personnalisation le plus courant.
-* **Pré-titre** : défini dans la zone de travail visuelle ; prend en charge les jetons d’attribut de profil.
+* **Métadonnées du corps** — défini dans la zone de travail visuelle ; prend en charge les jetons d’attribut de profil.
 * **Corps du texte de l’e-mail** — Prénoms et autres attributs de profil insérés en ligne.
 * **URL des boutons** — ajoutez des paramètres par destinataire.
 
@@ -293,11 +299,11 @@ En plus de `default`, l’éditeur de personnalisation comprend des assistants H
 
 +++Expressions assistées par l’IA {#ai-personalization}
 
-Dans l’éditeur de personnalisation, le collègue peut générer des expressions Handlebars à partir d’une description en langage clair, expliquer le rôle d’une expression existante et identifier les problèmes potentiels. Utilisez-la pour accélérer la création d’expressions, en particulier pour la logique conditionnelle ou les assistants de formatage de date.
+Les [!DNL Coworker] de l’éditeur de personnalisation peuvent générer des expressions Handlebars à partir d’une description en langage clair, expliquer le rôle d’une expression existante et identifier les problèmes potentiels. Utilisez-la pour accélérer la création d’expressions, en particulier pour la logique conditionnelle ou les assistants de formatage de date.
 
 +++
 
-Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions &#x200B;](./personalization-expressions.md).
+Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions ](./personalization-expressions.md).
 
 ### Modifier le tracking des URL liées {#preview-and-edit-linked-urls}
 

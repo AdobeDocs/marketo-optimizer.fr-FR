@@ -15,13 +15,11 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1167'
 ht-degree: 0%
-
 ---
-
 # Nœud Prendre une action
 
 Dans un parcours de personne, utilisez une action sur les personnes lorsque vous souhaitez appliquer une modification à toutes les personnes sur le chemin de nœud.
@@ -54,7 +52,7 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
 1. Cliquez sur l’icône plus ( **+** ) d’un chemin d’accès et choisissez **[!UICONTROL Effectuer une action]**.
 
-   ![Cliquez sur Ajouter une icône sur le chemin du parcours &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![Cliquez sur Ajouter une icône sur le chemin du parcours ](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Dans les propriétés de nœud sur la droite, sélectionnez une action dans la liste et définissez ses valeurs.
 
@@ -74,13 +72,13 @@ Sous **[!UICONTROL Ajouter à la liste]**, choisissez l’une des options suivan
 
   Sélectionnez un programme parent pour la liste et saisissez un **[!UICONTROL Nom]** (obligatoire) et un **[!UICONTROL Description]** (facultatif). Cliquez sur **[!UICONTROL Créer]** pour ajouter la nouvelle liste pour le nœud.
 
-  ![Créer une liste statique à utiliser pour le nœud de parcours &#x200B;](./assets/person-action-node-destination-create-list.png){width="375"}
+  ![Créer une liste statique à utiliser pour le nœud de parcours ](./assets/person-action-node-destination-create-list.png){width="375"}
 
 * **[!UICONTROL Sélectionner]** — Sélectionnez une liste statique existante dans laquelle vous souhaitez ajouter les personnes qui atteignent le nœud.
 
   Cochez la case de la liste statique existante, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-  ![Sélectionnez une liste statique à utiliser pour le nœud de parcours &#x200B;](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
+  ![Sélectionnez une liste statique à utiliser pour le nœud de parcours ](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
 
 Quiconque atteint le nœud est ajouté à la liste statique sélectionnée, mais l’action n’est pas terminée tant que la liste n’est pas activée vers une destination :
 
@@ -95,11 +93,11 @@ Toute personne atteignant le nœud est ajoutée à la liste statique sélectionn
 
 +++
 
-+++[!UICONTROL Ajouter une personne au parcours &#x200B;]
++++[!UICONTROL Ajouter une personne au parcours ]
 
 Utilisez cette action pour ajouter des personnes à d&#39;autres parcours planifiés ou en direct. Les personnes ajoutées par le biais de cette action sont immédiatement ajoutées à l’audience du parcours cible. Les critères d’audience du parcours cible ne sont pas appliqués.
 
-![Agir - Ajouter une personne au parcours &#x200B;](./assets/person-action-node-add-to-journey.png){width="450"}
+![Agir - Ajouter une personne au parcours ](./assets/person-action-node-add-to-journey.png){width="450"}
 
 +++
 
@@ -168,11 +166,11 @@ Utilisez cette action pour supprimer des personnes d’une liste statique dans M
 
 +++
 
-+++[!UICONTROL Supprimer une personne du parcours &#x200B;]
++++[!UICONTROL Supprimer une personne du parcours ]
 
 Utilisez cette action pour supprimer des personnes d’autres parcours de personnes actives. La personne est immédiatement retirée du parcours cible et aucune autre action n’est entreprise à son encontre. Si une personne n’est pas actuellement membre du parcours cible, l’action est ignorée pour cette personne.
 
-![Agir - Supprimer une personne du parcours &#x200B;](./assets/person-action-node-remove-from-journey.png){width="450"}
+![Agir - Supprimer une personne du parcours ](./assets/person-action-node-remove-from-journey.png){width="450"}
 
 +++
 
@@ -188,9 +186,9 @@ Utilisez cette action pour ajouter des personnes à une campagne de demande dans
 
 Utilisez cette action pour envoyer un e-mail aux personnes inscrites. Les personnes dont le statut est désabonné, placées sur une liste bloquée, dont le statut d’e-mail est suspendu ou dont le marketing est suspendu ignorent cette action.
 
-![Agir - Envoyer un e-mail](./assets/person-action-node-send-email.png){width="450"}
+![Agir - Envoyer un e-mail](./assets/person-action-node-email-source.png){width="450"}
 
-Vous pouvez créer un e-mail, modifier un e-mail existant ou utiliser un e-mail personnalisé par l’IA. Pour plus d&#39;informations sur la création et la modification des emails, voir [Canal email](./email-channel.md). Pour générer des variantes basées sur un persona pour un email existant, voir [&#x200B; Personnaliser le contenu d’un email par persona &#x200B;](../agents/personalize-content.md).
+Vous pouvez choisir un e-mail publié dans l’arborescence du programme, qui ajoute une copie de l’e-mail au parcours, ou utiliser un e-mail personnalisé par l’IA. La copie est en lecture seule. Pour plus d’informations sur la création, la publication et la duplication des e-mails, voir [_Créer des e-mails et les ajouter aux parcours_](./email-channel.md). Pour générer des variantes basées sur le persona pour un e-mail en version préliminaire, voir [_Personnaliser le contenu d’un e-mail par persona_](../agents/personalize-content.md).
 
 Vous pouvez utiliser l’[optimisation de l’heure d’envoi](./email-send-time-optimization.md) pour personnaliser le délai de diffusion des e-mails en prédisant le moment où chaque profil est le plus susceptible d’interagir.
 
