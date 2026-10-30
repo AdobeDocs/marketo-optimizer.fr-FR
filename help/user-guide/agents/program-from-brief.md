@@ -4,20 +4,24 @@ description: Utilisez la compétence Création de programme dans Marketo Optimiz
 TQID: 'https://experienceleague.adobe.com/Bi7ZemHiGpKwxsYZkrfCyT5IzFAJ8ZTyFr8KxwO4z6w'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1110
+source-wordcount: '1110'
 ht-degree: 4%
-
 ---
-
 # Créer un programme à partir d’un brief
 
 Dans [!DNL Adobe Marketo Optimizer], [_program_](../marketing/programs.md) est le conteneur de niveau supérieur pour les parcours, les listes de personnes, les jetons et la configuration dans une campagne. À partir de l’[interface de conversation](./chat-interface.md), la compétence de création de programme construit toute la structure de bout en bout à partir de votre résumé (le programme lui-même, les sous-dossiers, les jetons, les listes de personnes et les parcours de personne) dans une seule conversation guidée.
@@ -33,7 +37,7 @@ Cliquez sur l’icône _Joindre_ dans l’entrée de conversation pour charger l
 ### Types de fichier pris en charge
 
 | Format | Comportement |
-|---|---|
+| --- | --- |
 | `.txt`, `.md` | Lecture directe dans le navigateur |
 | `.pdf`, `.docx`, `.xlsx`, `.json`, `.csv` | Envoyé au service d’extraction de texte principal. |
 
@@ -84,7 +88,7 @@ Aucun outil de création n’est appelé tant que vous n’avez pas répondu ave
 Les étapes de création s’exécutent dans un ordre fixe ; chacune dépend des identifiants générés par l’étape précédente.
 
 | Étape | Description | Outils | Sortie |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **1. Dossier** | Résout le dossier parent par nom ou utilise la racine de l’espace de travail ; peut créer un nouveau sous-dossier | `getRootTree`, `browseFolders`, `createFolder` | Nom du dossier + ID |
 | **1.5. Type de programme** | Recherche les types de programme client et sélectionne la correspondance pour le brief | `browseProgramTypes` | Saisir le nom + `programTypeId` |
 | **2. Programme** | Crée le programme sous le dossier résolu, lié au type choisi | `createProgram` | Nom, ID et type du programme |
@@ -107,7 +111,7 @@ Dépendances **_Step:_**
 Conteneur de niveau supérieur. Sa vue détaillée expose les onglets suivants :
 
 | Tabulation | Contenu |
-|---|---|
+| --- | --- |
 | **Vue d’ensemble** | Nom, description, type de programme, statut, emplacement du dossier, horodatages |
 | **Attributs** | Champs personnalisés définis par type (uniquement si le type de programme les active) |
 | **Jetons** | Jetons d’`my.*` inclus dans ce programme |
@@ -130,7 +134,7 @@ Un parcours de personne commençant par un nœud d’entrée d’audience de per
 Les programmes sont **liés de manière permanente** à un type de programme défini par le client lors de la création ; ceci ne peut pas être modifié par la suite. Le flux résout le type explicitement via `browseProgramTypes` dans tous les cas.
 
 | Dossier | Comportement |
-|---|---|
+| --- | --- |
 | **Plusieurs types disponibles** | Fait correspondre un bref libellé à un type (tel que salon/stand/expo = *salon*/*événement* ; webinaire = *webinaire*/*événement* ; culture/goutte = *culture* ; aucun signal clair = *Défaut*). Si aucune correspondance n’est trouvée, le collaborateur répertorie les types et tâches disponibles. |
 | **Client par défaut uniquement** | Utilise *Par défaut* et note qu’un administrateur peut ajouter des [types de programme](../admin/program-types.md) personnalisés. |
 | **Aucun type configuré** | Arrête : la création échouerait. Invite un administrateur à configurer les types de programme avant de réessayer. |
@@ -138,7 +142,7 @@ Les programmes sont **liés de manière permanente** à un type de programme dé
 ## Valeurs par défaut
 
 | Paramètre | Par défaut |
-|---|---|
+| --- | --- |
 | **Dossier** | Racine Workspace (si aucun dossier n’est spécifié) |
 | **Type de programme** | *Par défaut* (si aucun signal bref et aucune sélection manuelle) |
 | **Attributs** | Persona dérivé, intention dérivée, niveau d’engagement inclus par défaut (droit d’opposition disponible) |
@@ -148,7 +152,7 @@ Les programmes sont **liés de manière permanente** à un type de programme dé
 ## Limites
 
 | Limite | Détail |
-|---|---|
+| --- | --- |
 | **Limite de longueur courte** | ~30 000 caractères ; les briefs tronqués perdent leur contenu de fin — placez les éléments essentiels en premier |
 | **Type de programme non modifiable** | Ne peut pas être modifié après la création ; vérifiez le type correct avant de valider |
 | **Champs internes obligatoires** | `parent` et `programTypeId` sont toujours définis ; l’omission de `parent` entraîne un refus d’accès ; l’omission d’un type revient silencieusement à *Par défaut* |
@@ -156,7 +160,7 @@ Les programmes sont **liés de manière permanente** à un type de programme dé
 | **Appartenance à une liste asynchrone** | Les listes statiques (à partir de critères) s’affichent pendant plusieurs minutes, et non instantanément |
 | **Gestion des erreurs** | Les échecs d’outil sont signalés avec l’erreur exacte ; un collègue vous invite à confirmer l’entrée et à réessayer |
 | **Collisions de noms** | Non résolu automatiquement : un nom différent sera demandé |
-| **Périmètre** | Marketo Optimizer uniquement ; les utilisateurs [!DNL Marketo Engage] doivent utiliser des compétences distinctes de création/planification de programme |
+| **Périmètre** | Marketo Optimizer uniquement ; [!DNL Marketo Engage] utilisateurs doivent utiliser des compétences distinctes en création de programmes et en planification de programmes |
 
 
 ## Vérification de la qualité

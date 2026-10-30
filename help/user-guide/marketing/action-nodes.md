@@ -4,19 +4,22 @@ description: Configurez un nœud Action dans Marketo Optimizer pour ajouter, sup
 TQID: 'https://experienceleague.adobe.com/KmYvfJm9d5YZdC7ZWQiybjNsFmnt0GLReJIL8nDQF-k'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1167'
 ht-degree: 0%
-
 ---
-
 # Nœud Prendre une action
 
 Dans un parcours de personne, utilisez une action sur les personnes lorsque vous souhaitez appliquer une modification à toutes les personnes sur le chemin de nœud.
@@ -183,9 +186,9 @@ Utilisez cette action pour ajouter des personnes à une campagne de demande dans
 
 Utilisez cette action pour envoyer un e-mail aux personnes inscrites. Les personnes dont le statut est désabonné, placées sur une liste bloquée, dont le statut d’e-mail est suspendu ou dont le marketing est suspendu ignorent cette action.
 
-![Agir - Envoyer un e-mail](./assets/person-action-node-send-email.png){width="450"}
+![Agir - Envoyer un e-mail](./assets/person-action-node-email-source.png){width="450"}
 
-Vous pouvez créer un e-mail, modifier un e-mail existant ou utiliser un e-mail personnalisé par l’IA. Pour plus d&#39;informations sur la création et la modification des emails, voir [Canal email](./email-channel.md). Pour générer des variantes basées sur un persona pour un email existant, voir [&#x200B; Personnaliser le contenu d’un email par persona &#x200B;](../agents/personalize-content.md).
+Vous pouvez choisir un e-mail publié dans l’arborescence du programme, qui ajoute une copie de l’e-mail au parcours, ou utiliser un e-mail personnalisé par l’IA. La copie est en lecture seule. Pour plus d’informations sur la création, la publication et la duplication des e-mails, voir [_Créer des e-mails et les ajouter aux parcours_](./email-channel.md). Pour générer des variantes basées sur le persona pour un e-mail en version préliminaire, voir [_Personnaliser le contenu d’un e-mail par persona_](../agents/personalize-content.md).
 
 Vous pouvez utiliser l’[optimisation de l’heure d’envoi](./email-send-time-optimization.md) pour personnaliser le délai de diffusion des e-mails en prédisant le moment où chaque profil est le plus susceptible d’interagir.
 

@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2697'
 ht-degree: 1%
 ---
 # Délivrabilité des e-mails
@@ -53,7 +53,7 @@ Il utilise les blocs de création suivants, configurés par un administrateur, g
 > Consultez les rubriques suivantes pour plus d’informations sur les canaux e-mail :
 >
 >* Configuration des canaux e-mail - [Configuration du canal e-mail](../admin/email-channel-configuration.md)
->* Création d&#39;emails - [Ajouter des emails aux parcours &#x200B;](../marketing/email-channel.md)
+>* Créer des e-mails - [Créer des e-mails et les ajouter aux parcours &#x200B;](../marketing/email-channel.md)
 >* Conception de contenu d&#39;e-mail - [Création de contenu d&#39;e-mail](../content/email-authoring.md)
 
 ## Limites actuelles {#limitations}
