@@ -10,18 +10,18 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1649'
 ht-degree: 2%
 ---
 # Pages de destination
 
-Une page de destination est une page web autonome où vous pouvez diriger les contacts et les clients après qu&#39;ils ont cliqué sur un élément lié dans un e-mail, un SMS ou tout emplacement numérique. Vous pouvez incorporer ces pages dans vos parcours pour que vos prospects et vos clients voient vos messages sur le web et progressent dans vos parcours.
+Une page de destination est une page web autonome où vous pouvez diriger les contacts et les clients après qu&#39;ils ont cliqué sur un élément lié dans un e-mail, un SMS ou tout emplacement numérique. Pour que vos prospects et clients voient vos messages sur le web et progressent dans vos parcours, vous pouvez incorporer ces pages dans vos parcours.
 
 Cas d’utilisation courants des pages de destination :
 
-* Fournir des communications marketing ou un service spécifique avec option d’opt-in ou d’opt-out Utiliser un lien dans un e-mail ou une autre communication vers une liste ciblée
+* Fournir un service d’opt-in ou d’opt-out aux communications marketing pour un service spécifique. Utiliser un lien dans un e-mail ou une autre communication vers une liste ciblée
 * Collectez le consentement avant d’envoyer des communications et envoyez un e-mail de confirmation lors de l’opt-in ou de l’opt-out.
 * Capturez ou mettez à jour les données de profil (profilage progressif, préférences, enregistrements et scénarios similaires) à l’aide de formulaires sur les pages de destination.
 * Dirigez les personnes vers des informations spécifiques à une campagne conçues pour votre orchestration de parcours.
@@ -39,17 +39,19 @@ Cas d’utilisation courants des pages de destination :
 
 Pour diriger les membres d&#39;une audience de parcours vers une page web définie lorsqu&#39;ils cliquent sur un lien spécifique, créez une landing page dans [!DNL Marketo Optimizer] :
 
-1. [Créer la page](./landing-pages-create-publish.md#create-landing-page) - Sélectionnez un paramètre prédéfini, configurez la page principale et ajoutez les sous-pages requises.
+1. [Créer la page](./landing-pages-create-publish.md#create-landing-page) - À partir de l’arborescence des programmes, sélectionnez un paramètre prédéfini et configurez la page principale.
 1. [Concevoir le contenu de la page de destination](./landing-page-design.md) - Créez le contenu de la page à l’aide des composants de conception visuelle par glisser-déposer.
 1. [Tester la page de destination](./landing-pages-create-publish.md#test-landing-page) - Prévisualisez la page et testez le comportement du formulaire.
 1. [Publier la page de destination](./landing-pages-create-publish.md#publish-landing-page) - Publier pour rendre la page active et disponible pour la liaison.
-1. [Lien vers la page à partir de votre parcours &#x200B;](#link-to-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
+1. [Lien vers la page à partir de votre parcours ](#link-to-landing-page) - Ajoutez l’URL de la page de destination à une action de parcours, d’e-mail ou de SMS pour que les destinataires puissent l’atteindre.
 
-Par exemple, vous pouvez créer et concevoir des pages de destination pour diriger vos utilisateurs vers des informations en ligne. La page peut inclure un formulaire dans lequel ils peuvent s’inscrire ou refuser de recevoir vos communications. Il peut également s’agir d’une opportunité de s’abonner à une communication récurrente, telle qu’une newsletter.
+Par exemple, pour diriger vos utilisateurs vers des informations en ligne, vous pouvez créer et concevoir des pages de destination. La page peut inclure un formulaire dans lequel ils peuvent s’inscrire ou refuser de recevoir vos communications. Il peut également s’agir d’une opportunité de s’abonner à une communication récurrente, telle qu’une newsletter.
 
 ## Accéder aux pages de destination et les gérer {#access-manage-landing-pages}
 
 Pour accéder aux pages de destination dans [!DNL Marketo Optimizer], accédez au volet de navigation de gauche et développez **[!UICONTROL Gestion de contenu]**. Sélectionnez ensuite **[!UICONTROL Pages de destination]**. Cette action affiche la liste de toutes les pages de destination créées dans l’instance.
+
+Utilisez cette liste pour accéder aux pages de destination existantes et les gérer. Pour [créer une landing page](./landing-pages-create-publish.md#create-landing-page), utilisez l&#39;arborescence _[!UICONTROL Programmes]_.
 
 ![Accéder à la bibliothèque de pages de destination](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
@@ -197,7 +199,7 @@ Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonne
 
 ## Lien vers une landing page {#link-to-landing-page}
 
-En tant que spécialiste marketing ou créatif qui produit du contenu d’e-mail, de fragment et de page, vous pouvez incorporer des liens vers les pages de destination publiées (en direct) qui sont créées dans votre instance [!DNL Marketo Optimizer].
+En tant que professionnel du marketing ou de la création produisant du contenu d’e-mail, de fragment et de page, vous pouvez incorporer des liens vers les pages de destination publiées (en direct) qui sont créées dans votre instance [!DNL Marketo Optimizer].
 
 1. Lorsque vous travaillez dans l’espace de conception visuelle d’un fragment, d’un e-mail, d’une page de destination ou d’un modèle, sélectionnez un extrait de texte, un composant de bouton ou un composant d’image pour le lien.
 

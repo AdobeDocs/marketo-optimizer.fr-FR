@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 5%
+source-wordcount: '2583'
+ht-degree: 4%
 ---
 # Création de contenu d’e-mail
 
@@ -35,7 +35,7 @@ En [!DNL Adobe Marketo Optimizer], l’espace de conception d’e-mail fournit u
 >* **[!UICONTROL Afficher les e-mails B2B]** - Obligatoire pour afficher les e-mails.
 >* **[!UICONTROL Gérer les e-mails B2B]** - Obligatoire pour créer, modifier et supprimer des e-mails.
 
-Dans [!DNL Marketo Optimizer], un e-mail est une ressource indépendante que vous [créez dans un programme ou un dossier](../marketing/email-channel.md#create-email-from-programs), puis que vous [publiez et sélectionnez dans un parcours &#x200B;](../marketing/email-channel.md#lifecycle). Définissez d’abord les _Propriétés_ et _Actions_. Définissez ensuite le contenu.
+Dans [!DNL Marketo Optimizer], un e-mail est une ressource indépendante que vous [créez dans un programme ou un dossier](../marketing/email-channel.md#create-email-from-programs), puis que vous [publiez et sélectionnez dans un parcours ](../marketing/email-channel.md#lifecycle). Définissez d’abord les _Propriétés_ et _Actions_. Définissez ensuite le contenu.
 
 Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’espace de conception du corps de l’e-mail, où vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
@@ -78,8 +78,7 @@ Le respect des bonnes pratiques HTML et CSS permet d’assurer un rendu cohéren
 
 Utilisez l’espace de conception visuelle du contenu pour définir la structure et le contenu de l’e-mail. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la disposition et l’organisation du contenu de l’e-mail en quelques secondes.
 
-1. Sur la page _[!UICONTROL Concevoir votre e-mail]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
-
+1. Sur la page _[!UICONTROL Créer votre e-mail]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
 
 1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, choisissez le type de contenu d’e-mail que vous souhaitez créer.
 
@@ -126,11 +125,42 @@ Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide des 
 
 Lorsque vous ouvrez l’espace de conception d’e-mail, utilisez la section **[!UICONTROL Sélectionner un modèle de conception]** pour commencer à partir d’un modèle type intégré ou d’un modèle personnalisé enregistré. Voir [Utiliser un modèle dans un e-mail](./templates.md#use-in-journey) pour le workflow complet.
 
+Vous pouvez choisir parmi les options suivantes :
+
+* **Exemples de modèles** - Modèles d’e-mail intégrés fournis par Adobe.
+* **Modèles enregistrés** - Modèles personnalisés que vous avez créés entièrement ou enregistrés à partir de contenu d’e-mail existant.
+
+>[!BEGINTABS]
+
+>[!TAB Modèles enregistrés]
+
+Sur la page _[!UICONTROL Créer votre e-mail]_, l’onglet _[!UICONTROL Exemples de modèles]_ est sélectionné par défaut. Pour utiliser un modèle personnalisé, sélectionnez l’onglet **[!UICONTROL Modèles enregistrés]**.
+
 >[!NOTE]
 >
 >Les modèles enregistrés peuvent avoir des paramètres de gouvernance (verrouillage de contenu) appliqués à un ou plusieurs composants. L’espace de conception visuelle fournit des instructions sur les composants verrouillés lorsque vous [créez un e-mail à partir d’un modèle régi](./template-content-governance.md).
 
-## Ajouter la structure et le contenu {#structure-content}
+La liste affiche tous les modèles d’e-mail créés dans le sandbox actuel. Vous pouvez les trier par **[!UICONTROL Nom]**, **[!UICONTROL Dernière modification]** et **[!UICONTROL Dernière création]**.
+
+![Choisir un modèle enregistré](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
+
+Sélectionnez dans la liste le modèle qui doit afficher un aperçu. En mode Aperçu , utilisez les flèches droite et gauche pour naviguer entre les modèles de la catégorie sélectionnée (exemple ou enregistrement).
+
+![Prévisualiser le modèle enregistré](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
+
+Lorsque l’aperçu correspond à ce que vous souhaitez utiliser, cliquez sur **[!UICONTROL Utiliser ce modèle]** en haut à droite de la fenêtre d’aperçu.
+
+Cette action copie le contenu dans l’espace visuel de conception d’e-mail, où vous pouvez le modifier selon vos besoins.
+
+>[!TAB Exemples de modèles]
+
+[!DNL Adobe Marketo Optimizer] propose une sélection de modèles intégrés que vous pouvez utiliser pour créer des e-mails et des modèles d’e-mail.
+
+![Choisissez un modèle fourni par Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
+
+>[!ENDTABS]
+
+## Ajouter une structure et du contenu {#structure-content}
 
 Utilisez l’éditeur visuel d’e-mail pour créer votre e-mail. Ajoutez un pré-titre, structurez la disposition avec des colonnes et des séparateurs, puis remplissez ces structures avec des composants de contenu tels que des images, des boutons et du texte. Vous pouvez également appliquer un CSS personnalisé pour le style avancé et prévisualiser le rendu de la conception en mode sombre.
 
@@ -174,7 +204,7 @@ Faites glisser des éléments des sections **[!UICONTROL Structures]** et **[!UI
 
 Vous pouvez ajouter une page CSS personnalisée directement dans l’espace de conception d’e-mail pour un style avancé au-delà des paramètres standard des composants. Il est recommandé d’ajouter ce style de plus haut niveau avant d’inclure des composants de contenu, tels que des images, des boutons et du texte.
 
-Voir [&#x200B; Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
+Voir [ Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
 
 >[!NOTE]
 >
@@ -229,7 +259,7 @@ Lorsque [!DNL Marketo Optimizer] est configuré, les ressources Marketo Design S
 
 >[!IMPORTANT]
 >
->La disponibilité des ressources dans [!DNL Marketo Optimizer] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Marketo Optimizer]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [&#128279;](./digital-asset-management.md).
+>La disponibilité des ressources dans [!DNL Marketo Optimizer] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Marketo Optimizer]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [](./digital-asset-management.md).
 
 Types de fichiers image pris en charge :
 
@@ -251,7 +281,7 @@ Pour plus d’informations sur l’utilisation des ressources, voir [_Utilisatio
 
 ### Parcourir les calques, paramètres et styles {#navigation-layers}
 
-Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [&#x200B; Arborescence de navigation &#x200B;](./structure-components.md#navigation-tree).
+Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [ Arborescence de navigation ](./structure-components.md#navigation-tree).
 
 ### Personnaliser le contenu {#personalize-content}
 
@@ -303,7 +333,7 @@ Les [!DNL Coworker] de l’éditeur de personnalisation peuvent générer des ex
 
 +++
 
-Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions &#x200B;](./personalization-expressions.md).
+Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions ](./personalization-expressions.md).
 
 ### Modifier le tracking des URL liées {#preview-and-edit-linked-urls}
 

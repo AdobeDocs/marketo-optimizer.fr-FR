@@ -17,14 +17,14 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 0%
+ht-degree: 1%
 ---
 # Génération de rapports d’analyse
 
-La compétence [_Surface Analytics_ &#x200B;](./skills.md#analytics-reporting) de [!DNL Adobe Marketo Optimizer] répond aux questions en langage naturel sur vos données. Utilisez-le dans l’[interface de conversation des collègues](./chat-interface.md) pour explorer les tendances des activités, les performances des e-mails, les données de prospect et de compte, l’appartenance à un segment et à une liste, ainsi que les mesures de parcours. Les résultats sont renvoyés sous forme de graphiques et de tableaux de bord, de sorte que vous n’avez pas besoin de créer manuellement une requête ou un tableau de bord.
+La compétence [_Surface Analytics_ ](./skills.md#analytics-reporting) de [!DNL Adobe Marketo Optimizer] répond aux questions en langage naturel sur vos données. Utilisez-le dans l’[interface de conversation des collègues](./chat-interface.md) pour explorer les tendances des activités, les performances des e-mails, les données de prospect et de compte, l’appartenance à un segment et à une liste, ainsi que les mesures de parcours. Les résultats sont renvoyés sous forme de graphiques et de tableaux de bord, de sorte que vous n’avez pas besoin de créer manuellement une requête ou un tableau de bord.
 
 * **Compétences** - `surface-analytics`
 * **Appel** - Posez une question en langage naturel ou utilisez une commande de barre oblique pour exécuter la compétence Surface Analytics. Par exemple : _« Afficher le nombre d’activités quotidiennes pour les 30 derniers jours.«_
@@ -81,7 +81,7 @@ Surface Analytics peut répondre à des questions qui couvrent à la fois les do
 ## Limites {#limitations}
 
 | Limite | Détail |
-|---|---|
+| --- | --- |
 | Modifier ou créer des enregistrements | Non pris en charge. Surface Analytics ne lit et ne génère des rapports que sur les données existantes. |
 | Noms lisibles par l’utilisateur dans les résultats | Pas toujours disponible. Certains rapports affichent un ID interne, tel qu’un ID de parcours ou d’e-mail, au lieu d’un nom. |
 | Duplication de cartes de rapports | Une même question peut parfois renvoyer plusieurs cartes de rapports pour le même résultat. |
