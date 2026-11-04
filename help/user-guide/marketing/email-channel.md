@@ -150,7 +150,7 @@ Créez un e-mail dans un programme ou un dossier pour le créer indépendamment 
 
    * **[!UICONTROL Description]** - (Facultatif) Saisissez une note pour votre équipe à propos de l’e-mail et de son objectif.
 
-   ![ Boîte de dialogue Créer un e-mail ](./assets/email-create-dialog-programs-tree.png){width="400"}
+   ![&#x200B; Boîte de dialogue Créer un e-mail &#x200B;](./assets/email-create-dialog-programs-tree.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -182,7 +182,7 @@ Un e-mail de brouillon comporte trois onglets : **[!UICONTROL Propriétés]**, *
 
    * **[!UICONTROL Suivi des actions]** - Cochez les cases correspondant aux actions que vous souhaitez suivre pour l’e-mail.
 
-   ![ Canal e-mail - Onglet Actions ](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
+   ![&#x200B; Canal e-mail - Onglet Actions &#x200B;](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
 #### Ajouter l’objet et le contenu {#content-tab}
 
@@ -247,11 +247,11 @@ Bien qu’un e-mail soit un brouillon, son menu _Plus_ comprend deux outils de c
 
   ![Personnaliser l’e-mail dans un collègue](./assets/email-personalize-coworker.png){width="700" zoomable="yes"}
 
-* **[!UICONTROL Analyser l’e-mail]** - Vérifie le contenu que vous avez déjà créé. Voir [ Analyser un e-mail existant](../agents/personalize-content.md#analyze-existing-email).
+* **[!UICONTROL Analyser l’e-mail]** - Vérifie le contenu que vous avez déjà créé. Voir [&#x200B; Analyser un e-mail existant](../agents/personalize-content.md#analyze-existing-email).
 
 ### Publier un e-mail {#publish-email}
 
-Publiez un e-mail lorsqu’il est prêt à être envoyé. Seuls les e-mails publiés sont répertoriés lorsque vous [sélectionnez un e-mail dans un parcours ](#add-email-from-journey).
+Publiez un e-mail lorsqu’il est prêt à être envoyé. Seuls les e-mails publiés sont répertoriés lorsque vous [sélectionnez un e-mail dans un parcours &#x200B;](#add-email-from-journey).
 
 1. Assurez-vous que l’e-mail ne comporte aucune alerte [bloquante](#alerts).
 
@@ -279,7 +279,7 @@ Pour modifier un e-mail publié, dupliquez-le. Pour essayer une variation sans m
 
    Il prend par défaut le nom d’origine suivi de `_copy`. Vous pouvez éventuellement ajouter une **[!UICONTROL Description]**.
 
-   ![ Boîte de dialogue Dupliquer l’e-mail ](./assets/email-duplicate-dialog.png){width="400"}
+   ![&#x200B; Boîte de dialogue Dupliquer l’e-mail &#x200B;](./assets/email-duplicate-dialog.png){width="400"}
 
 1. Cliquez sur **[!UICONTROL Dupliquer]**.
 
@@ -287,7 +287,7 @@ Le duplicata est créé en tant que brouillon avec le même contenu et les même
 
 ## Ajout d’un e-mail à un parcours {#add-email-from-journey}
 
-Pour envoyer un e-mail, ajoutez-le à un parcours dans le même programme. Lorsque vous sélectionnez un e-mail, [!DNL Marketo Optimizer] en fait une copie pour ce parcours et publie automatiquement la copie. Les e-mails proviennent de l’arborescence des programmes. Par conséquent[ créez et publiez l’e-mail](#create-email-from-programs) d’abord.
+Pour envoyer un e-mail, ajoutez-le à un parcours dans le même programme. Lorsque vous sélectionnez un e-mail, [!DNL Marketo Optimizer] en fait une copie pour ce parcours et publie automatiquement la copie. Les e-mails proviennent de l’arborescence des programmes. Par conséquent[&#x200B; créez et publiez l’e-mail](#create-email-from-programs) d’abord.
 
 Vous pouvez utiliser le même e-mail dans plusieurs parcours. Chaque fois que vous le sélectionnez, une copie distincte est créée pour ce parcours et vous pouvez donner à chaque copie un nom unique.
 
@@ -317,7 +317,7 @@ Vous pouvez utiliser le même e-mail dans plusieurs parcours. Chaque fois que vo
 
      >[!NOTE]
      >
-     >La boîte de dialogue répertorie uniquement les e-mails publiés à partir du programme de parcours et de ses dossiers. Les brouillons n’apparaissent pas tant que vous ne les [ pas publiés](#publish-email). Si aucun e-mail n’apparaît, vérifiez qu’il comporte une icône publiée (icône verte) et qu’il se trouve dans le bon programme.
+     >La boîte de dialogue répertorie uniquement les e-mails publiés à partir du programme de parcours et de ses dossiers. Les brouillons n’apparaissent pas tant que vous ne les [&#x200B; pas publiés](#publish-email). Si aucun e-mail n’apparaît, vérifiez qu’il comporte une icône publiée (icône verte) et qu’il se trouve dans le bon programme.
 
      Dans **[!UICONTROL Nom]**, saisissez le nom que l’e-mail doit avoir dans le parcours.
 
