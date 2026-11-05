@@ -56,7 +56,7 @@ Adobe contacte directement les clients éligibles avec une invitation et des ins
 
 ### Autorisations {#permissions}
 
-Pour plus d’informations sur la gestion des utilisateurs et leurs accès, voir [ Gestion des utilisateurs et autorisations ](./start/user-management.md).
+Pour plus d’informations sur la gestion des utilisateurs et leurs accès, voir [&#x200B; Gestion des utilisateurs et autorisations &#x200B;](./start/user-management.md).
 
 ### Rejoindre les heures de bureau hebdomadaires {#office-hours}
 
