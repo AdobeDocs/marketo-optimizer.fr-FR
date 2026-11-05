@@ -104,7 +104,7 @@ Avant de commencer à créer des formulaires réutilisables dans [!DNL Marketo O
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Sélectionner un paramètre prédéfini"
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
->additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Créer un paramètre prédéfini de formulaire"
+>additional-url="https://experienceleague.adobe.com/fr/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Créer un paramètre prédéfini de formulaire"
 
 Créez un formulaire dans un programme ou un dossier au sein d’un programme à partir de l’arborescence _[!UICONTROL Programmes]_.
 
