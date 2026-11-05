@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 5%
+source-wordcount: '2583'
+ht-degree: 4%
 ---
 # Création de contenu d’e-mail
 
@@ -78,8 +78,7 @@ Le respect des bonnes pratiques HTML et CSS permet d’assurer un rendu cohéren
 
 Utilisez l’espace de conception visuelle du contenu pour définir la structure et le contenu de l’e-mail. En ajoutant et en déplaçant des composants structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la disposition et l’organisation du contenu de l’e-mail en quelques secondes.
 
-1. Sur la page _[!UICONTROL Concevoir votre e-mail]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
-
+1. Sur la page _[!UICONTROL Créer votre e-mail]_, sélectionnez l’option **[!UICONTROL Créer en partant de zéro]**.
 
 1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, choisissez le type de contenu d’e-mail que vous souhaitez créer.
 
@@ -126,11 +125,42 @@ Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide des 
 
 Lorsque vous ouvrez l’espace de conception d’e-mail, utilisez la section **[!UICONTROL Sélectionner un modèle de conception]** pour commencer à partir d’un modèle type intégré ou d’un modèle personnalisé enregistré. Voir [Utiliser un modèle dans un e-mail](./templates.md#use-in-journey) pour le workflow complet.
 
+Vous pouvez choisir parmi les options suivantes :
+
+* **Exemples de modèles** - Modèles d’e-mail intégrés fournis par Adobe.
+* **Modèles enregistrés** - Modèles personnalisés que vous avez créés entièrement ou enregistrés à partir de contenu d’e-mail existant.
+
+>[!BEGINTABS]
+
+>[!TAB Modèles enregistrés]
+
+Sur la page _[!UICONTROL Créer votre e-mail]_, l’onglet _[!UICONTROL Exemples de modèles]_ est sélectionné par défaut. Pour utiliser un modèle personnalisé, sélectionnez l’onglet **[!UICONTROL Modèles enregistrés]**.
+
 >[!NOTE]
 >
 >Les modèles enregistrés peuvent avoir des paramètres de gouvernance (verrouillage de contenu) appliqués à un ou plusieurs composants. L’espace de conception visuelle fournit des instructions sur les composants verrouillés lorsque vous [créez un e-mail à partir d’un modèle régi](./template-content-governance.md).
 
-## Ajouter la structure et le contenu {#structure-content}
+La liste affiche tous les modèles d’e-mail créés dans le sandbox actuel. Vous pouvez les trier par **[!UICONTROL Nom]**, **[!UICONTROL Dernière modification]** et **[!UICONTROL Dernière création]**.
+
+![Choisir un modèle enregistré](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
+
+Sélectionnez dans la liste le modèle qui doit afficher un aperçu. En mode Aperçu , utilisez les flèches droite et gauche pour naviguer entre les modèles de la catégorie sélectionnée (exemple ou enregistrement).
+
+![Prévisualiser le modèle enregistré](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
+
+Lorsque l’aperçu correspond à ce que vous souhaitez utiliser, cliquez sur **[!UICONTROL Utiliser ce modèle]** en haut à droite de la fenêtre d’aperçu.
+
+Cette action copie le contenu dans l’espace visuel de conception d’e-mail, où vous pouvez le modifier selon vos besoins.
+
+>[!TAB Exemples de modèles]
+
+[!DNL Adobe Marketo Optimizer] propose une sélection de modèles intégrés que vous pouvez utiliser pour créer des e-mails et des modèles d’e-mail.
+
+![Choisissez un modèle fourni par Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
+
+>[!ENDTABS]
+
+## Ajouter une structure et du contenu {#structure-content}
 
 Utilisez l’éditeur visuel d’e-mail pour créer votre e-mail. Ajoutez un pré-titre, structurez la disposition avec des colonnes et des séparateurs, puis remplissez ces structures avec des composants de contenu tels que des images, des boutons et du texte. Vous pouvez également appliquer un CSS personnalisé pour le style avancé et prévisualiser le rendu de la conception en mode sombre.
 

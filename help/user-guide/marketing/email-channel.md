@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 7%
@@ -50,7 +50,7 @@ L’état de l’e-mail détermine la disponibilité de l’action :
 | Modifier les propriétés, les actions et le contenu | Oui | Non | Non |
 | Personnaliser l’e-mail | Oui | Non | Non |
 | Analyser l’e-mail | Oui | Non | Non |
-| Publier | Oui, une fois les alertes de blocage résolues | Déjà publié | Publié automatiquement |
+| Publier | Oui, lorsque les alertes de blocage sont résolues | Déjà publié | Publié automatiquement |
 | Dupliquer | Oui | Oui | Non |
 | Renommer | Oui | Non | Non. Vous donnez un nom à la copie lorsque vous la sélectionnez. |
 | Supprimer | Oui | Non | Non. Supprimez plutôt le nœud _Envoyer un e-mail_ . |

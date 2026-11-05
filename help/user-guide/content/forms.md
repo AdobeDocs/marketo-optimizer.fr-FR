@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2528'
 ht-degree: 2%
 ---
 # Formulaires
@@ -41,6 +41,8 @@ La quantité d’informations que le formulaire doit capturer dépend de la vale
 ## Accéder aux formulaires et les gérer {#view-forms}
 
 Pour accéder aux formulaires dans [!DNL Marketo Optimizer], accédez au volet de navigation de gauche et cliquez sur **[!UICONTROL Gestion de contenu]** > **[!UICONTROL Forms]**. Cette action ouvre une page de liste qui affiche tous les formulaires créés dans l’instance.
+
+Utilisez cette liste pour accéder aux formulaires existants et les gérer. Pour [créer un formulaire](#new-form), utilisez l’arborescence _[!UICONTROL Programmes]_.
 
 ![Accéder à la bibliothèque de formulaires](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -78,7 +80,7 @@ Avant de commencer à créer des formulaires réutilisables dans [!DNL Marketo O
 
 * Déterminez les formulaires dont vous avez besoin.
 
-  Il est possible de n&#39;utiliser que quatre formulaires types. Une pour accéder au contenu téléchargeable, une pour accéder aux pages web premium, une pour visionner des vidéos et une pour s’inscrire à des webinaires, par exemple. Si vous devez modifier un champ d’un formulaire, il est plus facile de mettre à jour quatre formulaires standard utilisés globalement au lieu de modifier plusieurs formulaires répartis dans tous vos programmes marketing.
+  Il se peut que vous n’ayez besoin d’utiliser que quatre formulaires standard. Une pour accéder au contenu téléchargeable, une pour accéder aux pages web premium, une pour visionner des vidéos et une pour s’inscrire à des webinaires, par exemple. Si vous devez modifier un champ d’un formulaire, il est plus facile de mettre à jour quatre formulaires standard utilisés globalement au lieu de modifier plusieurs formulaires répartis dans tous vos programmes marketing.
 
   <!-- Global forms also make progressive profiling much easier to implement. -->
 
@@ -86,15 +88,15 @@ Avant de commencer à créer des formulaires réutilisables dans [!DNL Marketo O
 
   Envisagez d’utiliser des formulaires plus courts, car ils se sont avérés meilleurs pour les conversions. Lorsque vous réfléchissez à chaque formulaire, décidez quels champs sont raisonnables et nécessaires pour son objectif.
 
-  Indiquez s’il faut préremplir les champs du formulaire, de sorte que les informations de base, telles que le nom et l’adresse e-mail, soient préremplies. Mais d’autres informations, telles que l’intitulé du poste et la taille de l’organisation, ne le sont pas. Ainsi, le visiteur n’a besoin de remplir que deux champs et d’envoyer le formulaire. Vous pouvez également utiliser un formulaire de réseau social rempli de données provenant de Facebook ou de Twitter.
+  Indiquez s’il faut préremplir les champs du formulaire, de sorte que les informations de base, telles que le nom et l’adresse e-mail, soient préremplies. Mais d’autres informations, telles que l’intitulé du poste et la taille de l’organisation, ne le sont pas. Ainsi, le visiteur n’a besoin de remplir que deux champs et d’envoyer le formulaire. Vous pouvez également utiliser un formulaire de réseau social rempli de données provenant de plateformes de médias sociaux.
 
 * Planifiez la page de relance qui s’affiche après l’envoi d’un formulaire par un visiteur (page _merci_).
 
-  Est-ce que tout le monde a la même page ou est-elle dynamique et basée sur ses données ? Par exemple, un professionnel de la santé peut voir un contenu de page différent de celui d’un professionnel de la technologie.
+  Est-ce que tout le monde a la même page ou est-elle dynamique et basée sur ses données ? Par exemple, un professionnel de la santé voit un contenu de page différent de celui d’un professionnel de la technologie.
 
 * Pensez à contourner entièrement un formulaire si vous disposez déjà des informations dont vous avez besoin.
 
-  Lorsque vous autorisez un contournement de formulaire pour une personne connue qui visite votre page de destination, elle peut simplement accéder directement au contenu. Le fait de contourner le formulaire offre une expérience du visiteur plus rationalisée.
+  Lorsque vous autorisez un contournement de formulaire pour une personne connue qui visite votre page de destination, elle peut accéder directement au contenu. Le fait de contourner le formulaire offre une expérience du visiteur plus rationalisée.
 
 ### Ajouter un nouveau formulaire {#new-form}
 
@@ -102,9 +104,19 @@ Avant de commencer à créer des formulaires réutilisables dans [!DNL Marketo O
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Sélectionner un paramètre prédéfini"
 >abstract="Sélectionnez un paramètre prédéfini qui contient la connexion à utiliser et un jeu de données prédéfini pour votre formulaire."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Créer un paramètre prédéfini de formulaire"
+>additional-url="https://experienceleague.adobe.com/fr/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="Créer un paramètre prédéfini de formulaire"
 
-Vous pouvez créer un formulaire dans [!DNL Marketo Optimizer] en cliquant sur **[!UICONTROL Créer un formulaire]** en haut à droite de la page de liste _[!UICONTROL Forms]_.
+Créez un formulaire dans un programme ou un dossier au sein d’un programme à partir de l’arborescence _[!UICONTROL Programmes]_.
+
+1. Dans le volet de navigation de gauche, développez **[!UICONTROL Marketing Management]** et sélectionnez **[!UICONTROL Programmes]**.
+
+1. Localisez le programme ou un dossier dans le programme où vous souhaitez créer le formulaire.
+
+   Si nécessaire, [créez d’abord un programme](../marketing/programs.md#create-program).
+
+1. Cliquez sur l’icône _Plus_ (**...**) en regard du nom du programme ou du dossier, sélectionnez **[!UICONTROL Créer un formulaire]**.
+
+   ![Créer un nouveau formulaire à partir de l&#39;arborescence des programmes](../marketing/assets/email-create-from-programs-tree.png){width="425"}
 
 1. Dans la boîte de dialogue _[!UICONTROL Créer un formulaire]_, saisissez un **[!UICONTROL Nom]** utile (obligatoire) et un **[!UICONTROL Description]** (facultatif).
 
@@ -123,21 +135,19 @@ Vous pouvez créer un formulaire dans [!DNL Marketo Optimizer] en cliquant sur *
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   La page de détails du formulaire s’ouvre avec une définition de formulaire de base par défaut.
+   La page des détails du formulaire s’ouvre.
 
    ![Contenu de formulaire par défaut](assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### Modifier la conception de formulaire par défaut {#design}
+1. Cliquez sur **[!UICONTROL Modifier le formulaire]** et utilisez les outils de conception visuelle pour définir le contenu du formulaire selon vos besoins :
 
-Utilisez les outils de conception visuelle pour modifier le contenu du formulaire selon vos besoins :
+   * [Ajouter des champs](./form-design.md#add-field)
+   * [Modifier le style d’un champ](./form-design.md#field-styling)
+   * [Réorganiser les champs](./form-design.md#field-reorder)
+   * [Modifier le texte et le style du bouton Envoyer](./form-design.md#submit-button)
+   * [Modifier le style du formulaire](./form-design.md#form-styling)
 
-* [Ajouter des champs](./form-design.md#add-field)
-* [Modifier le style d’un champ](./form-design.md#field-styling)
-* [Réorganiser les champs](./form-design.md#field-reorder)
-* [Modifier le texte et le style du bouton Envoyer](./form-design.md#submit-button)
-* [Modifier le style du formulaire](./form-design.md#form-styling)
-
-Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour enregistrer les modifications apportées à la conception du contenu du formulaire et accédez aux détails du formulaire.
+   Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour enregistrer les modifications apportées à la conception du contenu du formulaire et revenir aux détails du formulaire.
 
 ### Définir la page de remerciement {#thank-you-page}
 
@@ -204,7 +214,7 @@ Si le formulaire est en cours d’utilisation, l’action ouvre une boîte de di
 
 ## Dupliquer les formulaires {#duplicate-forms}
 
-Dupliquez un formulaire comme moyen simple et rapide de créer un formulaire à l’aide d’un formulaire existant comme point de départ pour votre conception de formulaire.
+Dupliquez un formulaire pour créer un formulaire à l’aide d’un formulaire existant comme point de départ pour votre conception de formulaire.
 
 Vous pouvez dupliquer un formulaire à l’aide de l’une des méthodes suivantes :
 
@@ -217,7 +227,7 @@ Dans la boîte de dialogue, saisissez un nom utile (unique) et une description. 
 
 ![Nom et description du formulaire en double](assets/form-duplicate-dialog.png){width="400"}
 
-Modifiez le duplicata de formulaire pour changer le nom si nécessaire et modifier le formulaire pour son utilisation prévue.
+Pour modifier le nom si nécessaire et adapter le formulaire à son utilisation prévue, modifiez le doublon du formulaire.
 
 ## Modification de formulaires {#edit-forms}
 

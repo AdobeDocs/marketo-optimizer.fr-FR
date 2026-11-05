@@ -17,10 +17,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 0%
+ht-degree: 1%
 ---
 # Génération de rapports d’analyse
 
@@ -81,7 +81,7 @@ Surface Analytics peut répondre à des questions qui couvrent à la fois les do
 ## Limites {#limitations}
 
 | Limite | Détail |
-|---|---|
+| --- | --- |
 | Modifier ou créer des enregistrements | Non pris en charge. Surface Analytics ne lit et ne génère des rapports que sur les données existantes. |
 | Noms lisibles par l’utilisateur dans les résultats | Pas toujours disponible. Certains rapports affichent un ID interne, tel qu’un ID de parcours ou d’e-mail, au lieu d’un nom. |
 | Duplication de cartes de rapports | Une même question peut parfois renvoyer plusieurs cartes de rapports pour le même résultat. |

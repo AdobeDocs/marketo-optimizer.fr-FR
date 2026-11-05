@@ -8,13 +8,11 @@ product_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: '2175'
 ht-degree: 2%
-
 ---
-
 # Conception de formulaire
 
 Après avoir [créé un formulaire](./forms.md#create-forms), l’espace de conception visuelle ouvre un brouillon avec une définition de formulaire de base par défaut. Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur **[!UICONTROL Modifier le formulaire]** et utilisez l’espace de conception visuelle pour définir le style du formulaire et les composants de champ.
@@ -94,7 +92,7 @@ Les champs de formulaire sont utilisés pour capturer des données de profil de 
 
    * **[!UICONTROL Valeur par défaut]** - Utilisez cette option pour spécifier une valeur par défaut pour le champ.
 
-   * **[!UICONTROL Message de validation]** - Utilisez cette option pour spécifier un message de validation pour le champ. Ce message s’affiche si le visiteur saisit une valeur non valide pour le champ. Le message _[!UICONTROL Standard]_ est défini par défaut. Choisissez **[!UICONTROL Personnalisé]** et saisissez votre propre message.
+   * **[!UICONTROL Message de validation]** - Utilisez cette option pour spécifier un message de validation pour le champ. Ce message s’affiche si le visiteur saisit une valeur non valide pour le champ. Le système définit le message _[!UICONTROL Standard]_ par défaut. Choisissez **[!UICONTROL Personnalisé]** et saisissez votre propre message.
 
    * **[!UICONTROL Longueur maximale]** - Saisissez le nombre maximal de caractères pouvant être saisis dans le champ.
 
@@ -124,7 +122,7 @@ Sélectionnez l’onglet **[!UICONTROL Styles]** dans le panneau de droite pour 
 
   ![Définir les styles de libellé pour le champ de formulaire](assets/form-field-styles-label.png){width="600" zoomable="yes"}
 
-* **[!UICONTROL Bordure]** - Cliquez sur le carré **[!UICONTROL Couleur de bordure]** pour ouvrir le sélecteur de couleurs contextuel et sélectionner une couleur pour la bordure. Vous pouvez définir une bordure pour le champ, y compris la couleur et la largeur de ligne. Décochez la case pour supprimer la bordure du champ affichée. Vous pouvez également modifier la taille de la bordure (largeur en pixels), le style et le rayon des angles.
+* **[!UICONTROL Bordure]** - Cliquez sur le carré **[!UICONTROL Couleur de bordure]** pour ouvrir le sélecteur de couleurs contextuel et sélectionner une couleur pour la bordure. Vous pouvez définir une bordure pour le champ, y compris la couleur et la largeur de ligne. Pour supprimer la bordure du champ affichée, décochez la case. Vous pouvez également modifier la taille de la bordure (largeur en pixels), le style et le rayon des angles.
 
   ![Définir les styles de bordure du champ de formulaire](assets/form-field-styles-border.png){width="600" zoomable="yes"}
 
@@ -148,7 +146,7 @@ Ajoutez [composants structurels](./structure-components.md) au formulaire et dé
 
 Cliquez sur l’icône _Supprimer_ ( ![icône Supprimer](../assets/do-not-localize/icon-delete.svg) ) dans la barre d’outils ou dans le panneau de droite pour supprimer un champ sélectionné. Dans la boîte de dialogue de confirmation, cliquez sur **[!UICONTROL Supprimer]**.
 
-Cliquez sur l’icône _Dupliquer_ ( ![icône Dupliquer](../assets/do-not-localize/icon-duplicate.svg) ) dans la barre d’outils ou le panneau de droite pour dupliquer un champ sélectionné. Le nouveau champ s’affiche juste en dessous du champ d’origine. Cliquez sur **[!UICONTROL Sélectionner l’attribut de champ]** pour définir l’attribut du champ. Définissez le type de champ, les détails et les styles selon vos besoins.
+Cliquez sur l’icône _Dupliquer_ ( ![icône Dupliquer](../assets/do-not-localize/icon-duplicate.svg) ) dans la barre d’outils ou le panneau de droite pour dupliquer un champ sélectionné. Le nouveau champ s’affiche sous le champ d’origine. Cliquez sur **[!UICONTROL Sélectionner l’attribut de champ]** pour définir l’attribut du champ. Définissez le type de champ, les détails et les styles selon vos besoins.
 
 ![Icônes Supprimer et Dupliquer pour les champs de formulaire](assets/form-field-delete-duplicate.png){width="600" zoomable="yes"}
 
@@ -172,7 +170,7 @@ Sélectionnez l’onglet **[!UICONTROL Styles]** dans le panneau de droite pour 
 
 * **[!UICONTROL Libellé]** - Le style du libellé contrôle les caractéristiques visuelles du texte à l’intérieur du bouton. Vous pouvez définir la taille de la police, la hauteur de la ligne, le style du texte et l’alignement du texte. Cliquez sur le carré **[!UICONTROL Couleur de police]** pour ouvrir le sélecteur de couleurs contextuel et choisir une couleur pour le texte du libellé.
 
-* **[!UICONTROL Bordure]** - Cliquez sur le carré **[!UICONTROL Couleur de bordure]** pour ouvrir le sélecteur de couleurs contextuel et sélectionner une couleur pour la bordure. Vous pouvez définir une bordure pour le bouton, y compris la couleur et la largeur de ligne. Décochez la case pour supprimer la bordure du bouton affichée. Vous pouvez également modifier la taille de la bordure (largeur en pixels), le style et le rayon des angles arrondis.
+* **[!UICONTROL Bordure]** - Cliquez sur le carré **[!UICONTROL Couleur de bordure]** pour ouvrir le sélecteur de couleurs contextuel et sélectionner une couleur pour la bordure. Vous pouvez définir une bordure pour le bouton, y compris la couleur et la largeur de ligne. Pour supprimer la bordure du bouton affichée, décochez la case. Vous pouvez également modifier la taille de la bordure (largeur en pixels), le style et le rayon des angles arrondis.
 
 * **[!UICONTROL Taille]** - Sélectionnez un paramètre de taille pour déterminer la largeur d’affichage du bouton. Choisissez _[!UICONTROL Pleine largeur]_, _[!UICONTROL Demi-largeur]_ ou _[!UICONTROL Auto]_. La marge intérieure s’ajuste en fonction de la taille et des paramètres d’alignement.
 
@@ -206,7 +204,7 @@ _Pour définir un CSS personnalisé pour le formulaire :_
 
 1. Cliquez sur **[!UICONTROL Fermer]**.
 
-1. (Facultatif) Collez le code copié dans votre outil CSS préféré et modifiez le CSS pour refléter le style que vous souhaitez.
+1. (Facultatif) Collez le code copié dans votre outil CSS et modifiez le CSS pour refléter la mise en forme souhaitée.
 
 1. Cliquez sur **[!UICONTROL Ajouter un CSS personnalisé]** dans le panneau de droite.
 
@@ -220,7 +218,7 @@ _Pour définir un CSS personnalisé pour le formulaire :_
 
 ### Style manuel {#manual-styling}
 
-Modifiez les paramètres du panneau de droite pour définir l’affichage de l’ensemble du formulaire.
+Pour définir l’affichage de l’ensemble du formulaire, modifiez les paramètres dans le panneau de droite.
 
 * **[!UICONTROL Couleur d’arrière-plan]** - Cochez la case pour appliquer une couleur d’arrière-plan autour de la zone de formulaire. Le blanc est la couleur par défaut. Cliquez sur le carré de couleurs pour ouvrir le sélecteur de couleurs contextuel et choisissez une couleur pour l’arrière-plan du formulaire.
 
