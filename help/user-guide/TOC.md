@@ -1,15 +1,16 @@
 ---
 user-guide-title: Documentation Marketo Optimizer
 user-guide-description: Découvrez Adobe Marketo Optimizer et comment l’utiliser pour exécuter un engagement marketing et commercial coordonné avec du contenu personnalisé optimisé par l’IA pour les prospects et les comptes B2B.
-source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
+source-git-commit: 5da2e826a047130caea0d173df474ad5fc97d454
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '265'
 ht-degree: 41%
 ---
 
 # Guide de l’utilisateur de Marketo Optimizer {#user}
 
 + [Documentation de Adobe Marketo Optimizer](guide-overview.md)
++ {hide-from-toc}[Programme Lighthouse](./lighthouse-program.md)
 + Base des données {#data-foundation}
   + [Architecture des données](./data-architecture.md)
   + [Interopérabilité avec Marketo Engage](./marketo-interoperability.md)
