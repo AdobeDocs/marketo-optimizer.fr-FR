@@ -31,7 +31,7 @@ Le message de bienvenue personnalisé vous interroge sur vos tâches actuelles. 
 
 Regardez la vidéo pour découvrir la page d’accueil et l’espace de travail marketing. Les sections suivantes fournissent des instructions écrites.
 
->[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505363/?captions=fre_fr&quality=12&learn=on)
 
 ## Démarrer une conversation d’IA
 
