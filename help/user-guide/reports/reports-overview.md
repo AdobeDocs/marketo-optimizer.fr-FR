@@ -23,7 +23,7 @@ Chaque rapport est créé à l’aide des fonctionnalités [!DNL Adobe Customer 
 
 >[!PREREQUISITES]
 >
->Pour afficher les rapports dans l’onglet _[!UICONTROL Rapports]_, vous devez disposer de l’autorisation **[!UICONTROL Afficher les rapports incorporés B2B]** [5}.](../start/permissions-reference.md)
+>Pour afficher les rapports dans l’onglet _[!UICONTROL Rapports]_, vous devez disposer de l’autorisation **[!UICONTROL Afficher les rapports incorporés B2B]** [5&rbrace;.](../start/permissions-reference.md)
 
 ## Sections du rapport {#report-sections}
 

@@ -21,7 +21,7 @@ Cliquez sur **[!UICONTROL Afficher le rapport]** pour un parcours de personne ac
 
 >[!PREREQUISITES]
 >
->Pour afficher ce rapport, vous devez disposer de l’autorisation **[!UICONTROL Afficher les rapports de Parcours de personne B2B]** [3}.](../start/permissions-reference.md)
+>Pour afficher ce rapport, vous devez disposer de l’autorisation **[!UICONTROL Afficher les rapports de Parcours de personne B2B]** [3&rbrace;.](../start/permissions-reference.md)
 
 _Afficher le rapport :_
 
@@ -69,11 +69,11 @@ Le tableau [!UICONTROL Performances des e-mails] affiche les mesures de diffusio
 * [!UICONTROL Nom de l’adresse électronique] - Nom de l’adresse électronique.
 * [!UICONTROL Envoyé] - Nombre d’e-mails envoyés.
 * [!UICONTROL Diffusés] - Nombre d&#39;e-mails diffusés.
-* [!UICONTROL  % diffusés] - Nombre d’e-mails diffusés divisé par le nombre envoyé.
+* [!UICONTROL &#x200B; % diffusés] - Nombre d’e-mails diffusés divisé par le nombre envoyé.
 * [!UICONTROL Ouvert] - Nombre de fois où les destinataires ont ouvert l’e-mail.
-* [!UICONTROL  % ouvert] - Nombre d’e-mails ouverts divisé par le nombre diffusé.
+* [!UICONTROL &#x200B; % ouvert] - Nombre d’e-mails ouverts divisé par le nombre diffusé.
 * [!UICONTROL Clics] - Nombre de fois où les destinataires ont cliqué sur un lien dans l’e-mail.
-* [!UICONTROL  % de clics] - Nombre d’e-mails cliqués divisé par le nombre de messages diffusés.
+* [!UICONTROL &#x200B; % de clics] - Nombre d’e-mails cliqués divisé par le nombre de messages diffusés.
 
 ## Flux d’activité de parcours {#journey-activity-flow}
 
