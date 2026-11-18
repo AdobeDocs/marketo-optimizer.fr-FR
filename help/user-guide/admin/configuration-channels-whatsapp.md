@@ -89,7 +89,7 @@ Effectuez les tâches suivantes :
    * **[!UICONTROL Jeton API]** - Saisissez votre jeton API. Pour plus d’informations, consultez la [documentation de Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Identifiant du compte professionnel]** - Saisissez le numéro unique associé à votre portefeuille professionnel. Pour plus d’informations, consultez la [documentation de Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![Informations d’identification de l’API des paramètres de WhatsApp ](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![Informations d’identification de l’API des paramètres de WhatsApp &#x200B;](assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
