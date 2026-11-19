@@ -10,19 +10,21 @@ feature_v2:
     internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
     internal-label: Content Management
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 2%
 ---
 
 # Modèles d’e-mail
 
-Les modèles d’e-mail dans [!DNL Adobe Marketo Optimizer] permettent aux spécialistes du contenu de créer indépendamment des dispositions d’e-mail réutilisables afin que les équipes marketing puissent les appliquer aux parcours de compte sans reconstruire les conceptions à chaque fois.
+Les modèles d&#39;e-mail dans [!DNL Adobe Marketo Optimizer] permettent aux spécialistes du contenu de créer des dispositions d&#39;e-mail réutilisables indépendamment, afin que les équipes marketing puissent réutiliser les conceptions sans les reconstruire à chaque fois.
 
 >[!NOTE]
 >
->Dans cette version de Beta, seuls les modèles d’e-mail sont pris en charge.
+>Seuls les modèles d’e-mail sont actuellement pris en charge. Les modèles de page de destination ne sont actuellement pas disponibles.
+
+Utilisez les [modules de contenu](./content-modules.md) lorsque vous [créez des modèles d’e-mail](./templates-create.md) pour assembler des dispositions à partir de sections préparées.
 
 Lorsqu’un modèle est appliqué à un nouvel e-mail, le contenu est copié à ce stade. Les modifications apportées au modèle n’affectent pas les e-mails créés précédemment à partir de celui-ci.
 
@@ -31,7 +33,7 @@ Lorsqu’un modèle est appliqué à un nouvel e-mail, le contenu est copié à 
 >L’utilisation de modèles nécessite les [autorisations](../start/permissions-reference.md) suivantes :
 >
 >* **[!UICONTROL Afficher les modèles B2B]** - Obligatoire pour afficher la liste et les détails des modèles.
->* **[!UICONTROL Gérer les modèles B2B]** - Obligatoire pour créer, modifier et supprimer des modèles.
+>* **[!UICONTROL Gérer les modèles B2B]** - Requis pour créer, modifier et supprimer des modèles.
 
 ## Accès aux modèles d’e-mail {#access}
 
@@ -41,7 +43,7 @@ Basculez entre la vue Liste et la vue Grille (aperçu miniature) à l’aide des
 
 ### Rechercher et filtrer {#search-filter}
 
-Utilisez la barre de recherche pour rechercher un modèle par nom. Cliquez sur un en-tête de colonne pour trier la liste. Cliquez sur **[!UICONTROL Filtres]** pour affiner la liste par balises ou pour n’afficher que les modèles que vous avez créés.
+Utilisez la barre de recherche pour rechercher un modèle par nom. Cliquez sur un en-tête de colonne pour trier la liste. Cliquez sur **[!UICONTROL Filtres]** pour affiner la liste par balises ou pour afficher uniquement les modèles que vous avez créés.
 
 Pour personnaliser les colonnes qui apparaissent dans le tableau, cliquez sur l’icône **[!UICONTROL Personnaliser le tableau]** et sélectionnez les colonnes à afficher.
 
@@ -49,12 +51,12 @@ Pour personnaliser les colonnes qui apparaissent dans le tableau, cliquez sur l�
 
 Créez des dossiers pour regrouper les modèles par équipe, campagne, marque ou toute structure adaptée à votre workflow.
 
-**Pour créer un dossier, procédez comme suit**
+**Pour créer un dossier :**
 
 1. Dans la bibliothèque de modèles, cliquez sur **[!UICONTROL Créer un dossier]**.
 1. Saisissez un nom de dossier et cliquez sur **[!UICONTROL Confirmer]**.
 
-**Pour déplacer un modèle dans un dossier, procédez comme suit**
+**Pour déplacer un modèle dans un dossier :**
 
 1. Cliquez sur l’icône **[!UICONTROL Plus]** ( ... ) en regard du modèle.
 1. Sélectionnez **[!UICONTROL Déplacer vers le dossier]**.
@@ -68,7 +70,7 @@ Cliquez sur le nom d’un modèle pour ouvrir sa page de détails. À partir de 
 
 ### Modification d’un modèle
 
-Cliquez sur le nom d’un modèle pour ouvrir la page de détails, puis cliquez sur **[!UICONTROL Modifier le modèle d’e-mail]**. Vous pouvez également cliquer sur l’icône **[!UICONTROL Plus]** ( ... ) dans la liste des modèles et sélectionner **[!UICONTROL Modifier]**.
+Cliquez sur le nom d&#39;un modèle pour ouvrir la page de détails, puis cliquez sur **[!UICONTROL Modifier le modèle d&#39;e-mail]**. Vous pouvez également cliquer sur l’icône **[!UICONTROL Plus]** ( ... ) dans la liste des modèles et sélectionner **[!UICONTROL Modifier]**.
 
 ### Dupliquer un modèle
 
@@ -88,4 +90,4 @@ Cochez la case en regard de chaque modèle à supprimer ou cochez la case en-tê
 
 ## Utiliser un modèle dans un email {#use-in-journey}
 
-Lors de la création d’un e-mail dans un parcours, la section **[!UICONTROL Sélectionner un modèle de conception]** vous permet de choisir parmi des modèles enregistrés ou des exemples de modèles. Cliquez sur la miniature d’un modèle pour le prévisualiser, puis cliquez sur **[!UICONTROL Utiliser ce modèle]** pour l’appliquer. Pour plus d’informations sur l’utilisation de modèles dans votre workflow de création d’e-mail, voir [Création de contenu d’e-mail](./email-authoring.md#templates).
+Lors de la création d’un e-mail dans un parcours, la section **[!UICONTROL Sélectionner un modèle de conception]** vous permet de choisir parmi des modèles enregistrés ou des exemples de modèles. Cliquez sur une miniature de modèle pour la prévisualiser, puis cliquez sur **[!UICONTROL Utiliser ce modèle]** pour l&#39;appliquer. Pour plus d’informations sur l’utilisation de modèles dans votre workflow de création d’e-mail, voir [Création de contenu d’e-mail](./email-authoring.md#templates).
