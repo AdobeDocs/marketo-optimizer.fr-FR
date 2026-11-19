@@ -1,6 +1,6 @@
 ---
 title: Créer des modèles d’e-mail
-description: 'Découvrez comment créer des modèles d’e-mail dans Marketo Optimizer : créez un nouveau modèle, enregistrez un e-mail à partir d’un parcours en tant que modèle ou convertissez une image de conception en modèle d’e-mail.'
+description: Découvrez comment créer des modèles d’e-mail dans Marketo Optimizer, personnaliser les modules de contenu, enregistrer un e-mail en tant que modèle ou convertir une image de conception en modèle d’e-mail.
 TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -15,30 +15,32 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 2%
 ---
 
 # Créer des modèles d’e-mail
 
-Vous pouvez créer un modèle d’e-mail dans [!DNL Adobe Marketo Optimizer] de trois façons :
+Créez des modèles d’e-mail dans [!DNL Adobe Marketo Optimizer] à l’aide de l’espace de conception visuelle. Les modèles d’e-mail prennent en charge les modules de contenu préparés et les composants de structure et de contenu individuels.
+
+>[!NOTE]
+>
+>Seuls les modèles d’e-mail sont actuellement pris en charge. Les modèles de page de destination ne sont actuellement pas disponibles.
+
+Pour les modèles d’e-mail, vous pouvez commencer de trois façons :
 
 * **Créer un modèle** — Créez un modèle dans la bibliothèque de modèles à l&#39;aide de l&#39;espace visuel de conception d&#39;e-mail.
 * **Enregistrer à partir d’un e-mail de parcours** — Enregistrez un e-mail que vous avez créé dans un parcours en tant que modèle réutilisable.
 * **Convertir une image** — Chargez une image de conception et utilisez l’IA générative pour la convertir en modèle d’e-mail modifiable.
 
-## Créer un nouveau modèle {#build-new}
+## Créer un modèle d’e-mail {#build-new}
 
 1. Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de contenu]** et sélectionnez **[!UICONTROL Modèles]**.
 1. Cliquez sur **[!UICONTROL Créer un modèle]**.
-1. Saisissez un **[!UICONTROL Nom du modèle]** et un **[!UICONTROL Description]** facultatif.
-1. Définissez le **[!UICONTROL Canal]** (type) du modèle.
-
-   >[!NOTE]
-   >
-   >Dans cette version de Beta, seuls les modèles d’e-mail sont pris en charge.
+1. Saisissez un **[!UICONTROL nom de modèle]** et une **[!UICONTROL description]** facultative.
+1. Définissez **[!UICONTROL Canal]** sur E-mail.
 
    <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 
@@ -46,11 +48,23 @@ Vous pouvez créer un modèle d’e-mail dans [!DNL Adobe Marketo Optimizer] de 
 
 1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour accéder à l’espace de conception de contenu.
 
-   Voir [Création d’e-mails](email-authoring.md) pour plus d’informations sur la conception de contenu.
+   [Ajoutez des modules](#add-modules) ou utilisez [la création d’e-mails](email-authoring.md) pour obtenir des informations détaillées sur la conception de contenu.
 
-1. Vous pouvez éventuellement activer **[!UICONTROL Gouvernance]** et configurer [verrouillage de contenu](template-content-governance.md) pour limiter les parties du modèle que les auteurs et autrices peuvent modifier lors de l’application du modèle.
+1. Activez éventuellement la **[!UICONTROL gouvernance]** et configurez le [verrouillage du contenu](template-content-governance.md) pour limiter les parties du modèle que les auteurs peuvent modifier lors de l’application du modèle.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
+
+## Ajout de modules {#add-modules}
+
+Dans un modèle d’e-mail, utilisez des modules pour commencer à partir des sections préparées et personnalisez leur contenu et leur style.
+
+{{$include /help/_includes/content-design-modules.md}}
+
+### Ajouter une structure et du contenu
+
+Pour créer des sections à partir de zéro ou étendre un module, ajoutez des composants de structure et de contenu.
+
+{{$include /help/_includes/content-design-components-prime.md}}
 
 ## Enregistrer un e-mail en tant que modèle {#save-as-template}
 
@@ -58,19 +72,19 @@ Lorsque vous ouvrez le contenu de l’e-mail que vous souhaitez réutiliser, enr
 
 1. Cliquez sur **[!UICONTROL Modèle de contenu]** en haut de la page.
 1. Sélectionnez **[!UICONTROL Enregistrer comme modèle de contenu]**.
-1. Saisissez un **[!UICONTROL Nom]** et un **[!UICONTROL Description]** facultatif.
-1. Ajoutez éventuellement des **[!UICONTROL Balises]**.
+1. Saisissez un **[!UICONTROL Nom]** et une **[!UICONTROL Description]** facultative.
+1. Ajoutez éventuellement **[!UICONTROL Balises]**.
 1. Cliquez sur **[!UICONTROL Créer]**.
 
 L’e-mail de parcours d’origine n’est pas affecté. Le modèle enregistré est disponible dans la bibliothèque de modèles pour tous les utilisateurs dans le sandbox. Vous pouvez mettre à jour le modèle créé pour optimiser la réutilisation :
 
-* Modifiez le texte et ajoutez des jetons [personnalisation](email-authoring.md#personalize-content).
+* Modifiez le texte et ajoutez des jetons de [personnalisation](email-authoring.md#personalize-content).
 * Mettez à jour ou remplacez des images et ajoutez des liens.
-* Configurez [verrouillage de contenu](template-content-governance.md).
+* Configurez le [verrouillage du contenu](template-content-governance.md).
 
 ## Convertir une image en modèle {#image-to-template}
 
-[!DNL Adobe Marketo Optimizer] pouvez convertir une image statique, telle qu’une maquette de Figma ou de Photoshop, en modèle d’e-mail modifiable à l’aide de l’IA générative. Cela élimine la nécessité de reconstruire manuellement les dispositions à partir des fichiers de conception et est idéal pour migrer les conceptions d’e-mail existantes à partir d’autres plateformes. Cette fonctionnalité est disponible uniquement pour les modèles de contenu d’e-mail.
+[!DNL Adobe Marketo Optimizer] peut convertir une image statique, telle qu’une maquette de Figma ou de Photoshop, en modèle d’e-mail modifiable à l’aide de l’IA générative. Cela élimine la nécessité de reconstruire manuellement les dispositions à partir des fichiers de conception et est idéal pour migrer les conceptions d’e-mail existantes à partir d’autres plateformes. Cette fonctionnalité est disponible uniquement pour les modèles de contenu d’e-mail.
 
 >[!BEGINSHADEBOX]
 
@@ -79,7 +93,7 @@ L’e-mail de parcours d’origine n’est pas affecté. Le modèle enregistré 
 Avant de commencer :
 
 * Votre entreprise doit avoir signé l’addendum Generative AI avec Adobe.
-* Vous devez disposer de l’autorisation **[!UICONTROL Générer l’assistant IA dédiée au contenu B2B]** en plus de l’autorisation **[!UICONTROL Gérer les modèles B2B]**.
+* Vous devez disposer de l’autorisation **[!UICONTROL Générer l’assistant IA dédiée au contenu B2B]** en plus de **[!UICONTROL Gérer les modèles B2B]**.
 * Le fichier image doit répondre aux spécifications suivantes :
   * Format : JPEG (.jpg, .jpeg) ou PNG (.png)
   * Taille de fichier maximale : 10 Mo
@@ -96,8 +110,8 @@ Avant de commencer :
 
 1. Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion de contenu]** et sélectionnez **[!UICONTROL Modèles]**.
 1. Cliquez sur **[!UICONTROL Créer un modèle]**.
-1. Saisissez un **[!UICONTROL Nom du modèle]** et un **[!UICONTROL Description]** facultatif.
-1. Définissez le **[!UICONTROL Canal]** sur E-mail.
+1. Saisissez un **[!UICONTROL nom de modèle]** et une **[!UICONTROL description]** facultative.
+1. Définissez **[!UICONTROL Canal]** sur E-mail.
 
    <!--  Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 
@@ -107,9 +121,9 @@ Avant de commencer :
 
 1. Dans la section **[!UICONTROL Convertir l’image en modèle]** :
 
-   * Sélectionnez éventuellement un **[!UICONTROL thème de marque]** pour appliquer les couleurs, les polices et l’espacement de votre marque à la sortie générée.
+   * Vous pouvez éventuellement sélectionner un **[!UICONTROL thème de marque]** pour appliquer les couleurs, les polices et l’espacement de votre marque à la sortie générée.
    * Cochez la case accusé de réception pour confirmer que votre image ne contient aucune information d’identification personnelle (PII) ni d’autres données sensibles.
-   * Cliquez sur **[!UICONTROL Télécharger l’image]** et sélectionnez votre fichier image.
+   * Cliquez sur **[!UICONTROL Charger l’image]** et sélectionnez votre fichier image.
 
    >[!CAUTION]
    >
@@ -137,11 +151,11 @@ Avant de commencer :
 
 Le contenu du modèle converti s’ouvre dans l’espace de conception sous la forme d’un modèle d’e-mail entièrement modifiable. Utilisez les outils de conception de contenu standard pour :
 
-* Modifiez le texte et ajoutez des jetons [personnalisation](email-authoring.md#personalize-content).
+* Modifiez le texte et ajoutez des jetons de [personnalisation](email-authoring.md#personalize-content).
 * Mettez à jour ou remplacez des images et ajoutez des liens.
 * Ajustez les couleurs, les polices et l’espacement.
 * Ajouter, supprimer ou réorganiser des composants de contenu.
-* Activez la gouvernance et configurez le [verrouillage de contenu](template-content-governance.md).
+* Activez la gouvernance et configurez le [verrouillage du contenu](template-content-governance.md).
 
 >[!IMPORTANT]
 >

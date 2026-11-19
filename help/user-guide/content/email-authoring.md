@@ -19,23 +19,23 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2590'
 ht-degree: 4%
 ---
 # Création de contenu d’e-mail
 
-En [!DNL Adobe Marketo Optimizer], l’espace de conception d’e-mail fournit une zone de travail visuelle dans laquelle les spécialistes marketing créent des e-mails. Les outils de conception d’e-mail des panneaux de gauche et supérieur (structures, composants de contenu, modèles, fragments, etc.) prennent en charge la création à partir de zéro par glisser-déposer. Vous pouvez également choisir de commencer à partir d’un modèle, de coller des HTML brutes ou d’assembler des messages à partir de fragments visuels réutilisables.
+Dans [!DNL Adobe Marketo Optimizer], l’espace de conception d’e-mail fournit une zone de travail visuelle dans laquelle les spécialistes marketing créent des e-mails. Les outils de conception d’e-mail des panneaux de gauche et supérieur (structures, composants de contenu, modèles, fragments, etc.) prennent en charge la création à partir de zéro par glisser-déposer. Vous pouvez également choisir de commencer à partir d’un modèle, de coller des HTML brutes ou d’assembler des messages à partir de fragments visuels réutilisables.
 
 >[!PREREQUISITES]
 >
 >La création d’e-mails nécessite les [autorisations](../start/permissions-reference.md) suivantes :
 >
 >* **[!UICONTROL Afficher les e-mails B2B]** - Obligatoire pour afficher les e-mails.
->* **[!UICONTROL Gérer les e-mails B2B]** - Obligatoire pour créer, modifier et supprimer des e-mails.
+>* **[!UICONTROL Gérer les e-mails B2B]** - Obligatoire pour créer, modifier et supprimer les e-mails.
 
-Dans [!DNL Marketo Optimizer], un e-mail est une ressource indépendante que vous [créez dans un programme ou un dossier](../marketing/email-channel.md#create-email-from-programs), puis que vous [publiez et sélectionnez dans un parcours &#x200B;](../marketing/email-channel.md#lifecycle). Définissez d’abord les _Propriétés_ et _Actions_. Définissez ensuite le contenu.
+Dans [!DNL Marketo Optimizer], un e-mail est une ressource indépendante que vous [créez dans un programme ou un dossier](../marketing/email-channel.md#create-email-from-programs), puis [publiez et sélectionnez dans un parcours](../marketing/email-channel.md#lifecycle). Définissez d’abord les _Propriétés_ et _Actions_. Définissez ensuite le contenu.
 
 Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’espace de conception du corps de l’e-mail, où vous pouvez choisir la manière de concevoir votre e-mail à l’aide des options suivantes :
 
@@ -43,7 +43,7 @@ Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’esp
 
 * [Importez du contenu HTML existant](#import-html-content) dans l’éditeur de code ou travaillez côte à côte avec la zone de travail visuelle.
 
-* [Sélectionnez un modèle existant](#templates) dans une liste de modèles d’e-mail intégrés ou personnalisés. Cette méthode est recommandée pour les cas d’utilisation d’e-mails répétables.
+* [Sélectionnez un modèle existant](#templates) dans une liste de modèles d&#39;e-mail intégrés ou personnalisés. Cette méthode est recommandée pour les cas d’utilisation d’e-mails répétables.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have Coworker convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
@@ -51,9 +51,9 @@ Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour lancer l’esp
 
 ## Outils de conception d’e-mails {#email-design-tools}
 
-* **Barre d’outils supérieure :** Enregistrer, Précédent, Basculer vers l’éditeur de code, prévisualiser les contrôles.
-* **Panneau de gauche : structures** (dispositions de colonnes), contenu (texte, bouton, image, séparateur, réseau social, HTML), fragments, modèles, arborescence de navigation (hiérarchie de style DOM de l’e-mail).
-* **Zone de travail centrale :** éditeur WYSIWYG avec aperçu pour ordinateur de bureau et appareil mobile.
+* **Barre d&#39;outils supérieure :** Enregistrer, Précédent, Basculer vers l&#39;éditeur de code, prévisualiser les commandes.
+* **Panneau de gauche :** modules (sections préparées), structures (dispositions de colonnes), contenus (texte, bouton, image, séparateur, social, HTML), fragments, modèles, arborescence de navigation (hiérarchie de style DOM de l’e-mail).
+* **Zone de travail centrale :** éditeur WYSIWYG avec aperçu pour ordinateur de bureau et mobile.
 * **Panneau de droite :** paramètres et styles du composant actuellement sélectionné, y compris les propriétés de contenu, l’arrière-plan, la bordure, la marge intérieure et la personnalisation.
 
 >[!BEGINSHADEBOX]
@@ -65,7 +65,7 @@ Le respect des bonnes pratiques HTML et CSS permet d’assurer un rendu cohéren
 | Approche | Instructions |
 | -------- | -------- |
 | **Recommandé** | Mises en page statiques basées sur des tableaux · Tableaux HTML et tableaux imbriqués · Largeurs de modèle de 600 à 800 px · CSS intégré simple · Polices sécurisées pour le Web |
-| **À utiliser avec précaution** | Images d’arrière-plan (prise en charge limitée des clients) · Polices web personnalisées (définissez toujours une police de secours) · Dispositions plus larges que 800 px · Cartes graphiques |
+| **Utiliser avec précaution** | Images d’arrière-plan (prise en charge limitée des clients) · Polices web personnalisées (définissez toujours une police de secours) · Dispositions plus larges que 800 px · Cartes graphiques |
 | **Éviter** | JavaScript, iFrames ou Flash · Contenu audio ou vidéo intégré · Formulaires HTML · Dispositions basées sur des div |
 
 >[!NOTE]
@@ -82,19 +82,19 @@ Utilisez l’espace de conception visuelle du contenu pour définir la structure
 
 1. Dans la boîte de dialogue _[!UICONTROL Créer un e-mail]_, choisissez le type de contenu d’e-mail que vous souhaitez créer.
 
-   * **[!UICONTROL Utiliser les thèmes]** - Sélectionnez cette option pour créer l’e-mail en _mode thème_. Dans ce mode, vous pouvez utiliser un thème de marque défini pour rationaliser le processus de création de contenu et vous assurer que la conception s’aligne sur les normes définies.
+   * **[!UICONTROL Utiliser des thèmes]** - Sélectionnez cette option pour créer l’e-mail en _mode de thème_. Dans ce mode, vous pouvez utiliser un thème de marque défini pour rationaliser le processus de création de contenu et vous assurer que la conception s’aligne sur les normes définies.
 
    * **[!UICONTROL Style manuel]** - Sélectionnez cette option pour créer l’e-mail en _mode manuel_. Dans ce mode, vous définissez manuellement la mise en forme de tous les composants de structure et de contenu que vous ajoutez à la zone de travail vierge.
 
-   ![Créer une boîte de dialogue d’e-mail](./assets/email-design-create-your-email-dialog.png){width="450"}
+   ![Créer une boîte de dialogue par e-mail](./assets/email-design-create-your-email-dialog.png){width="450"}
 
-1. [Ajoutez des composants de structure et de contenu](#structure-content) dans la zone de travail.
+1. [Ajoutez des modules](#add-modules) ou [des composants de structure et de contenu](#structure-content) dans la zone de travail.
 
 1. [Vérifier et mettre à jour les liens](#preview-and-edit-linked-urls).
 
-1. [Tester l’e-mail](#check-and-test-the-email).
+1. [Tester l&#39;e-mail](#check-and-test-the-email).
 
-Lorsque le contenu vous convient, cliquez sur **[!UICONTROL Enregistrer]**.
+Lorsque vous êtes satisfait du contenu, cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Importer du contenu HTML existant {#import-html-content}
 
@@ -105,11 +105,11 @@ Le contenu importé peut être :
 
   >[!NOTE]
   >
-  >Aucune contrainte ne s’applique à la structure du fichier .zip. Cependant, les références doivent être relatives et s’ajuster à l’arborescence du dossier .zip. Les images sont toujours chargées vers le [référentiel de ressources](./digital-asset-management.md).
+  >Aucune contrainte ne s’applique à la structure du fichier .zip. Cependant, les références doivent être relatives et s’ajuster à l’arborescence du dossier .zip. Les images sont toujours chargées dans le [référentiel de ressources](./digital-asset-management.md).
 
 _Pour importer un fichier contenant du contenu HTML :_
 
-1. Sur la page d’accueil de la conception, sélectionnez l’option **[!UICONTROL Importer HTML]**.
+1. Sur la page d&#39;accueil de la conception, sélectionnez l&#39;option **[!UICONTROL Importer HTML]**.
 
 1. Faites glisser et déposez le fichier HTML ou .zip contenant le contenu HTML, puis cliquez sur **[!UICONTROL Importer]**.
 
@@ -123,7 +123,7 @@ Vous pouvez personnaliser le contenu importé selon vos besoins à l’aide des 
 
 ## Sélectionner un modèle {#templates}
 
-Lorsque vous ouvrez l’espace de conception d’e-mail, utilisez la section **[!UICONTROL Sélectionner un modèle de conception]** pour commencer à partir d’un modèle type intégré ou d’un modèle personnalisé enregistré. Voir [Utiliser un modèle dans un e-mail](./templates.md#use-in-journey) pour le workflow complet.
+Lorsque vous ouvrez l’espace de conception d’e-mail, utilisez la section **[!UICONTROL Sélectionner le modèle de conception]** pour commencer à partir d’un modèle type intégré ou d’un modèle personnalisé enregistré. Voir [Utiliser un modèle dans un e-mail](./templates.md#use-in-journey) pour le workflow complet.
 
 Vous pouvez choisir parmi les options suivantes :
 
@@ -146,19 +146,23 @@ La liste affiche tous les modèles d’e-mail créés dans le sandbox actuel. Vo
 
 Sélectionnez dans la liste le modèle qui doit afficher un aperçu. En mode Aperçu , utilisez les flèches droite et gauche pour naviguer entre les modèles de la catégorie sélectionnée (exemple ou enregistrement).
 
-![Prévisualiser le modèle enregistré](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
+![Aperçu du modèle enregistré](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
 
-Lorsque l’aperçu correspond à ce que vous souhaitez utiliser, cliquez sur **[!UICONTROL Utiliser ce modèle]** en haut à droite de la fenêtre d’aperçu.
+Lorsque l&#39;aperçu correspond à ce que vous souhaitez utiliser, cliquez sur **[!UICONTROL Utiliser ce modèle]** en haut à droite de la fenêtre d&#39;aperçu.
 
 Cette action copie le contenu dans l’espace visuel de conception d’e-mail, où vous pouvez le modifier selon vos besoins.
 
 >[!TAB Exemples de modèles]
 
-[!DNL Adobe Marketo Optimizer] propose une sélection de modèles intégrés que vous pouvez utiliser pour créer des e-mails et des modèles d’e-mail.
+[!DNL Adobe Marketo Optimizer] fournit une sélection de modèles intégrés que vous pouvez utiliser pour créer des e-mails et des modèles d’e-mail.
 
 ![Choisissez un modèle fourni par Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
+
+## Ajout de modules {#add-modules}
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Ajouter une structure et du contenu {#structure-content}
 
@@ -184,13 +188,13 @@ Les paramètres du corps définissent le pré-titre, le titre du document et la 
 
    * **[!UICONTROL Langue du document]** - Spécifiez la langue du document d’e-mail.
 
-   Vous pouvez cliquer sur l’icône _Ajouter une personnalisation_ ( ![Ajouter une icône de personnalisation](../assets/do-not-localize/icon-personalization-field.svg) ) à côté d’un champ pour insérer des [jetons de personnalisation](#personalize-content).
+   Vous pouvez cliquer sur l’icône _Ajouter une personnalisation_ ( ![Ajouter une icône de personnalisation](../assets/do-not-localize/icon-personalization-field.svg) ) à côté d’un champ pour insérer [des jetons de personnalisation](#personalize-content).
 
 ### Mode sombre {#dark-mode}
 
-Le rendu en mode sombre est pris en charge par le biais de requêtes multimédias CSS `prefers-color-scheme`. Les outils de conception d’e-mail comprennent un aperçu en mode sombre et des options permettant de définir un style personnalisé pour la prise en charge des clients de messagerie. Vous pouvez ainsi vérifier que le texte reste lisible, que les logos sont visibles et que les couleurs de la marque s’affichent sur des arrière-plans sombres.
+Le rendu en mode sombre est pris en charge via les requêtes de média CSS `prefers-color-scheme`. Les outils de conception d’e-mail comprennent un aperçu en mode sombre et des options permettant de définir un style personnalisé pour la prise en charge des clients de messagerie. Vous pouvez ainsi vérifier que le texte reste lisible, que les logos sont visibles et que les couleurs de la marque s’affichent sur des arrière-plans sombres.
 
-Pour obtenir des conseils détaillés sur la prévisualisation, la configuration des paramètres personnalisés du mode sombre, la prise en charge des clients de messagerie et les bonnes pratiques de test, voir [Mode sombre pour le contenu des e-mails](./email-dark-mode.md).
+Pour obtenir des conseils détaillés sur la prévisualisation, la configuration des paramètres personnalisés du mode sombre, la prise en charge des clients de messagerie et les bonnes pratiques de test, consultez [Mode sombre pour le contenu des e-mails](./email-dark-mode.md).
 
 ### Ajouter des composants de structure et de contenu {#components}
 
@@ -198,21 +202,21 @@ Créez votre disposition d’e-mail en ajoutant [composants de structure](./stru
 
 Faites glisser des éléments des sections **[!UICONTROL Structures]** et **[!UICONTROL Contenu]** dans le panneau de gauche, puis configurez chaque composant dans les onglets _[!UICONTROL Paramètres]_ et _[!UICONTROL Styles]_ sur la droite.
 
-![Glissez-déposez les composants structurels et les éléments de contenu dans la page](./assets/content-components-add.png){width="700" zoomable="yes"}
+![Faites glisser et déposez des composants structurels et des éléments de contenu dans la page](./assets/content-components-add.png){width="700" zoomable="yes"}
 
 ### Ajouter un CSS personnalisé {#custom-css}
 
 Vous pouvez ajouter une page CSS personnalisée directement dans l’espace de conception d’e-mail pour un style avancé au-delà des paramètres standard des composants. Il est recommandé d’ajouter ce style de plus haut niveau avant d’inclure des composants de contenu, tels que des images, des boutons et du texte.
 
-Voir [&#x200B; Ajouter du code CSS personnalisé pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
+Voir [Ajouter une page CSS personnalisée pour votre contenu](./design-custom-css.md) pour connaître les étapes, les règles de syntaxe et la résolution des problèmes.
 
 >[!NOTE]
 >
->Si votre e-mail est conçu à l’aide d’un [modèle avec du contenu verrouillé](./template-content-governance.md), vous ne pouvez pas ajouter de code CSS personnalisé à votre contenu. Le libellé du bouton se transforme en **[!UICONTROL Afficher le CSS personnalisé]** et tout CSS personnalisé déjà présent dans le contenu est en lecture seule.
+>Si votre e-mail est conçu à l’aide d’un [modèle avec du contenu verrouillé](./template-content-governance.md), vous ne pouvez pas ajouter de CSS personnalisé à votre contenu. Le libellé du bouton se transforme en **[!UICONTROL Afficher le CSS personnalisé]** et tout CSS personnalisé déjà présent dans le contenu est en lecture seule.
 
 ### Ajouter des fragments {#visual-fragments}
 
-Un fragment visuel est un composant de conception réutilisable pouvant être référencé par plusieurs ressources de contenu sur plusieurs [!DNL Marketo Optimizer]. Il s’agit généralement d’un bloc de contenu qui peut être précréé et rapidement inséré pour rendre la création plus rapide et plus cohérente.
+Un fragment visuel est un composant de conception réutilisable pouvant être référencé par plusieurs ressources de contenu dans [!DNL Marketo Optimizer]. Il s’agit généralement d’un bloc de contenu qui peut être précréé et rapidement inséré pour rendre la création plus rapide et plus cohérente.
 
 L’exemple suivant décrit les étapes à suivre pour ajouter des fragments au fur et à mesure que vous créez votre contenu.
 
@@ -225,7 +229,7 @@ L’exemple suivant décrit les étapes à suivre pour ajouter des fragments au 
    * Basculez entre les vues Miniature et Liste.
    * Actualisez la liste pour refléter l’un des fragments récemment créés.
 
-   ![Sélectionnez un fragment dans la liste](assets/visual-designer-fragments.png){width="700" zoomable="yes"}
+   ![Sélectionner un fragment dans la liste](assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
 1. Faites glisser et déposez l’un des fragments dans le composant structurel.
 
@@ -251,7 +255,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 >[!ENDSHADEBOX]
 -->
 
-Une fois l’e-mail enregistré, il s’affiche dans la page des détails du fragment lorsque vous sélectionnez l’onglet _[!UICONTROL Utilisé par]_ dans le résumé.
+Une fois l’e-mail enregistré, il apparaît dans la page des détails du fragment lorsque vous sélectionnez l’onglet _[!UICONTROL Utilisé par]_ dans le résumé.
 
 ### Ajout de ressources d’image {#insert-image}
 
@@ -259,38 +263,38 @@ Lorsque [!DNL Marketo Optimizer] est configuré, les ressources Marketo Design S
 
 >[!IMPORTANT]
 >
->La disponibilité des ressources dans [!DNL Marketo Optimizer] repose sur une **copie ponctuelle** vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale n’est **pas** reflétée dans [!DNL Marketo Optimizer]. Vous pouvez également charger des ressources d’image directement depuis l’espace de conception visuelle ou la bibliothèque [&#128279;](./digital-asset-management.md).
+>La disponibilité des ressources dans [!DNL Marketo Optimizer] repose sur une **copie unique** de vos ressources à partir de Marketo Design Studio. La modification des ressources dans Marketo Engage après la copie initiale est **non** reflétée dans [!DNL Marketo Optimizer]. Vous pouvez également charger des ressources d’images directement depuis l’espace de conception visuelle ou la [bibliothèque Assets](./digital-asset-management.md).
 
 Types de fichiers image pris en charge :
 
 * **Entièrement pris en charge** (visible dans le sélecteur, incorporable en ligne) : JPG, PNG, GIF, WebP.
-* **Accessible avec mise en garde** : SVG (avec un avertissement indiquant que certains clients de messagerie ne rendent pas SVG).
+* **Accessible avec une mise en garde** : SVG (avec un avertissement indiquant que certains clients de messagerie n’effectuent pas le rendu de SVG).
 * **Non pris en charge dans cette version de Beta :** TIFF, PDF, DOCX, XLSX, PPTX, CSS, JS, HTML, TXT, fichiers binaires, PSD, AI, INDD.
 
-Dans l’espace de conception visuelle du contenu, sélectionnez l’icône __ ( ![icône Assets](../assets/do-not-localize/icon-assets-me.svg) ) dans la barre de navigation de gauche. Dans le sélecteur de ressources, vous pouvez sélectionner directement les ressources stockées dans la bibliothèque Assets.
+Dans l’espace de conception visuelle du contenu, sélectionnez l’icône _Assets_ ( ![icône Assets](../assets/do-not-localize/icon-assets-me.svg) ) dans la barre de navigation de gauche. Dans le sélecteur de ressources, vous pouvez sélectionner directement les ressources stockées dans la bibliothèque Assets.
 
 * Ajoutez une nouvelle ressource en faisant glisser la ressource image et en la déposant dans un composant de structure.
 
   ![Faites glisser une ressource interne sur la zone de travail et ajustez les paramètres](./assets/content-design-add-asset.png){width="800" zoomable="yes"}
 
-* Remplacez une ressource image existante en la sélectionnant sur la zone de travail et en cliquant sur **[!UICONTROL Sélectionner la ressource]** dans les outils source de l’image.
+* Remplacez une ressource image existante en la sélectionnant sur la zone de travail et en cliquant sur **[!UICONTROL Sélectionner une ressource]** dans les outils de source d’images.
 
   ![Sélectionnez une ressource dans la bibliothèque source](./assets/content-design-select-an-asset.png){width="600" zoomable="yes"}
 
-Pour plus d’informations sur l’utilisation des ressources, voir [_Utilisation des ressources pour la création de contenu_](./digital-asset-management.md#assets-authoring).
+Pour plus d’informations sur l’utilisation des ressources, voir [_Utiliser des ressources pour la création de contenu_](./digital-asset-management.md#assets-authoring).
 
 ### Parcourir les calques, paramètres et styles {#navigation-layers}
 
-Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [&#x200B; Arborescence de navigation &#x200B;](./structure-components.md#navigation-tree).
+Utilisez l’arborescence de navigation pour sélectionner des composants et des colonnes, puis ajustez leurs paramètres et styles dans le panneau de droite. Voir [Arborescence de navigation](./structure-components.md#navigation-tree).
 
 ### Personnaliser le contenu {#personalize-content}
 
 [!DNL Marketo Optimizer] utilise la syntaxe Handlebars pour la personnalisation. Les jetons sont remplacés au moment de l’envoi par des valeurs provenant des données de profil de chaque destinataire. Il existe plusieurs endroits où vous pouvez utiliser la personnalisation dans un e-mail :
 
 * **Objet** — Point de personnalisation le plus courant.
-* **Métadonnées du corps** — défini dans la zone de travail visuelle ; prend en charge les jetons d’attribut de profil.
+* **Métadonnées de corps** — définies dans la zone de travail visuelle ; prend en charge les jetons d’attribut de profil.
 * **Corps du texte de l’e-mail** — Prénoms et autres attributs de profil insérés en ligne.
-* **URL des boutons** — ajoutez des paramètres par destinataire.
+* **URL de bouton** — Ajoutez des paramètres par destinataire.
 
 >[!NOTE]
 >
@@ -301,7 +305,7 @@ _Pour ajouter de la personnalisation :_
 1. Dans l’espace de conception d’e-mail (ou sur la page des propriétés de l’e-mail pour la ligne d’objet), cliquez sur le champ dans lequel vous souhaitez insérer un jeton.
 1. Cliquez sur l’icône _Personnaliser_ ( ![Icône Personnaliser](../assets/do-not-localize/icon-personalize.svg) ) pour utiliser un jeton de personnalisation.
 1. Dans la boîte de dialogue de personnalisation, parcourez l’arborescence du schéma sur la gauche. Les attributs de profil (prénom, nom, e-mail, fonction et autres champs de profil) sont répertoriés.
-1. Sélectionnez un attribut. L’éditeur insère l’expression Handlebars correspondante, par exemple, `{{profile.firstName}}`.
+1. Sélectionnez un attribut. L’éditeur insère l’expression Handlebars correspondante, par exemple `{{profile.firstName}}`.
 1. Ajoutez une valeur de secours pour gérer les données manquantes : `{{profile.firstName | default: "there"}}`.
 1. Cliquez sur **[!UICONTROL Confirmer]** ou **[!UICONTROL Insérer]**. L’expression apparaît en ligne dans le champ.
 
@@ -309,17 +313,17 @@ _Pour ajouter de la personnalisation :_
 
 Utilisez des expressions Handlebars telles que celles-ci (la personnalisation utilise la même syntaxe que celle décrite dans [Personnaliser le contenu](#personalize-content)) :
 
-* `{{profile.lastName}}` — Insérer le nom du destinataire.
-* `{{profile.jobTitle}}` — Référencez la fonction du destinataire dans la copie du corps.
-* `{{profile.firstName}}, ready to take the next step?` — Combiner le jeton et le texte statique en ligne.
+* `{{profile.lastName}}` — Insérez le nom du destinataire.
+* `{{profile.jobTitle}}` — Référencez l&#39;intitulé de la fonction du destinataire dans la copie du corps.
+* `{{profile.firstName}}, ready to take the next step?` — Combiner un jeton et du texte statique en ligne.
 
-Pour un message d’accueil avec un prénom de secours en cas d’absence de valeur, utilisez l’assistant `default` comme indiqué dans les étapes de personnalisation précédentes (par exemple, prénom avec `"there"` par défaut).
+Pour un message d&#39;accueil avec un prénom comportant une valeur de remplacement lorsque celle-ci est manquante, utilisez l&#39;assistant `default` comme indiqué dans les étapes de personnalisation précédentes (par exemple, prénom avec la valeur par défaut `"there"`).
 
 +++
 
-+++{#handlebars-helpers} des assistants Handlebars
++++Helpers Handlebars {#handlebars-helpers}
 
-En plus de `default`, l’éditeur de personnalisation comprend des assistants Handlebars intégrés pour la logique conditionnelle, la transformation du texte et la mise en forme de date. Utilisez le navigateur de fonctions de l’éditeur pour explorer les assistants disponibles et les insérer avec la syntaxe correcte.
+Au-delà de `default`, l’éditeur de personnalisation inclut des assistants Handlebars intégrés pour la logique conditionnelle, la transformation de texte et la mise en forme de date. Utilisez le navigateur de fonctions de l’éditeur pour explorer les assistants disponibles et les insérer avec la syntaxe correcte.
 
 >[!TIP]
 >
@@ -329,11 +333,11 @@ En plus de `default`, l’éditeur de personnalisation comprend des assistants H
 
 +++Expressions assistées par l’IA {#ai-personalization}
 
-Les [!DNL Coworker] de l’éditeur de personnalisation peuvent générer des expressions Handlebars à partir d’une description en langage clair, expliquer le rôle d’une expression existante et identifier les problèmes potentiels. Utilisez-la pour accélérer la création d’expressions, en particulier pour la logique conditionnelle ou les assistants de formatage de date.
+L’élément [!DNL Coworker] de l’éditeur de personnalisation peut générer des expressions Handlebars à partir d’une description en langage clair, expliquer le rôle d’une expression existante et identifier les problèmes potentiels. Utilisez-la pour accélérer la création d’expressions, en particulier pour la logique conditionnelle ou les assistants de formatage de date.
 
 +++
 
-Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions &#x200B;](./personalization-expressions.md).
+Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expression, voir [Expressions Personalization](./personalization-expressions.md).
 
 ### Modifier le tracking des URL liées {#preview-and-edit-linked-urls}
 
@@ -341,24 +345,24 @@ Pour plus d’informations sur les outils et la syntaxe de l’éditeur d’expr
 
 ## Vérifier et tester l’e-mail {#check-and-test-the-email}
 
-Utilisez les commandes d’aperçu de bureau et mobile dans la barre d’outils de l’espace de conception d’e-mail pour vérifier la disposition de votre e-mail avant d’enregistrer. Basculez vers l’aperçu en mode sombre pour valider la lisibilité et le contraste (voir [Mode sombre pour le contenu des e-mails](./email-dark-mode.md)).
+Utilisez les commandes d’aperçu de bureau et mobile dans la barre d’outils de l’espace de conception d’e-mail pour vérifier la disposition de votre e-mail avant d’enregistrer. Basculez vers l&#39;aperçu en mode sombre pour valider la lisibilité et le contraste (voir [Mode sombre pour le contenu des e-mails](./email-dark-mode.md)).
 
-Les workflows Profils de test, [!UICONTROL Simuler du contenu] et Envoyer des BAT ne sont pas disponibles dans cette version de Beta. Voir [Limites actuelles](../marketing/email-channel.md#limitations) dans la présentation du canal e-mail.
+Les workflows Profils de test, [!UICONTROL Simuler du contenu] et Envoyer un BAT ne sont pas disponibles dans cette version de Beta. Voir [Limites actuelles](../marketing/email-channel.md#limitations) dans la présentation du canal e-mail.
 
-Consultez la section [Validation du contenu des e-mails](#validation) pour les alertes de contenu que vous devez résoudre avant l’activation du parcours.
+Consultez [Validation du contenu d’e-mail](#validation) pour les alertes de contenu que vous devez résoudre avant l’activation du parcours.
 
 ## Valider le contenu d’un e-mail {#validation}
 
-Pour que votre parcours puisse être activé, le contenu de l’e-mail doit être valide. [!DNL Marketo Optimizer] affiche des alertes au niveau du contenu sur l’e-mail et sur la zone de travail du parcours. Cette section couvre les alertes que vous pouvez voir et la manière de les résoudre.
+Pour que votre parcours puisse être activé, le contenu de l’e-mail doit être valide. [!DNL Marketo Optimizer] fait apparaître les alertes au niveau du contenu dans l’e-mail et sur la zone de travail du parcours. Cette section couvre les alertes que vous pouvez voir et la manière de les résoudre.
 
 ### Alertes de contenu courantes {#content-alerts}
 
 | Alerte | Signification | Comment résoudre |
 | ----- | ------------- | -------------- |
-| **L’objet est manquant** | Le champ Objet est vide. | Ouvrez l’e-mail et saisissez une ligne d’objet dans l’onglet **[!UICONTROL Contenu]**. Les jetons Personalization sont autorisés, mais le champ ne peut pas être vide. |
+| **Ligne d&#39;objet manquante** | Le champ Objet est vide. | Ouvrez l’e-mail et saisissez une ligne d’objet dans l’onglet **[!UICONTROL Contenu]**. Les jetons Personalization sont autorisés, mais le champ ne peut pas être vide. |
 | **Le corps de l’e-mail est vide** | La zone de travail de l’espace de conception d’e-mail n’a aucun contenu. | Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]** pour ouvrir l’espace de conception d’e-mail. Faites glisser au moins un composant de structure et un composant de contenu sur la zone de travail, puis cliquez sur Enregistrer. |
-| **Configuration de canal non sélectionnée** | Aucune configuration de canal e-mail n’a été choisie pour le nœud d’e-mail. | Dans l’onglet **[!UICONTROL Actions]**, sélectionnez une **[!UICONTROL ActiveConfiguration du canal Email]**. |
-| **Configuration de canal supprimée** | La configuration de canal précédemment sélectionnée a été supprimée ou n’est plus active. | Dans l’onglet **[!UICONTROL Actions]**, sélectionnez un autre actif **[!UICONTROL configuration du canal e-mail]**. Si aucun n’est disponible, un administrateur doit en créer ou en réactiver un dans [Configuration du canal e-mail](../admin/email-channel-configuration.md). |
-| **La taille de l’e-mail dépasse 100 Ko** | La taille totale de l’e-mail (HTML, CSS intégré, contenu codé) est supérieure à la limite des bonnes pratiques des FAI de 100 Ko. | Réduisez la taille de l’e-mail : remplacez les images intégrées volumineuses par des images hébergées en externe à partir de Marketo Design Studio, supprimez les CSS intégrés inutilisés et simplifiez les structures imbriquées. |
-| **Jeton de personnalisation non résolu** | Un jeton Handlebars fait référence à un attribut de profil sans solution de secours et l’attribut peut être manquant pour certains destinataires. | Ajoutez une version de secours à l’aide de l’assistant `default` Handlebars, comme décrit dans [Personnaliser le contenu](#personalize-content). Vous pouvez également limiter l’audience par parcours aux profils où l’attribut est garanti. |
+| **Configuration de canal non sélectionnée** | Aucune configuration de canal e-mail n’a été choisie pour le nœud d’e-mail. | Dans l’onglet **[!UICONTROL Actions]**, sélectionnez une **[!UICONTROL configuration de canal e-mail]** active. |
+| **Configuration de canal supprimée** | La configuration de canal précédemment sélectionnée a été supprimée ou n’est plus active. | Dans l’onglet **[!UICONTROL Actions]**, sélectionnez une autre **[!UICONTROL configuration de canal e-mail]** active. Si aucun n’est disponible, un administrateur doit en créer ou en réactiver un dans [la configuration du canal e-mail](../admin/email-channel-configuration.md). |
+| **La taille de l&#39;e-mail dépasse 100 Ko** | La taille totale de l’e-mail (HTML, CSS intégré, contenu codé) est supérieure à la limite des bonnes pratiques des FAI de 100 Ko. | Réduisez la taille de l’e-mail : remplacez les images intégrées volumineuses par des images hébergées en externe à partir de Marketo Design Studio, supprimez les CSS intégrés inutilisés et simplifiez les structures imbriquées. |
+| **Jeton de personnalisation non résolu** | Un jeton Handlebars fait référence à un attribut de profil sans solution de secours et l’attribut peut être manquant pour certains destinataires. | Ajoutez une version de secours à l’aide de l’assistant Handlebars `default`, comme décrit dans [Personnaliser le contenu](#personalize-content). Vous pouvez également limiter l’audience par parcours aux profils où l’attribut est garanti. |
 | **Image non chargée** | Un composant d’image fait référence à une ressource qui n’est plus disponible. | Cliquez sur l’image, ouvrez le sélecteur de ressources, puis sélectionnez à nouveau la ressource dans la bibliothèque Assets. |
