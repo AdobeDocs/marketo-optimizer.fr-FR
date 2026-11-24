@@ -26,17 +26,17 @@ ht-degree: 2%
 
 Pour capturer des informations auprès des visiteurs et visiteuses de pages web, créez des formulaires et ajoutez-les à vos pages de destination. Un formulaire est un ensemble de champs que les visiteurs de la page remplissent et envoient pour obtenir un type de contenu ou d’offre, tel qu’un article technique, un webinaire à la demande ou une version d’essai gratuite.
 
-La quantité d’informations que le formulaire doit capturer dépend de la valeur du contenu ou de l’offre. Si vous proposez quelque chose de simple, comme un livre blanc, collectez uniquement des informations minimales, telles que le nom, l’adresse e-mail et la société. Si l’offre a une valeur supérieure, comme une démonstration ou une version d’essai gratuite, vous pouvez collecter davantage d’informations. L’exigence d’un formulaire envoyé pour permettre l’affichage du contenu est appelée _contenu contrôlé_. Votre entreprise décide du contenu à contrôler et de celui qui ne l’est pas (_libre_). La bonne pratique consiste à autoriser gratuitement certains contenus et à ne réserver qu’à votre contenu premium ou à forte demande.
+La quantité d’informations que le formulaire doit capturer dépend de la valeur du contenu ou de l’offre. Si vous proposez quelque chose de simple, comme un livre blanc, collectez uniquement des informations minimales, telles que le nom, l’adresse e-mail et la société. Si l’offre a une valeur supérieure, comme une démonstration ou une version d’essai gratuite, vous pouvez collecter davantage d’informations. La nécessité d’un formulaire envoyé pour autoriser l’affichage du contenu est appelée _contenu contrôlé_. Votre organisation décide du contenu à contrôler et de celui qui ne l’est pas (_libre_). La bonne pratique consiste à autoriser gratuitement certains contenus et à ne réserver qu’à votre contenu premium ou à forte demande.
 
 >[!PREREQUISITES]
 >
->Avant que les équipes marketing puissent créer et utiliser des formulaires pour capturer des informations, un administrateur doit définir un ou plusieurs paramètres prédéfinis de formulaire. Pour plus d’informations, voir [_Configurations_](../admin/configuration-presets-forms.md).
+>Avant que les équipes marketing puissent créer et utiliser des formulaires pour capturer des informations, un administrateur doit définir un ou plusieurs paramètres prédéfinis de formulaire. Pour plus d’informations, voir [_Configurations Forms_](../admin/configuration-presets-forms.md).
 >
 >La création d’un formulaire dans [!DNL Marketo Optimizer] nécessite les [autorisations](../start/permissions-reference.md) suivantes :
 >
->* Assets B2B _>_[!UICONTROL &#x200B; Afficher le Forms B2B &#x200B;]_- Obligatoire pour accéder aux formulaires et les afficher._
->* Assets B2B _>_[!UICONTROL &#x200B; Gérer le Forms B2B &#x200B;]_- Requis pour créer, modifier et supprimer des formulaires._
->* Assets B2B _>_[!UICONTROL &#x200B; Publier le Forms B2B &#x200B;]_- Obligatoire pour publier des formulaires._
+>* _[!UICONTROL Assets B2B]_ > _[!UICONTROL Afficher le Forms B2B]_ - Obligatoire pour accéder aux formulaires et les afficher.
+>* _[!UICONTROL Assets B2B]_ > _[!UICONTROL Gérer le Forms B2B]_ - Obligatoire pour créer, modifier et supprimer des formulaires.
+>* _[!UICONTROL Assets B2B]_ > _[!UICONTROL Publier le Forms B2B]_ - Obligatoire pour publier les formulaires.
 
 ## Accéder aux formulaires et les gérer {#view-forms}
 
@@ -58,7 +58,7 @@ Le statut du formulaire détermine sa disponibilité pour une utilisation dans u
 | Publié | Lorsque vous publiez un formulaire, il peut être utilisé dans une page de destination ou un modèle de page de destination. Le contenu du formulaire publié ne peut pas être modifié dans l’espace de conception visuelle. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou la page de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Créer une version brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
 | Publié avec le brouillon | Lorsque vous créez un brouillon à partir d’un formulaire publié, la version publiée reste disponible pour être utilisée dans une page de destination ou un modèle. Le contenu du brouillon peut être modifié dans l’espace de conception visuelle. Si vous publiez le brouillon, il remplace la version publiée actuelle et le contenu est mis à jour dans les pages de destination ou les modèles de page de destination où il est utilisé. Actions disponibles :<br/><ul><li>Modifier le nom, la description ou les pages de remerciement<li>Ajouter à une page de destination ou à un modèle de page de destination<li>Modifier le brouillon dans l’espace de conception visuelle<li>Publier le brouillon<li>Dupliquer<li>Supprimer (si non utilisé)<li>Code intégré |
 
-![&#x200B; Cycle de vie du statut du formulaire &#x200B;](assets/status-lifecycle-diagram.png){zoomable="yes"}
+![Cycle de vie du statut du formulaire](assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### Filtrer la liste des formulaires {#filter-list}
 
@@ -90,7 +90,7 @@ Avant de commencer à créer des formulaires réutilisables dans [!DNL Marketo O
 
   Indiquez s’il faut préremplir les champs du formulaire, de sorte que les informations de base, telles que le nom et l’adresse e-mail, soient préremplies. Mais d’autres informations, telles que l’intitulé du poste et la taille de l’organisation, ne le sont pas. Ainsi, le visiteur n’a besoin de remplir que deux champs et d’envoyer le formulaire. Vous pouvez également utiliser un formulaire de réseau social rempli de données provenant de plateformes de médias sociaux.
 
-* Planifiez la page de relance qui s’affiche après l’envoi d’un formulaire par un visiteur (page _merci_).
+* Planifiez la page de relance qui s’affiche après l’envoi d’un formulaire par un visiteur (_page de remerciement_).
 
   Est-ce que tout le monde a la même page ou est-elle dynamique et basée sur ses données ? Par exemple, un professionnel de la santé voit un contenu de page différent de celui d’un professionnel de la technologie.
 
@@ -108,17 +108,17 @@ Avant de commencer à créer des formulaires réutilisables dans [!DNL Marketo O
 
 Créez un formulaire dans un programme ou un dossier au sein d’un programme à partir de l’arborescence _[!UICONTROL Programmes]_.
 
-1. Dans le volet de navigation de gauche, développez **[!UICONTROL Marketing Management]** et sélectionnez **[!UICONTROL Programmes]**.
+1. Dans le volet de navigation de gauche, développez **[!UICONTROL Gestion marketing]** et sélectionnez **[!UICONTROL Programmes]**.
 
 1. Localisez le programme ou un dossier dans le programme où vous souhaitez créer le formulaire.
 
-   Si nécessaire, [créez d’abord un programme](../marketing/programs.md#create-program).
+   Si nécessaire, [créez d&#39;abord un programme](../marketing/programs.md#create-program).
 
-1. Cliquez sur l’icône _Plus_ (**...**) en regard du nom du programme ou du dossier, sélectionnez **[!UICONTROL Créer un formulaire]**.
+1. Cliquez sur l&#39;icône _Plus_ (**...**) en regard du nom du programme ou du dossier et sélectionnez **[!UICONTROL Créer un formulaire]**.
 
-   ![Créer un nouveau formulaire à partir de l&#39;arborescence des programmes](../marketing/assets/email-create-from-programs-tree.png){width="425"}
+   ![Créer un formulaire à partir de l&#39;arborescence des programmes](../marketing/assets/email-create-from-programs-tree.png){width="425"}
 
-1. Dans la boîte de dialogue _[!UICONTROL Créer un formulaire]_, saisissez un **[!UICONTROL Nom]** utile (obligatoire) et un **[!UICONTROL Description]** (facultatif).
+1. Dans la boîte de dialogue _[!UICONTROL Créer un formulaire]_, saisissez un **[!UICONTROL Nom]** utile (obligatoire) et une **[!UICONTROL Description]** (facultatif).
 
    Exigences de formulaire :
 
@@ -127,9 +127,9 @@ Créez un formulaire dans un programme ou un dossier au sein d’un programme à
    * Les caractères Alpha, numériques et spéciaux sont autorisés
    * Les caractères réservés ne sont **_pas autorisés_** : `\ / : * ? " < > |`
 
-   ![&#x200B; Boîte de dialogue Créer un formulaire &#x200B;](assets/forms-create-dialog.png){width="400"}
+   ![Boîte de dialogue Créer un formulaire](assets/forms-create-dialog.png){width="400"}
 
-1. Pour **[!UICONTROL Paramètre prédéfini]**, cliquez sur l’icône _Sélectionner les données_ ( ![Icône Sélectionner les données](../assets/do-not-localize/icon-select-data.svg) ) pour lier un paramètre prédéfini de formulaire configuré au formulaire.
+1. Pour le **[!UICONTROL préréglage]**, cliquez sur l’icône _Sélectionner les données_ ( ![Icône Sélectionner les données](../assets/do-not-localize/icon-select-data.svg) ) pour lier un paramètre prédéfini de formulaire configuré au formulaire.
 
    Le paramètre prédéfini détermine l’emplacement de stockage et de réflexion des réponses du formulaire. Vous pouvez saisir une chaîne de texte pour rechercher un paramètre prédéfini spécifique ou le sélectionner dans la liste.
 
@@ -154,7 +154,7 @@ Créez un formulaire dans un programme ou un dossier au sein d’un programme à
 Dans le panneau _[!UICONTROL Résumé]_ à droite, faites défiler l’écran jusqu’à la section **[!UICONTROL Page de remerciement]** et utilisez le paramètre **[!UICONTROL Suivre avec]** pour définir ce qui se passe lorsqu’un visiteur envoie le formulaire :
 
 * **[!UICONTROL Rester sur la page]** - Sélectionnez cette option pour que le visiteur reste sur la même page lors de l’envoi du formulaire.
-* **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle page de destination [!DNL Marketo Optimizer] comme suite.
+* **[!UICONTROL Page de destination]** - Sélectionnez cette option pour sélectionner n’importe quelle [!DNL Marketo Optimizer] page de destination en tant que suivi.
 * **[!UICONTROL URL externe]** - Sélectionnez cette option pour spécifier n’importe quelle URL comme page de suivi. Une fois que le visiteur a envoyé le formulaire, le navigateur charge l’URL désignée.
 
   >[!TIP]
@@ -165,9 +165,9 @@ Dans le panneau _[!UICONTROL Résumé]_ à droite, faites défiler l’écran ju
 
 Lorsque vous êtes prêt à rendre le formulaire disponible pour une utilisation dans une page de destination ou un modèle de page de destination, cliquez sur **[!UICONTROL Publier]**.
 
-![&#x200B; Boîte de dialogue Publier le formulaire &#x200B;](assets/form-publish-dialog.png){width="400"}
+![Boîte de dialogue Publier le formulaire](assets/form-publish-dialog.png){width="400"}
 
-Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus de publication en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Publier]** pour confirmer.
+Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus de publication en cliquant sur **[!UICONTROL Annuler]**, ou cliquer sur **[!UICONTROL Publier]** pour confirmer.
 
 ## Afficher les détails du formulaire {#view-details}
 
@@ -177,15 +177,15 @@ Cliquez sur le nom d’un formulaire dans la page de liste pour ouvrir la page d
 >
 >Si un formulaire publié est utilisé par une page de destination ou un modèle de page de destination, vous ne pouvez pas modifier le contenu ni la page de remerciement. Vous pouvez créer un brouillon si vous souhaitez apporter des modifications au formulaire.
 
-![Affichage des détails d’un formulaire publié](assets/form-details-published.png){width="600" zoomable="yes"}
+![Afficher les détails d&#39;un formulaire publié](assets/form-details-published.png){width="600" zoomable="yes"}
 
 Cliquez sur **[!UICONTROL Modifier le formulaire]** pour ouvrir le formulaire dans l’espace de conception visuelle.
 
-Quittez la vue à tout moment en cliquant sur la flèche _Précédent_ en haut à gauche, qui vous renvoie à la page de liste _[!UICONTROL Forms]_.
+Quittez la vue à tout moment en cliquant sur la flèche _Retour_ en haut à gauche, qui vous renvoie à la page de liste _[!UICONTROL Forms]_.
 
 ## Afficher les références du formulaire utilisé par {#used-by}
 
-Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur l’onglet **[!UICONTROL Utilisé par]** pour afficher les détails sur l’emplacement où le formulaire est actuellement utilisé dans [!DNL Marketo Optimizer], sur les pages de destination et les modèles de page de destination.
+Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur l’onglet **[!UICONTROL Utilisé par]** pour afficher les détails sur l’emplacement actuel du formulaire dans [!DNL Marketo Optimizer], sur les pages de destination et les modèles de page de destination.
 
 >[!IMPORTANT]
 >
@@ -193,24 +193,24 @@ Dans le panneau _[!UICONTROL Résumé]_ à droite, cliquez sur l’onglet **[!UI
 
 ![Utilisé par les références pour le formulaire](assets/form-used-by-published.png){width="600" zoomable="yes"}
 
-Les références sont affichées selon la catégorie : _Page de destination_ ou _Modèle de page de destination_. Cliquez sur le lien pour ouvrir la page ou le modèle correspondant dans lequel le formulaire est utilisé.
+Les références sont affichées selon la catégorie : _Modèle de landing page_ ou _modèle de landing page_. Cliquez sur le lien pour ouvrir la page ou le modèle correspondant dans lequel le formulaire est utilisé.
 
 ## Supprimer des formulaires {#delete-forms}
 
-Les formulaires actuellement utilisés par une page de destination ou un modèle de page de destination ne peuvent pas être supprimés. Vous pouvez vérifier les références _utilisé par_ avant de lancer la suppression d’un formulaire. En outre, une suppression ne peut pas être annulée. Vérifiez-la avant de lancer une action de suppression.
+Les formulaires actuellement utilisés par une page de destination ou un modèle de page de destination ne peuvent pas être supprimés. Vous pouvez vérifier les références _used-by_ avant de lancer la suppression d’un formulaire. En outre, une suppression ne peut pas être annulée. Vérifiez-la avant de lancer une action de suppression.
 
 Vous pouvez supprimer un formulaire à l’aide de l’une des méthodes suivantes :
 
-* En haut à droite, cliquez sur **[!UICONTROL ... Plus]** puis choisissez **[!UICONTROL Supprimer]**.
-* Dans la page de liste __, cliquez sur le _Plus_ (**...**) à côté du nom du formulaire et choisissez **[!UICONTROL Supprimer]**.
+* En haut à droite, cliquez sur **[!UICONTROL ... Plus]** et choisissez **[!UICONTROL Supprimer]**.
+* Dans la page de liste _[!UICONTROL Forms]_, cliquez sur _Plus_ (**...**) à côté du nom du formulaire et choisissez **[!UICONTROL Supprimer]**.
 
 Cette action ouvre une boîte de dialogue de confirmation. Vous pouvez abandonner le processus en cliquant sur **[!UICONTROL Annuler]** ou sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
-![&#x200B; Boîte de dialogue Supprimer le formulaire &#x200B;](assets/form-delete-dialog.png){width="400"}
+![Boîte de dialogue Supprimer le formulaire](assets/form-delete-dialog.png){width="400"}
 
-Si le formulaire est en cours d’utilisation, l’action ouvre une boîte de dialogue d’information qui vous avertit qu’il ne peut pas être supprimé. Cliquez sur **[!UICONTROL OK]** pour annuler la suppression.
+Si le formulaire est en cours d’utilisation, l’action ouvre une boîte de dialogue d’information qui vous avertit qu’il ne peut pas être supprimé. Cliquez sur **[!UICONTROL OK]**, ce qui annule l’action de suppression.
 
-![Boîte de dialogue Supprimer le formulaire - Impossible de supprimer le formulaire en cours d’utilisation](assets/form-delete-dialog-in-use.png){width="400"}
+![Boîte de dialogue Supprimer le formulaire - impossible de supprimer le formulaire en cours d’utilisation](assets/form-delete-dialog-in-use.png){width="400"}
 
 ## Dupliquer les formulaires {#duplicate-forms}
 
@@ -218,8 +218,8 @@ Dupliquez un formulaire pour créer un formulaire à l’aide d’un formulaire 
 
 Vous pouvez dupliquer un formulaire à l’aide de l’une des méthodes suivantes :
 
-* En haut à droite de la page des détails du formulaire, cliquez sur **[!UICONTROL ... En plus]** et choisissez **[!UICONTROL Dupliquer]**.
-* Dans la page de liste __, cliquez sur le _Plus_ (**...**) à côté du nom du formulaire et choisissez **[!UICONTROL Dupliquer]**.
+* En haut à droite de la page des détails du formulaire, cliquez sur **[!UICONTROL ... Plus]** et choisissez **[!UICONTROL Dupliquer]**.
+* Dans la page de liste _[!UICONTROL Forms]_, cliquez sur _Plus_ (**...**) à côté du nom du formulaire et choisissez **[!UICONTROL Dupliquer]**.
 
 ![Dupliquer le formulaire](assets/form-list-page-duplicate.png){width="450"}
 
@@ -235,21 +235,21 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 
 * Lorsqu’un formulaire a le statut _Brouillon_, vous pouvez modifier n’importe quel détail et contenu (champs, bouton et style).
 * Lorsqu’un formulaire a le statut _Publié_, vous pouvez modifier son nom ou sa description. Vous ne pouvez pas modifier le contenu.
-* Lorsqu’un formulaire est à l’état _Publié avec le statut Brouillon_, vous pouvez modifier le nom ou la description du formulaire. Dans le brouillon, vous pouvez également modifier le contenu et la page de remerciement.
+* Lorsqu&#39;un formulaire est dans l&#39;état _Publié avec le statut Brouillon_, vous pouvez modifier le nom ou la description du formulaire. Dans le brouillon, vous pouvez également modifier le contenu et la page de remerciement.
 
 >[!BEGINTABS]
 
 >[!TAB Brouillon]
 
-1. Dans la page de liste __, cliquez sur le nom du formulaire pour l&#39;ouvrir.
+1. Dans la page de liste _[!UICONTROL Forms]_, cliquez sur le nom du formulaire pour l’ouvrir.
 
    Un aperçu du contenu du formulaire s’affiche avec les détails du formulaire à droite.
 
 1. Modifiez l’un des détails, tels que le nom et la description.
 
-   ![Détails du formulaire au statut Brouillon](assets/form-details-draft.png){width="600" zoomable="yes"}
+   ![Détails du formulaire avec le statut Brouillon](assets/form-details-draft.png){width="600" zoomable="yes"}
 
-1. Pour apporter des modifications au formulaire dans l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier le formulaire]**.
+1. Pour modifier le formulaire dans l’espace de conception visuelle, cliquez sur **[!UICONTROL Modifier le formulaire]**.
 
    Utilisez les outils de conception visuelle selon vos besoins :
 
@@ -261,11 +261,11 @@ Les modifications apportées à un formulaire dépendent de son statut actuel :
 
    Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour revenir aux détails du formulaire.
 
-1. Lorsque le formulaire répond à vos critères et que vous souhaitez le rendre disponible pour une utilisation dans une page de destination ou un modèle de page de destination, cliquez sur **[!UICONTROL Publier]**.
+1. Lorsque le formulaire répond à vos critères et que vous souhaitez le rendre disponible pour une utilisation dans une landing page ou un modèle de landing page, cliquez sur **[!UICONTROL Publier]**.
 
 >[!TAB Publié]
 
-1. Dans la page de liste __, cliquez sur le nom du formulaire pour l&#39;ouvrir.
+1. Dans la page de liste _[!UICONTROL Forms]_, cliquez sur le nom du formulaire pour l’ouvrir.
 
    Un aperçu du contenu du formulaire s’affiche avec les détails du formulaire à droite.
 
@@ -327,7 +327,7 @@ Les Forms sont conçues pour être réutilisées et peuvent être insérées lor
 Lorsqu’un formulaire est inclus dans une page de destination ou un modèle de page de destination, le contenu du formulaire ne peut pas être modifié dans la page ou le modèle. Vous pouvez toutefois appliquer les actions suivantes :
 
 * **[!UICONTROL Supprimer]** - Cette action supprime le formulaire de la page ou du contenu du modèle en cours (la source du formulaire n’est pas affectée).
-* **[!UICONTROL Dupliquer]** - Cette action duplique le formulaire dans l’éditeur en conservant les mêmes dimensions.
+* **[!UICONTROL Dupliquer]** - Cette action duplique le formulaire dans l’éditeur, en conservant les mêmes dimensions.
 * **[!UICONTROL Afficher HTML]** - Cette action ouvre une fenêtre contextuelle contenant l’HTML du formulaire. Vous pouvez modifier l’HTML ou la copier pour l’utiliser dans d’autres contenus web.
 * **[!UICONTROL Modifier le formulaire]** - Cette action ouvre un nouvel onglet du navigateur avec la page de l’éditeur de formulaire et les détails.
 
