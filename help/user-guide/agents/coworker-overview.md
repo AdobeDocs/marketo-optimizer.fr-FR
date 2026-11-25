@@ -45,7 +45,7 @@ La conversation [!DNL CX Enterprise Coworker] est une interface de conversation 
 
 Pour plus d’informations, consultez les éléments suivants :
 
-* [Présentation de la conversation [!DNL Adobe CX Enterprise Coworker]](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)
+* [Présentation de la conversation [!DNL Adobe CX Enterprise Coworker]](https://experienceleague.adobe.com/fr/docs/coworker/content/chat/overview)
 * [Interface de conversation dans  [!DNL Marketo Optimizer]](./chat-interface.md)
 * [[!DNL Coworker] compétences dans  [!DNL Marketo Optimizer]](./skills.md)
 
